@@ -20,10 +20,12 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 05/01/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,51;0,00
 05/01/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,61
 05/01/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,10;0,00
+01/01/2026;Quote Part Hermel - Loyer Q126;445610;TVA deductible;700,00;0,00
 01/01/2026;Quote Part Hermel - Loyer Q126;455100;Associes - Comptes courants;0,00;4200,00
-01/01/2026;Quote Part Hermel - Loyer Q126;613200;Loyers et charges locatives;4200,00;0,00
+01/01/2026;Quote Part Hermel - Loyer Q126;613200;Loyers et charges locatives;3500,00;0,00
 01/01/2026;Quote Part Hermel - Copro Q126;455100;Associes - Comptes courants;0,00;334,12
-01/01/2026;Quote Part Hermel - Copro Q126;613200;Loyers et charges locatives;334,12;0,00
+01/01/2026;Quote Part Hermel - Copro Q126;613200;Loyers et charges locatives;278,43;0,00
+01/01/2026;Quote Part Hermel - Copro Q126;445610;TVA deductible;55,69;0,00
 01/01/2026;Quote Part Hermel - EDF Q126;445610;TVA deductible;28,00;0,00
 01/01/2026;Quote Part Hermel - EDF Q126;455100;Associes - Comptes courants;0,00;168,00
 01/01/2026;Quote Part Hermel - EDF Q126;626000;Internet, telephone et frais postaux;140,00;0,00
@@ -92,8 +94,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 08/01/2026;STARLINK INTERNET;626000;Internet, telephone et frais postaux;223,33;0,00
 08/01/2026;STARLINK INTERNET;445610;TVA deductible;44,67;0,00
 08/01/2026;STARLINK INTERNET;512001;Banque 1;0,00;268,00
-08/01/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1000,00;0,00
+08/01/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;833,33;0,00
 08/01/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1000,00
+08/01/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;166,67;0,00
 08/01/2026;DELIVEROO;512001;Banque 1;0,00;16,39
 08/01/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
 08/01/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
@@ -184,8 +187,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 14/01/2026;HETZNER ONLINE GMBH;445610;TVA deductible;3,62;0,00
 14/01/2026;HETZNER ONLINE GMBH;613500;Location de materiel;18,09;0,00
 14/01/2026;HETZNER ONLINE GMBH;512001;Banque 1;0,00;21,71
-14/01/2026;VERCEL INC.;613600;Abonnements logiciels;684,72;0,00
+14/01/2026;VERCEL INC.;613600;Abonnements logiciels;570,60;0,00
 14/01/2026;VERCEL INC.;512001;Banque 1;0,00;684,72
+14/01/2026;VERCEL INC.;445610;TVA deductible;114,12;0,00
 14/01/2026;LDLC.COM;607000;Marchandise pour la revente;1423,25;0,00
 14/01/2026;LDLC.COM;445610;TVA deductible;284,65;0,00
 14/01/2026;LDLC.COM;512001;Banque 1;0,00;1707,90
@@ -206,7 +210,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 14/01/2026;From Reserve;580000;Virements internes;0,00;800,00
 14/01/2026;From Reserve;512002;Banque 2;800,00;0,00
 15/01/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;750,00
-15/01/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;750,00;0,00
+15/01/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;625,00;0,00
+15/01/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;125,00;0,00
 15/01/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
 15/01/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
 15/01/2026;DELIVEROO;512001;Banque 1;0,00;16,39
@@ -269,8 +274,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 20/01/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
 21/01/2026;202601135 DAVAI FRASS - FRASS;512001;Banque 1;4320,00;0,00
 21/01/2026;202601135 DAVAI FRASS - FRASS;411000;Clients;0,00;4320,00
+21/01/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;125,00;0,00
 21/01/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;750,00
-21/01/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;750,00;0,00
+21/01/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;625,00;0,00
 21/01/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
 21/01/2026;DELIVEROO;512001;Banque 1;0,00;16,39
 21/01/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
@@ -391,7 +397,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 27/01/2026;LPR RESTAURATIO;512001;Banque 1;0,00;29,00
 27/01/2026;LPR RESTAURATIO;625700;Restaurants et repas d'affaires;26,36;0,00
 28/01/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;750,00
-28/01/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;750,00;0,00
+28/01/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;125,00;0,00
+28/01/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;625,00;0,00
 28/01/2026;BC.*BASECAMP 4 6018036;445610;TVA deductible;8,44;0,00
 28/01/2026;BC.*BASECAMP 4 6018036;613600;Abonnements logiciels;42,20;0,00
 28/01/2026;BC.*BASECAMP 4 6018036;512001;Banque 1;0,00;50,64
@@ -523,7 +530,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/02/2026;Github, Inc.;445610;TVA deductible;67,78;0,00
 04/02/2026;Github, Inc.;512002;Banque 2;0,00;406,68
 04/02/2026;Github, Inc.;613600;Abonnements logiciels;338,90;0,00
-06/02/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1000,00;0,00
+06/02/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;833,33;0,00
+06/02/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;166,67;0,00
 06/02/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1000,00
 05/02/2026;Gag;625700;Restaurants et repas d'affaires;186,36;0,00
 05/02/2026;Gag;445610;TVA deductible;18,64;0,00
@@ -531,15 +539,11 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 05/02/2026;Deliveroo;625700;Restaurants et repas d'affaires;14,90;0,00
 05/02/2026;Deliveroo;445610;TVA deductible;1,49;0,00
 05/02/2026;Deliveroo;512002;Banque 2;0,00;16,39
-28/01/2026;Encaissement 202601-137 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
-28/01/2026;Encaissement 202601-137 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
 04/02/2026;DAVAI-BD4RF5Y8X6S2 - GOCARDLESS SAS;627000;Services bancaires;5,00;0,00
 04/02/2026;DAVAI-BD4RF5Y8X6S2 - GOCARDLESS SAS;411000;Clients;0,00;74,50
 04/02/2026;DAVAI-BD4RF5Y8X6S2 - GOCARDLESS SAS;411000;Clients;0,00;1200,00
 04/02/2026;DAVAI-BD4RF5Y8X6S2 - GOCARDLESS SAS;512001;Banque 1;1268,50;0,00
 04/02/2026;DAVAI-BD4RF5Y8X6S2 - GOCARDLESS SAS;445610;TVA deductible;1,00;0,00
-04/02/2026;Encaissement 202601-138 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
-04/02/2026;Encaissement 202601-138 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
 06/02/2026;CLOUDFLARE;613500;Location de materiel;10,04;0,00
 06/02/2026;CLOUDFLARE;445610;TVA deductible;2,01;0,00
 06/02/2026;CLOUDFLARE;512001;Banque 1;0,00;12,05
@@ -607,7 +611,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 11/02/2026;Openai;445610;TVA deductible;4,21;0,00
 11/02/2026;Openai;512002;Banque 2;0,00;25,27
 11/02/2026;Openai;613600;Abonnements logiciels;21,06;0,00
-11/02/2026;UBER *TRIP;625100;Frais de deplacements;22,10;0,00
+11/02/2026;UBER *TRIP;445610;TVA deductible;2,01;0,00
+11/02/2026;UBER *TRIP;625100;Frais de deplacements;20,09;0,00
 11/02/2026;UBER *TRIP;512001;Banque 1;0,00;22,10
 12/02/2026;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
 12/02/2026;SMALLPDF;512001;Banque 1;0,00;10,00
@@ -646,9 +651,11 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/02/2026;Facturation 202602-141 - PM. ARMEN;706001;Vente de service;0,00;11050,00
 13/02/2026;Facturation 202602-141 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;2210,00
 13/02/2026;Facturation 202602-141 - PM. ARMEN;411000;Clients;13725,13;0,00
-13/02/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1000,00;0,00
+13/02/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;166,67;0,00
+13/02/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;833,33;0,00
 13/02/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1000,00
-12/02/2026;DOLMEN TAXIS;625100;Frais de deplacements;30,80;0,00
+12/02/2026;DOLMEN TAXIS;625100;Frais de deplacements;28,00;0,00
+12/02/2026;DOLMEN TAXIS;445610;TVA deductible;2,80;0,00
 12/02/2026;DOLMEN TAXIS;512001;Banque 1;0,00;30,80
 13/02/2026;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;16,88
 13/02/2026;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;14,07;0,00
@@ -689,7 +696,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 16/02/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,24
 16/02/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,20;0,00
 14/02/2026;UBER *TRIP;512001;Banque 1;0,00;17,97
-14/02/2026;UBER *TRIP;625100;Frais de deplacements;17,97;0,00
+14/02/2026;UBER *TRIP;625100;Frais de deplacements;16,34;0,00
+14/02/2026;UBER *TRIP;445610;TVA deductible;1,63;0,00
 16/02/2026;202602140 DAVAI informaticien CHAUVIN PARIS PP39226138 - CHAUVIN PARIS;411000;Clients;0,00;16320,00
 16/02/2026;202602140 DAVAI informaticien CHAUVIN PARIS PP39226138 - CHAUVIN PARIS;512001;Banque 1;16320,00;0,00
 16/02/2026;Virement vers Davai - Davai;580000;Virements internes;16000,00;0,00
@@ -789,15 +797,18 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 20/02/2026;Transfert interne - Davai;512001;Banque 1;1000,00;0,00
 20/02/2026;Transfert interne - Davai;580000;Virements internes;0,00;1000,00
 20/02/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1000,00
-20/02/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1000,00;0,00
-20/02/2026;Uber * Pending;625100;Frais de deplacements;9,89;0,00
+20/02/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;166,67;0,00
+20/02/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;833,33;0,00
+20/02/2026;Uber * Pending;445610;TVA deductible;0,90;0,00
+20/02/2026;Uber * Pending;625100;Frais de deplacements;8,99;0,00
 20/02/2026;Uber * Pending;512002;Banque 2;0,00;9,89
 20/02/2026;To Davai - Transfert interne;512002;Banque 2;0,00;1000,00
 20/02/2026;To Davai - Transfert interne;580000;Virements internes;1000,00;0,00
 20/02/2026;From Reserve;580000;Virements internes;0,00;1500,00
 20/02/2026;From Reserve;512002;Banque 2;1500,00;0,00
+20/02/2026;Vercel Inc.;445610;TVA deductible;227,06;0,00
 20/02/2026;Vercel Inc.;512002;Banque 2;0,00;1362,36
-20/02/2026;Vercel Inc.;613600;Abonnements logiciels;1362,36;0,00
+20/02/2026;Vercel Inc.;613600;Abonnements logiciels;1135,30;0,00
 23/02/2026;PARKING* YESPARK;445610;TVA deductible;14,04;0,00
 23/02/2026;PARKING* YESPARK;625100;Frais de deplacements;70,20;0,00
 23/02/2026;PARKING* YESPARK;512001;Banque 1;0,00;84,24
@@ -820,7 +831,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 23/02/2026;Cursor, Ai Powered Ide;445610;TVA deductible;16,95;0,00
 23/02/2026;Cursor, Ai Powered Ide;512002;Banque 2;0,00;101,72
 23/02/2026;Uber * Pending;512002;Banque 2;0,00;39,99
-23/02/2026;Uber * Pending;625100;Frais de deplacements;39,99;0,00
+23/02/2026;Uber * Pending;625100;Frais de deplacements;36,35;0,00
+23/02/2026;Uber * Pending;445610;TVA deductible;3,64;0,00
 23/02/2026;TWILIO INC;613600;Abonnements logiciels;35,55;0,00
 23/02/2026;TWILIO INC;445610;TVA deductible;7,11;0,00
 23/02/2026;TWILIO INC;512001;Banque 1;0,00;42,66
@@ -839,7 +851,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 25/02/2026;SPARK;445610;TVA deductible;11,67;0,00
 25/02/2026;SPARK;613600;Abonnements logiciels;58,32;0,00
 25/02/2026;SPARK;512001;Banque 1;0,00;69,99
-25/02/2026;DAVAI-ZVYBC2Z8HD6C - GOCARDLESS SAS;411000;Clients;0,00;1197,60
+25/02/2026;DAVAI-ZVYBC2Z8HD6C - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+25/02/2026;DAVAI-ZVYBC2Z8HD6C - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+25/02/2026;DAVAI-ZVYBC2Z8HD6C - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
 25/02/2026;DAVAI-ZVYBC2Z8HD6C - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
 25/02/2026;Cursor Usage Jan;512002;Banque 2;0,00;124,73
 25/02/2026;Cursor Usage Jan;445610;TVA deductible;20,79;0,00
@@ -848,7 +862,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 26/02/2026;Virement de H - PM ARMEN;411000;Clients;0,00;13725,13
 26/02/2026;Virement vers Davai - Davai;580000;Virements internes;12000,00;0,00
 26/02/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;12000,00
-26/02/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1000,00;0,00
+26/02/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;833,33;0,00
+26/02/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;166,67;0,00
 26/02/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1000,00
 27/02/2026;/INV/202602-142 18.02.2026 - CANAL+ FRANCE;512001;Banque 1;6000,00;0,00
 27/02/2026;/INV/202602-142 18.02.2026 - CANAL+ FRANCE;411000;Clients;0,00;6000,00
@@ -859,7 +874,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 26/02/2026;Casa Yuma;625100;Frais de deplacements;1333,03;0,00
 26/02/2026;Casa Yuma;512002;Banque 2;0,00;1333,03
 27/02/2026;CLAUDE.AI SUBSCRIPTION;512001;Banque 1;0,00;180,00
-27/02/2026;CLAUDE.AI SUBSCRIPTION;613600;Abonnements logiciels;180,00;0,00
+27/02/2026;CLAUDE.AI SUBSCRIPTION;613600;Abonnements logiciels;150,00;0,00
+27/02/2026;CLAUDE.AI SUBSCRIPTION;445610;TVA deductible;30,00;0,00
 28/02/2026;Paddle.net* Baserowio;445610;TVA deductible;10,27;0,00
 28/02/2026;Paddle.net* Baserowio;512002;Banque 2;0,00;61,62
 28/02/2026;Paddle.net* Baserowio;613600;Abonnements logiciels;51,35;0,00
@@ -912,8 +928,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 02/03/2026;SCALEWAY;613500;Location de materiel;50,32;0,00
 02/03/2026;SCALEWAY;512001;Banque 1;0,00;60,39
 02/03/2026;SCALEWAY;445610;TVA deductible;10,07;0,00
-02/03/2026;Uber * Pending;625100;Frais de deplacements;36,55;0,00
+02/03/2026;Uber * Pending;625100;Frais de deplacements;33,23;0,00
 02/03/2026;Uber * Pending;512002;Banque 2;0,00;36,55
+02/03/2026;Uber * Pending;445610;TVA deductible;3,32;0,00
 02/03/2026;To Thai Luong - 002;445610;TVA deductible;250,00;0,00
 02/03/2026;To Thai Luong - 002;604000;Prestation de service;1250,00;0,00
 02/03/2026;To Thai Luong - 002;512002;Banque 2;0,00;1500,00
@@ -939,8 +956,11 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/03/2026;PARKING* YESPARK;625100;Frais de deplacements;143,33;0,00
 04/03/2026;PARKING* YESPARK;512001;Banque 1;0,00;172,00
 04/03/2026;PARKING* YESPARK;445610;TVA deductible;28,67;0,00
+04/03/2026;DAVAI-844NDSFX36N9 - GOCARDLESS SAS;627000;Services bancaires;2,92;0,00
 04/03/2026;DAVAI-844NDSFX36N9 - GOCARDLESS SAS;512001;Banque 1;1268,50;0,00
-04/03/2026;DAVAI-844NDSFX36N9 - GOCARDLESS SAS;411000;Clients;0,00;1268,50
+04/03/2026;DAVAI-844NDSFX36N9 - GOCARDLESS SAS;445610;TVA deductible;0,58;0,00
+04/03/2026;DAVAI-844NDSFX36N9 - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+04/03/2026;DAVAI-844NDSFX36N9 - GOCARDLESS SAS;411000;Clients;0,00;72,00
 27/02/2026;Encaissement 202602-142 - CANAL+ FRANCE;445710;TVA collectee;0,00;1000,00
 27/02/2026;Encaissement 202602-142 - CANAL+ FRANCE;445880;TVA sur prestation de service en attente de paiement - Clients;1000,00;0,00
 26/02/2026;Encaissement 202602-141 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;2210,00;0,00
@@ -967,17 +987,12 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/03/2026;Facturation 202603-150 - MYWAY TECHNOLOGY;706001;Vente de service;1200,00;0,00
 04/03/2026;Facturation 202603-150 - MYWAY TECHNOLOGY;411000;Clients;0,00;1440,00
 04/03/2026;Facturation 202603-150 - MYWAY TECHNOLOGY;445710;TVA collectee;240,00;0,00
-11/02/2026;Encaissement 202603-145 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
-11/02/2026;Encaissement 202603-145 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
-25/02/2026;Encaissement 202603-147 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;199,60
-25/02/2026;Encaissement 202603-147 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;199,60;0,00
-18/02/2026;Encaissement 202603-148 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
-18/02/2026;Encaissement 202603-148 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
 04/03/2026;Sixt Dgp7t4bbl;512002;Banque 2;0,00;369,29
 04/03/2026;Sixt Dgp7t4bbl;625100;Frais de deplacements;369,29;0,00
 04/03/2026;From Reserve;512002;Banque 2;3000,00;0,00
 04/03/2026;From Reserve;580000;Virements internes;0,00;3000,00
-04/03/2026;Tap Air Portugal Eur-E;625100;Frais de deplacements;1157,38;0,00
+04/03/2026;Tap Air Portugal Eur-E;445610;TVA deductible;192,90;0,00
+04/03/2026;Tap Air Portugal Eur-E;625100;Frais de deplacements;964,48;0,00
 04/03/2026;Tap Air Portugal Eur-E;512002;Banque 2;0,00;1157,38
 04/03/2026;From Reserve;512002;Banque 2;500,00;0,00
 04/03/2026;From Reserve;580000;Virements internes;0,00;500,00
@@ -987,7 +1002,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 05/03/2026;DELIVEROO;625700;Restaurants et repas d'affaires;39,80;0,00
 05/03/2026;DELIVEROO;445610;TVA deductible;3,98;0,00
 05/03/2026;DELIVEROO;512001;Banque 1;0,00;43,78
-06/03/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;642,90;0,00
+06/03/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;107,15;0,00
+06/03/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;535,75;0,00
 06/03/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;642,90
 06/03/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
 06/03/2026;DELIVEROO;512001;Banque 1;0,00;16,39
@@ -1014,7 +1030,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 06/03/2026;Encaissement 202603-143 - FRASS;445710;TVA collectee;0,00;72,00
 06/03/2026;Encaissement 202603-143 - FRASS;445880;TVA sur prestation de service en attente de paiement - Clients;72,00;0,00
 04/03/2026;Quinta Da Comporta;512002;Banque 2;0,00;3219,00
-04/03/2026;Quinta Da Comporta;625100;Frais de deplacements;3219,00;0,00
+04/03/2026;Quinta Da Comporta;625100;Frais de deplacements;2682,50;0,00
+04/03/2026;Quinta Da Comporta;445610;TVA deductible;536,50;0,00
 09/03/2026;Facturation 202603-151 - CHAUVIN PARIS;445710;TVA collectee;0,00;122,48
 09/03/2026;Facturation 202603-151 - CHAUVIN PARIS;706001;Vente de service;0,00;1360,00
 09/03/2026;Facturation 202603-151 - CHAUVIN PARIS;411000;Clients;2366,86;0,00
@@ -1040,3 +1057,2074 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 10/03/2026;Crabe Marteau;512002;Banque 2;0,00;170,00
 10/03/2026;Crabe Marteau;625700;Restaurants et repas d'affaires;154,55;0,00
 10/03/2026;Crabe Marteau;445610;TVA deductible;15,45;0,00
+11/03/2026;DAVAI-NKHGRXRQQN3Q - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+11/03/2026;DAVAI-NKHGRXRQQN3Q - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+11/03/2026;DAVAI-NKHGRXRQQN3Q - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+11/03/2026;DAVAI-NKHGRXRQQN3Q - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+11/03/2026;CLOUDFLARE;512001;Banque 1;0,00;9,04
+11/03/2026;CLOUDFLARE;613500;Location de materiel;7,53;0,00
+11/03/2026;CLOUDFLARE;445610;TVA deductible;1,51;0,00
+11/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,18;0,00
+11/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,22
+11/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+12/03/2026;202603151 DAVAI informaticien CHAUVIN PARIS PP40900700 - CHAUVIN PARIS;411000;Clients;0,00;2366,86
+12/03/2026;202603151 DAVAI informaticien CHAUVIN PARIS PP40900700 - CHAUVIN PARIS;512001;Banque 1;2366,86;0,00
+10/03/2026;UBER *TRIP;512001;Banque 1;0,00;30,97
+10/03/2026;UBER *TRIP;445610;TVA deductible;2,82;0,00
+10/03/2026;UBER *TRIP;625100;Frais de deplacements;28,15;0,00
+11/03/2026;From Reserve;580000;Virements internes;0,00;2000,00
+11/03/2026;From Reserve;512002;Banque 2;2000,00;0,00
+11/03/2026;To MINH THANG NGUYEN - 2;604000;Prestation de service;1620,83;0,00
+11/03/2026;To MINH THANG NGUYEN - 2;512002;Banque 2;0,00;1945,00
+11/03/2026;To MINH THANG NGUYEN - 2;445610;TVA deductible;324,17;0,00
+12/03/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;900,00
+12/03/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;150,00;0,00
+12/03/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;750,00;0,00
+12/03/2026;Virement vers Davai - Davai;580000;Virements internes;2000,00;0,00
+12/03/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;2000,00
+12/03/2026;CLOUDFLARE;613500;Location de materiel;7,54;0,00
+12/03/2026;CLOUDFLARE;445610;TVA deductible;1,51;0,00
+12/03/2026;CLOUDFLARE;512001;Banque 1;0,00;9,05
+12/03/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+12/03/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+12/03/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+13/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,18;0,00
+13/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+13/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,22
+12/03/2026;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
+12/03/2026;SMALLPDF;445610;TVA deductible;1,67;0,00
+12/03/2026;SMALLPDF;512001;Banque 1;0,00;10,00
+12/03/2026;Openai;445610;TVA deductible;5,84;0,00
+12/03/2026;Openai;512002;Banque 2;0,00;35,04
+12/03/2026;Openai;613600;Abonnements logiciels;29,20;0,00
+12/03/2026;To Emile Kratiroff - Compte courant associe;512002;Banque 2;0,00;4000,00
+12/03/2026;To Emile Kratiroff - Compte courant associe;455100;Associes - Comptes courants;4000,00;0,00
+12/03/2026;From Reserve;580000;Virements internes;0,00;2000,00
+12/03/2026;From Reserve;512002;Banque 2;2000,00;0,00
+12/03/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;2000,00
+12/03/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;2000,00;0,00
+13/03/2026;RESEND;613600;Abonnements logiciels;14,48;0,00
+13/03/2026;RESEND;445610;TVA deductible;2,90;0,00
+13/03/2026;RESEND;512001;Banque 1;0,00;17,38
+13/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,42
+13/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,35;0,00
+13/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+13/03/2026;DELIVEROO;445610;TVA deductible;2,94;0,00
+13/03/2026;DELIVEROO;625700;Restaurants et repas d'affaires;29,45;0,00
+13/03/2026;DELIVEROO;512001;Banque 1;0,00;32,39
+13/03/2026;LE 41;512001;Banque 1;0,00;58,00
+13/03/2026;LE 41;625700;Restaurants et repas d'affaires;52,73;0,00
+13/03/2026;LE 41;445610;TVA deductible;5,27;0,00
+13/03/2026;Openai;613600;Abonnements logiciels;29,25;0,00
+13/03/2026;Openai;445610;TVA deductible;5,85;0,00
+13/03/2026;Openai;512002;Banque 2;0,00;35,10
+13/03/2026;GRANDE BRASSERI;445610;TVA deductible;13,18;0,00
+13/03/2026;GRANDE BRASSERI;625700;Restaurants et repas d'affaires;131,82;0,00
+13/03/2026;GRANDE BRASSERI;512001;Banque 1;0,00;145,00
+14/03/2026;UBER *TRIP;445610;TVA deductible;2,07;0,00
+14/03/2026;UBER *TRIP;625100;Frais de deplacements;20,72;0,00
+14/03/2026;UBER *TRIP;512001;Banque 1;0,00;22,79
+13/03/2026;UBER *TRIP;512001;Banque 1;0,00;20,02
+13/03/2026;UBER *TRIP;625100;Frais de deplacements;18,20;0,00
+13/03/2026;UBER *TRIP;445610;TVA deductible;1,82;0,00
+14/03/2026;HETZNER ONLINE GMBH;613500;Location de materiel;78,15;0,00
+14/03/2026;HETZNER ONLINE GMBH;445610;TVA deductible;15,63;0,00
+14/03/2026;HETZNER ONLINE GMBH;512001;Banque 1;0,00;93,78
+14/03/2026;COCOTTE TIRE BOUCHON;445610;TVA deductible;11,82;0,00
+14/03/2026;COCOTTE TIRE BOUCHON;625700;Restaurants et repas d'affaires;118,18;0,00
+14/03/2026;COCOTTE TIRE BOUCHON;512001;Banque 1;0,00;130,00
+13/03/2026;G7;625100;Frais de deplacements;20,91;0,00
+13/03/2026;G7;512001;Banque 1;0,00;23,00
+13/03/2026;G7;445610;TVA deductible;2,09;0,00
+16/03/2026;STARLINK INTERNET;626000;Internet, telephone et frais postaux;47,17;0,00
+16/03/2026;STARLINK INTERNET;512001;Banque 1;0,00;56,60
+16/03/2026;STARLINK INTERNET;445610;TVA deductible;9,43;0,00
+17/03/2026;DAVAI F202511 122 - FASHION B AIR;512001;Banque 1;4800,00;0,00
+17/03/2026;DAVAI F202511 122 - FASHION B AIR;411000;Clients;0,00;4800,00
+17/03/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;4000,00
+17/03/2026;Virement vers Davai - Davai;580000;Virements internes;4000,00;0,00
+17/03/2026;SUPABASE;613600;Abonnements logiciels;18,26;0,00
+17/03/2026;SUPABASE;512001;Banque 1;0,00;21,91
+17/03/2026;SUPABASE;445610;TVA deductible;3,65;0,00
+17/03/2026;DELIVEROO;445610;TVA deductible;2,81;0,00
+17/03/2026;DELIVEROO;512001;Banque 1;0,00;30,89
+17/03/2026;DELIVEROO;625700;Restaurants et repas d'affaires;28,08;0,00
+18/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,53
+18/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,44;0,00
+18/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,09;0,00
+17/03/2026;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;145,37;0,00
+17/03/2026;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;174,44
+17/03/2026;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;29,07;0,00
+18/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;4,19
+18/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;3,49;0,00
+18/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,70;0,00
+17/03/2026;LDLC COM;445610;TVA deductible;7,49;0,00
+17/03/2026;LDLC COM;607000;Marchandise pour la revente;37,46;0,00
+17/03/2026;LDLC COM;512001;Banque 1;0,00;44,95
+18/03/2026;DAVAI-KAXPEW4K89VA - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+18/03/2026;DAVAI-KAXPEW4K89VA - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+18/03/2026;DAVAI-KAXPEW4K89VA - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+18/03/2026;DAVAI-KAXPEW4K89VA - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+18/03/2026;OBSIDIAN;613600;Abonnements logiciels;8,72;0,00
+18/03/2026;OBSIDIAN;512001;Banque 1;0,00;10,47
+18/03/2026;OBSIDIAN;445610;TVA deductible;1,75;0,00
+18/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,21;0,00
+18/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+18/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,25
+16/03/2026;Company Pro plan fee;627000;Services bancaires;29,17;0,00
+16/03/2026;Company Pro plan fee;445610;TVA deductible;5,83;0,00
+16/03/2026;Company Pro plan fee;512002;Banque 2;0,00;35,00
+17/03/2026;Les Caves De Tai;625700;Restaurants et repas d'affaires;70,83;0,00
+17/03/2026;Les Caves De Tai;512002;Banque 2;0,00;85,00
+17/03/2026;Les Caves De Tai;445610;TVA deductible;14,17;0,00
+17/03/2026;Apple Store R675;512002;Banque 2;0,00;1264,00
+17/03/2026;Apple Store R675;445610;TVA deductible;210,67;0,00
+17/03/2026;Apple Store R675;607000;Marchandise pour la revente;1053,33;0,00
+17/03/2026;To Reserve;512002;Banque 2;0,00;8000,00
+17/03/2026;To Reserve;580000;Virements internes;8000,00;0,00
+17/03/2026;From Reserve;580000;Virements internes;0,00;1000,00
+17/03/2026;From Reserve;512002;Banque 2;1000,00;0,00
+14/03/2026;Vercel Inc.;613600;Abonnements logiciels;66,44;0,00
+14/03/2026;Vercel Inc.;445610;TVA deductible;13,29;0,00
+14/03/2026;Vercel Inc.;512002;Banque 2;0,00;79,73
+17/03/2026;From Reserve;512002;Banque 2;500,00;0,00
+17/03/2026;From Reserve;580000;Virements internes;0,00;500,00
+16/03/2026;Openai;512002;Banque 2;0,00;35,71
+16/03/2026;Openai;445610;TVA deductible;5,95;0,00
+16/03/2026;Openai;613600;Abonnements logiciels;29,76;0,00
+14/03/2026;Cursor Usage Mid Feb;445610;TVA deductible;21,33;0,00
+14/03/2026;Cursor Usage Mid Feb;512002;Banque 2;0,00;127,97
+14/03/2026;Cursor Usage Mid Feb;613600;Abonnements logiciels;106,64;0,00
+18/03/2026;To THANG NGUYEN MINH - 2;445610;TVA deductible;324,17;0,00
+18/03/2026;To THANG NGUYEN MINH - 2;604000;Prestation de service;1620,83;0,00
+18/03/2026;To THANG NGUYEN MINH - 2;512002;Banque 2;0,00;1945,00
+18/03/2026;From Reserve;580000;Virements internes;0,00;2000,00
+18/03/2026;From Reserve;512002;Banque 2;2000,00;0,00
+17/03/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;4000,00;0,00
+17/03/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;4000,00
+17/03/2026;From Reserve;580000;Virements internes;0,00;4000,00
+17/03/2026;From Reserve;512002;Banque 2;4000,00;0,00
+14/03/2026;Openai;613600;Abonnements logiciels;30,78;0,00
+14/03/2026;Openai;445610;TVA deductible;6,16;0,00
+14/03/2026;Openai;512002;Banque 2;0,00;36,94
+15/03/2026;Sentry;445610;TVA deductible;17,47;0,00
+15/03/2026;Sentry;512002;Banque 2;0,00;104,81
+15/03/2026;Sentry;613600;Abonnements logiciels;87,34;0,00
+18/03/2026;Facturation 202603-152 - BONO DISTRIBUTION;411000;Clients;1608,00;0,00
+18/03/2026;Facturation 202603-152 - BONO DISTRIBUTION;706001;Vente de service;0,00;1340,00
+18/03/2026;Facturation 202603-152 - BONO DISTRIBUTION;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;268,00
+18/03/2026;Deliveroo Plus Subs;445610;TVA deductible;0,54;0,00
+18/03/2026;Deliveroo Plus Subs;625700;Restaurants et repas d'affaires;5,45;0,00
+18/03/2026;Deliveroo Plus Subs;512001;Banque 1;0,00;5,99
+18/03/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+18/03/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+18/03/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+18/03/2026;MICROSOFT PAYMENTS;613600;Abonnements logiciels;129,60;0,00
+18/03/2026;MICROSOFT PAYMENTS;445610;TVA deductible;25,92;0,00
+18/03/2026;MICROSOFT PAYMENTS;512001;Banque 1;0,00;155,52
+19/03/2026;GRANOLA INC;445610;TVA deductible;2,44;0,00
+19/03/2026;GRANOLA INC;613600;Abonnements logiciels;12,18;0,00
+19/03/2026;GRANOLA INC;512001;Banque 1;0,00;14,62
+19/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,29;0,00
+19/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+19/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,35
+18/03/2026;TWILIO INC;445610;TVA deductible;5,82;0,00
+18/03/2026;TWILIO INC;613600;Abonnements logiciels;29,08;0,00
+18/03/2026;TWILIO INC;512001;Banque 1;0,00;34,90
+20/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+20/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,84
+20/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,70;0,00
+20/03/2026;BONO REGLT FACTURE 202603-152 DU 18 03 2026 - BONO DISTRIBUTION;512001;Banque 1;1608,00;0,00
+20/03/2026;BONO REGLT FACTURE 202603-152 DU 18 03 2026 - BONO DISTRIBUTION;411000;Clients;0,00;1608,00
+20/03/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;150,00;0,00
+20/03/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;750,00;0,00
+20/03/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;900,00
+19/03/2026;DELIVEROO;625700;Restaurants et repas d'affaires;38,07;0,00
+19/03/2026;DELIVEROO;512001;Banque 1;0,00;41,88
+19/03/2026;DELIVEROO;445610;TVA deductible;3,81;0,00
+20/03/2026;Encaissement 202603-152 - BONO DISTRIBUTION;445710;TVA collectee;0,00;268,00
+20/03/2026;Encaissement 202603-152 - BONO DISTRIBUTION;445880;TVA sur prestation de service en attente de paiement - Clients;268,00;0,00
+17/03/2026;Encaissement 202511-122 - BEL AIR FASHION B. AIR;445880;TVA sur prestation de service en attente de paiement - Clients;800,00;0,00
+17/03/2026;Encaissement 202511-122 - BEL AIR FASHION B. AIR;445710;TVA collectee;0,00;800,00
+12/03/2026;Encaissement 202603-151 - CHAUVIN PARIS;445710;TVA collectee;0,00;272,00
+12/03/2026;Encaissement 202603-151 - CHAUVIN PARIS;445880;TVA sur prestation de service en attente de paiement - Clients;272,00;0,00
+20/03/2026;Starlink Internet;626000;Internet, telephone et frais postaux;306,67;0,00
+20/03/2026;Starlink Internet;512002;Banque 2;0,00;368,00
+20/03/2026;Starlink Internet;445610;TVA deductible;61,33;0,00
+21/03/2026;UBER *TRIP;625100;Frais de deplacements;19,98;0,00
+21/03/2026;UBER *TRIP;445610;TVA deductible;2,00;0,00
+21/03/2026;UBER *TRIP;512001;Banque 1;0,00;21,98
+23/03/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;84,24
+23/03/2026;YESPARK GROUP* PARKING;445610;TVA deductible;14,04;0,00
+23/03/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;70,20;0,00
+23/03/2026;ATLASSIAN;512001;Banque 1;0,00;85,74
+23/03/2026;ATLASSIAN;613600;Abonnements logiciels;71,45;0,00
+23/03/2026;ATLASSIAN;445610;TVA deductible;14,29;0,00
+23/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,34;0,00
+23/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,71;0,00
+23/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;2,05
+23/03/2026;Mailchimp;613600;Abonnements logiciels;56,68;0,00
+23/03/2026;Mailchimp;512001;Banque 1;0,00;68,02
+23/03/2026;Mailchimp;445610;TVA deductible;11,34;0,00
+23/03/2026;CLOUDFLARE;613500;Location de materiel;8,68;0,00
+23/03/2026;CLOUDFLARE;512001;Banque 1;0,00;10,42
+23/03/2026;CLOUDFLARE;445610;TVA deductible;1,74;0,00
+23/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,25
+23/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,21;0,00
+23/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+23/03/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+23/03/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+23/03/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+23/03/2026;Transfer to Minh Thang Nguyen refund;445610;TVA deductible;0,00;306,67
+23/03/2026;Transfer to Minh Thang Nguyen refund;604000;Prestation de service;0,00;1533,33
+23/03/2026;Transfer to Minh Thang Nguyen refund;512002;Banque 2;1840,00;0,00
+23/03/2026;Cursor, Ai Powered Ide;445610;TVA deductible;17,24;0,00
+23/03/2026;Cursor, Ai Powered Ide;512002;Banque 2;0,00;103,41
+23/03/2026;Cursor, Ai Powered Ide;613600;Abonnements logiciels;86,17;0,00
+23/03/2026;Openai;445610;TVA deductible;5,84;0,00
+23/03/2026;Openai;512002;Banque 2;0,00;35,02
+23/03/2026;Openai;613600;Abonnements logiciels;29,18;0,00
+24/03/2026;RESEND;445610;TVA deductible;2,90;0,00
+24/03/2026;RESEND;613600;Abonnements logiciels;14,52;0,00
+24/03/2026;RESEND;512001;Banque 1;0,00;17,42
+25/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,35;0,00
+25/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,42
+25/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+25/03/2026;/INV/F6823802/0087537021 //20260319-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;115,97;0,00
+25/03/2026;/INV/F6823802/0087537021 //20260319-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;23,20;0,00
+25/03/2026;/INV/F6823802/0087537021 //20260319-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;139,17
+25/03/2026;SQSP* DOMAIN#227722274;512001;Banque 1;0,00;21,60
+25/03/2026;SQSP* DOMAIN#227722274;613600;Abonnements logiciels;18,00;0,00
+25/03/2026;SQSP* DOMAIN#227722274;445610;TVA deductible;3,60;0,00
+25/03/2026;CLOUDFLARE;445610;TVA deductible;1,51;0,00
+25/03/2026;CLOUDFLARE;613500;Location de materiel;7,53;0,00
+25/03/2026;CLOUDFLARE;512001;Banque 1;0,00;9,04
+25/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+25/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,18;0,00
+25/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,22
+24/03/2026;LE FRANCOEUR;512001;Banque 1;0,00;72,00
+24/03/2026;LE FRANCOEUR;445610;TVA deductible;6,55;0,00
+24/03/2026;LE FRANCOEUR;625700;Restaurants et repas d'affaires;65,45;0,00
+25/03/2026;Cursor Usage Feb;613600;Abonnements logiciels;71,47;0,00
+25/03/2026;Cursor Usage Feb;512002;Banque 2;0,00;85,77
+25/03/2026;Cursor Usage Feb;445610;TVA deductible;14,30;0,00
+26/03/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;150,00;0,00
+26/03/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;900,00
+26/03/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;750,00;0,00
+26/03/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+26/03/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+26/03/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+26/03/2026;SumUp *Jules El helou;512001;Banque 1;0,00;13,00
+26/03/2026;SumUp *Jules El helou;445610;TVA deductible;1,18;0,00
+26/03/2026;SumUp *Jules El helou;625700;Restaurants et repas d'affaires;11,82;0,00
+26/03/2026;CAFE DE LA PLACE;512001;Banque 1;0,00;49,00
+26/03/2026;CAFE DE LA PLACE;625700;Restaurants et repas d'affaires;44,55;0,00
+26/03/2026;CAFE DE LA PLACE;445610;TVA deductible;4,45;0,00
+27/03/2026;STAR MOTORS;445610;TVA deductible;167,03;0,00
+27/03/2026;STAR MOTORS;606300;Materiel et outillage;835,12;0,00
+27/03/2026;STAR MOTORS;512001;Banque 1;0,00;1002,15
+27/03/2026;VITEL STEPHANIE;625100;Frais de deplacements;24,00;0,00
+27/03/2026;VITEL STEPHANIE;512001;Banque 1;0,00;24,00
+28/03/2026;ORUS ASSURANCE;616000;Assurance professionnelle;36,72;0,00
+28/03/2026;ORUS ASSURANCE;512001;Banque 1;0,00;36,72
+27/03/2026;E M D 17;625700;Restaurants et repas d'affaires;31,36;0,00
+27/03/2026;E M D 17;512001;Banque 1;0,00;34,50
+27/03/2026;E M D 17;445610;TVA deductible;3,14;0,00
+27/03/2026;NAME-CHEAP.COM* 13HE7V;651100;Redevances pour concessions, brevets, licences, marques, procedes, logiciels;28,92;0,00
+27/03/2026;NAME-CHEAP.COM* 13HE7V;512001;Banque 1;0,00;34,70
+27/03/2026;NAME-CHEAP.COM* 13HE7V;445610;TVA deductible;5,78;0,00
+28/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+28/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,69;0,00
+28/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,83
+28/03/2026;FIGMA;512001;Banque 1;0,00;48,00
+28/03/2026;FIGMA;613600;Abonnements logiciels;40,00;0,00
+28/03/2026;FIGMA;445610;TVA deductible;8,00;0,00
+28/03/2026;BC.*BASECAMP 4 6018036;445610;TVA deductible;8,70;0,00
+28/03/2026;BC.*BASECAMP 4 6018036;613600;Abonnements logiciels;43,47;0,00
+28/03/2026;BC.*BASECAMP 4 6018036;512001;Banque 1;0,00;52,17
+29/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,21;0,00
+29/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,25
+29/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,04;0,00
+29/03/2026;EMAILVALIDATION.IO;512001;Banque 1;0,00;36,51
+29/03/2026;EMAILVALIDATION.IO;613600;Abonnements logiciels;30,42;0,00
+29/03/2026;EMAILVALIDATION.IO;445610;TVA deductible;6,09;0,00
+30/03/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,73;0,00
+30/03/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,15;0,00
+30/03/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,88
+30/03/2026;Paddle.net* Baserowio;613600;Abonnements logiciels;52,17;0,00
+30/03/2026;Paddle.net* Baserowio;512002;Banque 2;0,00;62,61
+30/03/2026;Paddle.net* Baserowio;445610;TVA deductible;10,44;0,00
+30/03/2026;Transfert interne - Davai;580000;Virements internes;0,00;1000,00
+30/03/2026;Transfert interne - Davai;512001;Banque 1;1000,00;0,00
+30/03/2026;THEASSISTANT;604000;Prestation de service;309,00;0,00
+30/03/2026;THEASSISTANT;445610;TVA deductible;61,80;0,00
+30/03/2026;THEASSISTANT;512001;Banque 1;0,00;370,80
+30/03/2026;From Reserve;580000;Virements internes;0,00;200,00
+30/03/2026;From Reserve;512002;Banque 2;200,00;0,00
+30/03/2026;Cursor Usage Mid Mar;512002;Banque 2;0,00;145,87
+30/03/2026;Cursor Usage Mid Mar;613600;Abonnements logiciels;121,56;0,00
+30/03/2026;Cursor Usage Mid Mar;445610;TVA deductible;24,31;0,00
+30/03/2026;From Reserve;512002;Banque 2;1000,00;0,00
+30/03/2026;From Reserve;580000;Virements internes;0,00;1000,00
+30/03/2026;To Davai - Transfert interne;580000;Virements internes;1000,00;0,00
+30/03/2026;To Davai - Transfert interne;512002;Banque 2;0,00;1000,00
+25/03/2026;DAVAI-XRC99A2RVCY7 - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+25/03/2026;DAVAI-XRC99A2RVCY7 - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+25/03/2026;DAVAI-XRC99A2RVCY7 - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+25/03/2026;DAVAI-XRC99A2RVCY7 - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+24/03/2026;To Sina Ganji - Mar26;512002;Banque 2;0,00;1800,00
+24/03/2026;To Sina Ganji - Mar26;641110;Salaires;1800,00;0,00
+25/03/2026;E M D 17;625200;Vehicule et carburant;417,80;0,00
+25/03/2026;E M D 17;512001;Banque 1;0,00;417,80
+30/03/2026;MCDONALDS 818;445610;TVA deductible;2,40;0,00
+30/03/2026;MCDONALDS 818;512001;Banque 1;0,00;26,44
+30/03/2026;MCDONALDS 818;625700;Restaurants et repas d'affaires;24,04;0,00
+31/03/2026;Openai;512002;Banque 2;0,00;35,86
+31/03/2026;Openai;613600;Abonnements logiciels;29,88;0,00
+31/03/2026;Openai;445610;TVA deductible;5,98;0,00
+01/04/2026;Tailscale Us Inc.;613600;Abonnements logiciels;8,66;0,00
+01/04/2026;Tailscale Us Inc.;445610;TVA deductible;1,73;0,00
+01/04/2026;Tailscale Us Inc.;512002;Banque 2;0,00;10,39
+31/03/2026;LA TERRASSE DU GOUL;445610;TVA deductible;6,61;0,00
+31/03/2026;LA TERRASSE DU GOUL;512001;Banque 1;0,00;72,71
+31/03/2026;LA TERRASSE DU GOUL;625700;Restaurants et repas d'affaires;66,10;0,00
+01/04/2026;SQ *SQUARE FR SUBSCRIP;613600;Abonnements logiciels;50,00;0,00
+01/04/2026;SQ *SQUARE FR SUBSCRIP;445610;TVA deductible;10,00;0,00
+01/04/2026;SQ *SQUARE FR SUBSCRIP;512001;Banque 1;0,00;60,00
+01/04/2026;DAVAI-WPM67XMFTMT8 - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+01/04/2026;DAVAI-WPM67XMFTMT8 - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+01/04/2026;DAVAI-WPM67XMFTMT8 - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+01/04/2026;DAVAI-WPM67XMFTMT8 - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+11/02/2026;Encaissement 202603-146 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+11/02/2026;Encaissement 202603-146 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+04/02/2026;Encaissement 202603-145 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+04/02/2026;Encaissement 202603-145 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+18/02/2026;Encaissement 202603-147 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+18/02/2026;Encaissement 202603-147 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+25/02/2026;Encaissement 202603-148 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+25/02/2026;Encaissement 202603-148 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+27/01/2026;Encaissement 202601-137 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+27/01/2026;Encaissement 202601-137 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+28/01/2026;Encaissement 202601-138 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+28/01/2026;Encaissement 202601-138 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+04/02/2026;Encaissement 202601-139 - SURPRISE LTD;445710;TVA collectee;0,00;12,42
+04/02/2026;Encaissement 202601-139 - SURPRISE LTD;445880;TVA sur prestation de service en attente de paiement - Clients;12,42;0,00
+01/04/2026;Facturation 202604-153 - SURPRISE LTD;706001;Vente de service;0,00;60,00
+01/04/2026;Facturation 202604-153 - SURPRISE LTD;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;12,00
+01/04/2026;Facturation 202604-153 - SURPRISE LTD;411000;Clients;72,00;0,00
+04/03/2026;Encaissement 202604-153 - SURPRISE LTD;445710;TVA collectee;0,00;12,00
+04/03/2026;Encaissement 202604-153 - SURPRISE LTD;445880;TVA sur prestation de service en attente de paiement - Clients;12,00;0,00
+04/03/2026;Encaissement 202603-149 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+04/03/2026;Encaissement 202603-149 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+01/04/2026;Facturation 202604-154 - SURPRISE LTD;411000;Clients;72,00;0,00
+01/04/2026;Facturation 202604-154 - SURPRISE LTD;706001;Vente de service;0,00;60,00
+01/04/2026;Facturation 202604-154 - SURPRISE LTD;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;12,00
+01/04/2026;Facturation 202604-155 - MYWAY TECHNOLOGY;445710;TVA collectee;120,00;0,00
+01/04/2026;Facturation 202604-155 - MYWAY TECHNOLOGY;411000;Clients;0,00;720,00
+01/04/2026;Facturation 202604-155 - MYWAY TECHNOLOGY;706001;Vente de service;600,00;0,00
+01/04/2026;Facturation 202604-156 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+01/04/2026;Facturation 202604-156 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+01/04/2026;Facturation 202604-156 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+01/04/2026;Facturation 202604-157 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+01/04/2026;Facturation 202604-157 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+01/04/2026;Facturation 202604-157 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+01/04/2026;Facturation 202604-158 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+01/04/2026;Facturation 202604-158 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+01/04/2026;Facturation 202604-158 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+01/04/2026;Facturation 202604-159 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+01/04/2026;Facturation 202604-159 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+01/04/2026;Facturation 202604-159 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+11/03/2026;Encaissement 202604-156 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+11/03/2026;Encaissement 202604-156 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+18/03/2026;Encaissement 202604-157 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+18/03/2026;Encaissement 202604-157 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+25/03/2026;Encaissement 202604-158 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+25/03/2026;Encaissement 202604-158 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+01/04/2026;Encaissement 202604-159 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+01/04/2026;Encaissement 202604-159 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+01/04/2026;DELIVEROO;512001;Banque 1;0,00;29,31
+01/04/2026;DELIVEROO;625700;Restaurants et repas d'affaires;26,65;0,00
+01/04/2026;DELIVEROO;445610;TVA deductible;2,66;0,00
+01/04/2026;SCALEWAY;445610;TVA deductible;16,98;0,00
+01/04/2026;SCALEWAY;512001;Banque 1;0,00;101,87
+01/04/2026;SCALEWAY;613500;Location de materiel;84,89;0,00
+31/03/2026;TWILIO INC;512001;Banque 1;0,00;35,02
+31/03/2026;TWILIO INC;445610;TVA deductible;5,84;0,00
+31/03/2026;TWILIO INC;613600;Abonnements logiciels;29,18;0,00
+02/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+02/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,70;0,00
+02/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,84
+01/04/2026;From Reserve;512002;Banque 2;4000,00;0,00
+01/04/2026;From Reserve;580000;Virements internes;0,00;4000,00
+02/04/2026;Paddle.net* Baserowio;445610;TVA deductible;8,31;0,00
+02/04/2026;Paddle.net* Baserowio;613600;Abonnements logiciels;41,53;0,00
+02/04/2026;Paddle.net* Baserowio;512002;Banque 2;0,00;49,84
+01/04/2026;GOOGLE*WORKSPACE DAVAI;613600;Abonnements logiciels;65,05;0,00
+01/04/2026;GOOGLE*WORKSPACE DAVAI;512001;Banque 1;0,00;78,06
+01/04/2026;GOOGLE*WORKSPACE DAVAI;445610;TVA deductible;13,01;0,00
+02/04/2026;202603144 DAVAI FRASS - FRASS;512001;Banque 1;1800,00;0,00
+02/04/2026;202603144 DAVAI FRASS - FRASS;411000;Clients;0,00;1800,00
+01/04/2026;To My Way - thai holidays march 24 25 26;512002;Banque 2;0,00;720,00
+01/04/2026;To My Way - thai holidays march 24 25 26;411000;Clients;720,00;0,00
+02/04/2026;Virement vers Davai - Davai;580000;Virements internes;1500,00;0,00
+02/04/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;1500,00
+02/04/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;791,67;0,00
+02/04/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;158,33;0,00
+02/04/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;950,00
+02/04/2026;Encaissement 202603-144 - FRASS;445710;TVA collectee;0,00;300,00
+02/04/2026;Encaissement 202603-144 - FRASS;445880;TVA sur prestation de service en attente de paiement - Clients;300,00;0,00
+02/04/2026;SumUp *Taxi Amraoui;512001;Banque 1;0,00;33,80
+02/04/2026;SumUp *Taxi Amraoui;625100;Frais de deplacements;33,80;0,00
+02/04/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;1500,00;0,00
+02/04/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;1500,00
+02/04/2026;Starlink Internet;512002;Banque 2;0,00;6,36
+02/04/2026;Starlink Internet;626000;Internet, telephone et frais postaux;5,30;0,00
+02/04/2026;Starlink Internet;445610;TVA deductible;1,06;0,00
+02/04/2026;To Thai Luong - 003;604000;Prestation de service;1283,33;0,00
+02/04/2026;To Thai Luong - 003;445610;TVA deductible;256,67;0,00
+02/04/2026;To Thai Luong - 003;512002;Banque 2;0,00;1540,00
+30/03/2026;TA - SNCF;625100;Frais de deplacements;489,17;0,00
+30/03/2026;TA - SNCF;512001;Banque 1;0,00;587,00
+30/03/2026;TA - SNCF;445610;TVA deductible;97,83;0,00
+04/04/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;143,33;0,00
+04/04/2026;YESPARK GROUP* PARKING;445610;TVA deductible;28,67;0,00
+04/04/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;172,00
+03/04/2026;From Reserve;580000;Virements internes;0,00;1500,00
+03/04/2026;From Reserve;512002;Banque 2;1500,00;0,00
+02/04/2026;To THANG NGUYEN MINH - 3;512002;Banque 2;0,00;2225,00
+02/04/2026;To THANG NGUYEN MINH - 3;604000;Prestation de service;1854,17;0,00
+02/04/2026;To THANG NGUYEN MINH - 3;445610;TVA deductible;370,83;0,00
+04/04/2026;Facturation 202604-160 - CHAUVIN PARIS;707000;Vente de marchandise;0,00;2764,60
+04/04/2026;Facturation 202604-160 - CHAUVIN PARIS;445710;TVA collectee;0,00;552,92
+04/04/2026;Facturation 202604-160 - CHAUVIN PARIS;411000;Clients;4661,52;0,00
+04/04/2026;Facturation 202604-160 - CHAUVIN PARIS;706001;Vente de service;0,00;1120,00
+04/04/2026;Facturation 202604-160 - CHAUVIN PARIS;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;224,00
+04/04/2026;Ls Mayzou;445610;TVA deductible;11,27;0,00
+04/04/2026;Ls Mayzou;625700;Restaurants et repas d'affaires;112,73;0,00
+04/04/2026;Ls Mayzou;512002;Banque 2;0,00;124,00
+04/04/2026;Eplaque;445610;TVA deductible;38,94;0,00
+04/04/2026;Eplaque;512002;Banque 2;0,00;233,66
+04/04/2026;Eplaque;625200;Vehicule et carburant;194,72;0,00
+05/04/2026;Mk Saveurs Du Ch;445610;TVA deductible;11,68;0,00
+05/04/2026;Mk Saveurs Du Ch;512002;Banque 2;0,00;128,50
+05/04/2026;Mk Saveurs Du Ch;625700;Restaurants et repas d'affaires;116,82;0,00
+06/04/2026;WWW.FOLK.APP;445610;TVA deductible;7,24;0,00
+06/04/2026;WWW.FOLK.APP;512001;Banque 1;0,00;43,41
+06/04/2026;WWW.FOLK.APP;613600;Abonnements logiciels;36,17;0,00
+07/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,04
+07/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,17;0,00
+07/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,87;0,00
+06/04/2026;Cursor Usage Mid Mar;613600;Abonnements logiciels;72,37;0,00
+06/04/2026;Cursor Usage Mid Mar;512002;Banque 2;0,00;86,85
+06/04/2026;Cursor Usage Mid Mar;445610;TVA deductible;14,48;0,00
+07/04/2026;Facturation 202604-161 - FRASS;411000;Clients;432,00;0,00
+07/04/2026;Facturation 202604-161 - FRASS;706001;Vente de service;0,00;360,00
+07/04/2026;Facturation 202604-161 - FRASS;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;72,00
+07/04/2026;SumUp *Abibi Omar;625100;Frais de deplacements;34,00;0,00
+07/04/2026;SumUp *Abibi Omar;512001;Banque 1;0,00;34,00
+07/04/2026;Transfer to Minh Thang Nguyen refund;604000;Prestation de service;0,00;1533,33
+07/04/2026;Transfer to Minh Thang Nguyen refund;512002;Banque 2;1840,00;0,00
+07/04/2026;Transfer to Minh Thang Nguyen refund;445610;TVA deductible;0,00;306,67
+07/04/2026;LE FRANCOEUR;512001;Banque 1;0,00;62,20
+07/04/2026;LE FRANCOEUR;445610;TVA deductible;5,65;0,00
+07/04/2026;LE FRANCOEUR;625700;Restaurants et repas d'affaires;56,55;0,00
+08/04/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+08/04/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+08/04/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+08/04/2026;LDLC.COM;607000;Marchandise pour la revente;68,29;0,00
+08/04/2026;LDLC.COM;445610;TVA deductible;13,66;0,00
+08/04/2026;LDLC.COM;512001;Banque 1;0,00;81,95
+08/04/2026;TRANSAVIA;445610;TVA deductible;36,00;0,00
+08/04/2026;TRANSAVIA;512001;Banque 1;0,00;216,00
+08/04/2026;TRANSAVIA;625100;Frais de deplacements;180,00;0,00
+09/04/2026;Direct Debit from FREE MOBILE - FREE MOBILE;512001;Banque 1;0,00;8,99
+09/04/2026;Direct Debit from FREE MOBILE - FREE MOBILE;445610;TVA deductible;1,50;0,00
+09/04/2026;Direct Debit from FREE MOBILE - FREE MOBILE;626000;Internet, telephone et frais postaux;7,49;0,00
+08/04/2026;apple.com/fr;512002;Banque 2;0,00;1479,00
+08/04/2026;apple.com/fr;607000;Marchandise pour la revente;1232,50;0,00
+08/04/2026;apple.com/fr;445610;TVA deductible;246,50;0,00
+09/04/2026;Cursor Usage Mid Mar;512002;Banque 2;0,00;103,96
+09/04/2026;Cursor Usage Mid Mar;445610;TVA deductible;17,33;0,00
+09/04/2026;Cursor Usage Mid Mar;613600;Abonnements logiciels;86,63;0,00
+08/04/2026;APPLE.COM/FR;445610;TVA deductible;16,50;0,00
+08/04/2026;APPLE.COM/FR;613600;Abonnements logiciels;82,50;0,00
+08/04/2026;APPLE.COM/FR;512001;Banque 1;0,00;99,00
+09/04/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+09/04/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+09/04/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+10/04/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1050,00
+10/04/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;175,00;0,00
+10/04/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;875,00;0,00
+10/04/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;3000,00
+10/04/2026;Virement vers Davai - Davai;580000;Virements internes;3000,00;0,00
+10/04/2026;/INV/F6A93492/0087537021 //20260403-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;169,10
+10/04/2026;/INV/F6A93492/0087537021 //20260403-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;140,92;0,00
+10/04/2026;/INV/F6A93492/0087537021 //20260403-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;28,18;0,00
+10/04/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;3000,00;0,00
+10/04/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;3000,00
+09/04/2026;Linkedin*p3003166235;613600;Abonnements logiciels;55,36;0,00
+09/04/2026;Linkedin*p3003166235;445610;TVA deductible;11,07;0,00
+09/04/2026;Linkedin*p3003166235;512002;Banque 2;0,00;66,43
+09/04/2026;Linkedin Pre P3003152394;512002;Banque 2;0,00;99,17
+09/04/2026;Linkedin Pre P3003152394;445610;TVA deductible;16,53;0,00
+09/04/2026;Linkedin Pre P3003152394;613600;Abonnements logiciels;82,64;0,00
+09/04/2026;MICROSOFT PAYMENTS;512001;Banque 1;0,00;530,46
+09/04/2026;MICROSOFT PAYMENTS;613600;Abonnements logiciels;442,05;0,00
+09/04/2026;MICROSOFT PAYMENTS;445610;TVA deductible;88,41;0,00
+10/04/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+10/04/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+10/04/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+10/04/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+10/04/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+10/04/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+10/04/2026;Accor* Ibis Montpellie;445610;TVA deductible;12,51;0,00
+10/04/2026;Accor* Ibis Montpellie;512002;Banque 2;0,00;75,05
+10/04/2026;Accor* Ibis Montpellie;625100;Frais de deplacements;62,54;0,00
+09/04/2026;DAVAI-46QZW9K22JAB - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+09/04/2026;DAVAI-46QZW9K22JAB - GOCARDLESS SAS;445610;TVA deductible;0,80;0,00
+09/04/2026;DAVAI-46QZW9K22JAB - GOCARDLESS SAS;512001;Banque 1;1627,20;0,00
+09/04/2026;DAVAI-46QZW9K22JAB - GOCARDLESS SAS;411000;Clients;0,00;432,00
+09/04/2026;DAVAI-46QZW9K22JAB - GOCARDLESS SAS;627000;Services bancaires;4,00;0,00
+08/04/2026;DAVAI-T5NS4M98PJQZ - GOCARDLESS SAS;445610;TVA deductible;0,18;0,00
+08/04/2026;DAVAI-T5NS4M98PJQZ - GOCARDLESS SAS;512001;Banque 1;70,90;0,00
+08/04/2026;DAVAI-T5NS4M98PJQZ - GOCARDLESS SAS;411000;Clients;0,00;72,00
+08/04/2026;DAVAI-T5NS4M98PJQZ - GOCARDLESS SAS;627000;Services bancaires;0,92;0,00
+08/04/2026;202604160 DAVAI informaticien CHAUVIN PARIS PP42649476 - CHAUVIN PARIS;411000;Clients;0,00;4661,52
+08/04/2026;202604160 DAVAI informaticien CHAUVIN PARIS PP42649476 - CHAUVIN PARIS;512001;Banque 1;4661,52;0,00
+08/04/2026;Mol*silvera Sec;625600;Reception, representation, congres;874,50;0,00
+08/04/2026;Mol*silvera Sec;445610;TVA deductible;174,90;0,00
+08/04/2026;Mol*silvera Sec;512002;Banque 2;0,00;1049,40
+10/04/2026;WL *Odoo;512001;Banque 1;0,00;24,90
+10/04/2026;WL *Odoo;445610;TVA deductible;4,15;0,00
+10/04/2026;WL *Odoo;613600;Abonnements logiciels;20,75;0,00
+10/04/2026;ESSO NEUILLY TER;512001;Banque 1;0,00;38,35
+10/04/2026;ESSO NEUILLY TER;445610;TVA deductible;6,39;0,00
+10/04/2026;ESSO NEUILLY TER;625200;Vehicule et carburant;31,96;0,00
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;0,00;200,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;229,58;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;1500,00;0,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;800,00;0,00
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;24619,68;0,00
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;4320,00;0,00
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;0,00;720,00
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;16800,00;0,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;969,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;400,00;0,00
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;200,00;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;25200,00;0,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;4200,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;40,25;0,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;400,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;969,00;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;241,49;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;13677,60;0,00
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;13677,60;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;25200,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;800,00
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;0,00;4103,28
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;0,00;16800,00
+01/01/2026;OD d'extourne ventes en attente;445710;TVA collectee;250,00;0,00
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;0,00;13677,60
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;0,00;1500,00
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;0,00;1200,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;2800,00;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;2800,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;4800,00;0,00
+01/01/2026;OD d'extourne ventes en attente;445710;TVA collectee;0,00;250,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;5814,00;0,00
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;2800,00;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;480,00
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;1200,00;0,00
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;720,00;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;2735,52
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;4103,28;0,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;4200,00;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;5814,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;241,49
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;1500,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;455,92;0,00
+01/01/2026;OD d'extourne ventes en attente;445710;TVA collectee;80,00;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;13677,60
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;0,00;4320,00
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;1500,00;0,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;480,00;0,00
+01/01/2026;OD d'extourne ventes en attente;419100;Acomptes;0,00;24619,68
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;2735,52;0,00
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;250,00;0,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;40,25
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;0,00;250,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;4800,00
+01/01/2026;OD d'extourne ventes en attente;411000;Clients;0,00;229,58
+01/01/2026;OD d'extourne ventes en attente;445710;TVA collectee;0,00;80,00
+01/01/2026;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;455,92
+01/01/2026;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;0,00;2800,00
+08/04/2026;Encaissement 202604-160 - CHAUVIN PARIS;445880;TVA sur prestation de service en attente de paiement - Clients;224,00;0,00
+08/04/2026;Encaissement 202604-160 - CHAUVIN PARIS;445710;TVA collectee;0,00;224,00
+01/04/2026;Quote Part Hermel - Loyer Q226;613200;Loyers et charges locatives;4200,00;0,00
+01/04/2026;Quote Part Hermel - Loyer Q226;455100;Associes - Comptes courants;0,00;4200,00
+11/04/2026;Quote Part Hermel - EDF Q226;455100;Associes - Comptes courants;0,00;168,00
+11/04/2026;Quote Part Hermel - EDF Q226;445610;TVA deductible;8,76;0,00
+11/04/2026;Quote Part Hermel - EDF Q226;606100;Eau, gaz, electricite;159,24;0,00
+11/04/2026;Quote Part Hermel - Copro Q226;455100;Associes - Comptes courants;0,00;335,12
+11/04/2026;Quote Part Hermel - Copro Q226;613200;Loyers et charges locatives;335,12;0,00
+11/04/2026;Quote Part Hermel - Free Q226;455100;Associes - Comptes courants;0,00;47,98
+11/04/2026;Quote Part Hermel - Free Q226;445610;TVA deductible;8,00;0,00
+11/04/2026;Quote Part Hermel - Free Q226;626000;Internet, telephone et frais postaux;39,98;0,00
+11/04/2026;Facturation 202604-162 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+11/04/2026;Facturation 202604-162 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+11/04/2026;Facturation 202604-162 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+08/04/2026;Encaissement 202604-154 - SURPRISE LTD;445710;TVA collectee;0,00;12,00
+08/04/2026;Encaissement 202604-154 - SURPRISE LTD;445880;TVA sur prestation de service en attente de paiement - Clients;12,00;0,00
+12/04/2026;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
+12/04/2026;SMALLPDF;512001;Banque 1;0,00;10,00
+12/04/2026;SMALLPDF;445610;TVA deductible;1,67;0,00
+10/04/2026;MOLESKINE;606300;Materiel et outillage;42,50;0,00
+10/04/2026;MOLESKINE;445610;TVA deductible;8,50;0,00
+10/04/2026;MOLESKINE;512001;Banque 1;0,00;51,00
+13/04/2026;RESEND;445610;TVA deductible;2,86;0,00
+13/04/2026;RESEND;512001;Banque 1;0,00;17,13
+13/04/2026;RESEND;613600;Abonnements logiciels;14,27;0,00
+12/04/2026;513124 SAT;625700;Restaurants et repas d'affaires;54,55;0,00
+12/04/2026;513124 SAT;512001;Banque 1;0,00;60,00
+12/04/2026;513124 SAT;445610;TVA deductible;5,45;0,00
+13/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,41
+13/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,34;0,00
+13/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+13/04/2026;UBER *TRIP;512001;Banque 1;0,00;17,97
+13/04/2026;UBER *TRIP;625100;Frais de deplacements;16,34;0,00
+13/04/2026;UBER *TRIP;445610;TVA deductible;1,63;0,00
+13/04/2026;TRANSAVIA;512001;Banque 1;0,00;18,00
+13/04/2026;TRANSAVIA;625100;Frais de deplacements;18,00;0,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;275000;Depôts et cautionnements verses ou recuperes;300,00;0,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;445510;TVA à payer;0,00;3147,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;106300;Reserves statutaires;0,00;2193,74
+01/01/2026;OD d'extourne en debut d'exercice 2026;411000;Clients;54478,19;0,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;106100;Reserve legale;0,00;115,46
+01/01/2026;OD d'extourne en debut d'exercice 2026;447145;Taxe sur les vehicules de societes;0,00;109,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;445870;TVA en attente sur acomptes;0,00;622,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;512002;Banque 2;676,26;0,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;210000;Immobilisations corporelles;10613,75;0,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;580000;Virements internes;10000,00;0,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;6865,17
+01/01/2026;OD d'extourne en debut d'exercice 2026;419100;Acomptes;0,00;9945,60
+01/01/2026;OD d'extourne en debut d'exercice 2026;444000;Impôts sur les benefices;0,00;10071,75
+01/01/2026;OD d'extourne en debut d'exercice 2026;455100;Associes - Comptes courants;0,00;5978,10
+01/01/2026;OD d'extourne en debut d'exercice 2026;120000;Resultat de l'exercice (benefice);0,00;46264,26
+01/01/2026;OD d'extourne en debut d'exercice 2026;101300;Capital souscrit appele verse;0,00;100,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;512001;Banque 1;11594,23;0,00
+01/01/2026;OD d'extourne en debut d'exercice 2026;281000;Amortissements des immobilisations corporelles;0,00;2250,35
+14/04/2026;Purge des reserves statutaires;106800;Autres reserves;0,00;2193,74
+14/04/2026;Purge des reserves statutaires;106300;Reserves statutaires;2193,74;0,00
+14/04/2026;Affectation resultat exercice precedent;455101;Associe 1 - Comptes courants;0,00;31737,26
+14/04/2026;Affectation resultat exercice precedent;442300;Retenues sur dividendes;0,00;14527,00
+14/04/2026;Affectation resultat exercice precedent;120000;Resultat de l'exercice (benefice);46264,26;0,00
+14/04/2026;Facturation 202604-163 - MINERVA;445710;TVA collectee;0,00;238,59
+14/04/2026;Facturation 202604-163 - MINERVA;706001;Vente de service;0,00;480,00
+14/04/2026;Facturation 202604-163 - MINERVA;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;96,00
+14/04/2026;Facturation 202604-163 - MINERVA;707000;Vente de marchandise;0,00;1192,93
+14/04/2026;Facturation 202604-163 - MINERVA;411000;Clients;2007,52;0,00
+09/04/2026;Encaissement 202604-162 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+09/04/2026;Encaissement 202604-162 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+09/04/2026;Encaissement 202604-161 - FRASS;445880;TVA sur prestation de service en attente de paiement - Clients;72,00;0,00
+09/04/2026;Encaissement 202604-161 - FRASS;445710;TVA collectee;0,00;72,00
+13/04/2026;UBER *TRIP;625100;Frais de deplacements;19,98;0,00
+13/04/2026;UBER *TRIP;512001;Banque 1;0,00;21,98
+13/04/2026;UBER *TRIP;445610;TVA deductible;2,00;0,00
+14/04/2026;HETZNER ONLINE GMBH;512001;Banque 1;0,00;115,19
+14/04/2026;HETZNER ONLINE GMBH;613500;Location de materiel;95,99;0,00
+14/04/2026;HETZNER ONLINE GMBH;445610;TVA deductible;19,20;0,00
+13/04/2026;TA - SNCF;625100;Frais de deplacements;411,67;0,00
+13/04/2026;TA - SNCF;512001;Banque 1;0,00;494,00
+13/04/2026;TA - SNCF;445610;TVA deductible;82,33;0,00
+14/04/2026;Openai;512002;Banque 2;0,00;34,44
+14/04/2026;Openai;445610;TVA deductible;5,74;0,00
+14/04/2026;Openai;613600;Abonnements logiciels;28,70;0,00
+14/04/2026;Vercel Inc.;613600;Abonnements logiciels;63,60;0,00
+14/04/2026;Vercel Inc.;445610;TVA deductible;12,72;0,00
+14/04/2026;Vercel Inc.;512002;Banque 2;0,00;76,32
+15/04/2026;Sentry;613600;Abonnements logiciels;94,91;0,00
+15/04/2026;Sentry;445610;TVA deductible;18,98;0,00
+15/04/2026;Sentry;512002;Banque 2;0,00;113,89
+14/04/2026;To Sina Ganji - Mar26-2;512002;Banque 2;0,00;481,81
+14/04/2026;To Sina Ganji - Mar26-2;641110;Salaires;481,81;0,00
+14/04/2026;Bistrot de Breteuil;445610;TVA deductible;5,73;0,00
+14/04/2026;Bistrot de Breteuil;512001;Banque 1;0,00;63,00
+14/04/2026;Bistrot de Breteuil;625700;Restaurants et repas d'affaires;57,27;0,00
+14/04/2026;INST NAT PROPRIETE IND;512001;Banque 1;0,00;44,77
+14/04/2026;INST NAT PROPRIETE IND;445610;TVA deductible;7,46;0,00
+14/04/2026;INST NAT PROPRIETE IND;622700;Frais d'actes et de contentieux;37,31;0,00
+15/04/2026;DAVAI-EGRZX3ZWD4AG - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+15/04/2026;DAVAI-EGRZX3ZWD4AG - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+15/04/2026;DAVAI-EGRZX3ZWD4AG - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+15/04/2026;DAVAI-EGRZX3ZWD4AG - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+14/04/2026;TWILIO INC;613600;Abonnements logiciels;29,13;0,00
+14/04/2026;TWILIO INC;445610;TVA deductible;5,83;0,00
+14/04/2026;TWILIO INC;512001;Banque 1;0,00;34,96
+16/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,70;0,00
+16/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,84
+16/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+16/04/2026;Cursor Usage Mid Mar;613600;Abonnements logiciels;98,78;0,00
+16/04/2026;Cursor Usage Mid Mar;445610;TVA deductible;19,76;0,00
+16/04/2026;Cursor Usage Mid Mar;512002;Banque 2;0,00;118,54
+16/04/2026;CLOUDFLARE;445610;TVA deductible;1,79;0,00
+16/04/2026;CLOUDFLARE;512001;Banque 1;0,00;10,75
+16/04/2026;CLOUDFLARE;613500;Location de materiel;8,96;0,00
+16/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+16/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,22;0,00
+16/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,26
+16/04/2026;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1050,00
+16/04/2026;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;875,00;0,00
+16/04/2026;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;175,00;0,00
+16/04/2026;Company Pro plan fee;512002;Banque 2;0,00;35,00
+16/04/2026;Company Pro plan fee;445610;TVA deductible;5,83;0,00
+16/04/2026;Company Pro plan fee;627000;Services bancaires;29,17;0,00
+16/04/2026;Openai;445610;TVA deductible;5,67;0,00
+16/04/2026;Openai;613600;Abonnements logiciels;28,32;0,00
+16/04/2026;Openai;512002;Banque 2;0,00;33,99
+16/04/2026;Starlink Internet;512002;Banque 2;0,00;145,60
+16/04/2026;Starlink Internet;445610;TVA deductible;24,27;0,00
+16/04/2026;Starlink Internet;626000;Internet, telephone et frais postaux;121,33;0,00
+16/04/2026;SNCF-VOYAGEURS;512001;Banque 1;0,00;22,00
+16/04/2026;SNCF-VOYAGEURS;625100;Frais de deplacements;20,00;0,00
+16/04/2026;SNCF-VOYAGEURS;445610;TVA deductible;2,00;0,00
+17/04/2026;Facturation 202604-164 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1300,00
+17/04/2026;Facturation 202604-164 - WILD BUZZ AGENCY;706001;Vente de service;0,00;6500,00
+17/04/2026;Facturation 202604-164 - WILD BUZZ AGENCY;411000;Clients;7800,00;0,00
+17/04/2026;SUPABASE;512001;Banque 1;0,00;21,25
+17/04/2026;SUPABASE;445610;TVA deductible;3,54;0,00
+17/04/2026;SUPABASE;613600;Abonnements logiciels;17,71;0,00
+18/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,09;0,00
+18/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,43;0,00
+18/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,52
+17/04/2026;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;28,33;0,00
+17/04/2026;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;141,64;0,00
+17/04/2026;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;169,97
+18/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;4,08
+18/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,68;0,00
+18/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;3,40;0,00
+17/04/2026;Ls Subaco;625700;Restaurants et repas d'affaires;94,55;0,00
+17/04/2026;Ls Subaco;445610;TVA deductible;9,45;0,00
+17/04/2026;Ls Subaco;512002;Banque 2;0,00;104,00
+17/04/2026;Pavyllon;445610;TVA deductible;34,09;0,00
+17/04/2026;Pavyllon;625700;Restaurants et repas d'affaires;340,91;0,00
+17/04/2026;Pavyllon;512002;Banque 2;0,00;375,00
+18/04/2026;Deliveroo Plus Subs;625700;Restaurants et repas d'affaires;5,45;0,00
+18/04/2026;Deliveroo Plus Subs;512001;Banque 1;0,00;5,99
+18/04/2026;Deliveroo Plus Subs;445610;TVA deductible;0,54;0,00
+18/04/2026;OBSIDIAN;613600;Abonnements logiciels;8,50;0,00
+18/04/2026;OBSIDIAN;445610;TVA deductible;1,70;0,00
+18/04/2026;OBSIDIAN;512001;Banque 1;0,00;10,20
+19/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+19/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,20;0,00
+19/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,24
+19/04/2026;GRANOLA INC;445610;TVA deductible;2,38;0,00
+19/04/2026;GRANOLA INC;512001;Banque 1;0,00;14,28
+19/04/2026;GRANOLA INC;613600;Abonnements logiciels;11,90;0,00
+20/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,29;0,00
+20/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,35
+20/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+20/04/2026;Facturation 202604-165 - PM. CENTURI;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;402,00
+20/04/2026;Facturation 202604-165 - PM. CENTURI;706001;Vente de service;0,00;2010,00
+20/04/2026;Facturation 202604-165 - PM. CENTURI;707000;Vente de marchandise;0,00;259,58
+20/04/2026;Facturation 202604-165 - PM. CENTURI;411000;Clients;2723,50;0,00
+20/04/2026;Facturation 202604-165 - PM. CENTURI;445710;TVA collectee;0,00;51,92
+20/04/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+20/04/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+20/04/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+20/04/2026;Cursor Usage Mid Mar;613600;Abonnements logiciels;118,22;0,00
+20/04/2026;Cursor Usage Mid Mar;512002;Banque 2;0,00;141,86
+20/04/2026;Cursor Usage Mid Mar;445610;TVA deductible;23,64;0,00
+20/04/2026;Bistrot de Breteuil;512001;Banque 1;0,00;10,00
+20/04/2026;Bistrot de Breteuil;625700;Restaurants et repas d'affaires;9,09;0,00
+20/04/2026;Bistrot de Breteuil;445610;TVA deductible;0,91;0,00
+21/04/2026;Facture d'acompte 202604-166 - VIGI 5;419100;Acomptes;0,00;20160,00
+21/04/2026;Facture d'acompte 202604-166 - VIGI 5;411000;Clients;20160,00;0,00
+21/04/2026;Facturation 202604-167 - FRASS;411000;Clients;2700,00;0,00
+21/04/2026;Facturation 202604-167 - FRASS;706001;Vente de service;0,00;2250,00
+21/04/2026;Facturation 202604-167 - FRASS;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;450,00
+21/04/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+21/04/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+21/04/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+22/04/2026;Payment from Vigi 5 - FACTURE 202604166;411000;Clients;0,00;20160,00
+22/04/2026;Payment from Vigi 5 - FACTURE 202604166;512002;Banque 2;20160,00;0,00
+22/04/2026;DAVAI-7WG9WVTC7RZD - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+22/04/2026;DAVAI-7WG9WVTC7RZD - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+22/04/2026;DAVAI-7WG9WVTC7RZD - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+22/04/2026;DAVAI-7WG9WVTC7RZD - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+22/04/2026;CLAUDE.AI SUBSCRIPTION;445610;TVA deductible;4,44;0,00
+22/04/2026;CLAUDE.AI SUBSCRIPTION;613600;Abonnements logiciels;22,21;0,00
+22/04/2026;CLAUDE.AI SUBSCRIPTION;512001;Banque 1;0,00;26,65
+22/04/2026;Encaissement d'acompte 202604-166 - VIGI 5;445710;TVA collectee;0,00;3360,00
+22/04/2026;Encaissement d'acompte 202604-166 - VIGI 5;445870;TVA en attente sur acomptes;3360,00;0,00
+22/04/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+22/04/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+22/04/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+22/04/2026;Mister Garden;512002;Banque 2;0,00;14,40
+22/04/2026;Mister Garden;625700;Restaurants et repas d'affaires;9,91;0,00
+22/04/2026;Mister Garden;445610;TVA deductible;0,99;0,00
+22/04/2026;Mister Garden;625700;Restaurants et repas d'affaires;3,32;0,00
+22/04/2026;Mister Garden;445610;TVA deductible;0,18;0,00
+23/04/2026;Cloudflare;445610;TVA deductible;1,49;0,00
+23/04/2026;Cloudflare;512002;Banque 2;0,00;8,95
+23/04/2026;Cloudflare;613500;Location de materiel;7,46;0,00
+22/04/2026;Mister Garden;445610;TVA deductible;0,27;0,00
+22/04/2026;Mister Garden;512002;Banque 2;0,00;3,00
+22/04/2026;Mister Garden;625700;Restaurants et repas d'affaires;2,73;0,00
+22/04/2026;To Emile Kratiroff - Compte courant post dividendes 1;455100;Associes - Comptes courants;12000,00;0,00
+22/04/2026;To Emile Kratiroff - Compte courant post dividendes 1;512002;Banque 2;0,00;12000,00
+23/04/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;70,20;0,00
+23/04/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;84,24
+23/04/2026;YESPARK GROUP* PARKING;445610;TVA deductible;14,04;0,00
+23/04/2026;ATLASSIAN;512001;Banque 1;0,00;73,77
+23/04/2026;ATLASSIAN;613600;Abonnements logiciels;61,47;0,00
+23/04/2026;ATLASSIAN;445610;TVA deductible;12,30;0,00
+23/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,48;0,00
+23/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,78
+23/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,30;0,00
+23/04/2026;Mailchimp;512001;Banque 1;0,00;66,99
+23/04/2026;Mailchimp;445610;TVA deductible;11,17;0,00
+23/04/2026;Mailchimp;613600;Abonnements logiciels;55,82;0,00
+23/04/2026;Cloudflare;445610;TVA deductible;9,70;0,00
+23/04/2026;Cloudflare;512002;Banque 2;0,00;58,20
+23/04/2026;Cloudflare;613500;Location de materiel;48,50;0,00
+23/04/2026;Cursor, Ai Powered Ide;613600;Abonnements logiciels;54,83;0,00
+23/04/2026;Cursor, Ai Powered Ide;445610;TVA deductible;10,97;0,00
+23/04/2026;Cursor, Ai Powered Ide;512002;Banque 2;0,00;65,80
+24/04/2026;mailtrack.email;445610;TVA deductible;16,67;0,00
+24/04/2026;mailtrack.email;512002;Banque 2;0,00;99,99
+24/04/2026;mailtrack.email;613600;Abonnements logiciels;83,32;0,00
+24/04/2026;Openai;445610;TVA deductible;5,84;0,00
+24/04/2026;Openai;512002;Banque 2;0,00;35,01
+24/04/2026;Openai;613600;Abonnements logiciels;29,17;0,00
+24/04/2026;RESEND;445610;TVA deductible;2,85;0,00
+24/04/2026;RESEND;512001;Banque 1;0,00;17,12
+24/04/2026;RESEND;613600;Abonnements logiciels;14,27;0,00
+25/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+25/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,34;0,00
+25/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,41
+25/04/2026;UBER *TRIP;445610;TVA deductible;2,54;0,00
+25/04/2026;UBER *TRIP;625100;Frais de deplacements;25,44;0,00
+25/04/2026;UBER *TRIP;512001;Banque 1;0,00;27,98
+25/04/2026;Cursor Usage Mar;512002;Banque 2;0,00;9,07
+25/04/2026;Cursor Usage Mar;445610;TVA deductible;1,51;0,00
+25/04/2026;Cursor Usage Mar;613600;Abonnements logiciels;7,56;0,00
+27/04/2026;/INV/F6C31365/0087537021 //20260420-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;36,32
+27/04/2026;/INV/F6C31365/0087537021 //20260420-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;6,05;0,00
+27/04/2026;/INV/F6C31365/0087537021 //20260420-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;30,27;0,00
+27/04/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+27/04/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+27/04/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+27/04/2026;Cloudflare;512002;Banque 2;0,00;20,70
+27/04/2026;Cloudflare;613500;Location de materiel;17,25;0,00
+27/04/2026;Cloudflare;445610;TVA deductible;3,45;0,00
+28/04/2026;ORUS ASSURANCE;512001;Banque 1;0,00;36,72
+28/04/2026;ORUS ASSURANCE;616000;Assurance professionnelle;36,72;0,00
+28/04/2026;BC.*BASECAMP 4 6018036;613600;Abonnements logiciels;53,47;0,00
+28/04/2026;BC.*BASECAMP 4 6018036;445610;TVA deductible;10,70;0,00
+28/04/2026;BC.*BASECAMP 4 6018036;512001;Banque 1;0,00;64,17
+28/04/2026;FIGMA;445610;TVA deductible;8,00;0,00
+28/04/2026;FIGMA;512001;Banque 1;0,00;48,00
+28/04/2026;FIGMA;613600;Abonnements logiciels;40,00;0,00
+29/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,28;0,00
+29/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,54
+29/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,26;0,00
+28/04/2026;ESSO VIRONVAYSUD;625200;Vehicule et carburant;14,30;0,00
+28/04/2026;ESSO VIRONVAYSUD;445610;TVA deductible;2,86;0,00
+28/04/2026;ESSO VIRONVAYSUD;512001;Banque 1;0,00;17,16
+29/04/2026;Facturation 202604-168 - INGRID KERMOAL VENTE PRIVEE;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;400,00
+29/04/2026;Facturation 202604-168 - INGRID KERMOAL VENTE PRIVEE;411000;Clients;2400,00;0,00
+29/04/2026;Facturation 202604-168 - INGRID KERMOAL VENTE PRIVEE;706001;Vente de service;0,00;2000,00
+29/04/2026;LS UROCO;445610;TVA deductible;10,05;0,00
+29/04/2026;LS UROCO;512001;Banque 1;0,00;110,50
+29/04/2026;LS UROCO;625700;Restaurants et repas d'affaires;100,45;0,00
+29/04/2026;EMAILVALIDATION.IO;445610;TVA deductible;5,99;0,00
+29/04/2026;EMAILVALIDATION.IO;613600;Abonnements logiciels;29,97;0,00
+29/04/2026;EMAILVALIDATION.IO;512001;Banque 1;0,00;35,96
+30/04/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,72;0,00
+30/04/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+30/04/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,86
+30/04/2026;Paddle.net* Baserowio;445610;TVA deductible;10,28;0,00
+30/04/2026;Paddle.net* Baserowio;512002;Banque 2;0,00;61,68
+30/04/2026;Paddle.net* Baserowio;613600;Abonnements logiciels;51,40;0,00
+29/04/2026;BAR CROIX ROUGE;625700;Restaurants et repas d'affaires;14,73;0,00
+29/04/2026;BAR CROIX ROUGE;512001;Banque 1;0,00;16,20
+29/04/2026;BAR CROIX ROUGE;445610;TVA deductible;1,47;0,00
+30/04/2026;Facturation 202604-169 - ANNONCES MEDICALES;411000;Clients;7560,00;0,00
+30/04/2026;Facturation 202604-169 - ANNONCES MEDICALES;706001;Vente de service;0,00;6300,00
+30/04/2026;Facturation 202604-169 - ANNONCES MEDICALES;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1260,00
+24/04/2026;Les Malins;625700;Restaurants et repas d'affaires;212,73;0,00
+24/04/2026;Les Malins;512002;Banque 2;0,00;234,00
+24/04/2026;Les Malins;445610;TVA deductible;21,27;0,00
+24/04/2026;Pagal Yves;512002;Banque 2;0,00;31,30
+24/04/2026;Pagal Yves;625100;Frais de deplacements;31,30;0,00
+23/04/2026;To Maxime Soydas - 017;604000;Prestation de service;875,00;0,00
+23/04/2026;To Maxime Soydas - 017;512002;Banque 2;0,00;1050,00
+23/04/2026;To Maxime Soydas - 017;445610;TVA deductible;175,00;0,00
+29/04/2026;DAVAI-X4K4WTNEJ5XC - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+29/04/2026;DAVAI-X4K4WTNEJ5XC - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+29/04/2026;DAVAI-X4K4WTNEJ5XC - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+29/04/2026;DAVAI-X4K4WTNEJ5XC - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+29/04/2026;BAFFETTO;625700;Restaurants et repas d'affaires;14,55;0,00
+29/04/2026;BAFFETTO;512001;Banque 1;0,00;16,00
+29/04/2026;BAFFETTO;445610;TVA deductible;1,45;0,00
+30/04/2026;To RIVALIST - PL1WPGK9Y59FZZ;604000;Prestation de service;825,00;0,00
+30/04/2026;To RIVALIST - PL1WPGK9Y59FZZ;445610;TVA deductible;165,00;0,00
+30/04/2026;To RIVALIST - PL1WPGK9Y59FZZ;512002;Banque 2;0,00;990,00
+30/04/2026;650 Industries (expo);613600;Abonnements logiciels;14,08;0,00
+30/04/2026;650 Industries (expo);445610;TVA deductible;2,82;0,00
+30/04/2026;650 Industries (expo);512002;Banque 2;0,00;16,90
+01/05/2026;Tailscale Us Inc.;512002;Banque 2;0,00;10,23
+01/05/2026;Tailscale Us Inc.;613600;Abonnements logiciels;8,52;0,00
+01/05/2026;Tailscale Us Inc.;445610;TVA deductible;1,71;0,00
+30/04/2026;Lenovo.com Fr;512002;Banque 2;0,00;149,99
+30/04/2026;Lenovo.com Fr;606300;Materiel et outillage;124,99;0,00
+30/04/2026;Lenovo.com Fr;445610;TVA deductible;25,00;0,00
+01/05/2026;SQ *SQUARE FR SUBSCRIP;445610;TVA deductible;10,00;0,00
+01/05/2026;SQ *SQUARE FR SUBSCRIP;512001;Banque 1;0,00;60,00
+01/05/2026;SQ *SQUARE FR SUBSCRIP;613600;Abonnements logiciels;50,00;0,00
+30/04/2026;THEASSISTANT;512001;Banque 1;0,00;393,30
+30/04/2026;THEASSISTANT;445610;TVA deductible;65,55;0,00
+30/04/2026;THEASSISTANT;604000;Prestation de service;327,75;0,00
+01/05/2026;GOOGLE*WORKSPACE DAVAI;512001;Banque 1;0,00;87,48
+01/05/2026;GOOGLE*WORKSPACE DAVAI;445610;TVA deductible;14,58;0,00
+01/05/2026;GOOGLE*WORKSPACE DAVAI;613600;Abonnements logiciels;72,90;0,00
+02/05/2026;To Maxime Soydas - 018;512002;Banque 2;0,00;1050,00
+02/05/2026;To Maxime Soydas - 018;604000;Prestation de service;875,00;0,00
+02/05/2026;To Maxime Soydas - 018;445610;TVA deductible;175,00;0,00
+02/05/2026;Paddle.net* Baserowio;445610;TVA deductible;8,29;0,00
+02/05/2026;Paddle.net* Baserowio;512002;Banque 2;0,00;49,71
+02/05/2026;Paddle.net* Baserowio;613600;Abonnements logiciels;41,42;0,00
+01/05/2026;To Sina Ganji - Avr26;641110;Salaires;2281,81;0,00
+01/05/2026;To Sina Ganji - Avr26;512002;Banque 2;0,00;2281,81
+03/05/2026;Cloudflare;512002;Banque 2;0,00;10,53
+03/05/2026;Cloudflare;445610;TVA deductible;1,76;0,00
+03/05/2026;Cloudflare;613500;Location de materiel;8,77;0,00
+02/05/2026;Sasu Cmd1;445610;TVA deductible;7,82;0,00
+02/05/2026;Sasu Cmd1;512002;Banque 2;0,00;86,00
+02/05/2026;Sasu Cmd1;625700;Restaurants et repas d'affaires;78,18;0,00
+04/05/2026;YESPARK GROUP* PARKING;445610;TVA deductible;28,67;0,00
+04/05/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;143,33;0,00
+04/05/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;172,00
+04/05/2026;To THANG NGUYEN MINH - Brother gift;512002;Banque 2;0,00;2225,00
+04/05/2026;To THANG NGUYEN MINH - Brother gift;445610;TVA deductible;370,83;0,00
+04/05/2026;To THANG NGUYEN MINH - Brother gift;604000;Prestation de service;1854,17;0,00
+03/05/2026;Intercontinental Chantill;512002;Banque 2;0,00;826,41
+03/05/2026;Intercontinental Chantill;625700;Restaurants et repas d'affaires;751,28;0,00
+03/05/2026;Intercontinental Chantill;445610;TVA deductible;75,13;0,00
+03/05/2026;Esso Paris Murat;625200;Vehicule et carburant;47,83;0,00
+03/05/2026;Esso Paris Murat;512002;Banque 2;0,00;57,40
+03/05/2026;Esso Paris Murat;445610;TVA deductible;9,57;0,00
+04/05/2026;From Reserve;512002;Banque 2;2500,00;0,00
+04/05/2026;From Reserve;580000;Virements internes;0,00;2500,00
+04/05/2026;To Gregor Sternat - Apr26;641110;Salaires;1268,10;0,00
+04/05/2026;To Gregor Sternat - Apr26;512002;Banque 2;0,00;1268,10
+04/05/2026;To Thai Luong - 004;604000;Prestation de service;1333,33;0,00
+04/05/2026;To Thai Luong - 004;512002;Banque 2;0,00;1600,00
+04/05/2026;To Thai Luong - 004;445610;TVA deductible;266,67;0,00
+04/05/2026;ATTIO;512001;Banque 1;0,00;103,20
+04/05/2026;ATTIO;445610;TVA deductible;17,20;0,00
+04/05/2026;ATTIO;613600;Abonnements logiciels;86,00;0,00
+03/05/2026;TWILIO INC;512001;Banque 1;0,00;34,24
+03/05/2026;TWILIO INC;613600;Abonnements logiciels;28,53;0,00
+03/05/2026;TWILIO INC;445610;TVA deductible;5,71;0,00
+04/05/2026;SCALEWAY;613500;Location de materiel;82,13;0,00
+04/05/2026;SCALEWAY;512001;Banque 1;0,00;98,56
+04/05/2026;SCALEWAY;445610;TVA deductible;16,43;0,00
+05/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,68;0,00
+05/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+05/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,82
+04/05/2026;Cursor Usage Mid Apr;512002;Banque 2;0,00;123,80
+04/05/2026;Cursor Usage Mid Apr;445610;TVA deductible;20,63;0,00
+04/05/2026;Cursor Usage Mid Apr;613600;Abonnements logiciels;103,17;0,00
+05/05/2026;Envoye depuis Qonto - MINERVA;411000;Clients;0,00;2007,52
+05/05/2026;Envoye depuis Qonto - MINERVA;512001;Banque 1;2007,52;0,00
+05/05/2026;Transfert interne - Davai;580000;Virements internes;0,00;200,00
+05/05/2026;Transfert interne - Davai;512001;Banque 1;200,00;0,00
+05/05/2026;To Davai - Transfert interne;512002;Banque 2;0,00;200,00
+05/05/2026;To Davai - Transfert interne;580000;Virements internes;200,00;0,00
+06/05/2026;Facturation 202605-170 - FRASS;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;72,00
+06/05/2026;Facturation 202605-170 - FRASS;411000;Clients;432,00;0,00
+06/05/2026;Facturation 202605-170 - FRASS;706001;Vente de service;0,00;360,00
+06/05/2026;DAVAI-MJ89EB88QPF2 - GOCARDLESS SAS;411000;Clients;0,00;72,00
+06/05/2026;DAVAI-MJ89EB88QPF2 - GOCARDLESS SAS;627000;Services bancaires;2,92;0,00
+06/05/2026;DAVAI-MJ89EB88QPF2 - GOCARDLESS SAS;512001;Banque 1;500,50;0,00
+06/05/2026;DAVAI-MJ89EB88QPF2 - GOCARDLESS SAS;445610;TVA deductible;0,58;0,00
+06/05/2026;DAVAI-MJ89EB88QPF2 - GOCARDLESS SAS;411000;Clients;0,00;432,00
+06/05/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+06/05/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+06/05/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+07/05/2026;Virement vers Davai - Davai;580000;Virements internes;2000,00;0,00
+07/05/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;2000,00
+07/05/2026;202509-103 - MLN GROUP;411000;Clients;0,00;13677,60
+07/05/2026;202509-103 - MLN GROUP;512001;Banque 1;13677,60;0,00
+07/05/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;13000,00
+07/05/2026;Virement vers Davai - Davai;580000;Virements internes;13000,00;0,00
+07/05/2026;To Reserve;580000;Virements internes;10000,00;0,00
+07/05/2026;To Reserve;512002;Banque 2;0,00;10000,00
+07/05/2026;To Reserve;512002;Banque 2;0,00;2000,00
+07/05/2026;To Reserve;580000;Virements internes;2000,00;0,00
+07/05/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;2000,00;0,00
+07/05/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;2000,00
+07/05/2026;To Maxime Soydas - 019;445610;TVA deductible;175,00;0,00
+07/05/2026;To Maxime Soydas - 019;604000;Prestation de service;875,00;0,00
+07/05/2026;To Maxime Soydas - 019;512002;Banque 2;0,00;1050,00
+07/05/2026;Les 2 Abeilles;445610;TVA deductible;9,55;0,00
+07/05/2026;Les 2 Abeilles;625700;Restaurants et repas d'affaires;95,45;0,00
+07/05/2026;Les 2 Abeilles;512002;Banque 2;0,00;105,00
+07/05/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;13000,00;0,00
+07/05/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;13000,00
+08/05/2026;Eni9360fbernard;445610;TVA deductible;13,74;0,00
+08/05/2026;Eni9360fbernard;512002;Banque 2;0,00;82,42
+08/05/2026;Eni9360fbernard;625200;Vehicule et carburant;68,68;0,00
+09/05/2026;MICROSOFT#G157471511;512001;Banque 1;0,00;526,79
+09/05/2026;MICROSOFT#G157471511;445610;TVA deductible;87,80;0,00
+09/05/2026;MICROSOFT#G157471511;613600;Abonnements logiciels;438,99;0,00
+09/05/2026;Linkedin*p3014707884;445610;TVA deductible;11,07;0,00
+09/05/2026;Linkedin*p3014707884;613600;Abonnements logiciels;55,36;0,00
+09/05/2026;Linkedin*p3014707884;512002;Banque 2;0,00;66,43
+09/05/2026;Linkedin Pre P3014718733;613600;Abonnements logiciels;82,64;0,00
+09/05/2026;Linkedin Pre P3014718733;445610;TVA deductible;16,53;0,00
+09/05/2026;Linkedin Pre P3014718733;512002;Banque 2;0,00;99,17
+10/05/2026;WL *Odoo;512001;Banque 1;0,00;24,90
+10/05/2026;WL *Odoo;445610;TVA deductible;4,15;0,00
+10/05/2026;WL *Odoo;613600;Abonnements logiciels;20,75;0,00
+11/05/2026;Direct Debit from FREE MOBILE - FREE MOBILE;445610;TVA deductible;1,50;0,00
+11/05/2026;Direct Debit from FREE MOBILE - FREE MOBILE;626000;Internet, telephone et frais postaux;7,49;0,00
+11/05/2026;Direct Debit from FREE MOBILE - FREE MOBILE;512001;Banque 1;0,00;8,99
+11/05/2026;/INV/F6D29643/0087537021 //20260504-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;78,17;0,00
+11/05/2026;/INV/F6D29643/0087537021 //20260504-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;15,64;0,00
+11/05/2026;/INV/F6D29643/0087537021 //20260504-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;93,81
+11/05/2026;Écouteurs Bose;606300;Materiel et outillage;249,99;0,00
+11/05/2026;Écouteurs Bose;455100;Associes - Comptes courants;0,00;299,99
+11/05/2026;Écouteurs Bose;445610;TVA deductible;50,00;0,00
+07/05/2026;Encaissement d'acompte 202509-103 - MLN GROUP;445710;TVA collectee;0,00;2279,60
+07/05/2026;Encaissement d'acompte 202509-103 - MLN GROUP;445870;TVA en attente sur acomptes;2279,60;0,00
+11/05/2026;Cloudflare;445610;TVA deductible;1,73;0,00
+11/05/2026;Cloudflare;512002;Banque 2;0,00;10,37
+11/05/2026;Cloudflare;613500;Location de materiel;8,64;0,00
+11/05/2026;Openai;512002;Banque 2;0,00;34,35
+11/05/2026;Openai;613600;Abonnements logiciels;28,62;0,00
+11/05/2026;Openai;445610;TVA deductible;5,73;0,00
+12/05/2026;Facturation 202605-171 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;336,00
+12/05/2026;Facturation 202605-171 - WILD BUZZ AGENCY;411000;Clients;2016,00;0,00
+12/05/2026;Facturation 202605-171 - WILD BUZZ AGENCY;706001;Vente de service;0,00;1680,00
+12/05/2026;Facturation 202605-172 - SURPRISE LTD;411000;Clients;72,00;0,00
+12/05/2026;Facturation 202605-172 - SURPRISE LTD;706001;Vente de service;0,00;60,00
+12/05/2026;Facturation 202605-172 - SURPRISE LTD;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;12,00
+06/05/2026;Encaissement 202605-172 - SURPRISE LTD;445710;TVA collectee;0,00;12,00
+06/05/2026;Encaissement 202605-172 - SURPRISE LTD;445880;TVA sur prestation de service en attente de paiement - Clients;12,00;0,00
+06/05/2026;Encaissement 202605-170 - FRASS;445880;TVA sur prestation de service en attente de paiement - Clients;72,00;0,00
+06/05/2026;Encaissement 202605-170 - FRASS;445710;TVA collectee;0,00;72,00
+12/05/2026;F202604-169 1s2 - ANNONCES MEDICALES;512001;Banque 1;4860,00;0,00
+12/05/2026;F202604-169 1s2 - ANNONCES MEDICALES;411000;Clients;0,00;4860,00
+12/05/2026;Virement vers Davai - Davai;580000;Virements internes;4000,00;0,00
+12/05/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;4000,00
+12/05/2026;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
+12/05/2026;SMALLPDF;445610;TVA deductible;1,67;0,00
+12/05/2026;SMALLPDF;512001;Banque 1;0,00;10,00
+12/05/2026;Rotonde Muette;625700;Restaurants et repas d'affaires;86,36;0,00
+12/05/2026;Rotonde Muette;445610;TVA deductible;8,64;0,00
+12/05/2026;Rotonde Muette;512002;Banque 2;0,00;95,00
+12/05/2026;To Reserve;580000;Virements internes;4000,00;0,00
+12/05/2026;To Reserve;512002;Banque 2;0,00;4000,00
+12/05/2026;Cafe De L'alma;512002;Banque 2;0,00;55,00
+12/05/2026;Cafe De L'alma;445610;TVA deductible;5,00;0,00
+12/05/2026;Cafe De L'alma;625700;Restaurants et repas d'affaires;50,00;0,00
+12/05/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;4000,00
+12/05/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;4000,00;0,00
+13/05/2026;Payment from Montaner Pietrini Boissons Montp - FACT 165;512002;Banque 2;2723,50;0,00
+13/05/2026;Payment from Montaner Pietrini Boissons Montp - FACT 165;411000;Clients;0,00;2723,50
+13/05/2026;DAVAI-HHPWA7HRA683 - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+13/05/2026;DAVAI-HHPWA7HRA683 - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+13/05/2026;DAVAI-HHPWA7HRA683 - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+13/05/2026;DAVAI-HHPWA7HRA683 - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+13/05/2026;RESEND;613600;Abonnements logiciels;14,22;0,00
+13/05/2026;RESEND;445610;TVA deductible;2,84;0,00
+13/05/2026;RESEND;512001;Banque 1;0,00;17,06
+13/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+13/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,34;0,00
+13/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,41
+13/05/2026;UBER *TRIP;512001;Banque 1;0,00;27,97
+13/05/2026;UBER *TRIP;625100;Frais de deplacements;25,43;0,00
+13/05/2026;UBER *TRIP;445610;TVA deductible;2,54;0,00
+13/05/2026;carrefour.fr;625700;Restaurants et repas d'affaires;69,23;0,00
+13/05/2026;carrefour.fr;512002;Banque 2;0,00;76,15
+13/05/2026;carrefour.fr;445610;TVA deductible;6,92;0,00
+13/05/2026;GUSTAVE;512001;Banque 1;0,00;8,60
+13/05/2026;GUSTAVE;625700;Restaurants et repas d'affaires;7,82;0,00
+13/05/2026;GUSTAVE;445610;TVA deductible;0,78;0,00
+13/05/2026;DELIVEROO;625700;Restaurants et repas d'affaires;44,54;0,00
+13/05/2026;DELIVEROO;445610;TVA deductible;4,45;0,00
+13/05/2026;DELIVEROO;512001;Banque 1;0,00;48,99
+13/05/2026;TFB RESEAU-NEUIL;512001;Banque 1;0,00;13,80
+13/05/2026;TFB RESEAU-NEUIL;625100;Frais de deplacements;13,80;0,00
+14/05/2026;SNCF-VOYAGEURS;512001;Banque 1;440,00;0,00
+14/05/2026;SNCF-VOYAGEURS;625100;Frais de deplacements;0,00;366,67
+14/05/2026;SNCF-VOYAGEURS;445610;TVA deductible;0,00;73,33
+14/05/2026;HETZNER ONLINE GMBH;512001;Banque 1;0,00;194,56
+14/05/2026;HETZNER ONLINE GMBH;613500;Location de materiel;162,13;0,00
+14/05/2026;HETZNER ONLINE GMBH;445610;TVA deductible;32,43;0,00
+14/05/2026;Vercel Inc.;512002;Banque 2;0,00;77,17
+14/05/2026;Vercel Inc.;445610;TVA deductible;12,86;0,00
+14/05/2026;Vercel Inc.;613600;Abonnements logiciels;64,31;0,00
+15/05/2026;Sentry;613600;Abonnements logiciels;110,67;0,00
+15/05/2026;Sentry;445610;TVA deductible;22,13;0,00
+15/05/2026;Sentry;512002;Banque 2;0,00;132,80
+14/05/2026;SAS LE CHERCHE MIDI;625700;Restaurants et repas d'affaires;211,82;0,00
+14/05/2026;SAS LE CHERCHE MIDI;445610;TVA deductible;21,18;0,00
+14/05/2026;SAS LE CHERCHE MIDI;512001;Banque 1;0,00;233,00
+14/05/2026;MANDARIN ORIENTAL LUTE;512001;Banque 1;0,00;61,00
+14/05/2026;MANDARIN ORIENTAL LUTE;625700;Restaurants et repas d'affaires;55,45;0,00
+14/05/2026;MANDARIN ORIENTAL LUTE;445610;TVA deductible;5,55;0,00
+14/05/2026;UBER *TRIP;512001;Banque 1;0,00;30,47
+14/05/2026;UBER *TRIP;445610;TVA deductible;2,77;0,00
+14/05/2026;UBER *TRIP;625100;Frais de deplacements;27,70;0,00
+15/05/2026;LE STELLA;512001;Banque 1;0,00;17,00
+15/05/2026;LE STELLA;625700;Restaurants et repas d'affaires;15,45;0,00
+15/05/2026;LE STELLA;445610;TVA deductible;1,55;0,00
+15/05/2026;SC-BRASS ESPLAN;512001;Banque 1;0,00;130,00
+15/05/2026;SC-BRASS ESPLAN;625700;Restaurants et repas d'affaires;118,18;0,00
+15/05/2026;SC-BRASS ESPLAN;445610;TVA deductible;11,82;0,00
+16/05/2026;Starlink Internet;512002;Banque 2;0,00;178,00
+16/05/2026;Starlink Internet;445610;TVA deductible;29,67;0,00
+16/05/2026;Starlink Internet;626000;Internet, telephone et frais postaux;148,33;0,00
+16/05/2026;Company Pro plan fee;445610;TVA deductible;5,83;0,00
+16/05/2026;Company Pro plan fee;512002;Banque 2;0,00;35,00
+16/05/2026;Company Pro plan fee;627000;Services bancaires;29,17;0,00
+17/05/2026;SUPABASE;613600;Abonnements logiciels;17,93;0,00
+17/05/2026;SUPABASE;512001;Banque 1;0,00;21,52
+17/05/2026;SUPABASE;445610;TVA deductible;3,59;0,00
+18/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,43;0,00
+18/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,09;0,00
+18/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,52
+17/05/2026;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;143,47;0,00
+17/05/2026;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;172,16
+17/05/2026;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;28,69;0,00
+18/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;4,13
+18/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;3,44;0,00
+18/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,69;0,00
+17/05/2026;Cursor Usage Mid Apr;445610;TVA deductible;23,23;0,00
+17/05/2026;Cursor Usage Mid Apr;512002;Banque 2;0,00;139,38
+17/05/2026;Cursor Usage Mid Apr;613600;Abonnements logiciels;116,15;0,00
+12/05/2026;Encaissement 202604-169 - ANNONCES MEDICALES;445710;TVA collectee;0,00;810,00
+12/05/2026;Encaissement 202604-169 - ANNONCES MEDICALES;445880;TVA sur prestation de service en attente de paiement - Clients;810,00;0,00
+13/05/2026;Encaissement 202604-165 - PM. CENTURI;445710;TVA collectee;0,00;402,00
+13/05/2026;Encaissement 202604-165 - PM. CENTURI;445880;TVA sur prestation de service en attente de paiement - Clients;402,00;0,00
+14/05/2026;G7;625700;Restaurants et repas d'affaires;22,18;0,00
+14/05/2026;G7;445610;TVA deductible;2,22;0,00
+14/05/2026;G7;512001;Banque 1;0,00;24,40
+18/05/2026;Deliveroo Plus Subs;445610;TVA deductible;0,54;0,00
+18/05/2026;Deliveroo Plus Subs;625700;Restaurants et repas d'affaires;5,45;0,00
+18/05/2026;Deliveroo Plus Subs;512001;Banque 1;0,00;5,99
+18/05/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+18/05/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+18/05/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+19/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+19/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,25
+19/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,21;0,00
+19/05/2026;OBSIDIAN;512001;Banque 1;0,00;10,34
+19/05/2026;OBSIDIAN;445610;TVA deductible;1,72;0,00
+19/05/2026;OBSIDIAN;613600;Abonnements logiciels;8,62;0,00
+19/05/2026;GRANOLA INC;512001;Banque 1;0,00;14,47
+19/05/2026;GRANOLA INC;445610;TVA deductible;2,41;0,00
+19/05/2026;GRANOLA INC;613600;Abonnements logiciels;12,06;0,00
+19/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,29;0,00
+19/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,35
+19/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+19/05/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+19/05/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+19/05/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+19/05/2026;SNCF-VOYAGEURS;445610;TVA deductible;48,91;0,00
+19/05/2026;SNCF-VOYAGEURS;512001;Banque 1;0,00;538,00
+19/05/2026;SNCF-VOYAGEURS;625100;Frais de deplacements;489,09;0,00
+19/05/2026;SNCF-VOYAGEURS;625100;Frais de deplacements;180,00;0,00
+19/05/2026;SNCF-VOYAGEURS;445610;TVA deductible;18,00;0,00
+19/05/2026;SNCF-VOYAGEURS;512001;Banque 1;0,00;198,00
+20/05/2026;DAVAI-F5XKKQVQVENK - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+20/05/2026;DAVAI-F5XKKQVQVENK - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+20/05/2026;DAVAI-F5XKKQVQVENK - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+20/05/2026;DAVAI-F5XKKQVQVENK - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+19/05/2026;TWILIO INC;445610;TVA deductible;5,78;0,00
+19/05/2026;TWILIO INC;613600;Abonnements logiciels;28,90;0,00
+19/05/2026;TWILIO INC;512001;Banque 1;0,00;34,68
+21/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+21/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,69;0,00
+21/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,83
+20/05/2026;Lenovo.com Fr;512002;Banque 2;0,00;149,99
+20/05/2026;Lenovo.com Fr;445610;TVA deductible;25,00;0,00
+20/05/2026;Lenovo.com Fr;606300;Materiel et outillage;124,99;0,00
+20/05/2026;To E NOV PARTNERS - Nano;512002;Banque 2;0,00;1272,00
+20/05/2026;To E NOV PARTNERS - Nano;604000;Prestation de service;1060,00;0,00
+20/05/2026;To E NOV PARTNERS - Nano;445610;TVA deductible;212,00;0,00
+20/05/2026;Cursor Usage Mid Apr;512002;Banque 2;0,00;156,77
+20/05/2026;Cursor Usage Mid Apr;445610;TVA deductible;26,13;0,00
+20/05/2026;Cursor Usage Mid Apr;613600;Abonnements logiciels;130,64;0,00
+20/05/2026;Maison Georges;445610;TVA deductible;16,09;0,00
+20/05/2026;Maison Georges;625700;Restaurants et repas d'affaires;160,91;0,00
+20/05/2026;Maison Georges;512002;Banque 2;0,00;177,00
+21/05/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+21/05/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+21/05/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+21/05/2026;To Maxime Soydas - 020;512002;Banque 2;0,00;1050,00
+21/05/2026;To Maxime Soydas - 020;445610;TVA deductible;175,00;0,00
+21/05/2026;To Maxime Soydas - 020;604000;Prestation de service;875,00;0,00
+22/05/2026;SNCF-VOYAGEURS;625100;Frais de deplacements;0,00;198,00
+22/05/2026;SNCF-VOYAGEURS;512001;Banque 1;198,00;0,00
+22/05/2026;CLAUDE.AI SUBSCRIPTION;613600;Abonnements logiciels;150,00;0,00
+22/05/2026;CLAUDE.AI SUBSCRIPTION;445610;TVA deductible;30,00;0,00
+22/05/2026;CLAUDE.AI SUBSCRIPTION;512001;Banque 1;0,00;180,00
+22/05/2026;UBER *TRIP;512001;Banque 1;0,00;19,98
+22/05/2026;UBER *TRIP;625100;Frais de deplacements;18,16;0,00
+22/05/2026;UBER *TRIP;445610;TVA deductible;1,82;0,00
+23/05/2026;YESPARK GROUP* PARKING;445610;TVA deductible;14,04;0,00
+23/05/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;84,24
+23/05/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;70,20;0,00
+23/05/2026;ATLASSIAN;445610;TVA deductible;12,43;0,00
+23/05/2026;ATLASSIAN;512001;Banque 1;0,00;74,59
+23/05/2026;ATLASSIAN;613600;Abonnements logiciels;62,16;0,00
+23/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,79
+23/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,30;0,00
+23/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,49;0,00
+23/05/2026;Mailchimp;613600;Abonnements logiciels;56,38;0,00
+23/05/2026;Mailchimp;445610;TVA deductible;11,28;0,00
+23/05/2026;Mailchimp;512001;Banque 1;0,00;67,66
+23/05/2026;Cursor, Ai Powered Ide;512002;Banque 2;0,00;69,73
+23/05/2026;Cursor, Ai Powered Ide;613600;Abonnements logiciels;58,11;0,00
+23/05/2026;Cursor, Ai Powered Ide;445610;TVA deductible;11,62;0,00
+23/05/2026;Cloudflare;512002;Banque 2;0,00;83,69
+23/05/2026;Cloudflare;613500;Location de materiel;69,74;0,00
+23/05/2026;Cloudflare;445610;TVA deductible;13,95;0,00
+25/05/2026;REMB. DGFiP - excedent versement / frp 385504 - SIE PARIS 18E;512001;Banque 1;485,00;0,00
+25/05/2026;REMB. DGFiP - excedent versement / frp 385504 - SIE PARIS 18E;445830;Remboursement de taxes sur le chiffre d'affaires demande;0,00;485,00
+25/05/2026;/INV/F6F11252/0087537021 //20260518-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;26,45;0,00
+25/05/2026;/INV/F6F11252/0087537021 //20260518-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;158,72
+25/05/2026;/INV/F6F11252/0087537021 //20260518-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;132,27;0,00
+24/05/2026;RESEND;613600;Abonnements logiciels;14,39;0,00
+24/05/2026;RESEND;512001;Banque 1;0,00;17,27
+24/05/2026;RESEND;445610;TVA deductible;2,88;0,00
+25/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,35;0,00
+25/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+25/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,42
+26/05/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;143,17;0,00
+26/05/2026;YESPARK GROUP* PARKING;445610;TVA deductible;28,63;0,00
+26/05/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;171,80
+25/05/2026;Cursor Usage Apr;512002;Banque 2;0,00;11,66
+25/05/2026;Cursor Usage Apr;613600;Abonnements logiciels;9,72;0,00
+25/05/2026;Cursor Usage Apr;445610;TVA deductible;1,94;0,00
+26/05/2026;Google CLOUD 5wTBBX;512001;Banque 1;0,00;25,00
+26/05/2026;Google CLOUD 5wTBBX;613600;Abonnements logiciels;20,83;0,00
+26/05/2026;Google CLOUD 5wTBBX;445610;TVA deductible;4,17;0,00
+26/05/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+26/05/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+26/05/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+26/05/2026;INDY COMPTABILITE;512001;Banque 1;0,00;705,60
+26/05/2026;INDY COMPTABILITE;445610;TVA deductible;117,60;0,00
+26/05/2026;INDY COMPTABILITE;613600;Abonnements logiciels;588,00;0,00
+26/05/2026;Claude.ai Subscription;512002;Banque 2;0,00;108,00
+26/05/2026;Claude.ai Subscription;613600;Abonnements logiciels;90,00;0,00
+26/05/2026;Claude.ai Subscription;445610;TVA deductible;18,00;0,00
+26/05/2026;Douze Mozart;625700;Restaurants et repas d'affaires;78,27;0,00
+26/05/2026;Douze Mozart;445610;TVA deductible;7,83;0,00
+26/05/2026;Douze Mozart;512002;Banque 2;0,00;86,10
+26/05/2026;Cloudflare;445610;TVA deductible;1,46;0,00
+26/05/2026;Cloudflare;512002;Banque 2;0,00;8,77
+26/05/2026;Cloudflare;613500;Location de materiel;7,31;0,00
+27/05/2026;DAVAI-9CRJY8PXCREX - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+27/05/2026;DAVAI-9CRJY8PXCREX - GOCARDLESS SAS;411000;Clients;0,00;1200,00
+27/05/2026;DAVAI-9CRJY8PXCREX - GOCARDLESS SAS;512001;Banque 1;1197,60;0,00
+27/05/2026;DAVAI-9CRJY8PXCREX - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+27/05/2026;Openai;512002;Banque 2;0,00;86,00
+27/05/2026;Openai;445610;TVA deductible;14,33;0,00
+27/05/2026;Openai;613600;Abonnements logiciels;71,67;0,00
+27/05/2026;DELIVEROO;445610;TVA deductible;1,88;0,00
+27/05/2026;DELIVEROO;625700;Restaurants et repas d'affaires;18,80;0,00
+27/05/2026;DELIVEROO;512001;Banque 1;0,00;20,68
+28/05/2026;ORUS ASSURANCE;616000;Assurance professionnelle;36,72;0,00
+28/05/2026;ORUS ASSURANCE;512001;Banque 1;0,00;36,72
+28/05/2026;Facturation 202605-173 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+28/05/2026;Facturation 202605-173 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+28/05/2026;Facturation 202605-173 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+28/05/2026;Facturation 202605-174 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+28/05/2026;Facturation 202605-174 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+28/05/2026;Facturation 202605-174 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+28/05/2026;Facturation 202605-175 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+28/05/2026;Facturation 202605-175 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+28/05/2026;Facturation 202605-175 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+28/05/2026;Facturation 202605-176 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+28/05/2026;Facturation 202605-176 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+28/05/2026;Facturation 202605-176 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+28/05/2026;Facturation 202605-177 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+28/05/2026;Facturation 202605-177 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+28/05/2026;Facturation 202605-177 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+28/05/2026;Facturation 202605-178 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
+28/05/2026;Facturation 202605-178 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+28/05/2026;Facturation 202605-178 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
+15/04/2026;Encaissement 202605-173 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+15/04/2026;Encaissement 202605-173 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+22/04/2026;Encaissement 202605-174 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+22/04/2026;Encaissement 202605-174 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+29/04/2026;Encaissement 202605-175 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+29/04/2026;Encaissement 202605-175 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+13/05/2026;Encaissement 202605-176 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+13/05/2026;Encaissement 202605-176 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+20/05/2026;Encaissement 202605-177 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+20/05/2026;Encaissement 202605-177 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+27/05/2026;Encaissement 202605-178 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+27/05/2026;Encaissement 202605-178 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+28/05/2026;Facturation 202605-179 - BONO DISTRIBUTION;411000;Clients;3852,00;0,00
+28/05/2026;Facturation 202605-179 - BONO DISTRIBUTION;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;642,00
+28/05/2026;Facturation 202605-179 - BONO DISTRIBUTION;706001;Vente de service;0,00;3210,00
+28/05/2026;Facturation 202605-180 - PM. ARMEN;706001;Vente de service;0,00;10050,00
+28/05/2026;Facturation 202605-180 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;2010,00
+28/05/2026;Facturation 202605-180 - PM. ARMEN;411000;Clients;12060,00;0,00
+28/05/2026;BC.*BASECAMP 5 6018036;512001;Banque 1;0,00;12,91
+28/05/2026;BC.*BASECAMP 5 6018036;445610;TVA deductible;2,15;0,00
+28/05/2026;BC.*BASECAMP 5 6018036;613600;Abonnements logiciels;10,76;0,00
+28/05/2026;FIGMA;512001;Banque 1;0,00;48,00
+28/05/2026;FIGMA;445610;TVA deductible;8,00;0,00
+28/05/2026;FIGMA;613600;Abonnements logiciels;40,00;0,00
+29/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,26;0,00
+29/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,05;0,00
+29/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,31
+28/05/2026;CAMAROJE;445610;TVA deductible;1,14;0,00
+28/05/2026;CAMAROJE;512001;Banque 1;0,00;12,50
+28/05/2026;CAMAROJE;625700;Restaurants et repas d'affaires;11,36;0,00
+28/05/2026;DARTY IDF;606300;Materiel et outillage;4,17;0,00
+28/05/2026;DARTY IDF;606300;Materiel et outillage;19,99;0,00
+28/05/2026;DARTY IDF;445610;TVA deductible;0,83;0,00
+28/05/2026;DARTY IDF;512001;Banque 1;0,00;24,99
+28/05/2026;fnac.com;512002;Banque 2;0,00;14,99
+28/05/2026;fnac.com;445610;TVA deductible;2,50;0,00
+28/05/2026;fnac.com;606300;Materiel et outillage;12,49;0,00
+28/05/2026;fnac.com;512002;Banque 2;0,00;359,97
+28/05/2026;fnac.com;445610;TVA deductible;60,00;0,00
+28/05/2026;fnac.com;606300;Materiel et outillage;299,97;0,00
+28/05/2026;Openai *chatgpt Subscr;613600;Abonnements logiciels;85,83;0,00
+28/05/2026;Openai *chatgpt Subscr;445610;TVA deductible;17,17;0,00
+28/05/2026;Openai *chatgpt Subscr;512002;Banque 2;0,00;103,00
+28/05/2026;From Reserve;580000;Virements internes;0,00;1500,00
+28/05/2026;From Reserve;512002;Banque 2;1500,00;0,00
+28/05/2026;Openai;512002;Banque 2;0,00;43,06
+28/05/2026;Openai;445610;TVA deductible;7,18;0,00
+28/05/2026;Openai;613600;Abonnements logiciels;35,88;0,00
+28/05/2026;To Maxime Soydas - 021;604000;Prestation de service;875,00;0,00
+28/05/2026;To Maxime Soydas - 021;445610;TVA deductible;175,00;0,00
+28/05/2026;To Maxime Soydas - 021;512002;Banque 2;0,00;1050,00
+29/05/2026;DELIVEROO;512001;Banque 1;0,00;14,40
+29/05/2026;DELIVEROO;625700;Restaurants et repas d'affaires;13,09;0,00
+29/05/2026;DELIVEROO;445610;TVA deductible;1,31;0,00
+29/05/2026;EMAILVALIDATION.IO;512001;Banque 1;0,00;36,25
+29/05/2026;EMAILVALIDATION.IO;613600;Abonnements logiciels;30,21;0,00
+29/05/2026;EMAILVALIDATION.IO;445610;TVA deductible;6,04;0,00
+28/05/2026;AMAZON PAYMENTS;445610;TVA deductible;13,50;0,00
+28/05/2026;AMAZON PAYMENTS;606300;Materiel et outillage;67,47;0,00
+28/05/2026;AMAZON PAYMENTS;512001;Banque 1;0,00;80,97
+30/05/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,15;0,00
+30/05/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,73;0,00
+30/05/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,88
+29/05/2026;CAMAROJE;445610;TVA deductible;1,01;0,00
+29/05/2026;CAMAROJE;512001;Banque 1;0,00;11,10
+29/05/2026;CAMAROJE;625700;Restaurants et repas d'affaires;10,09;0,00
+30/05/2026;650 Industries (expo);613600;Abonnements logiciels;14,12;0,00
+30/05/2026;650 Industries (expo);512002;Banque 2;0,00;16,95
+30/05/2026;650 Industries (expo);445610;TVA deductible;2,83;0,00
+30/05/2026;THEASSISTANT;445610;TVA deductible;92,55;0,00
+30/05/2026;THEASSISTANT;604000;Prestation de service;462,75;0,00
+30/05/2026;THEASSISTANT;512001;Banque 1;0,00;555,30
+01/06/2026;SQ *SQUARE FR SUBSCRIP;512001;Banque 1;0,00;60,00
+01/06/2026;SQ *SQUARE FR SUBSCRIP;445610;TVA deductible;10,00;0,00
+01/06/2026;SQ *SQUARE FR SUBSCRIP;613600;Abonnements logiciels;50,00;0,00
+01/06/2026;Tailscale Us Inc.;613600;Abonnements logiciels;8,60;0,00
+01/06/2026;Tailscale Us Inc.;512002;Banque 2;0,00;10,32
+01/06/2026;Tailscale Us Inc.;445610;TVA deductible;1,72;0,00
+31/05/2026;Openai;512002;Banque 2;0,00;34,69
+31/05/2026;Openai;613600;Abonnements logiciels;28,91;0,00
+31/05/2026;Openai;445610;TVA deductible;5,78;0,00
+31/05/2026;Refund from Lenovo.com Fr;512002;Banque 2;149,99;0,00
+31/05/2026;Refund from Lenovo.com Fr;445610;TVA deductible;0,00;25,00
+31/05/2026;Refund from Lenovo.com Fr;606300;Materiel et outillage;0,00;124,99
+01/06/2026;Planetscale Inc.;512002;Banque 2;0,00;8,13
+01/06/2026;Planetscale Inc.;613600;Abonnements logiciels;6,77;0,00
+01/06/2026;Planetscale Inc.;445610;TVA deductible;1,36;0,00
+31/05/2026;Crying Tiger Auteuil;625700;Restaurants et repas d'affaires;69,55;0,00
+31/05/2026;Crying Tiger Auteuil;445610;TVA deductible;6,95;0,00
+31/05/2026;Crying Tiger Auteuil;512002;Banque 2;0,00;76,50
+01/06/2026;Facturation 202606-181 - VIGI 5;706001;Vente de service;0,00;39200,00
+01/06/2026;Facturation 202606-181 - VIGI 5;419100;Acomptes;20160,00;0,00
+01/06/2026;Facturation 202606-181 - VIGI 5;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;7840,00
+01/06/2026;Facturation 202606-181 - VIGI 5;445870;TVA en attente sur acomptes;0,00;3360,00
+01/06/2026;Facturation 202606-181 - VIGI 5;411000;Clients;47040,00;0,00
+01/06/2026;Facturation 202606-181 - VIGI 5;706001;Vente de service;0,00;16800,00
+05/05/2026;Encaissement 202604-163 - MINERVA;445880;TVA sur prestation de service en attente de paiement - Clients;96,00;0,00
+05/05/2026;Encaissement 202604-163 - MINERVA;445710;TVA collectee;0,00;96,00
+01/06/2026;Google Workspace_davai;445610;TVA deductible;14,58;0,00
+01/06/2026;Google Workspace_davai;613600;Abonnements logiciels;72,90;0,00
+01/06/2026;Google Workspace_davai;512001;Banque 1;0,00;87,48
+01/06/2026;SCALEWAY;445610;TVA deductible;31,32;0,00
+01/06/2026;SCALEWAY;512001;Banque 1;0,00;187,92
+01/06/2026;SCALEWAY;613500;Location de materiel;156,60;0,00
+01/06/2026;SQSP* DOMAIN#236770895;445610;TVA deductible;3,60;0,00
+01/06/2026;SQSP* DOMAIN#236770895;613600;Abonnements logiciels;18,00;0,00
+01/06/2026;SQSP* DOMAIN#236770895;512001;Banque 1;0,00;21,60
+01/06/2026;To Emile Kratiroff - Compte courant post dividendes 2;455100;Associes - Comptes courants;5000,00;0,00
+01/06/2026;To Emile Kratiroff - Compte courant post dividendes 2;512002;Banque 2;0,00;5000,00
+01/06/2026;From Reserve;512002;Banque 2;8000,00;0,00
+01/06/2026;From Reserve;580000;Virements internes;0,00;8000,00
+02/06/2026;Openai;445610;TVA deductible;4,30;0,00
+02/06/2026;Openai;613600;Abonnements logiciels;21,48;0,00
+02/06/2026;Openai;512002;Banque 2;0,00;25,78
+01/06/2026;To Sina Ganji - Mai26;512002;Banque 2;0,00;1683,45
+01/06/2026;To Sina Ganji - Mai26;641110;Salaires;1683,45;0,00
+01/06/2026;Payment from Wild Buzz Agency - 202605171 DAVAI WILD BUZZ AGENCY;411000;Clients;0,00;2016,00
+01/06/2026;Payment from Wild Buzz Agency - 202605171 DAVAI WILD BUZZ AGENCY;512002;Banque 2;2016,00;0,00
+01/06/2026;To Gregor Sternat - Mai26;641110;Salaires;1072,20;0,00
+01/06/2026;To Gregor Sternat - Mai26;512002;Banque 2;0,00;1072,20
+01/06/2026;Cursor Usage Mid May;445610;TVA deductible;18,77;0,00
+01/06/2026;Cursor Usage Mid May;512002;Banque 2;0,00;112,64
+01/06/2026;Cursor Usage Mid May;613600;Abonnements logiciels;93,87;0,00
+01/06/2026;Github, Inc.;613600;Abonnements logiciels;23,33;0,00
+01/06/2026;Github, Inc.;445610;TVA deductible;4,67;0,00
+01/06/2026;Github, Inc.;512002;Banque 2;0,00;28,00
+01/06/2026;Payment from Wild Buzz Agency - 202604164 DAVAI WILD BUZZ AGENCY;512002;Banque 2;7800,00;0,00
+01/06/2026;Payment from Wild Buzz Agency - 202604164 DAVAI WILD BUZZ AGENCY;411000;Clients;0,00;7800,00
+01/06/2026;To THANG NGUYEN MINH - Brother gift;512002;Banque 2;0,00;2225,00
+01/06/2026;To THANG NGUYEN MINH - Brother gift;445610;TVA deductible;370,83;0,00
+01/06/2026;To THANG NGUYEN MINH - Brother gift;604000;Prestation de service;1854,17;0,00
+01/06/2026;To Thai Luong - 005;512002;Banque 2;0,00;1857,14
+01/06/2026;To Thai Luong - 005;445610;TVA deductible;309,52;0,00
+01/06/2026;To Thai Luong - 005;604000;Prestation de service;1547,62;0,00
+02/06/2026;DELIVEROO;512001;Banque 1;0,00;42,49
+02/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;38,63;0,00
+02/06/2026;DELIVEROO;445610;TVA deductible;3,86;0,00
+01/06/2026;TWILIO INC;445610;TVA deductible;5,74;0,00
+01/06/2026;TWILIO INC;512001;Banque 1;0,00;34,43
+01/06/2026;TWILIO INC;613600;Abonnements logiciels;28,69;0,00
+03/06/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,69;0,00
+03/06/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+03/06/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,83
+02/06/2026;Sc-Bofinger;625700;Restaurants et repas d'affaires;72,73;0,00
+02/06/2026;Sc-Bofinger;512002;Banque 2;0,00;80,00
+02/06/2026;Sc-Bofinger;445610;TVA deductible;7,27;0,00
+02/06/2026;CAMAROJE;625700;Restaurants et repas d'affaires;9,82;0,00
+02/06/2026;CAMAROJE;445610;TVA deductible;0,98;0,00
+02/06/2026;CAMAROJE;512001;Banque 1;0,00;10,80
+01/06/2026;AMAZON PAYMENTS;606300;Materiel et outillage;250,80;0,00
+01/06/2026;AMAZON PAYMENTS;445610;TVA deductible;50,16;0,00
+01/06/2026;AMAZON PAYMENTS;512001;Banque 1;0,00;300,96
+04/06/2026;PRE VOLUM COMPTE GERANCE MAI 2026 DAVAI - VOLUM COMPTE GERANCE;613200;Loyers et charges locatives;720,00;0,00
+04/06/2026;PRE VOLUM COMPTE GERANCE MAI 2026 DAVAI - VOLUM COMPTE GERANCE;512001;Banque 1;0,00;720,00
+04/06/2026;PRE VOLUM COMPTE GERANCE JUIN 2026 DAVAI - VOLUM COMPTE GERANCE;512001;Banque 1;0,00;720,00
+04/06/2026;PRE VOLUM COMPTE GERANCE JUIN 2026 DAVAI - VOLUM COMPTE GERANCE;613200;Loyers et charges locatives;720,00;0,00
+04/06/2026;Cursor Usage Mid May;613600;Abonnements logiciels;86,45;0,00
+04/06/2026;Cursor Usage Mid May;512002;Banque 2;0,00;103,74
+04/06/2026;Cursor Usage Mid May;445610;TVA deductible;17,29;0,00
+04/06/2026;To Reserve;580000;Virements internes;3000,00;0,00
+04/06/2026;To Reserve;512002;Banque 2;0,00;3000,00
+03/06/2026;DELIVEROO;445610;TVA deductible;4,46;0,00
+03/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;44,63;0,00
+03/06/2026;DELIVEROO;512001;Banque 1;0,00;49,09
+04/06/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;187,00
+04/06/2026;YESPARK GROUP* PARKING;445610;TVA deductible;31,17;0,00
+04/06/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;155,83;0,00
+04/06/2026;Facturation 202606-182 - MLN GROUP;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1196,00
+04/06/2026;Facturation 202606-182 - MLN GROUP;706001;Vente de service;0,00;5980,00
+04/06/2026;Facturation 202606-182 - MLN GROUP;411000;Clients;7176,00;0,00
+04/06/2026;DAVAI-2KQFWC39E3FR - GOCARDLESS SAS;411000;Clients;0,00;70,90
+04/06/2026;DAVAI-2KQFWC39E3FR - GOCARDLESS SAS;512001;Banque 1;70,90;0,00
+04/06/2026;ATTIO;445610;TVA deductible;17,20;0,00
+04/06/2026;ATTIO;613600;Abonnements logiciels;86,00;0,00
+04/06/2026;ATTIO;512001;Banque 1;0,00;103,20
+04/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;18,50;0,00
+04/06/2026;DELIVEROO;445610;TVA deductible;1,85;0,00
+04/06/2026;DELIVEROO;512001;Banque 1;0,00;20,35
+04/06/2026;To Maxime Soydas - 022;604000;Prestation de service;750,00;0,00
+04/06/2026;To Maxime Soydas - 022;512002;Banque 2;0,00;900,00
+04/06/2026;To Maxime Soydas - 022;445610;TVA deductible;150,00;0,00
+04/06/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-063;604000;Prestation de service;2000,00;0,00
+04/06/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-063;512002;Banque 2;0,00;2400,00
+04/06/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-063;445610;TVA deductible;400,00;0,00
+04/06/2026;From Reserve;512002;Banque 2;860,00;0,00
+04/06/2026;From Reserve;580000;Virements internes;0,00;860,00
+05/06/2026;Lt Competition;625200;Vehicule et carburant;1056,08;0,00
+05/06/2026;Lt Competition;445610;TVA deductible;211,22;0,00
+05/06/2026;Lt Competition;512002;Banque 2;0,00;1267,30
+05/06/2026;From Reserve;512002;Banque 2;1200,00;0,00
+05/06/2026;From Reserve;580000;Virements internes;0,00;1200,00
+05/06/2026;PRET A MANGER;445610;TVA deductible;1,25;0,00
+05/06/2026;PRET A MANGER;625700;Restaurants et repas d'affaires;12,55;0,00
+05/06/2026;PRET A MANGER;512001;Banque 1;0,00;13,80
+05/06/2026;UBER *TRIP;512001;Banque 1;0,00;29,98
+05/06/2026;UBER *TRIP;445610;TVA deductible;2,73;0,00
+05/06/2026;UBER *TRIP;625100;Frais de deplacements;27,25;0,00
+06/06/2026;Bch Cf;625700;Restaurants et repas d'affaires;163,64;0,00
+06/06/2026;Bch Cf;445610;TVA deductible;16,36;0,00
+06/06/2026;Bch Cf;512002;Banque 2;0,00;180,00
+08/06/2026;Virement de CHAUVIN PARIS;512001;Banque 1;25200,00;0,00
+08/06/2026;Virement de CHAUVIN PARIS;411000;Clients;0,00;25200,00
+08/06/2026;Virement vers Davai - Davai;580000;Virements internes;25000,00;0,00
+08/06/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;25000,00
+07/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;31,26;0,00
+07/06/2026;DELIVEROO;512001;Banque 1;0,00;34,39
+07/06/2026;DELIVEROO;445610;TVA deductible;3,13;0,00
+08/06/2026;To Reserve;580000;Virements internes;20000,00;0,00
+08/06/2026;To Reserve;512002;Banque 2;0,00;20000,00
+08/06/2026;To Reserve;512002;Banque 2;0,00;1200,00
+08/06/2026;To Reserve;580000;Virements internes;1200,00;0,00
+08/06/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;25000,00;0,00
+08/06/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;25000,00
+08/06/2026;DAVAI-7PY97R4WBJ44 - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
+08/06/2026;DAVAI-7PY97R4WBJ44 - GOCARDLESS SAS;411000;Clients;0,00;432,00
+08/06/2026;DAVAI-7PY97R4WBJ44 - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
+08/06/2026;DAVAI-7PY97R4WBJ44 - GOCARDLESS SAS;512001;Banque 1;429,60;0,00
+05/06/2026;G7;512001;Banque 1;0,00;38,80
+05/06/2026;G7;445610;TVA deductible;3,53;0,00
+05/06/2026;G7;625700;Restaurants et repas d'affaires;35,27;0,00
+08/06/2026;DELIVEROO;445610;TVA deductible;2,47;0,00
+08/06/2026;DELIVEROO;512001;Banque 1;0,00;27,13
+08/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;24,66;0,00
+09/06/2026;Cursor Usage Mid May;445610;TVA deductible;20,24;0,00
+09/06/2026;Cursor Usage Mid May;613600;Abonnements logiciels;101,18;0,00
+09/06/2026;Cursor Usage Mid May;512002;Banque 2;0,00;121,42
+09/06/2026;MICROSOFT#G163540795;613600;Abonnements logiciels;445,38;0,00
+09/06/2026;MICROSOFT#G163540795;445610;TVA deductible;89,08;0,00
+09/06/2026;MICROSOFT#G163540795;512001;Banque 1;0,00;534,46
+09/06/2026;DELIVEROO;445610;TVA deductible;1,49;0,00
+09/06/2026;DELIVEROO;512001;Banque 1;0,00;16,39
+09/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
+10/06/2026;Direct Debit from FREE MOBILE - FREE MOBILE;445610;TVA deductible;1,50;0,00
+10/06/2026;Direct Debit from FREE MOBILE - FREE MOBILE;626000;Internet, telephone et frais postaux;7,49;0,00
+10/06/2026;Direct Debit from FREE MOBILE - FREE MOBILE;512001;Banque 1;0,00;8,99
+08/06/2026;Encaissement 202510-109 - CHAUVIN PARIS;445710;TVA collectee;0,00;4200,00
+08/06/2026;Encaissement 202510-109 - CHAUVIN PARIS;445880;TVA sur prestation de service en attente de paiement - Clients;4200,00;0,00
+01/06/2026;Encaissement 202604-164 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;1300,00;0,00
+01/06/2026;Encaissement 202604-164 - WILD BUZZ AGENCY;445710;TVA collectee;0,00;1300,00
+01/06/2026;Encaissement 202605-171 - WILD BUZZ AGENCY;445710;TVA collectee;0,00;336,00
+01/06/2026;Encaissement 202605-171 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;336,00;0,00
+10/06/2026;Facturation 202606-183 - FRASS;706001;Vente de service;0,00;360,00
+10/06/2026;Facturation 202606-183 - FRASS;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;72,00
+10/06/2026;Facturation 202606-183 - FRASS;411000;Clients;432,00;0,00
+08/06/2026;Encaissement 202606-183 - FRASS;445880;TVA sur prestation de service en attente de paiement - Clients;72,00;0,00
+08/06/2026;Encaissement 202606-183 - FRASS;445710;TVA collectee;0,00;72,00
+09/06/2026;Linkedin Pre P3031802101;445610;TVA deductible;16,53;0,00
+09/06/2026;Linkedin Pre P3031802101;512002;Banque 2;0,00;99,17
+09/06/2026;Linkedin Pre P3031802101;613600;Abonnements logiciels;82,64;0,00
+09/06/2026;Linkedin*p3031598003;512002;Banque 2;0,00;66,43
+09/06/2026;Linkedin*p3031598003;613600;Abonnements logiciels;55,36;0,00
+09/06/2026;Linkedin*p3031598003;445610;TVA deductible;11,07;0,00
+09/06/2026;Le Francoeur;512002;Banque 2;0,00;30,00
+09/06/2026;Le Francoeur;625700;Restaurants et repas d'affaires;27,27;0,00
+09/06/2026;Le Francoeur;445610;TVA deductible;2,73;0,00
+09/06/2026;Openai *chatgpt Subscr;512002;Banque 2;0,00;23,00
+09/06/2026;Openai *chatgpt Subscr;613600;Abonnements logiciels;19,17;0,00
+09/06/2026;Openai *chatgpt Subscr;445610;TVA deductible;3,83;0,00
+10/06/2026;CAMAROJE;625700;Restaurants et repas d'affaires;9,82;0,00
+10/06/2026;CAMAROJE;445610;TVA deductible;0,98;0,00
+10/06/2026;CAMAROJE;512001;Banque 1;0,00;10,80
+10/06/2026;WL *Odoo;445610;TVA deductible;9,33;0,00
+10/06/2026;WL *Odoo;613600;Abonnements logiciels;46,67;0,00
+10/06/2026;WL *Odoo;512001;Banque 1;0,00;56,00
+10/06/2026;Cloudflare;445610;TVA deductible;1,51;0,00
+10/06/2026;Cloudflare;512002;Banque 2;0,00;9,06
+10/06/2026;Cloudflare;613500;Location de materiel;7,55;0,00
+10/06/2026;Cursor, Ai Powered Ide;613600;Abonnements logiciels;74,83;0,00
+10/06/2026;Cursor, Ai Powered Ide;445610;TVA deductible;14,97;0,00
+10/06/2026;Cursor, Ai Powered Ide;512002;Banque 2;0,00;89,80
+10/06/2026;Cloudflare;512002;Banque 2;0,00;10,57
+10/06/2026;Cloudflare;613500;Location de materiel;8,81;0,00
+10/06/2026;Cloudflare;445610;TVA deductible;1,76;0,00
+10/06/2026;Discord* Nitroyearly;445610;TVA deductible;16,67;0,00
+10/06/2026;Discord* Nitroyearly;613600;Abonnements logiciels;83,32;0,00
+10/06/2026;Discord* Nitroyearly;512002;Banque 2;0,00;99,99
+12/06/2026;D-202602-31 D-202604-168 IKVP - ORGEVAL;411000;Clients;0,00;4800,00
+12/06/2026;D-202602-31 D-202604-168 IKVP - ORGEVAL;512001;Banque 1;4800,00;0,00
+11/06/2026;Openai *chatgpt Subscr;512002;Banque 2;0,00;102,35
+11/06/2026;Openai *chatgpt Subscr;613600;Abonnements logiciels;85,29;0,00
+11/06/2026;Openai *chatgpt Subscr;445610;TVA deductible;17,06;0,00
+12/06/2026;Sunday*Breizh Cafe Neu;625700;Restaurants et repas d'affaires;70,73;0,00
+12/06/2026;Sunday*Breizh Cafe Neu;445610;TVA deductible;7,07;0,00
+12/06/2026;Sunday*Breizh Cafe Neu;512001;Banque 1;0,00;77,80
+12/06/2026;UBER *TRIP;512001;Banque 1;0,00;26,98
+12/06/2026;UBER *TRIP;625100;Frais de deplacements;24,53;0,00
+12/06/2026;UBER *TRIP;445610;TVA deductible;2,45;0,00
+12/06/2026;UBER *TRIP;625100;Frais de deplacements;14,26;0,00
+12/06/2026;UBER *TRIP;512001;Banque 1;0,00;15,69
+12/06/2026;UBER *TRIP;445610;TVA deductible;1,43;0,00
+12/06/2026;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
+12/06/2026;SMALLPDF;445610;TVA deductible;1,67;0,00
+12/06/2026;SMALLPDF;512001;Banque 1;0,00;10,00
+12/06/2026;SumUp *Blanc MH69RTMF;512001;Banque 1;0,00;30,00
+12/06/2026;SumUp *Blanc MH69RTMF;625100;Frais de deplacements;30,00;0,00
+13/06/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;4000,00
+13/06/2026;Virement vers Davai - Davai;580000;Virements internes;4000,00;0,00
+13/06/2026;Transfert interne pour IS - Davai;512001;Banque 1;9645,00;0,00
+13/06/2026;Transfert interne pour IS - Davai;580000;Virements internes;0,00;9645,00
+12/06/2026;To Maxime Soydas - 023;445610;TVA deductible;150,00;0,00
+12/06/2026;To Maxime Soydas - 023;604000;Prestation de service;750,00;0,00
+12/06/2026;To Maxime Soydas - 023;512002;Banque 2;0,00;900,00
+13/06/2026;RESEND;613600;Abonnements logiciels;14,49;0,00
+13/06/2026;RESEND;512001;Banque 1;0,00;17,39
+13/06/2026;RESEND;445610;TVA deductible;2,90;0,00
+14/06/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+14/06/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,35;0,00
+14/06/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,42
+13/06/2026;From Reserve;512002;Banque 2;9645,00;0,00
+13/06/2026;From Reserve;580000;Virements internes;0,00;9645,00
+13/06/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;4000,00
+13/06/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;4000,00;0,00
+13/06/2026;To Davai - Transfert interne pour IS;580000;Virements internes;9645,00;0,00
+13/06/2026;To Davai - Transfert interne pour IS;512002;Banque 2;0,00;9645,00
+13/06/2026;To Emile Kratiroff - Compte courant post dividendes 3;512002;Banque 2;0,00;2000,00
+13/06/2026;To Emile Kratiroff - Compte courant post dividendes 3;455100;Associes - Comptes courants;2000,00;0,00
+14/06/2026;HETZNER ONLINE GMBH;613500;Location de materiel;158,19;0,00
+14/06/2026;HETZNER ONLINE GMBH;445610;TVA deductible;31,64;0,00
+14/06/2026;HETZNER ONLINE GMBH;512001;Banque 1;0,00;189,83
+15/06/2026;D 202604 168 IKVP - INGRID KERMOAL VENTE PRIVEE;411000;Clients;0,00;2400,00
+15/06/2026;D 202604 168 IKVP - INGRID KERMOAL VENTE PRIVEE;512001;Banque 1;2400,00;0,00
+15/06/2026;Sentry;613600;Abonnements logiciels;96,02;0,00
+15/06/2026;Sentry;512002;Banque 2;0,00;115,23
+15/06/2026;Sentry;445610;TVA deductible;19,21;0,00
+14/06/2026;Vercel Inc.;613600;Abonnements logiciels;78,06;0,00
+14/06/2026;Vercel Inc.;512002;Banque 2;0,00;93,67
+14/06/2026;Vercel Inc.;445610;TVA deductible;15,61;0,00
+15/06/2026;PHENIX - BOULANG;625700;Restaurants et repas d'affaires;8,91;0,00
+15/06/2026;PHENIX - BOULANG;512001;Banque 1;0,00;9,40
+15/06/2026;PHENIX - BOULANG;445610;TVA deductible;0,49;0,00
+16/06/2026;INST NAT PROPRIETE IND;622700;Frais d'actes et de contentieux;0,00;30,71
+16/06/2026;INST NAT PROPRIETE IND;512001;Banque 1;36,85;0,00
+16/06/2026;INST NAT PROPRIETE IND;445610;TVA deductible;0,00;6,14
+16/06/2026;INST NAT PROPRIETE IND;445610;TVA deductible;0,00;0,91
+16/06/2026;INST NAT PROPRIETE IND;622700;Frais d'actes et de contentieux;0,00;4,54
+16/06/2026;INST NAT PROPRIETE IND;512001;Banque 1;5,45;0,00
+15/06/2026;AMAZON PAYMENTS;606300;Materiel et outillage;623,32;0,00
+15/06/2026;AMAZON PAYMENTS;445610;TVA deductible;124,66;0,00
+15/06/2026;AMAZON PAYMENTS;512001;Banque 1;0,00;747,98
+15/06/2026;Federal Express France;626000;Internet, telephone et frais postaux;27,63;0,00
+15/06/2026;Federal Express France;512002;Banque 2;0,00;33,16
+15/06/2026;Federal Express France;445610;TVA deductible;5,53;0,00
+16/06/2026;LE STELLA;512001;Banque 1;0,00;17,00
+16/06/2026;LE STELLA;445610;TVA deductible;1,55;0,00
+16/06/2026;LE STELLA;625700;Restaurants et repas d'affaires;15,45;0,00
+17/06/2026;IS1-052026-2572 - DGFIP;512001;Banque 1;0,00;9645,00
+17/06/2026;IS1-052026-2572 - DGFIP;444000;Impôts sur les benefices;9645,00;0,00
+16/06/2026;Starlink Internet;445610;TVA deductible;29,67;0,00
+16/06/2026;Starlink Internet;512002;Banque 2;0,00;178,00
+16/06/2026;Starlink Internet;626000;Internet, telephone et frais postaux;148,33;0,00
+16/06/2026;Company Pro plan fee;445610;TVA deductible;5,83;0,00
+16/06/2026;Company Pro plan fee;627000;Services bancaires;29,17;0,00
+16/06/2026;Company Pro plan fee;512002;Banque 2;0,00;35,00
+13/06/2026;Jubileo (Total energie );625200;Vehicule et carburant;309,44;0,00
+13/06/2026;Jubileo (Total energie );445610;TVA deductible;61,89;0,00
+13/06/2026;Jubileo (Total energie );512002;Banque 2;0,00;371,33
+17/06/2026;Facturation 202606-184 - MINERVA;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;152,00
+17/06/2026;Facturation 202606-184 - MINERVA;706001;Vente de service;0,00;760,00
+17/06/2026;Facturation 202606-184 - MINERVA;411000;Clients;912,00;0,00
+17/06/2026;DELIVEROO;445610;TVA deductible;1,47;0,00
+17/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;14,74;0,00
+17/06/2026;DELIVEROO;512001;Banque 1;0,00;16,21
+17/06/2026;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;28,79;0,00
+17/06/2026;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;143,94;0,00
+17/06/2026;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;172,73
+18/06/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;3,45;0,00
+18/06/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,69;0,00
+18/06/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;4,14
+17/06/2026;Fred & Ginger &;625700;Restaurants et repas d'affaires;172,73;0,00
+17/06/2026;Fred & Ginger &;512002;Banque 2;0,00;190,00
+17/06/2026;Fred & Ginger &;445610;TVA deductible;17,27;0,00
+18/06/2026;202601 134 - INGRID KERMOAL VENTE PRIVEE;411000;Clients;0,00;10118,40
+18/06/2026;202601 134 - INGRID KERMOAL VENTE PRIVEE;512001;Banque 1;10118,40;0,00
+18/06/2026;DELIVEROO;445610;TVA deductible;1,23;0,00
+18/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;12,33;0,00
+18/06/2026;DELIVEROO;512001;Banque 1;0,00;13,56
+17/06/2026;TWILIO INC;613600;Abonnements logiciels;28,85;0,00
+17/06/2026;TWILIO INC;512001;Banque 1;0,00;34,62
+17/06/2026;TWILIO INC;445610;TVA deductible;5,77;0,00
+18/06/2026;Deliveroo Plus Subs;445610;TVA deductible;0,54;0,00
+18/06/2026;Deliveroo Plus Subs;625700;Restaurants et repas d'affaires;5,45;0,00
+18/06/2026;Deliveroo Plus Subs;512001;Banque 1;0,00;5,99
+19/06/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,83
+19/06/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+19/06/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,69;0,00
+19/06/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;10000,00
+19/06/2026;Virement vers Davai - Davai;580000;Virements internes;10000,00;0,00
+18/06/2026;ldlc.com;445610;TVA deductible;71,97;0,00
+18/06/2026;ldlc.com;512002;Banque 2;0,00;431,80
+18/06/2026;ldlc.com;607000;Marchandise pour la revente;359,83;0,00
+18/06/2026;Apple Store R675;445610;TVA deductible;9,83;0,00
+18/06/2026;Apple Store R675;606300;Materiel et outillage;49,17;0,00
+18/06/2026;Apple Store R675;512002;Banque 2;0,00;59,00
+19/06/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;10000,00
+19/06/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;10000,00;0,00
+18/06/2026;To Maxime Soydas - 024;512002;Banque 2;0,00;900,00
+18/06/2026;To Maxime Soydas - 024;604000;Prestation de service;750,00;0,00
+18/06/2026;To Maxime Soydas - 024;445610;TVA deductible;150,00;0,00
+19/06/2026;To Reserve;580000;Virements internes;2000,00;0,00
+19/06/2026;To Reserve;512002;Banque 2;0,00;2000,00
+19/06/2026;To Reserve;512002;Banque 2;0,00;15000,00
+19/06/2026;To Reserve;580000;Virements internes;15000,00;0,00
+18/06/2026;Apple Store R675;445610;TVA deductible;4,17;0,00
+18/06/2026;Apple Store R675;512002;Banque 2;0,00;25,00
+18/06/2026;Apple Store R675;606300;Materiel et outillage;20,83;0,00
+19/06/2026;To Emile Kratiroff - Compte courant post dividendes 4;512002;Banque 2;0,00;1200,00
+19/06/2026;To Emile Kratiroff - Compte courant post dividendes 4;455100;Associes - Comptes courants;1200,00;0,00
+18/06/2026;apple.com/fr;445610;TVA deductible;278,00;0,00
+18/06/2026;apple.com/fr;512002;Banque 2;0,00;1668,00
+18/06/2026;apple.com/fr;606300;Materiel et outillage;1390,00;0,00
+19/06/2026;LS ECLAIR DE GENIE;445610;TVA deductible;2,40;0,00
+19/06/2026;LS ECLAIR DE GENIE;625700;Restaurants et repas d'affaires;24,00;0,00
+19/06/2026;LS ECLAIR DE GENIE;512001;Banque 1;0,00;26,40
+19/06/2026;OBSIDIAN;613600;Abonnements logiciels;8,73;0,00
+19/06/2026;OBSIDIAN;512001;Banque 1;0,00;10,48
+19/06/2026;OBSIDIAN;445610;TVA deductible;1,75;0,00
+20/06/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,25
+20/06/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,21;0,00
+20/06/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+19/06/2026;GRANOLA INC;445610;TVA deductible;2,45;0,00
+19/06/2026;GRANOLA INC;613600;Abonnements logiciels;12,22;0,00
+19/06/2026;GRANOLA INC;512001;Banque 1;0,00;14,67
+20/06/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+20/06/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,29;0,00
+20/06/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,35
+21/06/2026;Effia;512002;Banque 2;0,00;22,30
+21/06/2026;Effia;445610;TVA deductible;3,72;0,00
+21/06/2026;Effia;625100;Frais de deplacements;18,58;0,00
+19/06/2026;Exchanged to EUR Main;512002;Banque 2;8741,79;0,00
+19/06/2026;Exchanged to EUR Main;411000;Clients;0,00;8741,79
+22/06/2026;Facturation 202606-185 - Vola Finance;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1456,96
+22/06/2026;Facturation 202606-185 - Vola Finance;411000;Clients;8741,79;0,00
+22/06/2026;Facturation 202606-185 - Vola Finance;706900;Vente de service hors UE;0,00;7284,83
+19/06/2026;Encaissement 202606-185 - Vola Finance;445710;TVA collectee;0,00;1456,96
+19/06/2026;Encaissement 202606-185 - Vola Finance;445880;TVA sur prestation de service en attente de paiement - Clients;1456,96;0,00
+18/06/2026;Encaissement 202601-134 - INGRID KERMOAL VENTE PRIVEE;445710;TVA collectee;0,00;1686,40
+18/06/2026;Encaissement 202601-134 - INGRID KERMOAL VENTE PRIVEE;445880;TVA sur prestation de service en attente de paiement - Clients;1686,40;0,00
+12/06/2026;Encaissement 202601-134 - INGRID KERMOAL VENTE PRIVEE;445880;TVA sur prestation de service en attente de paiement - Clients;800,00;0,00
+12/06/2026;Encaissement 202601-134 - INGRID KERMOAL VENTE PRIVEE;445710;TVA collectee;0,00;800,00
+15/06/2026;Encaissement 202604-168 - INGRID KERMOAL VENTE PRIVEE;445880;TVA sur prestation de service en attente de paiement - Clients;400,00;0,00
+15/06/2026;Encaissement 202604-168 - INGRID KERMOAL VENTE PRIVEE;445710;TVA collectee;0,00;400,00
+22/06/2026;202604167 DAVAI FRASS - FRASS;512001;Banque 1;1800,00;0,00
+22/06/2026;202604167 DAVAI FRASS - FRASS;411000;Clients;0,00;1800,00
+22/06/2026;DELIVEROO;512001;Banque 1;0,00;15,29
+22/06/2026;DELIVEROO;445610;TVA deductible;1,39;0,00
+22/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;13,90;0,00
+22/06/2026;ANTHROPIC* CLAUDE SUB;445610;TVA deductible;30,00;0,00
+22/06/2026;ANTHROPIC* CLAUDE SUB;613600;Abonnements logiciels;150,00;0,00
+22/06/2026;ANTHROPIC* CLAUDE SUB;512001;Banque 1;0,00;180,00
+22/06/2026;TOTAL;445610;TVA deductible;7,33;0,00
+22/06/2026;TOTAL;512001;Banque 1;0,00;43,98
+22/06/2026;TOTAL;625200;Vehicule et carburant;36,65;0,00
+22/06/2026;Federal Express France;626000;Internet, telephone et frais postaux;82,12;0,00
+22/06/2026;Federal Express France;512002;Banque 2;0,00;98,54
+22/06/2026;Federal Express France;445610;TVA deductible;16,42;0,00
+22/06/2026;To Epitech - FPRS2501143;641110;Salaires;750,00;0,00
+22/06/2026;To Epitech - FPRS2501143;512002;Banque 2;0,00;750,00
+23/06/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;70,20;0,00
+23/06/2026;YESPARK GROUP* PARKING;445610;TVA deductible;14,04;0,00
+23/06/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;84,24
+23/06/2026;ATLASSIAN;445610;TVA deductible;9,45;0,00
+23/06/2026;ATLASSIAN;512001;Banque 1;0,00;56,72
+23/06/2026;ATLASSIAN;613600;Abonnements logiciels;47,27;0,00
+23/06/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,13;0,00
+23/06/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,36
+23/06/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,23;0,00
+23/06/2026;Facturation 202606-186 - WILD BUZZ AGENCY;411000;Clients;6000,00;0,00
+23/06/2026;Facturation 202606-186 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1000,00
+23/06/2026;Facturation 202606-186 - WILD BUZZ AGENCY;706001;Vente de service;0,00;5000,00
+23/06/2026;Mailchimp;613600;Abonnements logiciels;57,22;0,00
+23/06/2026;Mailchimp;445610;TVA deductible;11,44;0,00
+23/06/2026;Mailchimp;512001;Banque 1;0,00;68,66
+23/06/2026;Virement vers Davai - Davai;580000;Virements internes;3000,00;0,00
+23/06/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;3000,00
+23/06/2026;DELIVEROO;445610;TVA deductible;1,67;0,00
+23/06/2026;DELIVEROO;512001;Banque 1;0,00;18,37
+23/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;16,70;0,00
+23/06/2026;UBER *TRIP;512001;Banque 1;0,00;23,97
+23/06/2026;UBER *TRIP;445610;TVA deductible;2,18;0,00
+23/06/2026;UBER *TRIP;625100;Frais de deplacements;21,79;0,00
+23/06/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;3000,00;0,00
+23/06/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;3000,00
+23/06/2026;Cloudflare;512002;Banque 2;0,00;85,07
+23/06/2026;Cloudflare;445610;TVA deductible;14,18;0,00
+23/06/2026;Cloudflare;613500;Location de materiel;70,89;0,00
+24/06/2026;Virement de H - PM ARMEN;512001;Banque 1;12060,00;0,00
+24/06/2026;Virement de H - PM ARMEN;411000;Clients;0,00;12060,00
+24/06/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;10000,00
+24/06/2026;Virement vers Davai - Davai;580000;Virements internes;10000,00;0,00
+23/06/2026;AMAZON PAYMENTS;512001;Banque 1;0,00;24,69
+23/06/2026;AMAZON PAYMENTS;606300;Materiel et outillage;20,57;0,00
+23/06/2026;AMAZON PAYMENTS;445610;TVA deductible;4,12;0,00
+24/06/2026;To Reserve;512002;Banque 2;0,00;10000,00
+24/06/2026;To Reserve;580000;Virements internes;10000,00;0,00
+24/06/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;10000,00
+24/06/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;10000,00;0,00
+24/06/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-065;445610;TVA deductible;652,80;0,00
+24/06/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-065;604000;Prestation de service;3264,00;0,00
+24/06/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-065;512002;Banque 2;0,00;3916,80
+24/06/2026;From Reserve;512002;Banque 2;2000,00;0,00
+24/06/2026;From Reserve;580000;Virements internes;0,00;2000,00
+25/06/2026;/INV/F6H51978/0087537021 //20260618-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;161,76
+25/06/2026;/INV/F6H51978/0087537021 //20260618-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;26,29;0,00
+25/06/2026;/INV/F6H51978/0087537021 //20260618-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;3,79;0,00
+25/06/2026;/INV/F6H51978/0087537021 //20260618-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;131,47;0,00
+25/06/2026;/INV/F6H51978/0087537021 //20260618-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;0,21;0,00
+24/06/2026;RESEND;512001;Banque 1;0,00;17,58
+24/06/2026;RESEND;445610;TVA deductible;2,93;0,00
+24/06/2026;RESEND;613600;Abonnements logiciels;14,65;0,00
+25/06/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+25/06/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,42
+25/06/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,35;0,00
+25/06/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;2000,00
+25/06/2026;Virement vers Davai - Davai;580000;Virements internes;2000,00;0,00
+24/06/2026;Encaissement 202605-180 - PM. ARMEN;445710;TVA collectee;0,00;2010,00
+24/06/2026;Encaissement 202605-180 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;2010,00;0,00
+25/06/2026;Facturation 202606-187 - INGRID KERMOAL VENTE PRIVEE;411000;Clients;540,00;0,00
+25/06/2026;Facturation 202606-187 - INGRID KERMOAL VENTE PRIVEE;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;90,00
+25/06/2026;Facturation 202606-187 - INGRID KERMOAL VENTE PRIVEE;706001;Vente de service;0,00;450,00
+25/06/2026;DELIVEROO;445610;TVA deductible;2,15;0,00
+25/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;21,50;0,00
+25/06/2026;DELIVEROO;512001;Banque 1;0,00;23,65
+24/06/2026;MCDONALDS 818;512001;Banque 1;0,00;9,90
+24/06/2026;MCDONALDS 818;625700;Restaurants et repas d'affaires;9,00;0,00
+24/06/2026;MCDONALDS 818;445610;TVA deductible;0,90;0,00
+25/06/2026;Cursor Usage May;445610;TVA deductible;11,07;0,00
+25/06/2026;Cursor Usage May;613600;Abonnements logiciels;55,33;0,00
+25/06/2026;Cursor Usage May;512002;Banque 2;0,00;66,40
+25/06/2026;To Maxime Soydas - 025;604000;Prestation de service;750,00;0,00
+25/06/2026;To Maxime Soydas - 025;445610;TVA deductible;150,00;0,00
+25/06/2026;To Maxime Soydas - 025;512002;Banque 2;0,00;900,00
+25/06/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;2000,00
+25/06/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;2000,00;0,00
+25/06/2026;Cloudflare;512002;Banque 2;0,00;20,51
+25/06/2026;Cloudflare;613500;Location de materiel;17,09;0,00
+25/06/2026;Cloudflare;445610;TVA deductible;3,42;0,00
+25/06/2026;La Mer Du Chene;445610;TVA deductible;12,27;0,00
+25/06/2026;La Mer Du Chene;625700;Restaurants et repas d'affaires;122,73;0,00
+25/06/2026;La Mer Du Chene;512002;Banque 2;0,00;135,00
+26/06/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;176,67;0,00
+26/06/2026;YESPARK GROUP* PARKING;445610;TVA deductible;35,33;0,00
+26/06/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;212,00
+26/06/2026;DELIVEROO;625700;Restaurants et repas d'affaires;21,15;0,00
+26/06/2026;DELIVEROO;512001;Banque 1;0,00;23,27
+26/06/2026;DELIVEROO;445610;TVA deductible;2,12;0,00
+26/06/2026;Cloudflare;445610;TVA deductible;0,66;0,00
+26/06/2026;Cloudflare;613500;Location de materiel;3,30;0,00
+26/06/2026;Cloudflare;512002;Banque 2;0,00;3,96
+26/06/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-066;512002;Banque 2;0,00;2090,00
+26/06/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-066;604000;Prestation de service;1741,67;0,00
+26/06/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-066;445610;TVA deductible;348,33;0,00
+26/06/2026;From Reserve;512002;Banque 2;2500,00;0,00
+26/06/2026;From Reserve;580000;Virements internes;0,00;2500,00
+26/06/2026;Anthropic* Claude Sub;445610;TVA deductible;18,00;0,00
+26/06/2026;Anthropic* Claude Sub;613600;Abonnements logiciels;90,00;0,00
+26/06/2026;Anthropic* Claude Sub;512002;Banque 2;0,00;108,00
+28/06/2026;BC.*BASECAMP 5 6018036;613600;Abonnements logiciels;11,01;0,00
+28/06/2026;BC.*BASECAMP 5 6018036;512001;Banque 1;0,00;13,21
+28/06/2026;BC.*BASECAMP 5 6018036;445610;TVA deductible;2,20;0,00
+29/06/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,26;0,00
+29/06/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,05;0,00
+29/06/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,31
+28/06/2026;Openai *chatgpt Subscr;512002;Banque 2;0,00;103,00
+28/06/2026;Openai *chatgpt Subscr;613600;Abonnements logiciels;85,83;0,00
+28/06/2026;Openai *chatgpt Subscr;445610;TVA deductible;17,17;0,00
+29/06/2026;Orus Assurance;512002;Banque 2;0,00;36,72
+29/06/2026;Orus Assurance;616000;Assurance professionnelle;36,72;0,00
+29/06/2026;Figma;613600;Abonnements logiciels;56,45;0,00
+29/06/2026;Figma;512002;Banque 2;0,00;67,74
+29/06/2026;Figma;445610;TVA deductible;11,29;0,00
+29/06/2026;emailvalidation.io;445610;TVA deductible;6,14;0,00
+29/06/2026;emailvalidation.io;512002;Banque 2;0,00;36,83
+29/06/2026;emailvalidation.io;613600;Abonnements logiciels;30,69;0,00
+29/06/2026;Deliveroo;445610;TVA deductible;1,49;0,00
+29/06/2026;Deliveroo;512002;Banque 2;0,00;16,34
+29/06/2026;Deliveroo;625700;Restaurants et repas d'affaires;14,85;0,00
+01/07/2026;Tailscale Us Inc.;512002;Banque 2;0,00;26,31
+01/07/2026;Tailscale Us Inc.;613600;Abonnements logiciels;21,92;0,00
+01/07/2026;Tailscale Us Inc.;445610;TVA deductible;4,39;0,00
+30/06/2026;Theassistant;445610;TVA deductible;61,80;0,00
+30/06/2026;Theassistant;512002;Banque 2;0,00;370,80
+30/06/2026;Theassistant;604000;Prestation de service;309,00;0,00
+01/07/2026;Planetscale Inc.;445610;TVA deductible;1,84;0,00
+01/07/2026;Planetscale Inc.;512002;Banque 2;0,00;11,05
+01/07/2026;Planetscale Inc.;613600;Abonnements logiciels;9,21;0,00
+30/06/2026;Camaroje;445610;TVA deductible;0,98;0,00
+30/06/2026;Camaroje;512002;Banque 2;0,00;10,80
+30/06/2026;Camaroje;625700;Restaurants et repas d'affaires;9,82;0,00
+30/06/2026;650 Industries (expo);512002;Banque 2;0,00;17,28
+30/06/2026;650 Industries (expo);445610;TVA deductible;2,88;0,00
+30/06/2026;650 Industries (expo);613600;Abonnements logiciels;14,40;0,00
+01/07/2026;Facturation 202607-188 - VOLUM;706001;Vente de service;0,00;6000,00
+01/07/2026;Facturation 202607-188 - VOLUM;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1200,00
+01/07/2026;Facturation 202607-188 - VOLUM;411000;Clients;7200,00;0,00
+01/07/2026;Quote Part Hermel - EDF Q326;455100;Associes - Comptes courants;0,00;168,00
+01/07/2026;Quote Part Hermel - EDF Q326;445610;TVA deductible;8,76;0,00
+01/07/2026;Quote Part Hermel - EDF Q326;606100;Eau, gaz, electricite;159,24;0,00
+01/07/2026;Quote Part Hermel - Free Q336;455100;Associes - Comptes courants;0,00;47,98
+01/07/2026;Quote Part Hermel - Free Q336;445610;TVA deductible;8,00;0,00
+01/07/2026;Quote Part Hermel - Free Q336;626000;Internet, telephone et frais postaux;39,98;0,00
+01/07/2026;Quote Part Hermel - Copro Q326;455100;Associes - Comptes courants;0,00;335,12
+01/07/2026;Quote Part Hermel - Copro Q326;613200;Loyers et charges locatives;335,12;0,00
+01/07/2026;Quote Part Hermel - Loyer Q326;455100;Associes - Comptes courants;0,00;4200,00
+01/07/2026;Quote Part Hermel - Loyer Q326;613200;Loyers et charges locatives;4200,00;0,00
+01/07/2026;Facturation 202607-189 - CHAUVIN PARIS;411000;Clients;5321,82;0,00
+01/07/2026;Facturation 202607-189 - CHAUVIN PARIS;707000;Vente de marchandise;0,00;2034,86
+01/07/2026;Facturation 202607-189 - CHAUVIN PARIS;445710;TVA collectee;0,00;406,96
+01/07/2026;Facturation 202607-189 - CHAUVIN PARIS;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;480,00
+01/07/2026;Facturation 202607-189 - CHAUVIN PARIS;706001;Vente de service;0,00;2400,00
+01/07/2026;To THANG NGUYEN MINH - Brother holiday gift;604000;Prestation de service;937,50;0,00
+01/07/2026;To THANG NGUYEN MINH - Brother holiday gift;445610;TVA deductible;187,50;0,00
+01/07/2026;To THANG NGUYEN MINH - Brother holiday gift;512002;Banque 2;0,00;1125,00
+01/07/2026;From Reserve;512002;Banque 2;20000,00;0,00
+01/07/2026;From Reserve;580000;Virements internes;0,00;20000,00
+01/07/2026;To Emile Kratiroff - Compte courant post dividendes 5;512002;Banque 2;0,00;20000,00
+01/07/2026;To Emile Kratiroff - Compte courant post dividendes 5;455100;Associes - Comptes courants;20000,00;0,00
+01/07/2026;To Sina Ganji - Juin26;512002;Banque 2;0,00;1904,42
+01/07/2026;To Sina Ganji - Juin26;641110;Salaires;1904,42;0,00
+01/07/2026;Google Workspace_davai.co;512002;Banque 2;0,00;81,32
+01/07/2026;Google Workspace_davai.co;613600;Abonnements logiciels;67,77;0,00
+01/07/2026;Google Workspace_davai.co;445610;TVA deductible;13,55;0,00
+01/07/2026;Google Workspace_fanzo;445610;TVA deductible;0,70;0,00
+01/07/2026;Google Workspace_fanzo;613600;Abonnements logiciels;3,51;0,00
+01/07/2026;Google Workspace_fanzo;512002;Banque 2;0,00;4,21
+02/07/2026;From Reserve;512002;Banque 2;2000,00;0,00
+02/07/2026;From Reserve;580000;Virements internes;0,00;2000,00
+01/07/2026;From Reserve;512002;Banque 2;5000,00;0,00
+01/07/2026;From Reserve;580000;Virements internes;0,00;5000,00
+02/07/2026;To Thai Luong - 006;604000;Prestation de service;1666,67;0,00
+02/07/2026;To Thai Luong - 006;512002;Banque 2;0,00;2000,00
+02/07/2026;To Thai Luong - 006;445610;TVA deductible;333,33;0,00
+01/07/2026;Camaroje;625700;Restaurants et repas d'affaires;11,36;0,00
+01/07/2026;Camaroje;512002;Banque 2;0,00;12,50
+01/07/2026;Camaroje;445610;TVA deductible;1,14;0,00
+01/07/2026;To Gregor Sternat - Juin26;641110;Salaires;1202,73;0,00
+01/07/2026;To Gregor Sternat - Juin26;512002;Banque 2;0,00;1202,73
+02/07/2026;F 202606 187 IKVP - INGRID KERMOAL VENTE PRIVEE;411000;Clients;0,00;540,00
+02/07/2026;F 202606 187 IKVP - INGRID KERMOAL VENTE PRIVEE;512001;Banque 1;540,00;0,00
+02/07/2026;SCALEWAY;445610;TVA deductible;46,87;0,00
+02/07/2026;SCALEWAY;512001;Banque 1;0,00;281,20
+02/07/2026;SCALEWAY;613500;Location de materiel;234,33;0,00
+02/07/2026;Maison Des Saveu;625700;Restaurants et repas d'affaires;6,64;0,00
+02/07/2026;Maison Des Saveu;512002;Banque 2;0,00;7,30
+02/07/2026;Maison Des Saveu;445610;TVA deductible;0,66;0,00
+02/07/2026;Cloudflare;613500;Location de materiel;7,62;0,00
+02/07/2026;Cloudflare;445610;TVA deductible;1,53;0,00
+02/07/2026;Cloudflare;512002;Banque 2;0,00;9,15
+02/07/2026;To Maxime Soydas - 026;512002;Banque 2;0,00;923,00
+02/07/2026;To Maxime Soydas - 026;604000;Prestation de service;769,17;0,00
+02/07/2026;To Maxime Soydas - 026;445610;TVA deductible;153,83;0,00
+03/07/2026;Uber * Pending;512002;Banque 2;0,00;12,97
+03/07/2026;Uber * Pending;625100;Frais de deplacements;11,79;0,00
+03/07/2026;Uber * Pending;445610;TVA deductible;1,18;0,00
+03/07/2026;Camaroje;512002;Banque 2;0,00;12,50
+03/07/2026;Camaroje;445610;TVA deductible;1,14;0,00
+03/07/2026;Camaroje;625700;Restaurants et repas d'affaires;11,36;0,00
+03/07/2026;Belldom Sas;445610;TVA deductible;3,20;0,00
+03/07/2026;Belldom Sas;512002;Banque 2;0,00;19,20
+03/07/2026;Belldom Sas;622000;Honoraires divers;16,00;0,00
+04/07/2026;YESPARK GROUP* PARKING;445610;TVA deductible;31,17;0,00
+04/07/2026;YESPARK GROUP* PARKING;625100;Frais de deplacements;155,83;0,00
+04/07/2026;YESPARK GROUP* PARKING;512001;Banque 1;0,00;187,00
+04/07/2026;SQ *SQUARE FR SUBSCRIP;445610;TVA deductible;10,00;0,00
+04/07/2026;SQ *SQUARE FR SUBSCRIP;613600;Abonnements logiciels;50,00;0,00
+04/07/2026;SQ *SQUARE FR SUBSCRIP;512001;Banque 1;0,00;60,00
+04/07/2026;Github, Inc.;613600;Abonnements logiciels;5,06;0,00
+04/07/2026;Github, Inc.;512002;Banque 2;0,00;6,07
+04/07/2026;Github, Inc.;445610;TVA deductible;1,01;0,00
+05/07/2026;Deliveroo;625700;Restaurants et repas d'affaires;55,72;0,00
+05/07/2026;Deliveroo;512002;Banque 2;0,00;61,29
+05/07/2026;Deliveroo;445610;TVA deductible;5,57;0,00
+06/07/2026;DAVAI-H6J5PNV3FV4Q - GOCARDLESS SAS;512001;Banque 1;70,90;0,00
+06/07/2026;DAVAI-H6J5PNV3FV4Q - GOCARDLESS SAS;411000;Clients;0,00;70,90
+06/07/2026;Facturation 202607-190 - WILD BUZZ AGENCY;411000;Clients;5640,00;0,00
+06/07/2026;Facturation 202607-190 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;940,00
+06/07/2026;Facturation 202607-190 - WILD BUZZ AGENCY;706001;Vente de service;0,00;4700,00
+06/07/2026;Facturation 202607-191 - WILD BUZZ AGENCY;706001;Vente de service;0,00;2300,00
+06/07/2026;Facturation 202607-191 - WILD BUZZ AGENCY;411000;Clients;2760,00;0,00
+06/07/2026;Facturation 202607-191 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;460,00
+06/07/2026;Facturation 202607-192 - WILD BUZZ AGENCY;706001;Vente de service;0,00;5000,00
+06/07/2026;Facturation 202607-192 - WILD BUZZ AGENCY;411000;Clients;6000,00;0,00
+06/07/2026;Facturation 202607-192 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1000,00
+06/07/2026;202606-182 - MLN GROUP;411000;Clients;0,00;7176,00
+06/07/2026;202606-182 - MLN GROUP;512001;Banque 1;7176,00;0,00
+06/07/2026;Virement vers Davai - Davai;580000;Virements internes;7000,00;0,00
+06/07/2026;Virement vers Davai - Davai;512001;Banque 1;0,00;7000,00
+06/07/2026;Encaissement 202606-182 - MLN GROUP;445710;TVA collectee;0,00;1196,00
+06/07/2026;Encaissement 202606-182 - MLN GROUP;445880;TVA sur prestation de service en attente de paiement - Clients;1196,00;0,00
+06/07/2026;To Reserve;580000;Virements internes;5000,00;0,00
+06/07/2026;To Reserve;512002;Banque 2;0,00;5000,00
+06/07/2026;Payment from Wild Buzz Agency - 202607191 DAVAI WILD BUZZ AGENCY;411000;Clients;0,00;2760,00
+06/07/2026;Payment from Wild Buzz Agency - 202607191 DAVAI WILD BUZZ AGENCY;512002;Banque 2;2760,00;0,00
+06/07/2026;Payment from Wild Buzz Agency - 202606186 DAVAI WILD BUZZ AGENCY;512002;Banque 2;6000,00;0,00
+06/07/2026;Payment from Wild Buzz Agency - 202606186 DAVAI WILD BUZZ AGENCY;411000;Clients;0,00;6000,00
+06/07/2026;To Reserve;512002;Banque 2;0,00;20000,00
+06/07/2026;To Reserve;580000;Virements internes;20000,00;0,00
+06/07/2026;Payment from Wild Buzz Agency - 202607190 DAVAI WILD BUZZ AGENCY;512002;Banque 2;5640,00;0,00
+06/07/2026;Payment from Wild Buzz Agency - 202607190 DAVAI WILD BUZZ AGENCY;411000;Clients;0,00;5640,00
+06/07/2026;Payment from Davai - Virement vers Davai;580000;Virements internes;0,00;7000,00
+06/07/2026;Payment from Davai - Virement vers Davai;512002;Banque 2;7000,00;0,00
+06/07/2026;Payment from Wild Buzz Agency - 202607192 DAVAI WILD BUZZ AGENCY;411000;Clients;0,00;6000,00
+06/07/2026;Payment from Wild Buzz Agency - 202607192 DAVAI WILD BUZZ AGENCY;512002;Banque 2;6000,00;0,00
+01/07/2026;To E NOV PARTNERS - 002217;445610;TVA deductible;86,00;0,00
+01/07/2026;To E NOV PARTNERS - 002217;622000;Honoraires divers;430,00;0,00
+01/07/2026;To E NOV PARTNERS - 002217;512002;Banque 2;0,00;516,00
+02/07/2026;Encaissement 202606-187 - INGRID KERMOAL VENTE PRIVEE;445880;TVA sur prestation de service en attente de paiement - Clients;90,00;0,00
+02/07/2026;Encaissement 202606-187 - INGRID KERMOAL VENTE PRIVEE;445710;TVA collectee;0,00;90,00
+06/07/2026;Encaissement 202606-186 - WILD BUZZ AGENCY;445710;TVA collectee;0,00;1000,00
+06/07/2026;Encaissement 202606-186 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;1000,00;0,00
+06/07/2026;Encaissement 202607-190 - WILD BUZZ AGENCY;445710;TVA collectee;0,00;940,00
+06/07/2026;Encaissement 202607-190 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;940,00;0,00
+06/07/2026;Encaissement 202607-192 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;1000,00;0,00
+06/07/2026;Encaissement 202607-192 - WILD BUZZ AGENCY;445710;TVA collectee;0,00;1000,00
+06/07/2026;Encaissement 202607-191 - WILD BUZZ AGENCY;445710;TVA collectee;0,00;460,00
+06/07/2026;Encaissement 202607-191 - WILD BUZZ AGENCY;445880;TVA sur prestation de service en attente de paiement - Clients;460,00;0,00
+07/07/2026;202509-104 - MLN GROUP;512001;Banque 1;2735,52;0,00
+07/07/2026;202509-104 - MLN GROUP;411000;Clients;0,00;2735,52
+07/07/2026;Encaissement 202509-104 - MLN GROUP;445880;TVA sur prestation de service en attente de paiement - Clients;455,92;0,00
+07/07/2026;Encaissement 202509-104 - MLN GROUP;445710;TVA collectee;0,00;455,92
+06/07/2026;TWILIO INC;445610;TVA deductible;5,84;0,00
+06/07/2026;TWILIO INC;512001;Banque 1;0,00;35,04
+06/07/2026;TWILIO INC;613600;Abonnements logiciels;29,20;0,00
+08/07/2026;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,84
+08/07/2026;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,70;0,00
+08/07/2026;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+08/07/2026;Direct Debit from FREE MOBILE - FREE MOBILE;626000;Internet, telephone et frais postaux;7,49;0,00
+08/07/2026;Direct Debit from FREE MOBILE - FREE MOBILE;512001;Banque 1;0,00;8,99
+08/07/2026;Direct Debit from FREE MOBILE - FREE MOBILE;445610;TVA deductible;1,50;0,00
+07/07/2026;To Duhamel - Kratiroff 2335;625100;Frais de deplacements;590,00;0,00
+07/07/2026;To Duhamel - Kratiroff 2335;512002;Banque 2;0,00;590,00
+07/07/2026;Ygam;625700;Restaurants et repas d'affaires;14,55;0,00
+07/07/2026;Ygam;512002;Banque 2;0,00;16,00
+07/07/2026;Ygam;445610;TVA deductible;1,45;0,00
+08/07/2026;DAVAI-V6WJTQZNKTSH - GOCARDLESS SAS;411000;Clients;0,00;429,60
+08/07/2026;DAVAI-V6WJTQZNKTSH - GOCARDLESS SAS;512001;Banque 1;429,60;0,00
+08/07/2026;Transfert interne pour IS accompte - Davai;580000;Virements internes;0,00;3000,00
+08/07/2026;Transfert interne pour IS accompte - Davai;512001;Banque 1;3000,00;0,00
+08/07/2026;Avoir 202607-193 - BONO DISTRIBUTION;411000;Clients;0,00;3852,00
+08/07/2026;Avoir 202607-193 - BONO DISTRIBUTION;445880;TVA sur prestation de service en attente de paiement - Clients;642,00;0,00
+08/07/2026;Avoir 202607-193 - BONO DISTRIBUTION;706001;Vente de service;3210,00;0,00
+08/07/2026;Facturation 202607-194 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;642,00
+08/07/2026;Facturation 202607-194 - PM. ARMEN;411000;Clients;3852,00;0,00
+08/07/2026;Facturation 202607-194 - PM. ARMEN;706001;Vente de service;0,00;3210,00
+08/07/2026;To Davai - Transfert interne pour IS accompte;580000;Virements internes;3000,00;0,00
+08/07/2026;To Davai - Transfert interne pour IS accompte;512002;Banque 2;0,00;3000,00
+08/07/2026;Cloudflare;445610;TVA deductible;4,38;0,00
+08/07/2026;Cloudflare;613500;Location de materiel;21,90;0,00
+08/07/2026;Cloudflare;512002;Banque 2;0,00;26,28
+08/07/2026;From Reserve;512002;Banque 2;3000,00;0,00
+08/07/2026;From Reserve;580000;Virements internes;0,00;3000,00
+08/07/2026;Sentry;445610;TVA deductible;10,52;0,00
+08/07/2026;Sentry;512002;Banque 2;0,00;63,13
+08/07/2026;Sentry;613600;Abonnements logiciels;52,61;0,00
+08/07/2026;From Reserve;580000;Virements internes;0,00;3700,00
+08/07/2026;From Reserve;512002;Banque 2;3700,00;0,00
+08/07/2026;Sc-Rest Lily Wa;625700;Restaurants et repas d'affaires;109,09;0,00
+08/07/2026;Sc-Rest Lily Wa;512002;Banque 2;0,00;120,00
+08/07/2026;Sc-Rest Lily Wa;445610;TVA deductible;10,91;0,00
+08/07/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-079;445610;TVA deductible;560,27;0,00
+08/07/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-079;604000;Prestation de service;2801,33;0,00
+08/07/2026;To Agathe Haussmann - Architecture d'interieur - F-2026-079;512002;Banque 2;0,00;3361,60
+09/07/2026;Facturation 202607-195 - CANAL+ FRANCE;706001;Vente de service;0,00;7152,00
+09/07/2026;Facturation 202607-195 - CANAL+ FRANCE;411000;Clients;8582,40;0,00
+09/07/2026;Facturation 202607-195 - CANAL+ FRANCE;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1430,40
+09/07/2026;MICROSOFT#G170378034;445610;TVA deductible;85,87;0,00
+09/07/2026;MICROSOFT#G170378034;613600;Abonnements logiciels;429,37;0,00
+09/07/2026;MICROSOFT#G170378034;512001;Banque 1;0,00;515,24
+10/07/2026;IS1-062026-2571 - SIE PARIS 18E;512001;Banque 1;0,00;5036,00
+10/07/2026;IS1-062026-2571 - SIE PARIS 18E;444000;Impôts sur les benefices;5036,00;0,00

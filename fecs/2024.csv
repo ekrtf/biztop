@@ -1,0 +1,431 @@
+Date;Libelle;Compte;Libelle du compte;Debit;Credit
+17/05/2024;A Davai -Restitution du Capital Soccial-Me Quentin Foure - FOUREZ QUENTIN HUBERT ALEXIS;512001;Banque 1;100,00;0,00
+17/05/2024;A Davai -Restitution du Capital Soccial-Me Quentin Foure - FOUREZ QUENTIN HUBERT ALEXIS;101000;Capital;0,00;100,00
+12/06/2024;Facturation 202406-1 - PM. ARMEN;411000;Clients;9819,60;0,00
+12/06/2024;Facturation 202406-1 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1600,00
+12/06/2024;Facturation 202406-1 - PM. ARMEN;707000;Vente de marchandise;0,00;219,60
+12/06/2024;Facturation 202406-1 - PM. ARMEN;706001;Vente de service;0,00;8000,00
+10/07/2024;Virement de H - PM ARMEN;411000;Clients;0,00;9819,60
+10/07/2024;Virement de H - PM ARMEN;512001;Banque 1;9819,60;0,00
+10/07/2024;Encaissement 202406-1 - PM. ARMEN;445710;TVA collectee;0,00;1600,00
+10/07/2024;Encaissement 202406-1 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;1600,00;0,00
+19/07/2024;SHADOW;445610;TVA deductible;8,33;0,00
+19/07/2024;SHADOW;512001;Banque 1;0,00;49,98
+19/07/2024;SHADOW;613500;Location de materiel;41,65;0,00
+30/07/2024;CODEUR.COM;445610;TVA deductible;6,38;0,00
+30/07/2024;CODEUR.COM;512001;Banque 1;0,00;38,28
+30/07/2024;CODEUR.COM;613600;Abonnements logiciels;31,90;0,00
+19/08/2024;SHADOW;512001;Banque 1;0,00;49,98
+19/08/2024;SHADOW;445610;TVA deductible;8,33;0,00
+19/08/2024;SHADOW;613500;Location de materiel;41,65;0,00
+02/09/2024;Google GSUITE_davai.co;512001;Banque 1;0,00;8,28
+02/09/2024;Google GSUITE_davai.co;445610;TVA deductible;1,38;0,00
+02/09/2024;Google GSUITE_davai.co;613600;Abonnements logiciels;6,90;0,00
+06/09/2024;Transaction par carte en devise etrangere - SWAN;445610;TVA deductible;0,21;0,00
+06/09/2024;Transaction par carte en devise etrangere - SWAN;627000;Services bancaires;1,06;0,00
+06/09/2024;Transaction par carte en devise etrangere - SWAN;512001;Banque 1;0,00;1,27
+02/08/2024;ANKALAB;512001;Banque 1;0,00;65,00
+02/08/2024;ANKALAB;623000;Publicite, publications, relations publiques;54,17;0,00
+02/08/2024;ANKALAB;445610;TVA deductible;10,83;0,00
+05/09/2024;LEETCODE.COM;512001;Banque 1;0,00;63,48
+05/09/2024;LEETCODE.COM;445610;TVA deductible;10,58;0,00
+05/09/2024;LEETCODE.COM;622000;Honoraires divers;52,90;0,00
+30/08/2024;CODEUR.COM;613600;Abonnements logiciels;31,90;0,00
+30/08/2024;CODEUR.COM;512001;Banque 1;0,00;38,28
+30/08/2024;CODEUR.COM;445610;TVA deductible;6,38;0,00
+13/08/2024;PADDLE.NET* BYTEBYTEGO;512001;Banque 1;0,00;55,97
+13/08/2024;PADDLE.NET* BYTEBYTEGO;445610;TVA deductible;9,33;0,00
+13/08/2024;PADDLE.NET* BYTEBYTEGO;622000;Honoraires divers;46,64;0,00
+11/09/2024;Transaction par carte en devise etrangere - SWAN;627000;Services bancaires;1,51;0,00
+11/09/2024;Transaction par carte en devise etrangere - SWAN;445610;TVA deductible;0,30;0,00
+11/09/2024;Transaction par carte en devise etrangere - SWAN;512001;Banque 1;0,00;1,81
+10/09/2024;GITHUB, INC.;613600;Abonnements logiciels;75,53;0,00
+10/09/2024;GITHUB, INC.;512001;Banque 1;0,00;90,64
+10/09/2024;GITHUB, INC.;445610;TVA deductible;15,11;0,00
+13/09/2024;Transaction par carte en devise etrangere - SWAN;627000;Services bancaires;0,30;0,00
+13/09/2024;Transaction par carte en devise etrangere - SWAN;445610;TVA deductible;0,06;0,00
+13/09/2024;Transaction par carte en devise etrangere - SWAN;512001;Banque 1;0,00;0,36
+13/09/2024;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;3,03;0,00
+13/09/2024;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;18,18
+13/09/2024;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;15,15;0,00
+19/09/2024;Microsoft-G059395584;445610;TVA deductible;1,09;0,00
+19/09/2024;Microsoft-G059395584;613500;Location de materiel;5,45;0,00
+19/09/2024;Microsoft-G059395584;512001;Banque 1;0,00;6,54
+19/09/2024;SHADOW;613500;Location de materiel;41,65;0,00
+19/09/2024;SHADOW;512001;Banque 1;0,00;49,98
+19/09/2024;SHADOW;445610;TVA deductible;8,33;0,00
+23/09/2024;Transaction par carte en devise etrangere - SWAN;445610;TVA deductible;0,28;0,00
+23/09/2024;Transaction par carte en devise etrangere - SWAN;512001;Banque 1;0,00;1,67
+23/09/2024;Transaction par carte en devise etrangere - SWAN;627000;Services bancaires;1,39;0,00
+24/09/2024;Transaction par carte en devise etrangere - SWAN;627000;Services bancaires;0,02;0,00
+24/09/2024;Transaction par carte en devise etrangere - SWAN;512001;Banque 1;0,00;0,03
+24/09/2024;Transaction par carte en devise etrangere - SWAN;445610;TVA deductible;0,01;0,00
+23/09/2024;AWS EMEA;613600;Abonnements logiciels;1,27;0,00
+23/09/2024;AWS EMEA;512001;Banque 1;0,00;1,52
+23/09/2024;AWS EMEA;445610;TVA deductible;0,25;0,00
+02/10/2024;Transaction par carte en devise etrangere - SWAN;627000;Services bancaires;1,25;0,00
+02/10/2024;Transaction par carte en devise etrangere - SWAN;445610;TVA deductible;0,25;0,00
+02/10/2024;Transaction par carte en devise etrangere - SWAN;512001;Banque 1;0,00;1,50
+01/10/2024;Google GSUITE_davai.co;613600;Abonnements logiciels;6,90;0,00
+01/10/2024;Google GSUITE_davai.co;445610;TVA deductible;1,38;0,00
+01/10/2024;Google GSUITE_davai.co;512001;Banque 1;0,00;8,28
+01/10/2024;RENDER.COM;445610;TVA deductible;12,53;0,00
+01/10/2024;RENDER.COM;613500;Location de materiel;62,62;0,00
+01/10/2024;RENDER.COM;512001;Banque 1;0,00;75,15
+23/09/2024;RENDER.COM;613500;Location de materiel;69,60;0,00
+23/09/2024;RENDER.COM;445610;TVA deductible;13,92;0,00
+23/09/2024;RENDER.COM;512001;Banque 1;0,00;83,52
+26/09/2024;SVD CHAMPIGNY;606300;Materiel et outillage;215,75;0,00
+26/09/2024;SVD CHAMPIGNY;512001;Banque 1;0,00;258,90
+26/09/2024;SVD CHAMPIGNY;445610;TVA deductible;43,15;0,00
+27/09/2024;Facture 064 - SAS JBP Pigalle;445610;TVA deductible;166,67;0,00
+27/09/2024;Facture 064 - SAS JBP Pigalle;604000;Prestation de service;833,33;0,00
+27/09/2024;Facture 064 - SAS JBP Pigalle;512001;Banque 1;0,00;1000,00
+07/10/2024;JUMBO;275000;Depôts et cautionnements verses ou recuperes;300,00;0,00
+07/10/2024;JUMBO;512001;Banque 1;0,00;300,00
+07/10/2024;APPLE.COM/BILL;613600;Abonnements logiciels;5,99;0,00
+07/10/2024;APPLE.COM/BILL;445610;TVA deductible;1,20;0,00
+07/10/2024;APPLE.COM/BILL;512001;Banque 1;0,00;7,19
+07/10/2024;INDY COMPTABILITE;445610;TVA deductible;9,80;0,00
+07/10/2024;INDY COMPTABILITE;512001;Banque 1;0,00;58,80
+07/10/2024;INDY COMPTABILITE;613600;Abonnements logiciels;49,00;0,00
+10/10/2024;SC-GATTOPARDO;625700;Restaurants et repas d'affaires;79,09;0,00
+10/10/2024;SC-GATTOPARDO;445610;TVA deductible;7,91;0,00
+10/10/2024;SC-GATTOPARDO;512001;Banque 1;0,00;87,00
+11/10/2024;MICROSOFT#G061904122;613600;Abonnements logiciels;15,91;0,00
+11/10/2024;MICROSOFT#G061904122;445610;TVA deductible;3,18;0,00
+11/10/2024;MICROSOFT#G061904122;512001;Banque 1;0,00;19,09
+13/10/2024;Transaction par carte en devise etrangere - SWAN;627000;Services bancaires;0,31;0,00
+13/10/2024;Transaction par carte en devise etrangere - SWAN;512001;Banque 1;0,00;0,37
+13/10/2024;Transaction par carte en devise etrangere - SWAN;445610;TVA deductible;0,06;0,00
+13/10/2024;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;15,29;0,00
+13/10/2024;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;3,06;0,00
+13/10/2024;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;18,35
+11/10/2024;HOTEL MONTALEMBE;445610;TVA deductible;7,35;0,00
+11/10/2024;HOTEL MONTALEMBE;625100;Frais de deplacements;36,75;0,00
+11/10/2024;HOTEL MONTALEMBE;512001;Banque 1;0,00;44,10
+14/10/2024;Facture d'acompte 202410-2 - Agilane Pajaniradja;411000;Clients;1800,00;0,00
+14/10/2024;Facture d'acompte 202410-2 - Agilane Pajaniradja;419100;Acomptes;0,00;1800,00
+14/10/2024;trainline;512001;Banque 1;0,00;124,00
+14/10/2024;trainline;445610;TVA deductible;20,67;0,00
+14/10/2024;trainline;625100;Frais de deplacements;103,33;0,00
+15/10/2024;Facturation 202410-3 - PM. ARMEN;411000;Clients;10183,81;0,00
+15/10/2024;Facturation 202410-3 - PM. ARMEN;707000;Vente de marchandise;0,00;589,81
+15/10/2024;Facturation 202410-3 - PM. ARMEN;706001;Vente de service;0,00;7995,00
+15/10/2024;Facturation 202410-3 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1599,00
+14/10/2024;AIR FRANCE;625100;Frais de deplacements;331,51;0,00
+14/10/2024;AIR FRANCE;512001;Banque 1;0,00;397,81
+14/10/2024;AIR FRANCE;445610;TVA deductible;66,30;0,00
+19/10/2024;SHADOW;512001;Banque 1;0,00;49,98
+19/10/2024;SHADOW;445610;TVA deductible;8,33;0,00
+19/10/2024;SHADOW;613500;Location de materiel;41,65;0,00
+22/10/2024;TNVP TAXI;445610;TVA deductible;7,45;0,00
+22/10/2024;TNVP TAXI;625100;Frais de deplacements;37,25;0,00
+22/10/2024;TNVP TAXI;512001;Banque 1;0,00;44,70
+22/10/2024;G7;445610;TVA deductible;5,82;0,00
+22/10/2024;G7;512001;Banque 1;0,00;34,90
+22/10/2024;G7;625100;Frais de deplacements;29,08;0,00
+23/10/2024;TAXI;512001;Banque 1;0,00;37,30
+23/10/2024;TAXI;445610;TVA deductible;6,22;0,00
+23/10/2024;TAXI;625100;Frais de deplacements;31,08;0,00
+25/10/2024;Zettle_*EI EZEQUIEL;512001;Banque 1;0,00;56,00
+25/10/2024;Zettle_*EI EZEQUIEL;625100;Frais de deplacements;46,67;0,00
+25/10/2024;Zettle_*EI EZEQUIEL;445610;TVA deductible;9,33;0,00
+25/10/2024;TAXI;445610;TVA deductible;11,83;0,00
+25/10/2024;TAXI;512001;Banque 1;0,00;70,95
+25/10/2024;TAXI;625100;Frais de deplacements;59,12;0,00
+25/10/2024;TAXI;445610;TVA deductible;15,48;0,00
+25/10/2024;TAXI;512001;Banque 1;0,00;92,85
+25/10/2024;TAXI;625100;Frais de deplacements;77,37;0,00
+25/10/2024;SumUp *Morgado;445610;TVA deductible;9,33;0,00
+25/10/2024;SumUp *Morgado;625100;Frais de deplacements;46,67;0,00
+25/10/2024;SumUp *Morgado;512001;Banque 1;0,00;56,00
+26/10/2024;INDY COMPTABILITE;613600;Abonnements logiciels;49,00;0,00
+26/10/2024;INDY COMPTABILITE;512001;Banque 1;0,00;58,80
+26/10/2024;INDY COMPTABILITE;445610;TVA deductible;9,80;0,00
+25/10/2024;BISTROTHIARS;512001;Banque 1;0,00;110,00
+25/10/2024;BISTROTHIARS;445610;TVA deductible;10,00;0,00
+25/10/2024;BISTROTHIARS;625700;Restaurants et repas d'affaires;100,00;0,00
+28/10/2024;Acompte 202410-2 - ENTRE NOUS;411000;Clients;0,00;1800,00
+28/10/2024;Acompte 202410-2 - ENTRE NOUS;512001;Banque 1;1800,00;0,00
+28/10/2024;Encaissement d'acompte 202410-2 - Agilane Pajaniradja;445710;TVA collectee;0,00;300,00
+28/10/2024;Encaissement d'acompte 202410-2 - Agilane Pajaniradja;445870;TVA en attente sur acomptes;300,00;0,00
+29/10/2024;Facture d'acompte 202410-4 - Agilane Pajaniradja;411000;Clients;1700,00;0,00
+29/10/2024;Facture d'acompte 202410-4 - Agilane Pajaniradja;419100;Acomptes;0,00;1700,00
+29/10/2024;COMMANDE;445610;TVA deductible;0,53;0,00
+29/10/2024;COMMANDE;512001;Banque 1;0,00;3,20
+29/10/2024;COMMANDE;622700;Frais d'actes et de contentieux;2,67;0,00
+30/10/2024;Facturation 202410-5 - Agilane Pajaniradja;706001;Vente de service;0,00;2916,65
+30/10/2024;Facturation 202410-5 - Agilane Pajaniradja;706001;Vente de service;0,00;2083,35
+30/10/2024;Facturation 202410-5 - Agilane Pajaniradja;445870;TVA en attente sur acomptes;0,00;583,33
+30/10/2024;Facturation 202410-5 - Agilane Pajaniradja;411000;Clients;2500,00;0,00
+30/10/2024;Facturation 202410-5 - Agilane Pajaniradja;419100;Acomptes;3500,00;0,00
+30/10/2024;Facturation 202410-5 - Agilane Pajaniradja;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;416,67
+29/10/2024;DNH*GODADDY#3381511336;512001;Banque 1;0,00;13,51
+29/10/2024;DNH*GODADDY#3381511336;445610;TVA deductible;2,25;0,00
+29/10/2024;DNH*GODADDY#3381511336;651100;Redevances pour concessions, brevets, licences, marques, procedes, logiciels;11,26;0,00
+30/10/2024;THEASSISTANT;512001;Banque 1;0,00;370,80
+30/10/2024;THEASSISTANT;604000;Prestation de service;309,00;0,00
+30/10/2024;THEASSISTANT;445610;TVA deductible;61,80;0,00
+01/11/2024;Google GSUITE_davai.co;445610;TVA deductible;1,38;0,00
+01/11/2024;Google GSUITE_davai.co;613600;Abonnements logiciels;6,90;0,00
+01/11/2024;Google GSUITE_davai.co;512001;Banque 1;0,00;8,28
+01/11/2024;RENDER.COM;613500;Location de materiel;43,04;0,00
+01/11/2024;RENDER.COM;512001;Banque 1;0,00;51,65
+01/11/2024;RENDER.COM;445610;TVA deductible;8,61;0,00
+02/11/2024;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,86;0,00
+02/11/2024;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,17;0,00
+02/11/2024;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,03
+06/11/2024;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,36;0,00
+06/11/2024;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,78;0,00
+06/11/2024;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;2,14
+05/11/2024;FIVERR *;445610;TVA deductible;17,82;0,00
+05/11/2024;FIVERR *;604000;Prestation de service;89,07;0,00
+05/11/2024;FIVERR *;512001;Banque 1;0,00;106,89
+07/11/2024;Acompte2 sur Devis D202410-5 - ENTRE NOUS;411000;Clients;0,00;1700,00
+07/11/2024;Acompte2 sur Devis D202410-5 - ENTRE NOUS;512001;Banque 1;1700,00;0,00
+07/11/2024;APPLE.COM/BILL;445610;TVA deductible;1,20;0,00
+07/11/2024;APPLE.COM/BILL;613600;Abonnements logiciels;5,99;0,00
+07/11/2024;APPLE.COM/BILL;512001;Banque 1;0,00;7,19
+07/11/2024;SumUp *Sidar Express;445610;TVA deductible;15,75;0,00
+07/11/2024;SumUp *Sidar Express;625100;Frais de deplacements;78,77;0,00
+07/11/2024;SumUp *Sidar Express;512001;Banque 1;0,00;94,52
+08/11/2024;Virement de H - PM ARMEN;411000;Clients;0,00;10183,81
+08/11/2024;Virement de H - PM ARMEN;512001;Banque 1;10183,81;0,00
+09/11/2024;Microsoft-G066208792;613600;Abonnements logiciels;5,53;0,00
+09/11/2024;Microsoft-G066208792;445610;TVA deductible;1,11;0,00
+09/11/2024;Microsoft-G066208792;512001;Banque 1;0,00;6,64
+09/11/2024;Microsoft-G066455287;445610;TVA deductible;4,55;0,00
+09/11/2024;Microsoft-G066455287;613600;Abonnements logiciels;22,76;0,00
+09/11/2024;Microsoft-G066455287;512001;Banque 1;0,00;27,31
+11/11/2024;/INV/K4182872/0087537021 //20241104-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;85,25
+11/11/2024;/INV/K4182872/0087537021 //20241104-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;14,21;0,00
+11/11/2024;/INV/K4182872/0087537021 //20241104-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;71,04;0,00
+13/11/2024;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;3,15;0,00
+13/11/2024;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;15,73;0,00
+13/11/2024;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;18,88
+13/11/2024;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,38
+13/11/2024;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+13/11/2024;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,32;0,00
+19/11/2024;CAMPARY;512001;Banque 1;0,00;66,00
+19/11/2024;CAMPARY;625700;Restaurants et repas d'affaires;60,00;0,00
+19/11/2024;CAMPARY;445610;TVA deductible;6,00;0,00
+19/11/2024;SHADOW;445610;TVA deductible;8,33;0,00
+19/11/2024;SHADOW;512001;Banque 1;0,00;49,98
+19/11/2024;SHADOW;613500;Location de materiel;41,65;0,00
+20/11/2024;LE HOCHE;445610;TVA deductible;5,64;0,00
+20/11/2024;LE HOCHE;512001;Banque 1;0,00;62,00
+20/11/2024;LE HOCHE;625700;Restaurants et repas d'affaires;56,36;0,00
+20/11/2024;E M D 17;210000;Immobilisations corporelles;1000,00;0,00
+20/11/2024;E M D 17;512001;Banque 1;0,00;1000,00
+24/11/2024;APPLE.COM/BILL;512001;Banque 1;0,00;249,99
+24/11/2024;APPLE.COM/BILL;445610;TVA deductible;41,67;0,00
+24/11/2024;APPLE.COM/BILL;613600;Abonnements logiciels;208,32;0,00
+25/11/2024;/INV/K4252001/0087537021 //20241118-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;60,58;0,00
+25/11/2024;/INV/K4252001/0087537021 //20241118-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;72,70
+25/11/2024;/INV/K4252001/0087537021 //20241118-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;12,12;0,00
+07/11/2024;Encaissement d'acompte 202410-4 - Agilane Pajaniradja;445710;TVA collectee;0,00;283,33
+07/11/2024;Encaissement d'acompte 202410-4 - Agilane Pajaniradja;445870;TVA en attente sur acomptes;283,33;0,00
+08/11/2024;Encaissement 202410-3 - PM. ARMEN;445710;TVA collectee;0,00;1599,00
+08/11/2024;Encaissement 202410-3 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;1599,00;0,00
+26/11/2024;INDY COMPTABILITE;512001;Banque 1;0,00;58,80
+26/11/2024;INDY COMPTABILITE;613600;Abonnements logiciels;49,00;0,00
+26/11/2024;INDY COMPTABILITE;445610;TVA deductible;9,80;0,00
+28/11/2024;FiverrEU;512001;Banque 1;0,00;26,07
+28/11/2024;FiverrEU;604000;Prestation de service;21,72;0,00
+28/11/2024;FiverrEU;445610;TVA deductible;4,35;0,00
+28/11/2024;FIGMA MONTHLY RENEWAL;445610;TVA deductible;3,00;0,00
+28/11/2024;FIGMA MONTHLY RENEWAL;613600;Abonnements logiciels;15,00;0,00
+28/11/2024;FIGMA MONTHLY RENEWAL;512001;Banque 1;0,00;18,00
+25/11/2024;Davai Kratiroff Tiger - Elysee Motor Distribution;512001;Banque 1;0,00;9613,75
+25/11/2024;Davai Kratiroff Tiger - Elysee Motor Distribution;210000;Immobilisations corporelles;9613,75;0,00
+28/11/2024;SP QUAD LOCK EUROPE;512001;Banque 1;0,00;61,60
+28/11/2024;SP QUAD LOCK EUROPE;606300;Materiel et outillage;51,33;0,00
+28/11/2024;SP QUAD LOCK EUROPE;445610;TVA deductible;10,27;0,00
+30/11/2024;THEASSISTANT;604000;Prestation de service;309,00;0,00
+30/11/2024;THEASSISTANT;445610;TVA deductible;61,80;0,00
+30/11/2024;THEASSISTANT;512001;Banque 1;0,00;370,80
+01/12/2024;Google GSUITE_davai.co;445610;TVA deductible;1,38;0,00
+01/12/2024;Google GSUITE_davai.co;512001;Banque 1;0,00;8,28
+01/12/2024;Google GSUITE_davai.co;613600;Abonnements logiciels;6,90;0,00
+02/12/2024;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,88;0,00
+02/12/2024;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,18;0,00
+02/12/2024;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,06
+02/12/2024;RENDER.COM;512001;Banque 1;0,00;53,13
+02/12/2024;RENDER.COM;445610;TVA deductible;8,86;0,00
+02/12/2024;RENDER.COM;613500;Location de materiel;44,27;0,00
+02/12/2024;MANTCHOUK;445610;TVA deductible;7,83;0,00
+02/12/2024;MANTCHOUK;625700;Restaurants et repas d'affaires;78,35;0,00
+02/12/2024;MANTCHOUK;512001;Banque 1;0,00;86,18
+05/12/2024;306-3 - SAS Volum;512001;Banque 1;0,00;480,00
+05/12/2024;306-3 - SAS Volum;604000;Prestation de service;400,00;0,00
+05/12/2024;306-3 - SAS Volum;445610;TVA deductible;80,00;0,00
+05/12/2024;306-2 - SAS Volum;604000;Prestation de service;400,00;0,00
+05/12/2024;306-2 - SAS Volum;445610;TVA deductible;80,00;0,00
+05/12/2024;306-2 - SAS Volum;512001;Banque 1;0,00;480,00
+07/12/2024;APPLE.COM/BILL;613600;Abonnements logiciels;5,99;0,00
+07/12/2024;APPLE.COM/BILL;445610;TVA deductible;1,20;0,00
+07/12/2024;APPLE.COM/BILL;512001;Banque 1;0,00;7,19
+09/12/2024;Microsoft-G069830476;445610;TVA deductible;6,03;0,00
+09/12/2024;Microsoft-G069830476;512001;Banque 1;0,00;36,17
+09/12/2024;Microsoft-G069830476;613600;Abonnements logiciels;30,14;0,00
+10/12/2024;/INV/K4406005/0087537021 //20241204-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;89,23
+10/12/2024;/INV/K4406005/0087537021 //20241204-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;14,87;0,00
+10/12/2024;/INV/K4406005/0087537021 //20241204-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;74,36;0,00
+09/12/2024;MICROSOFT#G070111484;613600;Abonnements logiciels;20,81;0,00
+09/12/2024;MICROSOFT#G070111484;512001;Banque 1;0,00;24,97
+09/12/2024;MICROSOFT#G070111484;445610;TVA deductible;4,16;0,00
+12/12/2024;SMALLPDF;445610;TVA deductible;1,67;0,00
+12/12/2024;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
+12/12/2024;SMALLPDF;512001;Banque 1;0,00;10,00
+13/12/2024;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;15,93;0,00
+13/12/2024;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;3,19;0,00
+13/12/2024;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;19,12
+13/12/2024;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+13/12/2024;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,32;0,00
+13/12/2024;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,38
+13/12/2024;MICROSOFT#G070552746;512001;Banque 1;0,00;11,28
+13/12/2024;MICROSOFT#G070552746;613600;Abonnements logiciels;9,40;0,00
+13/12/2024;MICROSOFT#G070552746;445610;TVA deductible;1,88;0,00
+19/12/2024;SHADOW;512001;Banque 1;0,00;49,98
+19/12/2024;SHADOW;445610;TVA deductible;8,33;0,00
+19/12/2024;SHADOW;613500;Location de materiel;41,65;0,00
+23/12/2024;Facturation 202412-6 - GPF;411000;Clients;5100,00;0,00
+23/12/2024;Facturation 202412-6 - GPF;706001;Vente de service;0,00;5100,00
+23/12/2024;MANTCHOUK;625700;Restaurants et repas d'affaires;18,09;0,00
+23/12/2024;MANTCHOUK;445610;TVA deductible;1,81;0,00
+23/12/2024;MANTCHOUK;512001;Banque 1;0,00;19,90
+24/12/2024;RELAISDELENTREC;625700;Restaurants et repas d'affaires;61,82;0,00
+24/12/2024;RELAISDELENTREC;445610;TVA deductible;6,18;0,00
+24/12/2024;RELAISDELENTREC;512001;Banque 1;0,00;68,00
+24/12/2024;Montblanc;445610;TVA deductible;71,67;0,00
+24/12/2024;Montblanc;512001;Banque 1;0,00;430,00
+24/12/2024;Montblanc;606300;Materiel et outillage;358,33;0,00
+27/12/2024;/INV/K4572431/0087537021 //20241218-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;115,05
+27/12/2024;/INV/K4572431/0087537021 //20241218-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;19,18;0,00
+27/12/2024;/INV/K4572431/0087537021 //20241218-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;95,87;0,00
+26/12/2024;INDY COMPTABILITE;512001;Banque 1;0,00;58,80
+26/12/2024;INDY COMPTABILITE;613600;Abonnements logiciels;49,00;0,00
+26/12/2024;INDY COMPTABILITE;445610;TVA deductible;9,80;0,00
+28/12/2024;FIGMA MONTHLY RENEWAL;445610;TVA deductible;3,00;0,00
+28/12/2024;FIGMA MONTHLY RENEWAL;512001;Banque 1;0,00;18,00
+28/12/2024;FIGMA MONTHLY RENEWAL;613600;Abonnements logiciels;15,00;0,00
+30/12/2024;THEASSISTANT;604000;Prestation de service;309,00;0,00
+30/12/2024;THEASSISTANT;512001;Banque 1;0,00;370,80
+30/12/2024;THEASSISTANT;445610;TVA deductible;61,80;0,00
+30/07/2024;trainline;625100;Frais de deplacements;56,67;0,00
+30/07/2024;trainline;445610;TVA deductible;11,33;0,00
+30/07/2024;trainline;512001;Banque 1;0,00;68,00
+12/09/2024;MICROSOFT#G059193899;445610;TVA deductible;3,46;0,00
+12/09/2024;MICROSOFT#G059193899;613600;Abonnements logiciels;17,27;0,00
+12/09/2024;MICROSOFT#G059193899;512001;Banque 1;0,00;20,73
+22/10/2024;UBR* PENDING.UBER.COM;445610;TVA deductible;5,99;0,00
+22/10/2024;UBR* PENDING.UBER.COM;625100;Frais de deplacements;29,96;0,00
+22/10/2024;UBR* PENDING.UBER.COM;512001;Banque 1;0,00;35,95
+04/11/2024;trainline;512001;Banque 1;0,00;149,00
+04/11/2024;trainline;625100;Frais de deplacements;149,00;0,00
+10/12/2024;E M D 17;445610;TVA deductible;49,42;0,00
+10/12/2024;E M D 17;615000;Entretien et reparations;247,08;0,00
+10/12/2024;E M D 17;512001;Banque 1;0,00;296,50
+31/12/2024;Amortissement : Moto Pro;281000;Amortissements des immobilisations corporelles;0,00;127,60
+31/12/2024;Amortissement : Moto Pro;681000;Amortissement;127,60;0,00
+31/12/2024;Transfert de capital verse;101000;Capital;100,00;0,00
+31/12/2024;Transfert de capital verse;101300;Capital souscrit appele verse;0,00;100,00
+13/11/2024;MICROSOFT#G066783568;613600;Abonnements logiciels;9,40;0,00
+13/11/2024;MICROSOFT#G066783568;512001;Banque 1;0,00;11,28
+13/11/2024;MICROSOFT#G066783568;445610;TVA deductible;1,88;0,00
+12/09/2024;Microsoft-G059574852;512001;Banque 1;0,00;11,28
+12/09/2024;Microsoft-G059574852;445610;TVA deductible;1,88;0,00
+12/09/2024;Microsoft-G059574852;613600;Abonnements logiciels;9,40;0,00
+09/11/2024;Microsoft-G065517500;445610;TVA deductible;1,88;0,00
+09/11/2024;Microsoft-G065517500;512001;Banque 1;0,00;11,28
+09/11/2024;Microsoft-G065517500;613600;Abonnements logiciels;9,40;0,00
+12/06/2024;Billet de train Aix;445610;TVA deductible;13,67;0,00
+12/06/2024;Billet de train Aix;625100;Frais de deplacements;68,33;0,00
+12/06/2024;Billet de train Aix;455100;Associes - Comptes courants;0,00;82,00
+12/06/2024;Billet de train Aix;455100;Associes - Comptes courants;0,00;84,00
+12/06/2024;Billet de train Aix;445610;TVA deductible;14,00;0,00
+12/06/2024;Billet de train Aix;625100;Frais de deplacements;70,00;0,00
+31/07/2024;Google Workspace;613600;Abonnements logiciels;6,90;0,00
+31/07/2024;Google Workspace;455100;Associes - Comptes courants;0,00;8,28
+31/07/2024;Google Workspace;445610;TVA deductible;1,38;0,00
+14/10/2024;Stuart pour ordi;604000;Prestation de service;6,57;0,00
+14/10/2024;Stuart pour ordi;455100;Associes - Comptes courants;0,00;7,89
+14/10/2024;Stuart pour ordi;445610;TVA deductible;1,32;0,00
+14/10/2024;Stuart pour ordi;455100;Associes - Comptes courants;0,00;10,65
+14/10/2024;Stuart pour ordi;445610;TVA deductible;1,78;0,00
+14/10/2024;Stuart pour ordi;604000;Prestation de service;8,87;0,00
+03/09/2024;Ouigo pour Marseille;455100;Associes - Comptes courants;0,00;19,00
+03/09/2024;Ouigo pour Marseille;445610;TVA deductible;3,17;0,00
+03/09/2024;Ouigo pour Marseille;625100;Frais de deplacements;15,83;0,00
+03/09/2024;Train retour Marseille;455100;Associes - Comptes courants;0,00;49,00
+03/09/2024;Train retour Marseille;625100;Frais de deplacements;40,83;0,00
+03/09/2024;Train retour Marseille;445610;TVA deductible;8,17;0,00
+15/10/2024;Vol pour Marseille;455100;Associes - Comptes courants;0,00;397,81
+15/10/2024;Vol pour Marseille;625100;Frais de deplacements;331,51;0,00
+15/10/2024;Vol pour Marseille;445610;TVA deductible;66,30;0,00
+24/09/2024;Londres Hotel (https://www.exchange-rates.org/exchange-rate-history/gbp-eur-2024);455100;Associes - Comptes courants;0,00;305,93
+24/09/2024;Londres Hotel (https://www.exchange-rates.org/exchange-rate-history/gbp-eur-2024);625100;Frais de deplacements;254,94;0,00
+24/09/2024;Londres Hotel (https://www.exchange-rates.org/exchange-rate-history/gbp-eur-2024);445610;TVA deductible;50,99;0,00
+20/09/2024;Londres Train;445610;TVA deductible;28,00;0,00
+20/09/2024;Londres Train;625100;Frais de deplacements;140,00;0,00
+20/09/2024;Londres Train;455100;Associes - Comptes courants;0,00;168,00
+14/10/2024;Train pour Nantes;445610;TVA deductible;20,67;0,00
+14/10/2024;Train pour Nantes;625100;Frais de deplacements;103,33;0,00
+14/10/2024;Train pour Nantes;455100;Associes - Comptes courants;0,00;124,00
+04/05/2024;Frais de formalites (LegalPlace);604000;Prestation de service;247,86;0,00
+04/05/2024;Frais de formalites (LegalPlace);445610;TVA deductible;49,57;0,00
+04/05/2024;Frais de formalites (LegalPlace);455100;Associes - Comptes courants;0,00;297,43
+04/05/2024;Billet de train Aix;455100;Associes - Comptes courants;0,00;71,00
+04/05/2024;Billet de train Aix;625100;Frais de deplacements;59,17;0,00
+04/05/2024;Billet de train Aix;445610;TVA deductible;11,83;0,00
+04/05/2024;Domaine mp-boissons.cloud;455100;Associes - Comptes courants;0,00;21,60
+04/05/2024;Domaine mp-boissons.cloud;445610;TVA deductible;3,60;0,00
+04/05/2024;Domaine mp-boissons.cloud;651100;Redevances pour concessions, brevets, licences, marques, procedes, logiciels;18,00;0,00
+04/05/2024;Microsoft 365;445610;TVA deductible;11,67;0,00
+04/05/2024;Microsoft 365;613600;Abonnements logiciels;58,32;0,00
+04/05/2024;Microsoft 365;455100;Associes - Comptes courants;0,00;69,99
+04/05/2024;Indy premiere paiement;455100;Associes - Comptes courants;0,00;176,40
+04/05/2024;Indy premiere paiement;627000;Services bancaires;147,00;0,00
+04/05/2024;Indy premiere paiement;445610;TVA deductible;29,40;0,00
+04/05/2024;Nom de domaine davai.co;445610;TVA deductible;37,92;0,00
+04/05/2024;Nom de domaine davai.co;455100;Associes - Comptes courants;0,00;227,50
+04/05/2024;Nom de domaine davai.co;651100;Redevances pour concessions, brevets, licences, marques, procedes, logiciels;189,58;0,00
+04/10/2024;Avion pour Seville;445610;TVA deductible;91,83;0,00
+04/10/2024;Avion pour Seville;625100;Frais de deplacements;459,15;0,00
+04/10/2024;Avion pour Seville;455100;Associes - Comptes courants;0,00;550,98
+04/10/2024;Hotel Seville;625100;Frais de deplacements;513,33;0,00
+04/10/2024;Hotel Seville;455100;Associes - Comptes courants;0,00;616,00
+04/10/2024;Hotel Seville;445610;TVA deductible;102,67;0,00
+24/05/2024;Train pour Agen;625100;Frais de deplacements;530,00;0,00
+24/05/2024;Train pour Agen;455100;Associes - Comptes courants;0,00;636,00
+24/05/2024;Train pour Agen;445610;TVA deductible;106,00;0,00
+24/05/2024;Hotel Agen;625100;Frais de deplacements;305,00;0,00
+24/05/2024;Hotel Agen;445610;TVA deductible;61,00;0,00
+24/05/2024;Hotel Agen;455100;Associes - Comptes courants;0,00;366,00
+31/12/2024;Quote Part Hermel - Engine mai-decembre (40% de 2715.7);606100;Eau, gaz, electricite;905,23;0,00
+31/12/2024;Quote Part Hermel - Engine mai-decembre (40% de 2715.7);455100;Associes - Comptes courants;0,00;1086,28
+31/12/2024;Quote Part Hermel - Engine mai-decembre (40% de 2715.7);445610;TVA deductible;181,05;0,00
+31/12/2024;Quote Part Hermel - Loyer mai-decembre (40% de 3500*7);455100;Associes - Comptes courants;0,00;9800,00
+31/12/2024;Quote Part Hermel - Loyer mai-decembre (40% de 3500*7);613200;Loyers et charges locatives;9800,00;0,00
+31/12/2024;Quote Part Hermel - Copro Juillet (40% de 835.31);455100;Associes - Comptes courants;0,00;334,12
+31/12/2024;Quote Part Hermel - Copro Juillet (40% de 835.31);613200;Loyers et charges locatives;334,12;0,00
+31/12/2024;Quote Part Hermel - Copro Octobre (40% de 835.31);613200;Loyers et charges locatives;334,12;0,00
+31/12/2024;Quote Part Hermel - Copro Octobre (40% de 835.31);455100;Associes - Comptes courants;0,00;334,12
+31/12/2024;Quote Part Hermel - Internet Free (40% de 7*39.99);455100;Associes - Comptes courants;0,00;119,97
+31/12/2024;Quote Part Hermel - Internet Free (40% de 7*39.99);445610;TVA deductible;20,00;0,00
+31/12/2024;Quote Part Hermel - Internet Free (40% de 7*39.99);626000;Internet, telephone et frais postaux;99,97;0,00
+31/12/2024;Indemnite kilometrique 2024;455100;Associes - Comptes courants;0,00;1978,00
+31/12/2024;Indemnite kilometrique 2024;625200;Vehicule et carburant;1978,00;0,00
+31/12/2024;Od de cloture des impots et taxes - Montants dus;447145;Taxe sur les vehicules de societes;0,00;109,00
+31/12/2024;Od de cloture des impots et taxes - Montants dus;635140;Taxe sur les vehicules;109,00;0,00
+31/12/2024;Declaration de TVA - Du 03/05/2024 au 31/12/2024;445510;TVA à payer;0,00;1756,00
+31/12/2024;Declaration de TVA - Du 03/05/2024 au 31/12/2024;445610;TVA deductible;0,00;2026,38
+31/12/2024;Declaration de TVA - Du 03/05/2024 au 31/12/2024;658000;Pertes diverses;0,05;0,00
+31/12/2024;Declaration de TVA - Du 03/05/2024 au 31/12/2024;445710;TVA collectee;3782,33;0,00
+31/12/2024;Solde du compte 445610;445611;Regularisation de TVA deductible;195,69;0,00
+31/12/2024;Solde du compte 445610;445610;TVA deductible;0,00;195,69
+31/12/2024;Affectation du resultat en fin d'exercice 2024;120000;Resultat de l'exercice (benefice);0,00;2309,20
+31/12/2024;Affectation du resultat en fin d'exercice 2024;800120;Resultat de l'exercice (benefice);2309,20;0,00
+31/12/2024;Impot sur les societes - Exercice 2024;695000;Impots sur les benefices;426,74;0,00
+31/12/2024;Impot sur les societes - Exercice 2024;444000;Impôts sur les benefices;0,00;426,74

@@ -6,7 +6,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 01/01/2025;RENDER.COM;445610;TVA deductible;9,02;0,00
 01/01/2025;RENDER.COM;613500;Location de materiel;45,11;0,00
 02/01/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,08
-02/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,08;0,00
+02/01/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,18;0,00
+02/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,90;0,00
 07/01/2025;APPLE.COM/BILL;445610;TVA deductible;1,20;0,00
 07/01/2025;APPLE.COM/BILL;512001;Banque 1;0,00;7,19
 07/01/2025;APPLE.COM/BILL;613600;Abonnements logiciels;5,99;0,00
@@ -43,7 +44,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/01/2025;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;19,58
 13/01/2025;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;3,26;0,00
 13/01/2025;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;16,32;0,00
-13/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,39;0,00
+13/01/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+13/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,32;0,00
 13/01/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,39
 10/01/2025;MAITRE DATTIER;445610;TVA deductible;5,00;0,00
 10/01/2025;MAITRE DATTIER;512001;Banque 1;0,00;54,99
@@ -57,7 +59,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 14/01/2025;LE VAVIN;445610;TVA deductible;2,07;0,00
 14/01/2025;LE VAVIN;512001;Banque 1;0,00;22,80
 14/01/2025;LE VAVIN;625700;Restaurants et repas d'affaires;20,73;0,00
-15/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,49;0,00
+15/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,41;0,00
+15/01/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,08;0,00
 15/01/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,49
 15/01/2025;ANTHROPIC;613600;Abonnements logiciels;20,42;0,00
 15/01/2025;ANTHROPIC;512001;Banque 1;0,00;24,50
@@ -101,8 +104,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 23/01/2025;TWILIO INC;445610;TVA deductible;3,21;0,00
 23/01/2025;TWILIO INC;512001;Banque 1;0,00;19,25
 23/01/2025;TWILIO INC;613600;Abonnements logiciels;16,04;0,00
+25/01/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
 25/01/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,38
-25/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,38;0,00
+25/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,32;0,00
 26/01/2025;INDY COMPTABILITE;512001;Banque 1;0,00;58,80
 26/01/2025;INDY COMPTABILITE;613600;Abonnements logiciels;49,00;0,00
 26/01/2025;INDY COMPTABILITE;445610;TVA deductible;9,80;0,00
@@ -127,7 +131,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 28/01/2025;CURSOR, AI POWERED IDE;512001;Banque 1;0,00;183,70
 28/01/2025;CURSOR, AI POWERED IDE;445610;TVA deductible;30,62;0,00
 28/01/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;3,67
-28/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;3,67;0,00
+28/01/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,61;0,00
+28/01/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;3,06;0,00
 28/01/2025;FIGMA MONTHLY RENEWAL;613600;Abonnements logiciels;15,00;0,00
 28/01/2025;FIGMA MONTHLY RENEWAL;445610;TVA deductible;3,00;0,00
 28/01/2025;FIGMA MONTHLY RENEWAL;512001;Banque 1;0,00;18,00
@@ -148,7 +153,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 03/02/2025;Avoir d'acompte 202502-13 - GPF;411000;Clients;0,00;1530,00
 03/02/2025;Facture d'acompte 202502-14 - GPF;419100;Acomptes;0,00;1530,00
 03/02/2025;Facture d'acompte 202502-14 - GPF;411000;Clients;1530,00;0,00
-03/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,08;0,00
+03/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,90;0,00
+03/02/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,18;0,00
 03/02/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,08
 03/02/2025;RENDER.COM;613500;Location de materiel;45,05;0,00
 03/02/2025;RENDER.COM;512001;Banque 1;0,00;54,06
@@ -161,15 +167,17 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/02/2025;CLOUDFLARE;445610;TVA deductible;1,99;0,00
 04/02/2025;CLOUDFLARE;613500;Location de materiel;9,94;0,00
 04/02/2025;CLOUDFLARE;512001;Banque 1;0,00;11,93
-04/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,24;0,00
+04/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,20;0,00
+04/02/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
 04/02/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,24
 04/02/2025;FACTURE D ACOMPTE 202502-14 DU 03.02.2025 - GESTION PARTICIPATION FINANCIER;411000;Clients;0,00;1530,00
 04/02/2025;FACTURE D ACOMPTE 202502-14 DU 03.02.2025 - GESTION PARTICIPATION FINANCIER;512001;Banque 1;1530,00;0,00
 04/02/2025;GITHUB, INC.;445610;TVA deductible;15,67;0,00
 04/02/2025;GITHUB, INC.;512001;Banque 1;0,00;94,03
 04/02/2025;GITHUB, INC.;613600;Abonnements logiciels;78,36;0,00
+05/02/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,31;0,00
 05/02/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,88
-05/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,88;0,00
+05/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,57;0,00
 04/02/2025;DELIVEROO;445610;TVA deductible;1,88;0,00
 04/02/2025;DELIVEROO;512001;Banque 1;0,00;20,68
 04/02/2025;DELIVEROO;625700;Restaurants et repas d'affaires;18,80;0,00
@@ -212,8 +220,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 08/02/2025;CLOUDFLARE;613500;Location de materiel;8,43;0,00
 08/02/2025;CLOUDFLARE;445610;TVA deductible;1,69;0,00
 08/02/2025;CLOUDFLARE;512001;Banque 1;0,00;10,12
-09/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,20;0,00
+09/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,17;0,00
 09/02/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,20
+09/02/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,03;0,00
 08/02/2025;SC- LA COUPOLE;512001;Banque 1;0,00;175,00
 08/02/2025;SC- LA COUPOLE;445610;TVA deductible;15,91;0,00
 08/02/2025;SC- LA COUPOLE;625700;Restaurants et repas d'affaires;159,09;0,00
@@ -251,15 +260,17 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/02/2025;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;3,23;0,00
 13/02/2025;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;19,39
 13/02/2025;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;16,16;0,00
-13/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,39;0,00
+13/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,32;0,00
 13/02/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,39
+13/02/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
 13/02/2025;MICROSOFT#G078557918;512001;Banque 1;0,00;11,28
 13/02/2025;MICROSOFT#G078557918;613600;Abonnements logiciels;9,40;0,00
 13/02/2025;MICROSOFT#G078557918;445610;TVA deductible;1,88;0,00
 14/02/2025;DELIVEROO;512001;Banque 1;0,00;25,09
 14/02/2025;DELIVEROO;625700;Restaurants et repas d'affaires;22,81;0,00
 14/02/2025;DELIVEROO;445610;TVA deductible;2,28;0,00
-17/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,16;0,00
+17/02/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,19;0,00
+17/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,97;0,00
 17/02/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,16
 17/02/2025;CODERABBIT* CODERABBIT;445610;TVA deductible;9,64;0,00
 17/02/2025;CODERABBIT* CODERABBIT;512001;Banque 1;0,00;57,85
@@ -318,12 +329,14 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 26/02/2025;XAI LLC;512001;Banque 1;0,00;9,56
 26/02/2025;XAI LLC;445610;TVA deductible;1,59;0,00
 26/02/2025;XAI LLC;613600;Abonnements logiciels;7,97;0,00
-26/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,19;0,00
+26/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,16;0,00
+26/02/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,03;0,00
 26/02/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,19
 26/02/2025;INDY COMPTABILITE;445610;TVA deductible;9,80;0,00
 26/02/2025;INDY COMPTABILITE;613600;Abonnements logiciels;49,00;0,00
 26/02/2025;INDY COMPTABILITE;512001;Banque 1;0,00;58,80
-28/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,20;0,00
+28/02/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,17;0,00
+28/02/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,03;0,00
 28/02/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,20
 27/02/2025;CLOUDFLARE;512001;Banque 1;0,00;9,97
 27/02/2025;CLOUDFLARE;445610;TVA deductible;1,66;0,00
@@ -359,19 +372,22 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 03/03/2025;RENDER.COM;512001;Banque 1;0,00;53,96
 03/03/2025;RENDER.COM;613500;Location de materiel;44,97;0,00
 03/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,08
-03/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,08;0,00
+03/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,18;0,00
+03/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,90;0,00
 04/03/2025;CLOUDFLARE;445610;TVA deductible;1,68;0,00
 04/03/2025;CLOUDFLARE;512001;Banque 1;0,00;10,06
 04/03/2025;CLOUDFLARE;613500;Location de materiel;8,38;0,00
-04/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,20;0,00
+04/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,17;0,00
+04/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,03;0,00
 04/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,20
 04/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,01;0,00
 04/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,01
 04/03/2025;CURSOR USAGE FEB;613600;Abonnements logiciels;0,48;0,00
 04/03/2025;CURSOR USAGE FEB;512001;Banque 1;0,00;0,58
 04/03/2025;CURSOR USAGE FEB;445610;TVA deductible;0,10;0,00
+04/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,08;0,00
 04/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,48
-04/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,48;0,00
+04/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,40;0,00
 04/03/2025;REPLIT, INC.;512001;Banque 1;0,00;24,08
 04/03/2025;REPLIT, INC.;445610;TVA deductible;4,01;0,00
 04/03/2025;REPLIT, INC.;613600;Abonnements logiciels;20,07;0,00
@@ -389,9 +405,11 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/03/2025;LE NORD SUD;625700;Restaurants et repas d'affaires;8,82;0,00
 05/03/2025;20250223 DAVAI FRASS PP10577648 - FRASS;512001;Banque 1;3480,00;0,00
 05/03/2025;20250223 DAVAI FRASS PP10577648 - FRASS;411000;Clients;0,00;3480,00
-06/03/2025;CLOUDFLARE;613500;Location de materiel;9,91;0,00
+06/03/2025;CLOUDFLARE;613500;Location de materiel;8,26;0,00
 06/03/2025;CLOUDFLARE;512001;Banque 1;0,00;9,91
-07/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,20;0,00
+06/03/2025;CLOUDFLARE;445610;TVA deductible;1,65;0,00
+07/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,03;0,00
+07/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,17;0,00
 07/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,20
 06/03/2025;APPLE.COM/BILL;613600;Abonnements logiciels;58,32;0,00
 06/03/2025;APPLE.COM/BILL;512001;Banque 1;0,00;69,99
@@ -405,9 +423,11 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 09/03/2025;MICROSOFT#G082060076;613600;Abonnements logiciels;60,68;0,00
 09/03/2025;MICROSOFT#G082060076;512001;Banque 1;0,00;72,82
 09/03/2025;MICROSOFT#G082060076;445610;TVA deductible;12,14;0,00
-09/03/2025;WWW.PERPLEXITY.AI;613600;Abonnements logiciels;18,58;0,00
+09/03/2025;WWW.PERPLEXITY.AI;445610;TVA deductible;3,10;0,00
+09/03/2025;WWW.PERPLEXITY.AI;613600;Abonnements logiciels;15,48;0,00
 09/03/2025;WWW.PERPLEXITY.AI;512001;Banque 1;0,00;18,58
-10/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,37;0,00
+10/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,31;0,00
+10/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
 10/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,37
 10/03/2025;/INV/F5665854/0087537021 //20250303-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;171,77
 10/03/2025;/INV/F5665854/0087537021 //20250303-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;28,63;0,00
@@ -416,7 +436,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 10/03/2025;DELIVEROO;512001;Banque 1;0,00;20,68
 10/03/2025;DELIVEROO;625700;Restaurants et repas d'affaires;18,80;0,00
 11/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,28
-11/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,28;0,00
+11/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,23;0,00
+11/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,05;0,00
 10/03/2025;CODEIUM.COM;613600;Abonnements logiciels;11,62;0,00
 10/03/2025;CODEIUM.COM;445610;TVA deductible;2,32;0,00
 10/03/2025;CODEIUM.COM;512001;Banque 1;0,00;13,94
@@ -426,10 +447,12 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 12/03/2025;LS sergent garcia;625700;Restaurants et repas d'affaires;29,40;0,00
 12/03/2025;LS sergent garcia;445610;TVA deductible;2,94;0,00
 12/03/2025;LS sergent garcia;512001;Banque 1;0,00;32,34
-13/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,22;0,00
+13/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,18;0,00
+13/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
 13/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,22
 12/03/2025;OPENAI;512001;Banque 1;0,00;11,09
-12/03/2025;OPENAI;613600;Abonnements logiciels;11,09;0,00
+12/03/2025;OPENAI;445610;TVA deductible;1,85;0,00
+12/03/2025;OPENAI;613600;Abonnements logiciels;9,24;0,00
 12/03/2025;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
 12/03/2025;SMALLPDF;512001;Banque 1;0,00;10,00
 12/03/2025;SMALLPDF;445610;TVA deductible;1,67;0,00
@@ -442,7 +465,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/03/2025;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;15,32;0,00
 13/03/2025;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;3,07;0,00
 13/03/2025;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;18,39
-13/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,37;0,00
+13/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+13/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,31;0,00
 13/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,37
 13/03/2025;DELIVEROO;445610;TVA deductible;1,73;0,00
 13/03/2025;DELIVEROO;625700;Restaurants et repas d'affaires;17,26;0,00
@@ -453,15 +477,18 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 14/03/2025;CODEIUM.COM;512001;Banque 1;0,00;27,73
 14/03/2025;CODEIUM.COM;613600;Abonnements logiciels;23,11;0,00
 14/03/2025;CODEIUM.COM;445610;TVA deductible;4,62;0,00
-15/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,55;0,00
+15/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,46;0,00
+15/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,09;0,00
 15/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,55
-17/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,11;0,00
+17/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,19;0,00
+17/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,92;0,00
 17/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,11
 17/03/2025;CODERABBIT* CODERABBIT;613600;Abonnements logiciels;46,17;0,00
 17/03/2025;CODERABBIT* CODERABBIT;512001;Banque 1;0,00;55,41
 17/03/2025;CODERABBIT* CODERABBIT;445610;TVA deductible;9,24;0,00
-18/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,46;0,00
+18/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,38;0,00
 18/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,46
+18/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,08;0,00
 18/03/2025;Google Play;613600;Abonnements logiciels;19,17;0,00
 18/03/2025;Google Play;445610;TVA deductible;3,84;0,00
 18/03/2025;Google Play;512001;Banque 1;0,00;23,01
@@ -487,7 +514,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 20/03/2025;CLOUDFLARE;512001;Banque 1;0,00;9,60
 20/03/2025;CLOUDFLARE;613500;Location de materiel;8,00;0,00
 20/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,19
-20/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,19;0,00
+20/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,16;0,00
+20/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,03;0,00
 20/03/2025;SP QUAD LOCK EUROPE;606300;Materiel et outillage;73,32;0,00
 20/03/2025;SP QUAD LOCK EUROPE;445610;TVA deductible;14,66;0,00
 20/03/2025;SP QUAD LOCK EUROPE;512001;Banque 1;0,00;87,98
@@ -503,15 +531,18 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 21/03/2025;UBR* PENDING.UBER.COM;625100;Frais de deplacements;28,09;0,00
 21/03/2025;UBR* PENDING.UBER.COM;512001;Banque 1;0,00;30,90
 21/03/2025;UBR* PENDING.UBER.COM;445610;TVA deductible;2,81;0,00
+22/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,09;0,00
 22/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,55
-22/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,55;0,00
+22/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,46;0,00
 21/03/2025;CODEIUM.COM;613600;Abonnements logiciels;23,12;0,00
 21/03/2025;CODEIUM.COM;445610;TVA deductible;4,62;0,00
 21/03/2025;CODEIUM.COM;512001;Banque 1;0,00;27,74
-23/03/2025;CLOUDFLARE;613500;Location de materiel;6,48;0,00
+23/03/2025;CLOUDFLARE;445610;TVA deductible;1,08;0,00
+23/03/2025;CLOUDFLARE;613500;Location de materiel;5,40;0,00
 23/03/2025;CLOUDFLARE;512001;Banque 1;0,00;6,48
-24/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,13;0,00
+24/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,11;0,00
 24/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,13
+24/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,02;0,00
 22/03/2025;OU SOPHY;512001;Banque 1;0,00;17,60
 22/03/2025;OU SOPHY;625100;Frais de deplacements;17,60;0,00
 24/03/2025;20250324 DAVAI FRASS - FRASS;411000;Clients;0,00;1680,00
@@ -547,8 +578,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 27/03/2025;UBR* PENDING.UBER.COM;625100;Frais de deplacements;28,36;0,00
 27/03/2025;UBR* PENDING.UBER.COM;445610;TVA deductible;2,84;0,00
 27/03/2025;UBR* PENDING.UBER.COM;512001;Banque 1;0,00;31,20
+29/03/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,10;0,00
 29/03/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,58
-29/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,58;0,00
+29/03/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,48;0,00
 28/03/2025;FIGMA;613600;Abonnements logiciels;40,00;0,00
 28/03/2025;FIGMA;445610;TVA deductible;8,00;0,00
 28/03/2025;FIGMA;512001;Banque 1;0,00;48,00
@@ -582,8 +614,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 02/04/2025;RENDER.COM;445610;TVA deductible;8,66;0,00
 02/04/2025;RENDER.COM;512001;Banque 1;0,00;51,97
 02/04/2025;RENDER.COM;613500;Location de materiel;43,31;0,00
+02/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,17;0,00
 02/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,04
-02/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,04;0,00
+02/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,87;0,00
 02/04/2025;Facturation 202504-27 - CHAUVIN PARIS;706001;Vente de service;0,00;320,00
 02/04/2025;Facturation 202504-27 - CHAUVIN PARIS;445710;TVA collectee;0,00;199,83
 02/04/2025;Facturation 202504-27 - CHAUVIN PARIS;411000;Clients;1583,00;0,00
@@ -613,7 +646,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/04/2025;REPLIT, INC.;445610;TVA deductible;3,84;0,00
 04/04/2025;REPLIT, INC.;512001;Banque 1;0,00;23,04
 04/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,46
-04/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,46;0,00
+04/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,08;0,00
+04/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,38;0,00
 04/04/2025;Facturation 202504-30 - FAMILLE BURRUS GINESTE DE SAURS;707000;Vente de marchandise;0,00;229,58
 04/04/2025;Facturation 202504-30 - FAMILLE BURRUS GINESTE DE SAURS;411000;Clients;229,58;0,00
 04/04/2025;DELIVEROO;512001;Banque 1;0,00;15,51
@@ -638,7 +672,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 05/04/2025;CURSOR USAGE MAR;512001;Banque 1;0,00;4,20
 05/04/2025;CURSOR USAGE MAR;445610;TVA deductible;0,70;0,00
 06/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,08
-06/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,08;0,00
+06/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,07;0,00
+06/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,01;0,00
 03/04/2025;facture 202504-27 - CHAUVIN PARIS;512001;Banque 1;1583,00;0,00
 03/04/2025;facture 202504-27 - CHAUVIN PARIS;411000;Clients;0,00;1583,00
 03/04/2025;Encaissement 202504-27 - CHAUVIN PARIS;445710;TVA collectee;0,00;64,00
@@ -666,7 +701,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 10/04/2025;WINDSURF;512001;Banque 1;0,00;13,77
 10/04/2025;WINDSURF;613600;Abonnements logiciels;11,47;0,00
 10/04/2025;WINDSURF;445610;TVA deductible;2,30;0,00
-11/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,28;0,00
+11/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,23;0,00
+11/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,05;0,00
 11/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,28
 11/04/2025;LE BISTROT DE BRETEU;445610;TVA deductible;4,55;0,00
 11/04/2025;LE BISTROT DE BRETEU;625700;Restaurants et repas d'affaires;45,45;0,00
@@ -683,8 +719,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/04/2025;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;14,89;0,00
 13/04/2025;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;2,98;0,00
 13/04/2025;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;17,87
+13/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
 13/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,36
-13/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,36;0,00
+13/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,30;0,00
 11/04/2025;Back Market;606300;Materiel et outillage;67,07;0,00
 11/04/2025;Back Market;445610;TVA deductible;13,42;0,00
 11/04/2025;Back Market;512001;Banque 1;0,00;80,49
@@ -722,8 +759,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 01/01/2025;OD d'extourne ventes en attente;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;416,67
 01/01/2025;OD d'extourne ventes en attente;411000;Clients;2500,00;0,00
 01/01/2025;OD d'extourne ventes en attente;445870;TVA en attente sur acomptes;0,00;583,33
+17/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,18;0,00
 17/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,07
-17/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,07;0,00
+17/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,89;0,00
 17/04/2025;CODERABBIT* CODERABBIT;445610;TVA deductible;8,88;0,00
 17/04/2025;CODERABBIT* CODERABBIT;613600;Abonnements logiciels;44,39;0,00
 17/04/2025;CODERABBIT* CODERABBIT;512001;Banque 1;0,00;53,27
@@ -739,7 +777,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 21/04/2025;DELIVEROO;445610;TVA deductible;1,41;0,00
 21/04/2025;DELIVEROO;512001;Banque 1;0,00;15,51
 21/04/2025;DELIVEROO;625700;Restaurants et repas d'affaires;14,10;0,00
-22/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,28;0,00
+22/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,05;0,00
+22/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,23;0,00
 22/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,28
 21/04/2025;SHOPIFY* 357053939;512001;Banque 1;0,00;14,11
 21/04/2025;SHOPIFY* 357053939;445610;TVA deductible;2,35;0,00
@@ -747,8 +786,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 21/04/2025;SHOPIFY* 357053691;445610;TVA deductible;5,73;0,00
 21/04/2025;SHOPIFY* 357053691;613600;Abonnements logiciels;28,67;0,00
 21/04/2025;SHOPIFY* 357053691;512001;Banque 1;0,00;34,40
-22/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,69;0,00
+22/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,57;0,00
 22/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,69
+22/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,12;0,00
 22/04/2025;Acompte 30 - SAS FAMILLE BURRUS GINESTE DE;512001;Banque 1;1200,00;0,00
 22/04/2025;Acompte 30 - SAS FAMILLE BURRUS GINESTE DE;411000;Clients;0,00;1200,00
 22/04/2025;Encaissement d'acompte 202502-21 - FAMILLE BURRUS GINESTE DE SAURS;445870;TVA en attente sur acomptes;200,00;0,00
@@ -765,19 +805,23 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 23/04/2025;Facturation 202504-32 - DAYLET;411000;Clients;6000,00;0,00
 23/04/2025;Facturation 202504-32 - DAYLET;706001;Vente de service;0,00;5000,00
 23/04/2025;Facturation 202504-32 - DAYLET;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;1000,00
-23/04/2025;CLOUDFLARE;613500;Location de materiel;6,11;0,00
+23/04/2025;CLOUDFLARE;613500;Location de materiel;5,09;0,00
 23/04/2025;CLOUDFLARE;512001;Banque 1;0,00;6,11
+23/04/2025;CLOUDFLARE;445610;TVA deductible;1,02;0,00
+23/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,02;0,00
 23/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,12
-23/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,12;0,00
+23/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,10;0,00
 23/04/2025;DELIVEROO;512001;Banque 1;0,00;15,64
 23/04/2025;DELIVEROO;445610;TVA deductible;0,24;0,00
 23/04/2025;DELIVEROO;625700;Restaurants et repas d'affaires;13,20;0,00
 23/04/2025;DELIVEROO;625700;Restaurants et repas d'affaires;0,82;0,00
 23/04/2025;DELIVEROO;445610;TVA deductible;0,17;0,00
 23/04/2025;DELIVEROO;625700;Restaurants et repas d'affaires;1,21;0,00
-24/04/2025;CLOUDFLARE;613500;Location de materiel;9,23;0,00
+24/04/2025;CLOUDFLARE;445610;TVA deductible;1,54;0,00
+24/04/2025;CLOUDFLARE;613500;Location de materiel;7,69;0,00
 24/04/2025;CLOUDFLARE;512001;Banque 1;0,00;9,23
-25/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,18;0,00
+25/04/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,03;0,00
+25/04/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,15;0,00
 25/04/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,18
 24/04/2025;DA ALFREDO;625700;Restaurants et repas d'affaires;65,45;0,00
 24/04/2025;DA ALFREDO;445610;TVA deductible;6,55;0,00
@@ -816,7 +860,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 02/05/2025;RENDER.COM;445610;TVA deductible;8,29;0,00
 02/05/2025;RENDER.COM;613500;Location de materiel;41,42;0,00
 02/05/2025;RENDER.COM;512001;Banque 1;0,00;49,71
-02/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,99;0,00
+02/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,82;0,00
+02/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,17;0,00
 02/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,99
 02/05/2025;SCALEWAY;512001;Banque 1;0,00;116,03
 02/05/2025;SCALEWAY;445610;TVA deductible;19,34;0,00
@@ -837,7 +882,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/05/2025;REPLIT, INC.;512001;Banque 1;0,00;22,18
 04/05/2025;REPLIT, INC.;613600;Abonnements logiciels;18,48;0,00
 06/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,44
-06/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,44;0,00
+06/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+06/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,37;0,00
 05/05/2025;DELIVEROO;445610;TVA deductible;0,24;0,00
 05/05/2025;DELIVEROO;445610;TVA deductible;0,17;0,00
 05/05/2025;DELIVEROO;625700;Restaurants et repas d'affaires;13,20;0,00
@@ -875,15 +921,17 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 08/05/2025;LDLC.COM;512001;Banque 1;0,00;23,90
 08/05/2025;LDLC.COM;445610;TVA deductible;3,98;0,00
 08/05/2025;CGF16984MONOP1;512001;Banque 1;0,00;20,75
-08/05/2025;CGF16984MONOP1;625700;Restaurants et repas d'affaires;20,75;0,00
+08/05/2025;CGF16984MONOP1;625700;Restaurants et repas d'affaires;18,86;0,00
+08/05/2025;CGF16984MONOP1;445610;TVA deductible;1,89;0,00
 09/05/2025;CURSOR USAGE APR;445610;TVA deductible;2,20;0,00
 09/05/2025;CURSOR USAGE APR;613600;Abonnements logiciels;10,98;0,00
 09/05/2025;CURSOR USAGE APR;512001;Banque 1;0,00;13,18
 09/05/2025;Microsoft-G091240775;613600;Abonnements logiciels;41,66;0,00
 09/05/2025;Microsoft-G091240775;445610;TVA deductible;8,33;0,00
 09/05/2025;Microsoft-G091240775;512001;Banque 1;0,00;49,99
-09/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,26;0,00
+09/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,22;0,00
 09/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,26
+09/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
 09/05/2025;VALKL 3124862;512001;Banque 1;0,00;140,00
 09/05/2025;VALKL 3124862;625700;Restaurants et repas d'affaires;127,27;0,00
 09/05/2025;VALKL 3124862;445610;TVA deductible;12,73;0,00
@@ -891,7 +939,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 10/05/2025;WINDSURF;613600;Abonnements logiciels;11,17;0,00
 10/05/2025;WINDSURF;512001;Banque 1;0,00;13,40
 11/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,27
-11/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,27;0,00
+11/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,05;0,00
+11/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,22;0,00
 12/05/2025;/INV/F5D65144/0087537021 //20250505-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;226,49
 12/05/2025;/INV/F5D65144/0087537021 //20250505-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;37,75;0,00
 12/05/2025;/INV/F5D65144/0087537021 //20250505-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;188,74;0,00
@@ -940,8 +989,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 12/05/2025;LE BOUCHON DU F;625700;Restaurants et repas d'affaires;90,91;0,00
 12/05/2025;LE BOUCHON DU F;512001;Banque 1;0,00;100,00
 12/05/2025;LE BOUCHON DU F;445610;TVA deductible;9,09;0,00
+13/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
 13/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,36
-13/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,36;0,00
+13/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,30;0,00
 13/05/2025;Back Market;445610;TVA deductible;168,33;0,00
 13/05/2025;Back Market;606300;Materiel et outillage;841,66;0,00
 13/05/2025;Back Market;512001;Banque 1;0,00;1009,99
@@ -987,7 +1037,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 16/05/2025;GITHUB, INC.;613600;Abonnements logiciels;25,91;0,00
 16/05/2025;GITHUB, INC.;445610;TVA deductible;5,18;0,00
 16/05/2025;GITHUB, INC.;512001;Banque 1;0,00;31,09
-16/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,62;0,00
+16/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,10;0,00
+16/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,52;0,00
 16/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,62
 16/05/2025;DELIVEROO;625700;Restaurants et repas d'affaires;1,21;0,00
 16/05/2025;DELIVEROO;625700;Restaurants et repas d'affaires;13,20;0,00
@@ -1003,7 +1054,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 17/05/2025;CODERABBIT* CODERABBIT;445610;TVA deductible;8,98;0,00
 17/05/2025;CODERABBIT* CODERABBIT;512001;Banque 1;0,00;53,87
 17/05/2025;CODERABBIT* CODERABBIT;613600;Abonnements logiciels;44,89;0,00
-17/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,08;0,00
+17/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,18;0,00
+17/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,90;0,00
 17/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,08
 17/05/2025;UBR* PENDING.UBER.COM;625100;Frais de deplacements;8,18;0,00
 17/05/2025;UBR* PENDING.UBER.COM;445610;TVA deductible;0,82;0,00
@@ -1037,8 +1089,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 21/05/2025;SHOPIFY* 368728717;445610;TVA deductible;5,80;0,00
 21/05/2025;SHOPIFY* 368728717;512001;Banque 1;0,00;34,77
 21/05/2025;SHOPIFY* 368728717;613600;Abonnements logiciels;28,97;0,00
+22/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,12;0,00
 22/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,70
-22/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,70;0,00
+22/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,58;0,00
 22/05/2025;DELIVEROO;445610;TVA deductible;0,08;0,00
 22/05/2025;DELIVEROO;512001;Banque 1;0,00;15,14
 22/05/2025;DELIVEROO;445610;TVA deductible;0,24;0,00
@@ -1063,14 +1116,18 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 22/05/2025;E M D 17;445610;TVA deductible;65,06;0,00
 22/05/2025;E M D 17;615000;Entretien et reparations;325,30;0,00
 22/05/2025;E M D 17;512001;Banque 1;0,00;390,36
-23/05/2025;CLOUDFLARE;613500;Location de materiel;9,27;0,00
+23/05/2025;CLOUDFLARE;613500;Location de materiel;7,72;0,00
 23/05/2025;CLOUDFLARE;512001;Banque 1;0,00;9,27
-23/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,19;0,00
+23/05/2025;CLOUDFLARE;445610;TVA deductible;1,55;0,00
+23/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,16;0,00
 23/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,19
+23/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,03;0,00
 23/05/2025;CLOUDFLARE;512001;Banque 1;0,00;6,22
-23/05/2025;CLOUDFLARE;613500;Location de materiel;6,22;0,00
+23/05/2025;CLOUDFLARE;613500;Location de materiel;5,18;0,00
+23/05/2025;CLOUDFLARE;445610;TVA deductible;1,04;0,00
 23/05/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,12
-23/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,12;0,00
+23/05/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,10;0,00
+23/05/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,02;0,00
 23/05/2025;BONIFAJI;512001;Banque 1;0,00;71,50
 23/05/2025;BONIFAJI;445610;TVA deductible;6,50;0,00
 23/05/2025;BONIFAJI;625700;Restaurants et repas d'affaires;65,00;0,00
@@ -1172,11 +1229,14 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 02/06/2025;RENDER.COM;445610;TVA deductible;8,25;0,00
 02/06/2025;RENDER.COM;512001;Banque 1;0,00;49,52
 02/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,99
-02/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,99;0,00
-02/06/2025;CLOUDFLARE;613500;Location de materiel;10,77;0,00
+02/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,82;0,00
+02/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,17;0,00
+02/06/2025;CLOUDFLARE;613500;Location de materiel;8,97;0,00
 02/06/2025;CLOUDFLARE;512001;Banque 1;0,00;10,77
+02/06/2025;CLOUDFLARE;445610;TVA deductible;1,80;0,00
 03/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,22
-03/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,22;0,00
+03/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+03/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,18;0,00
 02/06/2025;CAPNORD AUTO;512001;Banque 1;0,00;658,22
 02/06/2025;CAPNORD AUTO;625200;Vehicule et carburant;548,52;0,00
 02/06/2025;CAPNORD AUTO;445610;TVA deductible;109,70;0,00
@@ -1198,13 +1258,17 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 03/06/2025;Facturation 202506-41 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;120,00
 03/06/2025;Facturation 202506-41 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;600,00
 03/06/2025;GITHUB, INC.;512001;Banque 1;0,00;28,53
-03/06/2025;GITHUB, INC.;613600;Abonnements logiciels;28,53;0,00
-03/06/2025;CLOUDFLARE;613500;Location de materiel;9,21;0,00
+03/06/2025;GITHUB, INC.;613600;Abonnements logiciels;23,77;0,00
+03/06/2025;GITHUB, INC.;445610;TVA deductible;4,76;0,00
+03/06/2025;CLOUDFLARE;613500;Location de materiel;7,67;0,00
 03/06/2025;CLOUDFLARE;512001;Banque 1;0,00;9,21
+03/06/2025;CLOUDFLARE;445610;TVA deductible;1,54;0,00
 04/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,57
-04/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,57;0,00
+04/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,47;0,00
+04/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,10;0,00
 04/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,18
-04/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,18;0,00
+04/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,15;0,00
+04/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,03;0,00
 03/06/2025;AIRBNB * HMRABKDWS9;445610;TVA deductible;230,77;0,00
 03/06/2025;AIRBNB * HMRABKDWS9;625100;Frais de deplacements;1153,82;0,00
 03/06/2025;AIRBNB * HMRABKDWS9;512001;Banque 1;0,00;1384,59
@@ -1227,7 +1291,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/06/2025;REPLIT, INC.;613600;Abonnements logiciels;22,00;0,00
 04/06/2025;REPLIT, INC.;445610;TVA deductible;4,40;0,00
 04/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,53
-04/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,53;0,00
+04/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,44;0,00
+04/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,09;0,00
 04/06/2025;DAVAI-BAXP5YQQJHY8 - GOCARDLESS SAS;512001;Banque 1;1200,00;0,00
 04/06/2025;DAVAI-BAXP5YQQJHY8 - GOCARDLESS SAS;411000;Clients;0,00;1200,00
 04/06/2025;Encaissement 202505-36 - GLEEF;445710;TVA collectee;0,00;200,00
@@ -1302,8 +1367,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 10/06/2025;WINDSURF;512001;Banque 1;0,00;13,18
 10/06/2025;WINDSURF;613600;Abonnements logiciels;10,98;0,00
 10/06/2025;WINDSURF;445610;TVA deductible;2,20;0,00
+11/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
 11/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,26
-11/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,26;0,00
+11/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,22;0,00
 10/06/2025;HRC33641ESSO1;512001;Banque 1;0,00;53,46
 10/06/2025;HRC33641ESSO1;445610;TVA deductible;8,91;0,00
 10/06/2025;HRC33641ESSO1;625200;Vehicule et carburant;44,55;0,00
@@ -1326,7 +1392,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 11/06/2025;SQSP* INV184273184;613600;Abonnements logiciels;18,00;0,00
 11/06/2025;SQSP* INV184273184;512001;Banque 1;0,00;21,60
 11/06/2025;taxi bn;512001;Banque 1;0,00;47,00
-11/06/2025;taxi bn;625100;Frais de deplacements;47,00;0,00
+11/06/2025;taxi bn;445610;TVA deductible;4,27;0,00
+11/06/2025;taxi bn;625100;Frais de deplacements;42,73;0,00
 12/06/2025;PRET A MANGER;625700;Restaurants et repas d'affaires;10,55;0,00
 12/06/2025;PRET A MANGER;512001;Banque 1;0,00;11,60
 12/06/2025;PRET A MANGER;445610;TVA deductible;1,05;0,00
@@ -1337,7 +1404,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/06/2025;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;17,42
 13/06/2025;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;2,90;0,00
 13/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,35
-13/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,35;0,00
+13/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+13/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,29;0,00
 13/06/2025;MICROSOFT#G097165777;613600;Abonnements logiciels;9,40;0,00
 13/06/2025;MICROSOFT#G097165777;445610;TVA deductible;1,88;0,00
 13/06/2025;MICROSOFT#G097165777;512001;Banque 1;0,00;11,28
@@ -1359,17 +1427,21 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 17/06/2025;Facturation 202506-45 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
 17/06/2025;Facturation 202506-45 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
 17/06/2025;Facturation 202506-45 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
-17/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,21;0,00
+17/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,17;0,00
+17/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
 17/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,21
 17/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,75
-17/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,75;0,00
+17/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,13;0,00
+17/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,62;0,00
 17/06/2025;CODERABBIT* CODERABBIT;613600;Abonnements logiciels;43,39;0,00
 17/06/2025;CODERABBIT* CODERABBIT;512001;Banque 1;0,00;52,07
 17/06/2025;CODERABBIT* CODERABBIT;445610;TVA deductible;8,68;0,00
 17/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,04
-17/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,04;0,00
+17/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,17;0,00
+17/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,87;0,00
+18/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,12;0,00
 18/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,69
-18/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,69;0,00
+18/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,57;0,00
 17/06/2025;ANTHROPIC;613600;Abonnements logiciels;28,93;0,00
 17/06/2025;ANTHROPIC;512001;Banque 1;0,00;34,72
 17/06/2025;ANTHROPIC;445610;TVA deductible;5,79;0,00
@@ -1385,14 +1457,17 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 20/06/2025;SHOPIFY* 380883838;445610;TVA deductible;5,68;0,00
 20/06/2025;SHOPIFY* 380883838;613600;Abonnements logiciels;28,40;0,00
 21/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,68
-21/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,68;0,00
+21/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,11;0,00
+21/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,57;0,00
 22/06/2025;YESPARK;604000;Prestation de service;70,20;0,00
 22/06/2025;YESPARK;445610;TVA deductible;14,04;0,00
 22/06/2025;YESPARK;512001;Banque 1;0,00;84,24
 23/06/2025;CLOUDFLARE;512001;Banque 1;0,00;6,11
-23/06/2025;CLOUDFLARE;613500;Location de materiel;6,11;0,00
-23/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,12;0,00
+23/06/2025;CLOUDFLARE;445610;TVA deductible;1,02;0,00
+23/06/2025;CLOUDFLARE;613500;Location de materiel;5,09;0,00
+23/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,10;0,00
 23/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,12
+23/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,02;0,00
 23/06/2025;AIR FRANCE;625100;Frais de deplacements;414,53;0,00
 23/06/2025;AIR FRANCE;512001;Banque 1;0,00;414,53
 24/06/2025;HOTEL CASTELBRAC;512001;Banque 1;0,00;185,00
@@ -1464,7 +1539,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 29/06/2025;ANTHROPIC;613600;Abonnements logiciels;35,67;0,00
 29/06/2025;ANTHROPIC;445610;TVA deductible;7,14;0,00
 30/06/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,86
-30/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,86;0,00
+30/06/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
+30/06/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,72;0,00
 30/06/2025;Facturation 202506-53 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
 30/06/2025;Facturation 202506-53 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
 30/06/2025;Facturation 202506-53 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
@@ -1482,8 +1558,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 30/06/2025;WOO-5110922262;512001;Banque 1;0,00;163,37
 30/06/2025;WOO-5110922262;445610;TVA deductible;27,23;0,00
 30/06/2025;WOO-5110922262;613600;Abonnements logiciels;136,14;0,00
-01/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;3,27;0,00
+01/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;2,72;0,00
 01/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;3,27
+01/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,55;0,00
 30/06/2025;THEASSISTANT;445610;TVA deductible;63,30;0,00
 30/06/2025;THEASSISTANT;604000;Prestation de service;316,50;0,00
 30/06/2025;THEASSISTANT;512001;Banque 1;0,00;379,80
@@ -1505,7 +1582,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 02/07/2025;NEWREST WAGONS-LITS;625700;Restaurants et repas d'affaires;17,55;0,00
 02/07/2025;NEWREST WAGONS-LITS;512001;Banque 1;0,00;19,30
 02/07/2025;NEWREST WAGONS-LITS;445610;TVA deductible;1,75;0,00
-03/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,95;0,00
+03/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,16;0,00
+03/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,79;0,00
 03/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,95
 02/07/2025;RENDER.COM;613500;Location de materiel;39,72;0,00
 02/07/2025;RENDER.COM;512001;Banque 1;0,00;47,67
@@ -1528,13 +1606,15 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/07/2025;REPLIT, INC.;613600;Abonnements logiciels;21,33;0,00
 04/07/2025;REPLIT, INC.;512001;Banque 1;0,00;25,60
 04/07/2025;REPLIT, INC.;445610;TVA deductible;4,27;0,00
-05/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,51;0,00
+05/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,42;0,00
 05/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,51
+05/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,09;0,00
 05/07/2025;UBR* PENDING.UBER.COM;445610;TVA deductible;1,10;0,00
 05/07/2025;UBR* PENDING.UBER.COM;512001;Banque 1;0,00;12,15
 05/07/2025;UBR* PENDING.UBER.COM;625100;Frais de deplacements;11,05;0,00
-05/07/2025;Hetzner Online GmbH;613500;Location de materiel;16,22;0,00
+05/07/2025;Hetzner Online GmbH;613500;Location de materiel;13,52;0,00
 05/07/2025;Hetzner Online GmbH;512001;Banque 1;0,00;16,22
+05/07/2025;Hetzner Online GmbH;445610;TVA deductible;2,70;0,00
 06/07/2025;DELIVEROO;445610;TVA deductible;5,07;0,00
 06/07/2025;DELIVEROO;512001;Banque 1;0,00;55,79
 06/07/2025;DELIVEROO;625700;Restaurants et repas d'affaires;50,72;0,00
@@ -1607,8 +1687,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 10/07/2025;WINDSURF;613600;Abonnements logiciels;10,69;0,00
 10/07/2025;WINDSURF;512001;Banque 1;0,00;12,83
 10/07/2025;WINDSURF;445610;TVA deductible;2,14;0,00
+11/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
 11/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,26
-11/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,26;0,00
+11/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,22;0,00
 10/07/2025;BEC;445610;TVA deductible;6,36;0,00
 10/07/2025;BEC;512001;Banque 1;0,00;70,00
 10/07/2025;BEC;625700;Restaurants et repas d'affaires;63,64;0,00
@@ -1626,7 +1707,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/07/2025;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;17,15
 13/07/2025;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;2,86;0,00
 13/07/2025;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;14,29;0,00
-13/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,34;0,00
+13/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+13/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,28;0,00
 13/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,34
 13/07/2025;CHEZ MAGNE;625700;Restaurants et repas d'affaires;154,55;0,00
 13/07/2025;CHEZ MAGNE;512001;Banque 1;0,00;170,00
@@ -1669,12 +1751,15 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 16/07/2025;EMAILVALIDATION.IO;445610;TVA deductible;1,72;0,00
 16/07/2025;EMAILVALIDATION.IO;613600;Abonnements logiciels;8,62;0,00
 16/07/2025;EMAILVALIDATION.IO;512001;Banque 1;0,00;10,34
+16/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
 16/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,21
-16/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,21;0,00
+16/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,17;0,00
 16/07/2025;GITHUB, INC.;512001;Banque 1;0,00;23,02
-16/07/2025;GITHUB, INC.;613600;Abonnements logiciels;23,02;0,00
+16/07/2025;GITHUB, INC.;613600;Abonnements logiciels;19,18;0,00
+16/07/2025;GITHUB, INC.;445610;TVA deductible;3,84;0,00
 16/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,46
-16/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,46;0,00
+16/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,08;0,00
+16/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,38;0,00
 16/07/2025;RESTO SARL DERA;512001;Banque 1;0,00;22,60
 16/07/2025;RESTO SARL DERA;445610;TVA deductible;2,05;0,00
 16/07/2025;RESTO SARL DERA;625700;Restaurants et repas d'affaires;20,55;0,00
@@ -1686,7 +1771,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 17/07/2025;Virement de Sarl Surprise Ltd - SARL SURPRISE LTD;512001;Banque 1;1440,00;0,00
 17/07/2025;Encaissement d'acompte 202506-49 - SURPRISE LTD;445870;TVA en attente sur acomptes;240,00;0,00
 17/07/2025;Encaissement d'acompte 202506-49 - SURPRISE LTD;445710;TVA collectee;0,00;240,00
-17/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,04;0,00
+17/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,17;0,00
+17/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,87;0,00
 17/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,04
 17/07/2025;CODERABBIT* CODERABBIT;613600;Abonnements logiciels;43,25;0,00
 17/07/2025;CODERABBIT* CODERABBIT;445610;TVA deductible;8,65;0,00
@@ -1700,12 +1786,14 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 17/07/2025;SNCF-VOYAGEURS;625100;Frais de deplacements;234,55;0,00
 17/07/2025;SNCF-VOYAGEURS;512001;Banque 1;0,00;258,00
 17/07/2025;SNCF-VOYAGEURS;445610;TVA deductible;23,45;0,00
-18/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,50;0,00
+18/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,42;0,00
+18/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,08;0,00
 18/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,50
 18/07/2025;CODERABBIT* CODERABBIT;613600;Abonnements logiciels;21,02;0,00
 18/07/2025;CODERABBIT* CODERABBIT;512001;Banque 1;0,00;25,22
 18/07/2025;CODERABBIT* CODERABBIT;445610;TVA deductible;4,20;0,00
-19/07/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;960,00;0,00
+19/07/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;800,00;0,00
+19/07/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;160,00;0,00
 19/07/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;960,00
 19/07/2025;Compte Courant - Emile Kratiroff;512001;Banque 1;0,00;8000,00
 19/07/2025;Compte Courant - Emile Kratiroff;455100;Associes - Comptes courants;8000,00;0,00
@@ -1719,7 +1807,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 19/07/2025;LA CABANE D EDOUARD;625700;Restaurants et repas d'affaires;172,73;0,00
 19/07/2025;LA CABANE D EDOUARD;512001;Banque 1;0,00;190,00
 21/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,67
-21/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,67;0,00
+21/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,11;0,00
+21/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,56;0,00
 20/07/2025;SHOPIFY* 393599024;512001;Banque 1;0,00;33,68
 20/07/2025;SHOPIFY* 393599024;613600;Abonnements logiciels;28,07;0,00
 20/07/2025;SHOPIFY* 393599024;445610;TVA deductible;5,61;0,00
@@ -1767,14 +1856,17 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 23/07/2025;Encaissement 202507-61 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
 23/07/2025;Encaissement 202507-61 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
 23/07/2025;CLOUDFLARE;512001;Banque 1;0,00;5,99
-23/07/2025;CLOUDFLARE;613500;Location de materiel;5,99;0,00
-23/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,12;0,00
+23/07/2025;CLOUDFLARE;445610;TVA deductible;1,00;0,00
+23/07/2025;CLOUDFLARE;613500;Location de materiel;4,99;0,00
+23/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,02;0,00
+23/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,10;0,00
 23/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,12
 23/07/2025;FiverrEU;512001;Banque 1;0,00;188,74
 23/07/2025;FiverrEU;445610;TVA deductible;31,46;0,00
 23/07/2025;FiverrEU;604000;Prestation de service;157,28;0,00
 24/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,69
-24/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,69;0,00
+24/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,57;0,00
+24/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,12;0,00
 23/07/2025;CURSOR, AI POWERED IDE;445610;TVA deductible;5,71;0,00
 23/07/2025;CURSOR, AI POWERED IDE;613600;Abonnements logiciels;28,55;0,00
 23/07/2025;CURSOR, AI POWERED IDE;512001;Banque 1;0,00;34,26
@@ -1782,7 +1874,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 23/07/2025;DELIVEROO;512001;Banque 1;0,00;20,49
 23/07/2025;DELIVEROO;625700;Restaurants et repas d'affaires;18,63;0,00
 24/07/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;960,00
-24/07/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;960,00;0,00
+24/07/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;160,00;0,00
+24/07/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;800,00;0,00
 24/07/2025;DELIVEROO;512001;Banque 1;0,00;27,60
 24/07/2025;DELIVEROO;625700;Restaurants et repas d'affaires;25,09;0,00
 24/07/2025;DELIVEROO;445610;TVA deductible;2,51;0,00
@@ -1792,8 +1885,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 24/07/2025;CURSOR, AI POWERED IDE;613600;Abonnements logiciels;27,35;0,00
 24/07/2025;CURSOR, AI POWERED IDE;445610;TVA deductible;5,47;0,00
 24/07/2025;CURSOR, AI POWERED IDE;512001;Banque 1;0,00;32,82
-25/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,66;0,00
+25/07/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,55;0,00
 25/07/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,66
+25/07/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,11;0,00
 25/07/2025;/INV/F5N22131/0087537021 //20250721-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;29,14
 25/07/2025;/INV/F5N22131/0087537021 //20250721-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;4,86;0,00
 25/07/2025;/INV/F5N22131/0087537021 //20250721-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;24,28;0,00
@@ -1882,10 +1976,12 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 31/07/2025;Encaissement 202507-58 - CANAL+ FRANCE;445710;TVA collectee;0,00;3057,48
 28/07/2025;TA - DISTRIBIKE;625100;Frais de deplacements;454,68;0,00
 28/07/2025;TA - DISTRIBIKE;512001;Banque 1;0,00;454,68
-01/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,43;0,00
+01/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,36;0,00
+01/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
 01/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,43
 31/07/2025;GITHUB, INC.;512001;Banque 1;0,00;21,58
-31/07/2025;GITHUB, INC.;613600;Abonnements logiciels;21,58;0,00
+31/07/2025;GITHUB, INC.;445610;TVA deductible;3,60;0,00
+31/07/2025;GITHUB, INC.;613600;Abonnements logiciels;17,98;0,00
 31/07/2025;DELIVEROO;445610;TVA deductible;3,15;0,00
 31/07/2025;DELIVEROO;512001;Banque 1;0,00;34,61
 31/07/2025;DELIVEROO;625700;Restaurants et repas d'affaires;31,46;0,00
@@ -1908,13 +2004,15 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 02/08/2025;RENDER.COM;445610;TVA deductible;8,20;0,00
 02/08/2025;RENDER.COM;613500;Location de materiel;40,97;0,00
 02/08/2025;RENDER.COM;512001;Banque 1;0,00;49,17
-03/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,98;0,00
+03/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,82;0,00
 03/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,98
+03/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,16;0,00
 03/08/2025;Restaurant;625700;Restaurants et repas d'affaires;127,27;0,00
 03/08/2025;Restaurant;455100;Associes - Comptes courants;0,00;140,00
 03/08/2025;Restaurant;445610;TVA deductible;12,73;0,00
 03/08/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;960,00
-03/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;960,00;0,00
+03/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;800,00;0,00
+03/08/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;160,00;0,00
 04/08/2025;PARKING* YESPARK;625100;Frais de deplacements;143,33;0,00
 04/08/2025;PARKING* YESPARK;512001;Banque 1;0,00;172,00
 04/08/2025;PARKING* YESPARK;445610;TVA deductible;28,67;0,00
@@ -1928,10 +2026,13 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/08/2025;REPLIT, INC.;445610;TVA deductible;4,39;0,00
 04/08/2025;REPLIT, INC.;512001;Banque 1;0,00;26,34
 04/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,53
-04/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,53;0,00
-04/08/2025;GITHUB, INC.;613600;Abonnements logiciels;1,39;0,00
+04/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,44;0,00
+04/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,09;0,00
+04/08/2025;GITHUB, INC.;445610;TVA deductible;0,23;0,00
+04/08/2025;GITHUB, INC.;613600;Abonnements logiciels;1,16;0,00
 04/08/2025;GITHUB, INC.;512001;Banque 1;0,00;1,39
-05/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,04;0,00
+05/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,01;0,00
+05/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,03;0,00
 05/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,04
 04/08/2025;AME TEAM AXXE;445610;TVA deductible;33,17;0,00
 04/08/2025;AME TEAM AXXE;606300;Materiel et outillage;165,83;0,00
@@ -1939,7 +2040,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 05/08/2025;FREDELIAN;512001;Banque 1;0,00;62,00
 05/08/2025;FREDELIAN;625700;Restaurants et repas d'affaires;56,36;0,00
 05/08/2025;FREDELIAN;445610;TVA deductible;5,64;0,00
-05/08/2025;Hetzner Online GmbH;613500;Location de materiel;16,22;0,00
+05/08/2025;Hetzner Online GmbH;613500;Location de materiel;13,52;0,00
+05/08/2025;Hetzner Online GmbH;445610;TVA deductible;2,70;0,00
 05/08/2025;Hetzner Online GmbH;512001;Banque 1;0,00;16,22
 06/08/2025;DAVAI-32TWTV5CKV8Z - GOCARDLESS SAS;627000;Services bancaires;6,00;0,00
 06/08/2025;DAVAI-32TWTV5CKV8Z - GOCARDLESS SAS;411000;Clients;0,00;1200,00
@@ -1961,8 +2063,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 07/08/2025;B'COWORKER;625100;Frais de deplacements;565,20;0,00
 07/08/2025;B'COWORKER;445610;TVA deductible;113,04;0,00
 07/08/2025;B'COWORKER;512001;Banque 1;0,00;678,24
-08/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1280,00;0,00
+08/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1066,67;0,00
 08/08/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1280,00
+08/08/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;213,33;0,00
 06/08/2025;Encaissement 202508-72 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
 06/08/2025;Encaissement 202508-72 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
 06/08/2025;Encaissement 202507-66 - GLEEF;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
@@ -1978,7 +2081,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 10/08/2025;CURSOR USAGE JUL;512001;Banque 1;0,00;29,82
 10/08/2025;CURSOR USAGE JUL;613600;Abonnements logiciels;24,85;0,00
 10/08/2025;CURSOR USAGE JUL;445610;TVA deductible;4,97;0,00
-11/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,72;0,00
+11/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,60;0,00
+11/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,12;0,00
 11/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,72
 09/08/2025;COTE SABLE;445610;TVA deductible;1,82;0,00
 09/08/2025;COTE SABLE;625700;Restaurants et repas d'affaires;18,18;0,00
@@ -2004,8 +2108,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 12/08/2025;CURSOR USAGE MID AUG;445610;TVA deductible;5,76;0,00
 12/08/2025;CURSOR USAGE MID AUG;613600;Abonnements logiciels;28,77;0,00
 12/08/2025;CURSOR USAGE MID AUG;512001;Banque 1;0,00;34,53
+13/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
 13/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,83
-13/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,83;0,00
+13/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,69;0,00
 12/08/2025;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
 12/08/2025;SMALLPDF;512001;Banque 1;0,00;10,00
 12/08/2025;SMALLPDF;445610;TVA deductible;1,67;0,00
@@ -2024,14 +2129,17 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 12/08/2025;PAUL;512001;Banque 1;0,00;7,90
 12/08/2025;PAUL;445610;TVA deductible;0,72;0,00
 13/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,42
-13/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,42;0,00
-13/08/2025;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;17,25;0,00
+13/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+13/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,35;0,00
+13/08/2025;OPENAI *CHATGPT SUBSCR;445610;TVA deductible;2,88;0,00
+13/08/2025;OPENAI *CHATGPT SUBSCR;613600;Abonnements logiciels;14,37;0,00
 13/08/2025;OPENAI *CHATGPT SUBSCR;512001;Banque 1;0,00;17,25
 13/08/2025;RESEND;512001;Banque 1;0,00;17,25
 13/08/2025;RESEND;613600;Abonnements logiciels;14,37;0,00
 13/08/2025;RESEND;445610;TVA deductible;2,88;0,00
-13/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,42;0,00
+13/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,35;0,00
 13/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,42
+13/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
 13/08/2025;DAVAI-46FQV9D2H8DJ - GOCARDLESS SAS;627000;Services bancaires;4,00;0,00
 13/08/2025;DAVAI-46FQV9D2H8DJ - GOCARDLESS SAS;445610;TVA deductible;0,80;0,00
 13/08/2025;DAVAI-46FQV9D2H8DJ - GOCARDLESS SAS;411000;Clients;0,00;1200,00
@@ -2056,12 +2164,14 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/08/2025;SAS ORIGINES MERIGNAC;512001;Banque 1;0,00;17,85
 13/08/2025;SAS ORIGINES MERIGNAC;625700;Restaurants et repas d'affaires;16,23;0,00
 13/08/2025;SAS ORIGINES MERIGNAC;445610;TVA deductible;1,62;0,00
+15/08/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;160,00;0,00
 15/08/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;960,00
-15/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;960,00;0,00
+15/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;800,00;0,00
 15/08/2025;SENTRY;613600;Abonnements logiciels;24,92;0,00
 15/08/2025;SENTRY;512001;Banque 1;0,00;29,91
 15/08/2025;SENTRY;445610;TVA deductible;4,99;0,00
-15/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,72;0,00
+15/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,60;0,00
+15/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,12;0,00
 15/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,72
 14/08/2025;LE 44 3117794;445610;TVA deductible;15,05;0,00
 14/08/2025;LE 44 3117794;625700;Restaurants et repas d'affaires;150,45;0,00
@@ -2075,12 +2185,14 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 16/08/2025;EMAILVALIDATION.IO;445610;TVA deductible;1,72;0,00
 16/08/2025;EMAILVALIDATION.IO;512001;Banque 1;0,00;10,31
 16/08/2025;EMAILVALIDATION.IO;613600;Abonnements logiciels;8,59;0,00
-17/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,25;0,00
+17/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,21;0,00
 17/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,25
+17/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
 16/08/2025;RESTO SOPHIA;625700;Restaurants et repas d'affaires;63,64;0,00
 16/08/2025;RESTO SOPHIA;512001;Banque 1;0,00;70,00
 16/08/2025;RESTO SOPHIA;445610;TVA deductible;6,36;0,00
-17/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,86;0,00
+17/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,31;0,00
+17/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,55;0,00
 17/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,86
 17/08/2025;CODERABBIT* CODERABBIT;445610;TVA deductible;12,90;0,00
 17/08/2025;CODERABBIT* CODERABBIT;613600;Abonnements logiciels;64,49;0,00
@@ -2091,7 +2203,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 17/08/2025;BONIFAJI;445610;TVA deductible;4,45;0,00
 17/08/2025;BONIFAJI;512001;Banque 1;0,00;49,00
 18/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,24
-18/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,24;0,00
+18/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,21;0,00
+18/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,03;0,00
 18/08/2025;CURSOR USAGE MID AUG;613600;Abonnements logiciels;43,02;0,00
 18/08/2025;CURSOR USAGE MID AUG;512001;Banque 1;0,00;51,62
 18/08/2025;CURSOR USAGE MID AUG;445610;TVA deductible;8,60;0,00
@@ -2110,15 +2223,18 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 19/08/2025;APPLE.COM/BILL;512001;Banque 1;0,00;35,90
 19/08/2025;APPLE.COM/BILL;613600;Abonnements logiciels;29,92;0,00
 19/08/2025;APPLE.COM/BILL;445610;TVA deductible;5,98;0,00
-19/08/2025;GITHUB, INC.;613600;Abonnements logiciels;19,07;0,00
+19/08/2025;GITHUB, INC.;613600;Abonnements logiciels;15,89;0,00
 19/08/2025;GITHUB, INC.;512001;Banque 1;0,00;19,07
-20/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,46;0,00
+19/08/2025;GITHUB, INC.;445610;TVA deductible;3,18;0,00
+20/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,38;0,00
 20/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,46
+20/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,08;0,00
 19/08/2025;SHOPIFY* 406519600;613600;Abonnements logiciels;27,87;0,00
 19/08/2025;SHOPIFY* 406519600;512001;Banque 1;0,00;33,45
 19/08/2025;SHOPIFY* 406519600;445610;TVA deductible;5,58;0,00
 20/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,80
-20/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,80;0,00
+20/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,67;0,00
+20/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,13;0,00
 19/08/2025;GETRESPONSE GETRESPON;512001;Banque 1;0,00;19,20
 19/08/2025;GETRESPONSE GETRESPON;445610;TVA deductible;3,20;0,00
 19/08/2025;GETRESPONSE GETRESPON;613600;Abonnements logiciels;16,00;0,00
@@ -2179,12 +2295,14 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 20/08/2025;Encaissement 202508-78 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
 20/08/2025;Encaissement 202508-77 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
 20/08/2025;Encaissement 202508-77 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+22/08/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;115,50;0,00
 22/08/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;693,00
-22/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;693,00;0,00
+22/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;577,50;0,00
 22/08/2025;GITHUB, INC.;613600;Abonnements logiciels;15,68;0,00
 22/08/2025;GITHUB, INC.;445610;TVA deductible;3,14;0,00
 22/08/2025;GITHUB, INC.;512001;Banque 1;0,00;18,82
-22/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,46;0,00
+22/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,38;0,00
+22/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,08;0,00
 22/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,46
 22/08/2025;AIRBNB * HM8HB5FSYC;625100;Frais de deplacements;440,00;0,00
 22/08/2025;AIRBNB * HM8HB5FSYC;512001;Banque 1;0,00;440,00
@@ -2194,9 +2312,11 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 22/08/2025;DELIVEROO;445610;TVA deductible;0,22;0,00
 22/08/2025;DELIVEROO;625700;Restaurants et repas d'affaires;0,24;0,00
 22/08/2025;DELIVEROO;445610;TVA deductible;0,05;0,00
-22/08/2025;LOOM SUBSCRIPTION;613600;Abonnements logiciels;15,52;0,00
+22/08/2025;LOOM SUBSCRIPTION;613600;Abonnements logiciels;12,93;0,00
+22/08/2025;LOOM SUBSCRIPTION;445610;TVA deductible;2,59;0,00
 22/08/2025;LOOM SUBSCRIPTION;512001;Banque 1;0,00;15,52
-23/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,37;0,00
+23/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,06;0,00
+23/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,31;0,00
 23/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,37
 22/08/2025;FiverrEU;604000;Prestation de service;557,65;0,00
 22/08/2025;FiverrEU;445610;TVA deductible;111,53;0,00
@@ -2210,12 +2330,15 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 23/08/2025;CURSOR, AI POWERED IDE;613600;Abonnements logiciels;57,57;0,00
 23/08/2025;CURSOR, AI POWERED IDE;512001;Banque 1;0,00;69,08
 23/08/2025;CURSOR, AI POWERED IDE;445610;TVA deductible;11,51;0,00
-24/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,66;0,00
+24/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,38;0,00
+24/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,28;0,00
 24/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,66
 23/08/2025;CLOUDFLARE;512001;Banque 1;0,00;6,04
-23/08/2025;CLOUDFLARE;613500;Location de materiel;6,04;0,00
+23/08/2025;CLOUDFLARE;613500;Location de materiel;5,03;0,00
+23/08/2025;CLOUDFLARE;445610;TVA deductible;1,01;0,00
+24/08/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,02;0,00
 24/08/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,14
-24/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,14;0,00
+24/08/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,12;0,00
 25/08/2025;/INV/F5R36832/0087537021 //20250818-SAGR4 - TOTALENERGIES MARKETING FRANCE;445610;TVA deductible;26,32;0,00
 25/08/2025;/INV/F5R36832/0087537021 //20250818-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;157,92
 25/08/2025;/INV/F5R36832/0087537021 //20250818-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;131,60;0,00
@@ -2253,7 +2376,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 27/08/2025;DELIVEROO;512001;Banque 1;0,00;50,78
 27/08/2025;DELIVEROO;625700;Restaurants et repas d'affaires;46,79;0,00
 27/08/2025;DELIVEROO;445610;TVA deductible;0,67;0,00
-28/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;807,00;0,00
+28/08/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;672,50;0,00
+28/08/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;134,50;0,00
 28/08/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;807,00
 28/08/2025;FiverrEU;604000;Prestation de service;34,34;0,00
 28/08/2025;FiverrEU;512001;Banque 1;0,00;41,21
@@ -2310,7 +2434,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 02/09/2025;RENDER.COM;445610;TVA deductible;8,04;0,00
 02/09/2025;RENDER.COM;512001;Banque 1;0,00;48,23
 02/09/2025;RENDER.COM;613500;Location de materiel;40,19;0,00
-03/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,15;0,00
+03/09/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,19;0,00
+03/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,96;0,00
 03/09/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,15
 03/09/2025;DAVAI-PYZESP85D27Q - GOCARDLESS SAS;445610;TVA deductible;1,60;0,00
 03/09/2025;DAVAI-PYZESP85D27Q - GOCARDLESS SAS;411000;Clients;0,00;1200,00
@@ -2335,21 +2460,25 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 04/09/2025;PARKING* YESPARK;625100;Frais de deplacements;143,33;0,00
 04/09/2025;PARKING* YESPARK;512001;Banque 1;0,00;172,00
 04/09/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;642,87
-04/09/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;642,87;0,00
+04/09/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;107,15;0,00
+04/09/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;535,72;0,00
 04/09/2025;REPLIT, INC.;512001;Banque 1;0,00;25,85
 04/09/2025;REPLIT, INC.;445610;TVA deductible;4,31;0,00
 04/09/2025;REPLIT, INC.;613600;Abonnements logiciels;21,54;0,00
-04/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,62;0,00
+04/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,52;0,00
 04/09/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,62
+04/09/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,10;0,00
 04/09/2025;DELIVEROO;625700;Restaurants et repas d'affaires;20,80;0,00
 04/09/2025;DELIVEROO;512001;Banque 1;0,00;22,88
 04/09/2025;DELIVEROO;445610;TVA deductible;2,08;0,00
 04/09/2025;GITHUB, INC.;512001;Banque 1;0,00;0,09
-04/09/2025;GITHUB, INC.;613600;Abonnements logiciels;0,09;0,00
+04/09/2025;GITHUB, INC.;613600;Abonnements logiciels;0,07;0,00
+04/09/2025;GITHUB, INC.;445610;TVA deductible;0,02;0,00
 04/09/2025;TEAM AXXE;512001;Banque 1;0,00;84,98
 04/09/2025;TEAM AXXE;606300;Materiel et outillage;70,82;0,00
 04/09/2025;TEAM AXXE;445610;TVA deductible;14,16;0,00
-04/09/2025;EASYJETK9T92JB;625100;Frais de deplacements;22,48;0,00
+04/09/2025;EASYJETK9T92JB;625100;Frais de deplacements;20,44;0,00
+04/09/2025;EASYJETK9T92JB;445610;TVA deductible;2,04;0,00
 04/09/2025;EASYJETK9T92JB;512001;Banque 1;0,00;22,48
 03/09/2025;CONNEXITY;512001;Banque 1;0,00;71,90
 03/09/2025;CONNEXITY;606300;Materiel et outillage;59,92;0,00
@@ -2366,15 +2495,17 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 05/09/2025;UBR* PENDING.UBER.COM;512001;Banque 1;0,00;77,06
 05/09/2025;UBR* PENDING.UBER.COM;445610;TVA deductible;7,01;0,00
 05/09/2025;Hetzner Online GmbH;512001;Banque 1;0,00;16,22
-05/09/2025;Hetzner Online GmbH;613500;Location de materiel;16,22;0,00
+05/09/2025;Hetzner Online GmbH;445610;TVA deductible;2,70;0,00
+05/09/2025;Hetzner Online GmbH;613500;Location de materiel;13,52;0,00
 05/09/2025;LADUREE 408;625700;Restaurants et repas d'affaires;61,82;0,00
 05/09/2025;LADUREE 408;445610;TVA deductible;6,18;0,00
 05/09/2025;LADUREE 408;512001;Banque 1;0,00;68,00
 06/09/2025;UBR* PENDING.UBER.COM;445610;TVA deductible;3,44;0,00
 06/09/2025;UBR* PENDING.UBER.COM;625100;Frais de deplacements;34,39;0,00
 06/09/2025;UBR* PENDING.UBER.COM;512001;Banque 1;0,00;37,83
-07/09/2025;SumUp *TAXI PARIS;625100;Frais de deplacements;45,00;0,00
+07/09/2025;SumUp *TAXI PARIS;625100;Frais de deplacements;40,91;0,00
 07/09/2025;SumUp *TAXI PARIS;512001;Banque 1;0,00;45,00
+07/09/2025;SumUp *TAXI PARIS;445610;TVA deductible;4,09;0,00
 06/09/2025;SCICCHITANO SRL;625700;Restaurants et repas d'affaires;485,18;0,00
 06/09/2025;SCICCHITANO SRL;445610;TVA deductible;48,52;0,00
 06/09/2025;SCICCHITANO SRL;512001;Banque 1;0,00;533,70
@@ -2421,7 +2552,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 08/09/2025;DELIVEROO;625700;Restaurants et repas d'affaires;43,76;0,00
 08/09/2025;DELIVEROO;445610;TVA deductible;4,38;0,00
 08/09/2025;DOLMEN TAXIS;512001;Banque 1;0,00;18,90
-08/09/2025;DOLMEN TAXIS;625100;Frais de deplacements;18,90;0,00
+08/09/2025;DOLMEN TAXIS;445610;TVA deductible;1,72;0,00
+08/09/2025;DOLMEN TAXIS;625100;Frais de deplacements;17,18;0,00
 09/09/2025;Microsoft-G111966331;613600;Abonnements logiciels;170,45;0,00
 09/09/2025;Microsoft-G111966331;445610;TVA deductible;34,09;0,00
 09/09/2025;Microsoft-G111966331;512001;Banque 1;0,00;204,54
@@ -2451,16 +2583,20 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 10/09/2025;Encaissement 202508-76 - JOE-AI SAS;445710;TVA collectee;0,00;480,00
 10/09/2025;Encaissement 202508-76 - JOE-AI SAS;445880;TVA sur prestation de service en attente de paiement - Clients;480,00;0,00
 10/09/2025;CLOUDFLARE;512001;Banque 1;0,00;8,93
-10/09/2025;CLOUDFLARE;613500;Location de materiel;8,93;0,00
+10/09/2025;CLOUDFLARE;445610;TVA deductible;1,49;0,00
+10/09/2025;CLOUDFLARE;613500;Location de materiel;7,44;0,00
 11/09/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,22
-11/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,22;0,00
+11/09/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+11/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,18;0,00
 10/09/2025;DELIVEROO;445610;TVA deductible;1,59;0,00
 10/09/2025;DELIVEROO;512001;Banque 1;0,00;17,49
 10/09/2025;DELIVEROO;625700;Restaurants et repas d'affaires;15,90;0,00
-11/09/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;642,87;0,00
+11/09/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;535,72;0,00
+11/09/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;107,15;0,00
 11/09/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;642,87
 11/09/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;1,44
-11/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,44;0,00
+11/09/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,24;0,00
+11/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,20;0,00
 11/09/2025;CURSOR USAGE AUG;445610;TVA deductible;10,01;0,00
 11/09/2025;CURSOR USAGE AUG;512001;Banque 1;0,00;60,04
 11/09/2025;CURSOR USAGE AUG;613600;Abonnements logiciels;50,03;0,00
@@ -2475,7 +2611,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 12/09/2025;FIVERR *;445610;TVA deductible;15,83;0,00
 12/09/2025;FIVERR *;604000;Prestation de service;79,17;0,00
 12/09/2025;FIVERR *;512001;Banque 1;0,00;95,00
-13/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;2,28;0,00
+13/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;1,90;0,00
+13/09/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,38;0,00
 13/09/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;2,28
 12/09/2025;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
 12/09/2025;SMALLPDF;445610;TVA deductible;1,67;0,00
@@ -2496,8 +2633,10 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/09/2025;RESEND;445610;TVA deductible;2,85;0,00
 13/09/2025;RESEND;512001;Banque 1;0,00;17,09
 13/09/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,41
-13/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,41;0,00
-13/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,41;0,00
+13/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,34;0,00
+13/09/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
+13/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,34;0,00
+13/09/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
 13/09/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,41
 14/09/2025;La Reserve a la Plage;625700;Restaurants et repas d'affaires;183,64;0,00
 14/09/2025;La Reserve a la Plage;512001;Banque 1;0,00;202,00
@@ -2508,8 +2647,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 15/09/2025;SENTRY;613600;Abonnements logiciels;24,87;0,00
 15/09/2025;SENTRY;445610;TVA deductible;4,98;0,00
 15/09/2025;SENTRY;512001;Banque 1;0,00;29,85
+15/09/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,12;0,00
 15/09/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,72
-15/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,72;0,00
+15/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,60;0,00
 15/09/2025;facture202509-90 - CHAUVIN PARIS;512001;Banque 1;1905,95;0,00
 15/09/2025;facture202509-90 - CHAUVIN PARIS;411000;Clients;0,00;1905,95
 15/09/2025;facture202509-91 - CHAUVIN PARIS;411000;Clients;0,00;2160,00
@@ -2543,12 +2683,14 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 16/09/2025;Company Free plan partial usage refund;445610;TVA deductible;0,00;1,33
 16/09/2025;Company Free plan partial usage refund;627000;Services bancaires;0,00;6,67
 12/09/2025;Company Free plan fee;512002;Banque 2;0,00;10,00
-12/09/2025;Company Free plan fee;627000;Services bancaires;10,00;0,00
+12/09/2025;Company Free plan fee;627000;Services bancaires;8,33;0,00
+12/09/2025;Company Free plan fee;445610;TVA deductible;1,67;0,00
 16/09/2025;EMAILVALIDATION.IO;445610;TVA deductible;1,71;0,00
 16/09/2025;EMAILVALIDATION.IO;613600;Abonnements logiciels;8,52;0,00
 16/09/2025;EMAILVALIDATION.IO;512001;Banque 1;0,00;10,23
 16/09/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,24
-16/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,24;0,00
+16/09/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
+16/09/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,20;0,00
 15/09/2025;Encaissement 202509-90 - CHAUVIN PARIS;445710;TVA collectee;0,00;32,00
 15/09/2025;Encaissement 202509-90 - CHAUVIN PARIS;445880;TVA sur prestation de service en attente de paiement - Clients;32,00;0,00
 15/09/2025;Encaissement 202509-91 - CHAUVIN PARIS;445880;TVA sur prestation de service en attente de paiement - Clients;360,00;0,00
@@ -2576,8 +2718,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 17/09/2025;Encaissement 202509-96 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
 17/09/2025;Encaissement 202509-97 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
 17/09/2025;Encaissement 202509-97 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
+18/09/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;107,15;0,00
 18/09/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;642,87
-18/09/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;642,87;0,00
+18/09/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;535,72;0,00
 18/09/2025;Facturation 202509-97 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
 18/09/2025;Facturation 202509-97 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
 18/09/2025;Facturation 202509-97 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
@@ -2687,7 +2830,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 24/09/2025;HPY*High-Tech Shop;512001;Banque 1;0,00;30,39
 24/09/2025;HPY*High-Tech Shop;606300;Materiel et outillage;25,32;0,00
 24/09/2025;HPY*High-Tech Shop;445610;TVA deductible;5,07;0,00
-25/09/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;642,87;0,00
+25/09/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;535,72;0,00
+25/09/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;107,15;0,00
 25/09/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;642,87
 25/09/2025;/INV/F5U41544/0087537021 //20250922-SAGR4 - TOTALENERGIES MARKETING FRANCE;625200;Vehicule et carburant;86,32;0,00
 25/09/2025;/INV/F5U41544/0087537021 //20250922-SAGR4 - TOTALENERGIES MARKETING FRANCE;512001;Banque 1;0,00;103,58
@@ -2717,21 +2861,23 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 31/03/2025;Quote Part Hermel - Loyer Q1;455100;Associes - Comptes courants;0,00;4200,00
 31/03/2025;Quote Part Hermel - Loyer Q1;445610;TVA deductible;700,00;0,00
 31/03/2025;Quote Part Hermel - Copro Q1;455100;Associes - Comptes courants;0,00;334,12
-31/03/2025;Quote Part Hermel - Copro Q1;613200;Loyers et charges locatives;334,12;0,00
-31/03/2025;Quote Part Hermel - EDF Q1;606100;Eau, gaz, electricite;159,24;0,00
-31/03/2025;Quote Part Hermel - EDF Q1;445610;TVA deductible;8,76;0,00
+31/03/2025;Quote Part Hermel - Copro Q1;445610;TVA deductible;55,69;0,00
+31/03/2025;Quote Part Hermel - Copro Q1;613200;Loyers et charges locatives;278,43;0,00
+31/03/2025;Quote Part Hermel - EDF Q1;606100;Eau, gaz, electricite;140,00;0,00
+31/03/2025;Quote Part Hermel - EDF Q1;445610;TVA deductible;28,00;0,00
 31/03/2025;Quote Part Hermel - EDF Q1;455100;Associes - Comptes courants;0,00;168,00
 31/03/2025;Quote Part Hermel - Internet Free Q1;445610;TVA deductible;8,00;0,00
 31/03/2025;Quote Part Hermel - Internet Free Q1;455100;Associes - Comptes courants;0,00;47,98
 31/03/2025;Quote Part Hermel - Internet Free Q1;626000;Internet, telephone et frais postaux;39,98;0,00
-30/06/2025;Quote Part Hermel - EDF Q2;445610;TVA deductible;8,76;0,00
-30/06/2025;Quote Part Hermel - EDF Q2;606100;Eau, gaz, electricite;159,24;0,00
+30/06/2025;Quote Part Hermel - EDF Q2;445610;TVA deductible;28,00;0,00
+30/06/2025;Quote Part Hermel - EDF Q2;606100;Eau, gaz, electricite;140,00;0,00
 30/06/2025;Quote Part Hermel - EDF Q2;455100;Associes - Comptes courants;0,00;168,00
 30/06/2025;Quote Part Hermel - Loyer Q2;455100;Associes - Comptes courants;0,00;4200,00
 30/06/2025;Quote Part Hermel - Loyer Q2;613200;Loyers et charges locatives;3500,00;0,00
 30/06/2025;Quote Part Hermel - Loyer Q2;445610;TVA deductible;700,00;0,00
 30/06/2025;Quote Part Hermel - Copro Q2;455100;Associes - Comptes courants;0,00;334,12
-30/06/2025;Quote Part Hermel - Copro Q2;613200;Loyers et charges locatives;334,12;0,00
+30/06/2025;Quote Part Hermel - Copro Q2;613200;Loyers et charges locatives;278,43;0,00
+30/06/2025;Quote Part Hermel - Copro Q2;445610;TVA deductible;55,69;0,00
 30/06/2025;Quote Part Hermel - Free Internet Q2;455100;Associes - Comptes courants;0,00;47,99
 30/06/2025;Quote Part Hermel - Free Internet Q2;626000;Internet, telephone et frais postaux;39,99;0,00
 30/06/2025;Quote Part Hermel - Free Internet Q2;445610;TVA deductible;8,00;0,00
@@ -2811,7 +2957,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 01/10/2025;Encaissement 202503-26 - PM. ARMEN;445880;TVA sur prestation de service en attente de paiement - Clients;1304,00;0,00
 01/10/2025;Encaissement d'acompte 202509-102 - MLN GROUP;445710;TVA collectee;0,00;1823,68
 01/10/2025;Encaissement d'acompte 202509-102 - MLN GROUP;445870;TVA en attente sur acomptes;1823,68;0,00
-01/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;659,35;0,00
+01/10/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;109,89;0,00
+01/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;549,46;0,00
 01/10/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;659,35
 01/10/2025;DELIVEROO;445610;TVA deductible;1,49;0,00
 01/10/2025;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
@@ -2930,7 +3077,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 08/10/2025;DELIVEROO;445610;TVA deductible;1,49;0,00
 08/10/2025;DELIVEROO;512001;Banque 1;0,00;16,39
 08/10/2025;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
-09/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;692,31;0,00
+09/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;576,92;0,00
+09/10/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;115,39;0,00
 09/10/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;692,31
 08/10/2025;LE SAVARIN;625700;Restaurants et repas d'affaires;114,62;0,00
 08/10/2025;LE SAVARIN;445610;TVA deductible;11,46;0,00
@@ -2968,7 +3116,7 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 12/10/2025;SMALLPDF;512001;Banque 1;0,00;10,00
 12/10/2025;SMALLPDF;445610;TVA deductible;1,67;0,00
 12/10/2025;SMALLPDF;613600;Abonnements logiciels;8,33;0,00
-13/10/2025;TVA1-072025-3514 - DGFIP;445510;TVA à payer;1450,00;0,00
+13/10/2025;TVA1-072025-3514 - DGFIP;445810;Acompte de TVA;1450,00;0,00
 13/10/2025;TVA1-072025-3514 - DGFIP;512001;Banque 1;0,00;1450,00
 13/10/2025;Microsoft-G118932705;512001;Banque 1;0,00;15,72
 13/10/2025;Microsoft-G118932705;445610;TVA deductible;2,62;0,00
@@ -3029,7 +3177,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 16/10/2025;Virement vers Davai - Davai;512001;Banque 1;0,00;12250,00
 16/10/2025;Virement vers Davai - Davai;580000;Virements internes;12250,00;0,00
 16/10/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;692,31
-16/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;692,31;0,00
+16/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;576,92;0,00
+16/10/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;115,39;0,00
 16/10/2025;DELIVEROO;512001;Banque 1;0,00;16,39
 16/10/2025;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
 16/10/2025;DELIVEROO;445610;TVA deductible;1,49;0,00
@@ -3116,9 +3265,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 23/10/2025;PARKING* YESPARK;625100;Frais de deplacements;70,20;0,00
 23/10/2025;PARKING* YESPARK;512001;Banque 1;0,00;84,24
 23/10/2025;PARKING* YESPARK;445610;TVA deductible;14,04;0,00
-22/10/2025;APPLE.COM/FR;445620;TVA sur immobilisation;183,17;0,00
 22/10/2025;APPLE.COM/FR;512001;Banque 1;0,00;1099,00
-22/10/2025;APPLE.COM/FR;210000;Immobilisations corporelles;915,83;0,00
+22/10/2025;APPLE.COM/FR;445610;TVA deductible;183,17;0,00
+22/10/2025;APPLE.COM/FR;607000;Marchandise pour la revente;915,83;0,00
 23/10/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,02;0,00
 23/10/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,14
 23/10/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,12;0,00
@@ -3133,7 +3282,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 23/10/2025;Facturation 202510-115 - CHAUVIN PARIS;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;48,00
 23/10/2025;Facturation 202510-115 - CHAUVIN PARIS;445710;TVA collectee;0,00;255,67
 23/10/2025;Facturation 202510-115 - CHAUVIN PARIS;706001;Vente de service;0,00;240,00
-23/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;692,31;0,00
+23/10/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;115,39;0,00
+23/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;576,92;0,00
 23/10/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;692,31
 23/10/2025;Facturation 202510-116 - GPF;411000;Clients;840,00;0,00
 23/10/2025;Facturation 202510-116 - GPF;706900;Vente de service hors UE;0,00;840,00
@@ -3252,7 +3402,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 30/10/2025;Virement de Gestion et Participations;411000;Clients;0,00;3570,00
 30/10/2025;Virement vers Davai - Davai;512001;Banque 1;0,00;15000,00
 30/10/2025;Virement vers Davai - Davai;580000;Virements internes;15000,00;0,00
-30/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;692,31;0,00
+30/10/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;115,39;0,00
+30/10/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;576,92;0,00
 30/10/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;692,31
 30/10/2025;THEASSISTANT;445610;TVA deductible;61,80;0,00
 30/10/2025;THEASSISTANT;512001;Banque 1;0,00;370,80
@@ -3344,7 +3495,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 07/11/2025;PRE VOLUM COMPTE GERANCE OCTOBRE 2025 DAVAI - VOLUM COMPTE GERANCE;445610;TVA deductible;120,00;0,00
 07/11/2025;PRE VOLUM COMPTE GERANCE OCTOBRE 2025 DAVAI - VOLUM COMPTE GERANCE;613200;Loyers et charges locatives;600,00;0,00
 07/11/2025;PRE VOLUM COMPTE GERANCE OCTOBRE 2025 DAVAI - VOLUM COMPTE GERANCE;512001;Banque 1;0,00;720,00
-07/11/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1000,00;0,00
+07/11/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;833,33;0,00
+07/11/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;166,67;0,00
 07/11/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1000,00
 07/11/2025;CHEZ MEUNIER;445610;TVA deductible;1,02;0,00
 07/11/2025;CHEZ MEUNIER;625700;Restaurants et repas d'affaires;10,18;0,00
@@ -3421,8 +3573,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/11/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,35;0,00
 13/11/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,07;0,00
 13/11/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,42
-13/11/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;750,00;0,00
+13/11/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;625,00;0,00
 13/11/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;750,00
+13/11/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;125,00;0,00
 13/11/2025;WWW.RIVATSHOP.COM;606300;Materiel et outillage;79,92;0,00
 13/11/2025;WWW.RIVATSHOP.COM;445610;TVA deductible;15,98;0,00
 13/11/2025;WWW.RIVATSHOP.COM;512001;Banque 1;0,00;95,90
@@ -3527,8 +3680,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 13/11/2025;Encaissement 202511-119 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
 19/11/2025;Encaissement 202511-120 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
 19/11/2025;Encaissement 202511-120 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+19/11/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;125,00;0,00
 19/11/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;750,00
-19/11/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;750,00;0,00
+19/11/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;625,00;0,00
 19/11/2025;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
 19/11/2025;DELIVEROO;512001;Banque 1;0,00;16,39
 19/11/2025;DELIVEROO;445610;TVA deductible;1,49;0,00
@@ -3666,13 +3820,11 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 30/09/2025;Quote Part Hermel - Loyer Q3;455100;Associes - Comptes courants;0,00;4200,00
 30/09/2025;Quote Part Hermel - Loyer Q3;613200;Loyers et charges locatives;3500,00;0,00
 30/09/2025;Quote Part Hermel - Copro Q3;455100;Associes - Comptes courants;0,00;334,12
-30/09/2025;Quote Part Hermel - Copro Q3;613200;Loyers et charges locatives;334,12;0,00
+30/09/2025;Quote Part Hermel - Copro Q3;445610;TVA deductible;55,69;0,00
+30/09/2025;Quote Part Hermel - Copro Q3;613200;Loyers et charges locatives;278,43;0,00
 30/09/2025;Quote Part Hermel - EDF Q3;455100;Associes - Comptes courants;0,00;168,00
 30/09/2025;Quote Part Hermel - EDF Q3;626000;Internet, telephone et frais postaux;140,00;0,00
 30/09/2025;Quote Part Hermel - EDF Q3;445610;TVA deductible;28,00;0,00
-28/11/2025;Quote Part Hermel - Free Q3;626000;Internet, telephone et frais postaux;39,98;0,00
-28/11/2025;Quote Part Hermel - Free Q3;455100;Associes - Comptes courants;0,00;47,98
-28/11/2025;Quote Part Hermel - Free Q3;445610;TVA deductible;8,00;0,00
 31/10/2025;Quote Part Hermel - Loyer Q4;613200;Loyers et charges locatives;3500,00;0,00
 31/10/2025;Quote Part Hermel - Loyer Q4;455100;Associes - Comptes courants;0,00;4200,00
 31/10/2025;Quote Part Hermel - Loyer Q4;445610;TVA deductible;700,00;0,00
@@ -3698,7 +3850,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 26/11/2025;AMAZON EU SARL;445610;TVA deductible;116,50;0,00
 26/11/2025;AMAZON EU SARL;512001;Banque 1;0,00;699,00
 28/11/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;750,00
-28/11/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;750,00;0,00
+28/11/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;625,00;0,00
+28/11/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;125,00;0,00
 28/11/2025;FIGMA;512001;Banque 1;0,00;48,00
 28/11/2025;FIGMA;613600;Abonnements logiciels;40,00;0,00
 28/11/2025;FIGMA;445610;TVA deductible;8,00;0,00
@@ -3794,8 +3947,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 05/12/2025;To ASE CONSEIL;604000;Prestation de service;750,00;0,00
 05/12/2025;From Reserve;512002;Banque 2;2500,00;0,00
 05/12/2025;From Reserve;580000;Virements internes;0,00;2500,00
+06/12/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;166,67;0,00
 06/12/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1000,00
-06/12/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1000,00;0,00
+06/12/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;833,33;0,00
 05/12/2025;UBR* PENDING.UBER.COM;512001;Banque 1;0,00;15,94
 05/12/2025;UBR* PENDING.UBER.COM;625100;Frais de deplacements;14,49;0,00
 05/12/2025;UBR* PENDING.UBER.COM;445610;TVA deductible;1,45;0,00
@@ -3898,9 +4052,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 11/12/2025;DELIVEROO;445610;TVA deductible;1,49;0,00
 11/12/2025;DELIVEROO;625700;Restaurants et repas d'affaires;14,90;0,00
 11/12/2025;DELIVEROO;512001;Banque 1;0,00;16,39
-11/12/2025;To VIKOISOFT JOINT STOCK COMPANY;445610;TVA deductible;1277,40;0,00
 11/12/2025;To VIKOISOFT JOINT STOCK COMPANY;604000;Prestation de service;6387,00;0,00
 11/12/2025;To VIKOISOFT JOINT STOCK COMPANY;512002;Banque 2;0,00;7664,40
+11/12/2025;To VIKOISOFT JOINT STOCK COMPANY;445610;TVA deductible;1277,40;0,00
 11/12/2025;From Reserve;512002;Banque 2;9000,00;0,00
 11/12/2025;From Reserve;580000;Virements internes;0,00;9000,00
 11/12/2025;To Varkinia - Dominik Arabasz;604000;Prestation de service;1050,00;0,00
@@ -3914,7 +4068,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 12/12/2025;bellota bellota;625700;Restaurants et repas d'affaires;16,36;0,00
 13/12/2025;Transfert interne - Davai;580000;Virements internes;0,00;1500,00
 13/12/2025;Transfert interne - Davai;512001;Banque 1;1500,00;0,00
-13/12/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1000,00;0,00
+13/12/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;833,33;0,00
+13/12/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;166,67;0,00
 13/12/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1000,00
 12/12/2025;UBER *TRIP;512001;Banque 1;0,00;15,00
 12/12/2025;UBER *TRIP;625100;Frais de deplacements;15,00;0,00
@@ -3947,7 +4102,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 14/12/2025;Hetzner Online GmbH;445610;TVA deductible;3,62;0,00
 14/12/2025;Hetzner Online GmbH;512001;Banque 1;0,00;21,71
 14/12/2025;VERCEL INC.;512001;Banque 1;0,00;34,13
-14/12/2025;VERCEL INC.;613600;Abonnements logiciels;34,13;0,00
+14/12/2025;VERCEL INC.;613600;Abonnements logiciels;28,44;0,00
+14/12/2025;VERCEL INC.;445610;TVA deductible;5,69;0,00
 15/12/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,68;0,00
 15/12/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,14;0,00
 15/12/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,82
@@ -4011,7 +4167,8 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 18/12/2025;FRUTTINIBYMO.FR;445610;TVA deductible;12,73;0,00
 18/12/2025;FRUTTINIBYMO.FR;512001;Banque 1;0,00;140,00
 20/12/2025;Virement vers Maxime Soydas - Maxime Soydas;512001;Banque 1;0,00;1010,00
-20/12/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;1010,00;0,00
+20/12/2025;Virement vers Maxime Soydas - Maxime Soydas;445610;TVA deductible;168,33;0,00
+20/12/2025;Virement vers Maxime Soydas - Maxime Soydas;604000;Prestation de service;841,67;0,00
 21/12/2025;DELIVEROO;445610;TVA deductible;2,14;0,00
 21/12/2025;DELIVEROO;512001;Banque 1;0,00;23,49
 21/12/2025;DELIVEROO;625700;Restaurants et repas d'affaires;21,35;0,00
@@ -4033,16 +4190,14 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 23/12/2025;PARKING* YESPARK;445610;TVA deductible;14,04;0,00
 23/12/2025;PARKING* YESPARK;512001;Banque 1;0,00;84,24
 23/12/2025;PARKING* YESPARK;625100;Frais de deplacements;70,20;0,00
-22/12/2025;SC-BRASS. LIPP;625700;Restaurants et repas d'affaires;118,18;0,00
-22/12/2025;SC-BRASS. LIPP;445610;TVA deductible;11,82;0,00
-22/12/2025;SC-BRASS. LIPP;512001;Banque 1;0,00;130,00
 23/12/2025;CLOUDFLARE;445610;TVA deductible;1,71;0,00
 23/12/2025;CLOUDFLARE;613500;Location de materiel;8,54;0,00
 23/12/2025;CLOUDFLARE;512001;Banque 1;0,00;10,25
 23/12/2025;Card transaction in foreign currency - SWAN;512001;Banque 1;0,00;0,25
 23/12/2025;Card transaction in foreign currency - SWAN;445610;TVA deductible;0,04;0,00
 23/12/2025;Card transaction in foreign currency - SWAN;627000;Services bancaires;0,21;0,00
-23/12/2025;VERCEL INC.;613600;Abonnements logiciels;6,07;0,00
+23/12/2025;VERCEL INC.;445610;TVA deductible;1,01;0,00
+23/12/2025;VERCEL INC.;613600;Abonnements logiciels;5,06;0,00
 23/12/2025;VERCEL INC.;512001;Banque 1;0,00;6,07
 23/12/2025;CURSOR, AI POWERED IDE;445610;TVA deductible;11,39;0,00
 23/12/2025;CURSOR, AI POWERED IDE;613600;Abonnements logiciels;56,97;0,00
@@ -4058,9 +4213,11 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 24/12/2025;F A 202512 128 IKVP - INGRID KERMOAL VENTE PRIVEE;445610;TVA deductible;0,10;0,00
 24/12/2025;F A 202512 128 IKVP - INGRID KERMOAL VENTE PRIVEE;627000;Services bancaires;0,50;0,00
 24/12/2025;TVA1-122025-3514 - DGFIP;512001;Banque 1;0,00;1055,00
-24/12/2025;TVA1-122025-3514 - DGFIP;445510;TVA à payer;1055,00;0,00
-23/12/2025;CLUB CAVALIERE;445610;TVA deductible;7,64;0,00
-23/12/2025;CLUB CAVALIERE;625700;Restaurants et repas d'affaires;76,36;0,00
+24/12/2025;TVA1-122025-3514 - DGFIP;445810;Acompte de TVA;1055,00;0,00
+23/12/2025;CLUB CAVALIERE;625700;Restaurants et repas d'affaires;8,18;0,00
+23/12/2025;CLUB CAVALIERE;445610;TVA deductible;0,82;0,00
+23/12/2025;CLUB CAVALIERE;625700;Restaurants et repas d'affaires;62,50;0,00
+23/12/2025;CLUB CAVALIERE;445610;TVA deductible;12,50;0,00
 23/12/2025;CLUB CAVALIERE;512001;Banque 1;0,00;84,00
 24/12/2025;DAVAI-7CPZVZJRQCYH - GOCARDLESS SAS;411000;Clients;0,00;1200,00
 24/12/2025;DAVAI-7CPZVZJRQCYH - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
@@ -4129,10 +4286,9 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 31/12/2025;Facturation 202512-130 - MYWAY TECHNOLOGY;706001;Vente de service;0,00;1000,00
 31/12/2025;Facturation 202512-130 - MYWAY TECHNOLOGY;411000;Clients;1200,00;0,00
 31/12/2025;Facturation 202512-130 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;0,00;200,00
+30/12/2025;UBER *TRIP;445610;TVA deductible;1,54;0,00
 30/12/2025;UBER *TRIP;512001;Banque 1;0,00;16,94
-30/12/2025;UBER *TRIP;625100;Frais de deplacements;16,94;0,00
-31/12/2025;HOTEL LHELIOS;625100;Frais de deplacements;83,00;0,00
-31/12/2025;HOTEL LHELIOS;512001;Banque 1;0,00;83,00
+30/12/2025;UBER *TRIP;625100;Frais de deplacements;15,40;0,00
 31/12/2025;DAVAI-HGQ65GSENQRE - GOCARDLESS SAS;445610;TVA deductible;0,40;0,00
 31/12/2025;DAVAI-HGQ65GSENQRE - GOCARDLESS SAS;627000;Services bancaires;2,00;0,00
 31/12/2025;DAVAI-HGQ65GSENQRE - GOCARDLESS SAS;411000;Clients;0,00;1200,00
@@ -4141,3 +4297,26 @@ Date;Libelle;Compte;Libelle du compte;Debit;Credit
 31/12/2025;On hold;512002;Banque 2;0,00;375,00
 31/12/2025;Encaissement 202512-131 - MYWAY TECHNOLOGY;445710;TVA collectee;0,00;200,00
 31/12/2025;Encaissement 202512-131 - MYWAY TECHNOLOGY;445880;TVA sur prestation de service en attente de paiement - Clients;200,00;0,00
+31/12/2025;HOTEL LHELIOS;625700;Restaurants et repas d'affaires;69,17;0,00
+31/12/2025;HOTEL LHELIOS;512001;Banque 1;0,00;83,00
+31/12/2025;HOTEL LHELIOS;445610;TVA deductible;13,83;0,00
+31/12/2025;Amortissement : Moto Pro;681000;Amortissement;2122,75;0,00
+31/12/2025;Amortissement : Moto Pro;281000;Amortissements des immobilisations corporelles;0,00;2122,75
+22/12/2025;SC-BRASS. LIPP;445610;TVA deductible;11,82;0,00
+22/12/2025;SC-BRASS. LIPP;512001;Banque 1;0,00;130,00
+22/12/2025;SC-BRASS. LIPP;625700;Restaurants et repas d'affaires;118,18;0,00
+01/09/2025;Quote Part Hermel - Free Q3;455100;Associes - Comptes courants;0,00;47,98
+01/09/2025;Quote Part Hermel - Free Q3;445610;TVA deductible;8,00;0,00
+01/09/2025;Quote Part Hermel - Free Q3;626000;Internet, telephone et frais postaux;39,98;0,00
+31/12/2025;Indemnite kilometrique 2025;625200;Vehicule et carburant;4417,50;0,00
+31/12/2025;Indemnite kilometrique 2025;455100;Associes - Comptes courants;0,00;4417,50
+31/12/2025;Declaration de TVA - Annee 2025;445611;Regularisation de TVA deductible;0,00;195,69
+31/12/2025;Declaration de TVA - Annee 2025;445610;TVA deductible;0,00;32654,72
+31/12/2025;Declaration de TVA - Annee 2025;445710;TVA collectee;38611,69;0,00
+31/12/2025;Declaration de TVA - Annee 2025;708000;Autres gains divers;0,00;0,28
+31/12/2025;Declaration de TVA - Annee 2025;445510;TVA à payer;0,00;3256,00
+31/12/2025;Declaration de TVA - Annee 2025;445810;Acompte de TVA;0,00;2505,00
+31/12/2025;Affectation du resultat en fin d'exercice 2025;800120;Resultat de l'exercice (benefice);46264,26;0,00
+31/12/2025;Affectation du resultat en fin d'exercice 2025;120000;Resultat de l'exercice (benefice);0,00;46264,26
+31/12/2025;Impot sur les societes - Exercice 2025;695000;Impots sur les benefices;10072,01;0,00
+31/12/2025;Impot sur les societes - Exercice 2025;444000;Impôts sur les benefices;0,00;10072,01
