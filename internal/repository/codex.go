@@ -1,7 +1,8 @@
 package repository
 
 // Attio CRM access goes through the `codex` CLI, which has the Attio
-// plugin enabled and handles authentication.
+// plugin enabled and handles authentication. The prompt and the output
+// schema are built from the attio_types rules (rules.yml).
 
 import (
 	"context"
@@ -10,55 +11,79 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strings"
+
+	"biztop/internal/domain"
 )
 
-const codexPrompt = `Use the Attio CRM tools to review every deal / opportunity in my CRM.
+func buildPrompt(types []domain.AttioType) string {
+	var b strings.Builder
+	b.WriteString(`Use the Attio CRM tools to review every deal / opportunity in my CRM.
 Keep only deals that are still open (not won and billed, not lost) and estimate the upcoming revenue for Davai.
-For each deal give: name, the amount in EUR still expected to be invoiced, the month it is expected (YYYY-MM),
-a probability between 0 and 1, and classify it into exactly one Davai revenue type:
-"Projects" (custom software projects), "Maintenance & Hosting" (recurring maintenance, hosting, support contracts),
-"Prezence" (the Prezence product) or "Bodacker" (the Bodacker product).
-Base amounts on the deal values recorded in Attio when present, otherwise estimate from the deal context.
-by_type must contain the sum of amount_eur per type (0 when none).`
+For each deal give: name, amount_eur, the month the revenue is expected (YYYY-MM), a probability between 0 and 1,
+and classify it into exactly one of these Davai revenue types:
+`)
+	for _, t := range types {
+		if t.Billing == "mrr" {
+			fmt.Fprintf(&b, "- %q (%s): recurring billing, amount_eur is the monthly recurring revenue, parse it from the Attio MRR field.\n", t.Name, t.Description)
+		} else {
+			fmt.Fprintf(&b, "- %q (%s): one-shot billing, amount_eur is the deal value still expected to be invoiced.\n", t.Name, t.Description)
+		}
+	}
+	b.WriteString(`When a needed amount is missing in Attio, estimate it from the deal context.
+by_type must contain the sum of amount_eur per type (0 when none).`)
+	return b.String()
+}
 
-const estimateSchema = `{
-  "type": "object",
-  "properties": {
-    "deals": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "name": {"type": "string"},
-          "type": {"type": "string", "enum": ["Projects", "Maintenance & Hosting", "Prezence", "Bodacker"]},
-          "amount_eur": {"type": "number"},
-          "expected_month": {"type": "string"},
-          "probability": {"type": "number"},
-          "notes": {"type": "string"}
-        },
-        "required": ["name", "type", "amount_eur", "expected_month", "probability", "notes"],
-        "additionalProperties": false
-      }
-    },
-    "by_type": {
-      "type": "object",
-      "properties": {
-        "Projects": {"type": "number"},
-        "Maintenance & Hosting": {"type": "number"},
-        "Prezence": {"type": "number"},
-        "Bodacker": {"type": "number"}
-      },
-      "required": ["Projects", "Maintenance & Hosting", "Prezence", "Bodacker"],
-      "additionalProperties": false
-    }
-  },
-  "required": ["deals", "by_type"],
-  "additionalProperties": false
-}`
+func buildSchema(types []domain.AttioType) ([]byte, error) {
+	names := make([]string, len(types))
+	byType := map[string]any{}
+	for i, t := range types {
+		names[i] = t.Name
+		byType[t.Name] = map[string]any{"type": "number"}
+	}
+	schema := map[string]any{
+		"type":                 "object",
+		"additionalProperties": false,
+		"required":             []string{"deals", "by_type"},
+		"properties": map[string]any{
+			"deals": map[string]any{
+				"type": "array",
+				"items": map[string]any{
+					"type":                 "object",
+					"additionalProperties": false,
+					"required":             []string{"name", "type", "amount_eur", "expected_month", "probability", "notes"},
+					"properties": map[string]any{
+						"name":           map[string]any{"type": "string"},
+						"type":           map[string]any{"type": "string", "enum": names},
+						"amount_eur":     map[string]any{"type": "number"},
+						"expected_month": map[string]any{"type": "string"},
+						"probability":    map[string]any{"type": "number"},
+						"notes":          map[string]any{"type": "string"},
+					},
+				},
+			},
+			"by_type": map[string]any{
+				"type":                 "object",
+				"additionalProperties": false,
+				"required":             names,
+				"properties":           byType,
+			},
+		},
+	}
+	return json.Marshal(schema)
+}
 
 // FetchAttioEstimate asks codex to estimate the upcoming revenue across all
-// open Attio deals, structured by the schema above.
-func FetchAttioEstimate(ctx context.Context) (map[string]any, error) {
+// open Attio deals, classified by the configured Davai types.
+func FetchAttioEstimate(ctx context.Context, types []domain.AttioType) (map[string]any, error) {
+	if len(types) == 0 {
+		return nil, fmt.Errorf("no attio_types configured in rules.yml")
+	}
+	schema, err := buildSchema(types)
+	if err != nil {
+		return nil, err
+	}
 	tmp, err := os.MkdirTemp("", "biztop-codex")
 	if err != nil {
 		return nil, err
@@ -66,7 +91,7 @@ func FetchAttioEstimate(ctx context.Context) (map[string]any, error) {
 	defer os.RemoveAll(tmp)
 	schemaPath := filepath.Join(tmp, "schema.json")
 	outPath := filepath.Join(tmp, "estimate.json")
-	if err := os.WriteFile(schemaPath, []byte(estimateSchema), 0o644); err != nil {
+	if err := os.WriteFile(schemaPath, schema, 0o644); err != nil {
 		return nil, err
 	}
 
@@ -75,7 +100,7 @@ func FetchAttioEstimate(ctx context.Context) (map[string]any, error) {
 		"-s", "read-only",
 		"--output-schema", schemaPath,
 		"-o", outPath,
-		codexPrompt)
+		buildPrompt(types))
 	logs, err := cmd.CombinedOutput()
 	if err != nil {
 		tail := string(logs)

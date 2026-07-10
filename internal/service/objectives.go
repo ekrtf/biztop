@@ -19,6 +19,7 @@ type Objectives struct {
 	FecsDir   string
 	DocPath   string
 	CachePath string
+	RulesPath string
 }
 
 type Actual struct {
@@ -30,11 +31,16 @@ type Actual struct {
 type ObjectivesResult struct {
 	Objectives []domain.Objective `json:"objectives"`
 	Actuals    map[string]*Actual `json:"actuals"`
+	Types      []domain.AttioType `json:"types"`
 	Estimate   json.RawMessage    `json:"estimate"`
 }
 
 func (o Objectives) Overview() (*ObjectivesResult, error) {
 	entries, err := repository.LoadEntries(o.FecsDir)
+	if err != nil {
+		return nil, err
+	}
+	rules, err := repository.LoadRules(o.RulesPath)
 	if err != nil {
 		return nil, err
 	}
@@ -58,13 +64,18 @@ func (o Objectives) Overview() (*ObjectivesResult, error) {
 	return &ObjectivesResult{
 		Objectives: ParseObjectives(repository.ReadObjectivesDoc(o.DocPath)),
 		Actuals:    actuals,
+		Types:      rules.AttioTypes,
 		Estimate:   repository.LoadEstimate(o.CachePath),
 	}, nil
 }
 
 // Refresh queries Attio through codex and caches the estimate.
 func (o Objectives) Refresh(ctx context.Context) (json.RawMessage, error) {
-	estimate, err := repository.FetchAttioEstimate(ctx)
+	rules, err := repository.LoadRules(o.RulesPath)
+	if err != nil {
+		return nil, err
+	}
+	estimate, err := repository.FetchAttioEstimate(ctx, rules.AttioTypes)
 	if err != nil {
 		return nil, err
 	}

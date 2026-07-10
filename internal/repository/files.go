@@ -2,41 +2,25 @@ package repository
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
+
+	"gopkg.in/yaml.v3"
 
 	"biztop/internal/domain"
 )
 
-var defaultFeesConfig = domain.FeesConfig{
-	LibellePatterns: []domain.PatternRule{
-		{Pattern: "airbnb", Ratio: 1},
-		{Pattern: "quote[ -]?part", Ratio: 1},
-	},
-	Comptes: []domain.CompteRule{
-		{Compte: "625700", Ratio: 0.7}, // Restaurants et repas d'affaires
-		{Compte: "625100", Ratio: 0.8}, // Frais de deplacements
-	},
-}
-
-// LoadFeesConfig reads the management fees rules, creating the file with
-// defaults on first use so it can be edited.
-func LoadFeesConfig(path string) (domain.FeesConfig, error) {
+// LoadRules reads rules.yml, the single source of truth for business rules.
+func LoadRules(path string) (domain.Rules, error) {
 	data, err := os.ReadFile(path)
-	if os.IsNotExist(err) {
-		out, _ := json.MarshalIndent(defaultFeesConfig, "", "  ")
-		if err := os.WriteFile(path, append(out, '\n'), 0o644); err != nil {
-			return domain.FeesConfig{}, err
-		}
-		return defaultFeesConfig, nil
-	}
 	if err != nil {
-		return domain.FeesConfig{}, err
+		return domain.Rules{}, fmt.Errorf("cannot read rules file: %w", err)
 	}
-	var cfg domain.FeesConfig
-	if err := json.Unmarshal(data, &cfg); err != nil {
-		return domain.FeesConfig{}, err
+	var rules domain.Rules
+	if err := yaml.Unmarshal(data, &rules); err != nil {
+		return domain.Rules{}, fmt.Errorf("invalid %s: %w", path, err)
 	}
-	return cfg, nil
+	return rules, nil
 }
 
 // ReadObjectivesDoc returns the raw markdown brief, "" when absent.

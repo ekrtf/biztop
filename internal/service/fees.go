@@ -15,8 +15,8 @@ import (
 )
 
 type Fees struct {
-	FecsDir    string
-	ConfigPath string
+	FecsDir   string
+	RulesPath string
 }
 
 type FeesResult struct {
@@ -35,10 +35,11 @@ func (f Fees) Compute(year int) (*FeesResult, error) {
 	if err != nil {
 		return nil, err
 	}
-	cfg, err := repository.LoadFeesConfig(f.ConfigPath)
+	rules, err := repository.LoadRules(f.RulesPath)
 	if err != nil {
 		return nil, err
 	}
+	cfg := rules.ManagementFees
 	type patternRule struct {
 		re    *regexp.Regexp
 		ratio float64
@@ -47,16 +48,29 @@ func (f Fees) Compute(year int) (*FeesResult, error) {
 	for _, p := range cfg.LibellePatterns {
 		re, err := regexp.Compile("(?i)" + p.Pattern)
 		if err != nil {
-			return nil, fmt.Errorf("invalid pattern %q in %s: %w", p.Pattern, f.ConfigPath, err)
+			return nil, fmt.Errorf("invalid pattern %q in %s: %w", p.Pattern, f.RulesPath, err)
 		}
 		patterns = append(patterns, patternRule{re, p.Ratio})
+	}
+	var excludes []*regexp.Regexp
+	for _, p := range cfg.ExcludePatterns {
+		re, err := regexp.Compile("(?i)" + p)
+		if err != nil {
+			return nil, fmt.Errorf("invalid exclude pattern %q in %s: %w", p, f.RulesPath, err)
+		}
+		excludes = append(excludes, re)
 	}
 	compteRatio := map[string]float64{}
 	for _, c := range cfg.Comptes {
 		compteRatio[c.Compte] = c.Ratio
 	}
-	// The highest ratio of all matching rules wins.
+	// Excludes veto everything; otherwise the highest matching ratio wins.
 	ratioFor := func(e domain.Entry) float64 {
+		for _, re := range excludes {
+			if re.MatchString(e.Libelle) {
+				return 0
+			}
+		}
 		ratio := 0.0
 		if r, ok := compteRatio[e.Compte]; ok && r > ratio {
 			ratio = r

@@ -2,7 +2,6 @@
 
 import { fmtEur, escapeHtml, fetchJSON } from './util.js';
 
-const DAVAI_TYPES = ['Projects', 'Maintenance & Hosting', 'Prezence', 'Bodacker'];
 let bound = false;
 
 export async function showObjectifs() {
@@ -52,7 +51,7 @@ function render(data) {
     </tr>`;
   }).join('');
 
-  renderEstimate(data.estimate);
+  renderEstimate(data.estimate, data.types || []);
 }
 
 // Bar toward the low end of the objective; the hatched extension is the

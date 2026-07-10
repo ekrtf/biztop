@@ -74,21 +74,39 @@ type Objective struct {
 	Team       string  `json:"team"`
 }
 
+// Rules is the content of rules.yml, the single source of truth for the
+// business rules.
+type Rules struct {
+	ManagementFees FeesConfig  `yaml:"management_fees" json:"management_fees"`
+	AttioTypes     []AttioType `yaml:"attio_types" json:"attio_types"`
+}
+
 // FeesConfig describes which expenses count as management fees and for
-// which portion (ratio 0..1).
+// which portion (ratio 0..1). ExcludePatterns veto a transaction even when
+// another rule matches it.
 type FeesConfig struct {
-	LibellePatterns []PatternRule `json:"libelle_patterns"`
-	Comptes         []CompteRule  `json:"comptes"`
+	LibellePatterns []PatternRule `yaml:"libelle_patterns" json:"libelle_patterns"`
+	Comptes         []CompteRule  `yaml:"comptes" json:"comptes"`
+	ExcludePatterns []string      `yaml:"exclude_patterns" json:"exclude_patterns"`
 }
 
 type PatternRule struct {
-	Pattern string  `json:"pattern"` // case-insensitive regex on the libelle
-	Ratio   float64 `json:"ratio"`
+	Pattern string  `yaml:"pattern" json:"pattern"` // case-insensitive regex on the libelle
+	Ratio   float64 `yaml:"ratio" json:"ratio"`
 }
 
 type CompteRule struct {
-	Compte string  `json:"compte"` // whole plan comptable account
-	Ratio  float64 `json:"ratio"`
+	Compte string  `yaml:"compte" json:"compte"` // whole plan comptable account
+	Ratio  float64 `yaml:"ratio" json:"ratio"`
+}
+
+// AttioType is one Davai revenue type used to classify CRM deals.
+// Billing is "one-shot" (amount = deal value) or "mrr" (amount = the
+// monthly recurring revenue from the Attio MRR field).
+type AttioType struct {
+	Name        string `yaml:"name" json:"name"`
+	Billing     string `yaml:"billing" json:"billing"`
+	Description string `yaml:"description" json:"description"`
 }
 
 func Round2(v float64) float64 {
