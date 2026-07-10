@@ -16,7 +16,7 @@ export async function showFees(year) {
   const cfg = data.config || {};
   const rules = [
     ...(cfg.comptes || []).map(c => `${c.compte} à ${Math.round(c.ratio * 100)}%`),
-    ...(cfg.libelle_patterns || []).map(p => `"${p.pattern}" à ${Math.round(p.ratio * 100)}%`),
+    ...(cfg.libelle_patterns || []).map(p => `"${p}"`),
     ...(cfg.exclude_patterns || []).map(p => `sauf "${p}"`),
   ];
   document.getElementById('fees-rules').textContent =

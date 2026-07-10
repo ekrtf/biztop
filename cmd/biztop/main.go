@@ -40,5 +40,6 @@ func newMux() (*http.ServeMux, error) {
 		Fees:       service.Fees{FecsDir: fecsDir, RulesPath: rulesFile},
 		Objectives: service.Objectives{FecsDir: fecsDir, DocPath: objectivesDoc, CachePath: estimateCache, RulesPath: rulesFile},
 		Customers:  service.Customers{FecsDir: fecsDir},
+		Mission:    service.Mission{FecsDir: fecsDir, DocPath: objectivesDoc, CachePath: estimateCache, RulesPath: rulesFile},
 	})
 }

@@ -85,14 +85,9 @@ type Rules struct {
 // which portion (ratio 0..1). ExcludePatterns veto a transaction even when
 // another rule matches it.
 type FeesConfig struct {
-	LibellePatterns []PatternRule `yaml:"libelle_patterns" json:"libelle_patterns"`
-	Comptes         []CompteRule  `yaml:"comptes" json:"comptes"`
-	ExcludePatterns []string      `yaml:"exclude_patterns" json:"exclude_patterns"`
-}
-
-type PatternRule struct {
-	Pattern string  `yaml:"pattern" json:"pattern"` // case-insensitive regex on the libelle
-	Ratio   float64 `yaml:"ratio" json:"ratio"`
+	LibellePatterns []string     `yaml:"libelle_patterns" json:"libelle_patterns"` // case-insensitive regexes on the libelle, counted in full
+	Comptes         []CompteRule `yaml:"comptes" json:"comptes"`
+	ExcludePatterns []string     `yaml:"exclude_patterns" json:"exclude_patterns"`
 }
 
 type CompteRule struct {

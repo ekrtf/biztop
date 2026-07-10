@@ -212,6 +212,34 @@ button.amount:hover { text-decoration: underline; }
 #tx-min, #tx-max { width: 110px; }
 .filter-count { color: var(--text2); font-size: 11px; margin-left: auto; }
 
+/* MISSION CONTROL */
+.kpi-card.red .value { color: var(--red); }
+.mission-chart { height: 260px; }
+.mission-chart canvas { max-height: 260px; }
+.recon-bar {
+  display: flex;
+  height: 26px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--bg3);
+  border: 1px solid var(--border-soft);
+}
+.recon-seg.ca { background: var(--green); }
+.recon-seg.pipe { background: rgba(88, 166, 255, 0.55); }
+.recon-legend { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px; font-size: 11px; color: var(--text2); }
+.recon-legend .sw {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 6px;
+  vertical-align: -1px;
+}
+.sw-ca { background: var(--green); }
+.sw-pipe { background: rgba(88, 166, 255, 0.55); }
+.sw-reste { background: var(--bg3); border: 1px solid var(--border); }
+.recon-target { margin-left: auto; }
+
 /* OBJECTIVES */
 .progress-col { min-width: 160px; }
 .progress {

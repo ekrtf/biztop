@@ -12,6 +12,7 @@
 <header>
   <h1>&#9654; BizTop</h1>
   <nav class="tabs" id="main-tabs" aria-label="Sections">
+    <button class="tab-btn" data-tab="mission">Mission Control</button>
     <button class="tab-btn" data-tab="compta">Compta</button>
     <button class="tab-btn" data-tab="clients">Clients</button>
     <button class="tab-btn" data-tab="objectifs">Objectifs</button>
@@ -21,6 +22,50 @@
 </header>
 
 <main>
+
+  <!-- MISSION CONTROL -->
+  <div id="tab-mission" hidden>
+    <div class="kpi-row" id="mission-kpis"></div>
+
+    <section class="table-box">
+      <h2>
+        R&eacute;conciliation <span id="mission-year"></span> : objectif &rarr; compta &rarr; Attio
+        <span class="head-actions"><span id="mission-status" class="filter-count"></span></span>
+      </h2>
+      <div id="mission-bar"></div>
+      <div class="recon-legend" id="mission-legend"></div>
+      <p class="hint" id="mission-empty" hidden>
+        Aucune estimation Attio en cache. Aller dans Objectifs et cliquer sur "Actualiser depuis Attio".
+      </p>
+    </section>
+
+    <section class="table-box">
+      <h2>Trajectoire <span id="mission-year2"></span> : CA cumul&eacute; vs objectif</h2>
+      <div class="chart-wrap mission-chart">
+        <canvas id="chart-mission"></canvas>
+      </div>
+    </section>
+
+    <section class="table-box">
+      <h2>Plan 5 ans : reste &agrave; faire par ann&eacute;e</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Ann&eacute;e</th>
+            <th class="num">Objectif CA</th>
+            <th class="num">CA r&eacute;alis&eacute;</th>
+            <th class="num">Pipeline Attio</th>
+            <th class="num">Projection</th>
+            <th class="num">Reste &agrave; faire</th>
+            <th class="num">Reste apr&egrave;s pipeline</th>
+            <th class="progress-col">Atteinte</th>
+            <th class="num">Reste r&eacute;sultat</th>
+          </tr>
+        </thead>
+        <tbody id="mission-tbody"></tbody>
+      </table>
+    </section>
+  </div>
 
   <!-- COMPTA -->
   <div id="tab-compta" hidden>

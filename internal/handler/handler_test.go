@@ -34,6 +34,7 @@ func TestRoutes(t *testing.T) {
 		{name: "transactions", method: http.MethodGet, path: "/api/transactions?year=2025&compte=613600&month=1", status: http.StatusOK, body: `"total_debit":100`},
 		{name: "fees", method: http.MethodGet, path: "/api/fees?year=2025", status: http.StatusOK, body: `"resultat_ajuste":870`},
 		{name: "objectives", method: http.MethodGet, path: "/api/objectives", status: http.StatusOK, body: `"actuals"`},
+		{name: "mission", method: http.MethodGet, path: "/api/mission", status: http.StatusOK, body: `"reste"`},
 		{name: "refresh wrong method", method: http.MethodGet, path: "/api/objectives/refresh", status: http.StatusMethodNotAllowed, body: "POST only"},
 		{name: "refresh", method: http.MethodPost, path: "/api/objectives/refresh", status: http.StatusOK, body: `"estimate"`},
 	}
@@ -59,12 +60,13 @@ func TestRouteErrors(t *testing.T) {
 		Compta:     service.Compta{FecsDir: filepath.Join(t.TempDir(), "missing")},
 		Fees:       service.Fees{FecsDir: filepath.Join(t.TempDir(), "missing"), RulesPath: rulesPath},
 		Objectives: service.Objectives{FecsDir: filepath.Join(t.TempDir(), "missing"), RulesPath: rulesPath},
+		Mission:    service.Mission{FecsDir: filepath.Join(t.TempDir(), "missing"), RulesPath: rulesPath},
 	})
 	if err != nil {
 		t.Fatal(err)
 	}
 
-	for _, path := range []string{"/api/data", "/api/transactions?year=2025", "/api/fees", "/api/objectives"} {
+	for _, path := range []string{"/api/data", "/api/transactions?year=2025", "/api/fees", "/api/objectives", "/api/mission"} {
 		req := httptest.NewRequest(http.MethodGet, path, nil)
 		rec := httptest.NewRecorder()
 		mux.ServeHTTP(rec, req)
@@ -133,6 +135,7 @@ attio_types:
 		Compta:     service.Compta{FecsDir: fecsDir},
 		Fees:       service.Fees{FecsDir: fecsDir, RulesPath: rulesPath},
 		Objectives: service.Objectives{FecsDir: fecsDir, DocPath: docPath, CachePath: filepath.Join(dir, "estimate.json"), RulesPath: rulesPath},
+		Mission:    service.Mission{FecsDir: fecsDir, DocPath: docPath, CachePath: filepath.Join(dir, "estimate.json"), RulesPath: rulesPath},
 	}
 }
 

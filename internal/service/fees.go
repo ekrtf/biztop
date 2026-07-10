@@ -2,8 +2,8 @@ package service
 
 // Management fees: expenses that are legally company charges but are really
 // part of the manager's compensation, so they are added back to the result
-// to see the true business profit. Each matching rule carries a ratio: only
-// that portion of the expense counts as management fees.
+// to see the true business profit. Libelle patterns count the whole expense;
+// compte rules carry a ratio so only that portion counts.
 
 import (
 	"fmt"
@@ -40,17 +40,13 @@ func (f Fees) Compute(year int) (*FeesResult, error) {
 		return nil, err
 	}
 	cfg := rules.ManagementFees
-	type patternRule struct {
-		re    *regexp.Regexp
-		ratio float64
-	}
-	var patterns []patternRule
+	var patterns []*regexp.Regexp
 	for _, p := range cfg.LibellePatterns {
-		re, err := regexp.Compile("(?i)" + p.Pattern)
+		re, err := regexp.Compile("(?i)" + p)
 		if err != nil {
-			return nil, fmt.Errorf("invalid pattern %q in %s: %w", p.Pattern, f.RulesPath, err)
+			return nil, fmt.Errorf("invalid pattern %q in %s: %w", p, f.RulesPath, err)
 		}
-		patterns = append(patterns, patternRule{re, p.Ratio})
+		patterns = append(patterns, re)
 	}
 	var excludes []*regexp.Regexp
 	for _, p := range cfg.ExcludePatterns {
@@ -64,23 +60,20 @@ func (f Fees) Compute(year int) (*FeesResult, error) {
 	for _, c := range cfg.Comptes {
 		compteRatio[c.Compte] = c.Ratio
 	}
-	// Excludes veto everything; otherwise the highest matching ratio wins.
+	// Excludes veto everything; a libelle pattern counts the expense in full,
+	// otherwise the compte ratio applies.
 	ratioFor := func(e domain.Entry) float64 {
 		for _, re := range excludes {
 			if re.MatchString(e.Libelle) {
 				return 0
 			}
 		}
-		ratio := 0.0
-		if r, ok := compteRatio[e.Compte]; ok && r > ratio {
-			ratio = r
-		}
-		for _, p := range patterns {
-			if p.ratio > ratio && p.re.MatchString(e.Libelle) {
-				ratio = p.ratio
+		for _, re := range patterns {
+			if re.MatchString(e.Libelle) {
+				return 1
 			}
 		}
-		return ratio
+		return compteRatio[e.Compte]
 	}
 
 	ys := Years(entries)

@@ -1,6 +1,7 @@
 'use strict';
 
 // Router and navigation. Routes:
+//   #/mission
 //   #/compta/pilotage/<year>
 //   #/compta/transactions/<year>/<compte?>/<month?>
 //   #/clients
@@ -8,20 +9,21 @@
 //   #/fees/<year>
 
 import { getYears } from './util.js';
+import { showMission } from './mission.js';
 import { showPilotage } from './pilotage.js';
 import { showTransactions } from './transactions.js';
 import { showClients } from './clients.js';
 import { showObjectifs } from './objectifs.js';
 import { showFees } from './fees.js';
 
-const TABS = ['compta', 'clients', 'objectifs', 'fees'];
+const TABS = ['mission', 'compta', 'clients', 'objectifs', 'fees'];
 const SUBS = ['pilotage', 'transactions'];
 
-const state = { tab: 'compta', sub: 'pilotage', year: null };
+const state = { tab: 'mission', sub: 'pilotage', year: null };
 
 function parseRoute() {
   const p = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
-  const tab = TABS.includes(p[0]) ? p[0] : 'compta';
+  const tab = TABS.includes(p[0]) ? p[0] : 'mission';
   if (tab === 'compta') {
     const sub = SUBS.includes(p[1]) ? p[1] : 'pilotage';
     return {
@@ -80,6 +82,8 @@ async function route() {
     document.getElementById('view-transactions').hidden = state.sub !== 'transactions';
     if (state.sub === 'pilotage') await showPilotage(state.year);
     else await showTransactions(state.year, r.compte, r.month);
+  } else if (state.tab === 'mission') {
+    await showMission();
   } else if (state.tab === 'clients') {
     await showClients();
   } else if (state.tab === 'objectifs') {

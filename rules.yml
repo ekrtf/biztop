@@ -2,26 +2,29 @@
 # Edited by hand, read by the app on every request (no restart needed).
 
 # Expenses that are legally company charges but really manager compensation.
-# ratio = portion of the expense counted as management fees (0..1).
-# The highest matching ratio wins when several rules match.
+# comptes: ratio = portion of the expense counted as management fees (0..1).
+# libelle_patterns: case-insensitive regexes on the libelle, counted in full.
 management_fees:
   comptes:
     - compte: "625700"        # Restaurants et repas d'affaires
       ratio: 0.7
     - compte: "625100"        # Frais de deplacements
       ratio: 0.8
-  libelle_patterns:           # case-insensitive regexes on the libelle
-    - pattern: E M D
-      ratio: 1
-    - pattern: airbnb
-      ratio: 1
-    - pattern: quote[ -]?part
-      ratio: 1
-    - pattern: yespark
-      ratio: 1
-    - pattern: haussmann
-      ratio: 1
-  exclude_patterns: [deliveroo]        # regexes that veto a match, e.g. [team offsite]
+  libelle_patterns:
+    - E M D
+    - airbnb
+    - quote[ -]?part
+    - yespark
+    - haussmann
+    - rivalist
+    - eplaques
+    - AMV
+    - CAPNORD
+    - Actena
+    - Axxe
+    - quinta
+  exclude_patterns:           # regexes that veto a match, e.g. [team offsite]
+    - deliveroo
 
 # Davai revenue types used to classify Attio deals when estimating the
 # pipeline (Objectifs tab). billing drives how codex reads the amount:

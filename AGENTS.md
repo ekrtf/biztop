@@ -3,3 +3,4 @@
 * Never use emdashes
 * Keep things as simple as they can be
 * Update the README when making changes to the project's interface
+* For each code change run the tests and aim for 95% coverage

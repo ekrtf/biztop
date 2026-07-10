@@ -21,9 +21,7 @@ func TestFeesComputeMatchesRulesAndAdjustsResult(t *testing.T) {
       ratio: 0.7
     - compte: "625100"
       ratio: 0.8
-  libelle_patterns:
-    - pattern: airbnb
-      ratio: 1
+  libelle_patterns: [airbnb]
   exclude_patterns: [deliveroo]
 attio_types:
   - name: Projects
@@ -49,9 +47,7 @@ attio_types:
 func TestFeesComputeReportsInvalidRegex(t *testing.T) {
 	fecsDir := writeFEC(t, "Date;Libelle;Compte;Libelle du compte;Debit;Credit\n01/01/2025;Invoice;706000;Prestations;0;1000\n")
 	rulesPath := writeRules(t, `management_fees:
-  libelle_patterns:
-    - pattern: "["
-      ratio: 1
+  libelle_patterns: ["["]
 attio_types: []
 `)
 
