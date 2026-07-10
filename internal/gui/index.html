@@ -13,6 +13,7 @@
   <h1>&#9654; BizTop</h1>
   <nav class="tabs" id="main-tabs" aria-label="Sections">
     <button class="tab-btn" data-tab="compta">Compta</button>
+    <button class="tab-btn" data-tab="clients">Clients</button>
     <button class="tab-btn" data-tab="objectifs">Objectifs</button>
     <button class="tab-btn" data-tab="fees">Management Fees</button>
   </nav>
@@ -85,6 +86,24 @@
           <tfoot id="tx-tfoot"></tfoot>
         </table>
       </section>
+    </section>
+  </div>
+
+  <!-- CLIENTS -->
+  <div id="tab-clients" hidden>
+    <section class="table-box">
+      <h2>Chiffre d'affaires mensuel par client</h2>
+      <div class="chart-wrap clients-chart">
+        <canvas id="chart-clients"></canvas>
+      </div>
+    </section>
+    <section class="table-box">
+      <h2>Clients</h2>
+      <table>
+        <thead id="clients-thead"></thead>
+        <tbody id="clients-tbody"></tbody>
+        <tfoot id="clients-tfoot"></tfoot>
+      </table>
     </section>
   </div>
 

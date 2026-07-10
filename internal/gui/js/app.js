@@ -3,16 +3,18 @@
 // Router and navigation. Routes:
 //   #/compta/pilotage/<year>
 //   #/compta/transactions/<year>/<compte?>/<month?>
+//   #/clients
 //   #/objectifs
 //   #/fees/<year>
 
 import { getYears } from './util.js';
 import { showPilotage } from './pilotage.js';
 import { showTransactions } from './transactions.js';
+import { showClients } from './clients.js';
 import { showObjectifs } from './objectifs.js';
 import { showFees } from './fees.js';
 
-const TABS = ['compta', 'objectifs', 'fees'];
+const TABS = ['compta', 'clients', 'objectifs', 'fees'];
 const SUBS = ['pilotage', 'transactions'];
 
 const state = { tab: 'compta', sub: 'pilotage', year: null };
@@ -36,7 +38,7 @@ function parseRoute() {
 function hashFor(tab, sub, year) {
   if (tab === 'compta') return `#/compta/${sub}/${year}`;
   if (tab === 'fees') return `#/fees/${year}`;
-  return '#/objectifs';
+  return `#/${tab}`;
 }
 
 function setActive(selector, dataKey, value) {
@@ -70,7 +72,7 @@ async function route() {
   for (const tab of TABS) {
     document.getElementById(`tab-${tab}`).hidden = tab !== state.tab;
   }
-  renderYearNav(years, state.year, state.tab !== 'objectifs');
+  renderYearNav(years, state.year, state.tab === 'compta' || state.tab === 'fees');
 
   if (state.tab === 'compta') {
     setActive('.subtab-btn', 'sub', state.sub);
@@ -78,6 +80,8 @@ async function route() {
     document.getElementById('view-transactions').hidden = state.sub !== 'transactions';
     if (state.sub === 'pilotage') await showPilotage(state.year);
     else await showTransactions(state.year, r.compte, r.month);
+  } else if (state.tab === 'clients') {
+    await showClients();
   } else if (state.tab === 'objectifs') {
     await showObjectifs();
   } else {

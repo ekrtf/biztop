@@ -19,6 +19,7 @@ type Server struct {
 	Compta     service.Compta
 	Fees       service.Fees
 	Objectives service.Objectives
+	Customers  service.Customers
 }
 
 func New(s Server) (*http.ServeMux, error) {
@@ -32,6 +33,7 @@ func New(s Server) (*http.ServeMux, error) {
 	mux.HandleFunc("/api/data", s.data)
 	mux.HandleFunc("/api/transactions", s.transactions)
 	mux.HandleFunc("/api/fees", s.fees)
+	mux.HandleFunc("/api/customers", s.customers)
 	mux.HandleFunc("/api/objectives", s.objectives)
 	mux.HandleFunc("/api/objectives/refresh", s.objectivesRefresh)
 	return mux, nil
@@ -92,6 +94,15 @@ func (s Server) transactions(w http.ResponseWriter, r *http.Request) {
 
 func (s Server) fees(w http.ResponseWriter, r *http.Request) {
 	out, err := s.Fees.Compute(intParam(r, "year"))
+	if err != nil {
+		fail(w, err)
+		return
+	}
+	writeJSON(w, out)
+}
+
+func (s Server) customers(w http.ResponseWriter, r *http.Request) {
+	out, err := s.Customers.Compute()
 	if err != nil {
 		fail(w, err)
 		return

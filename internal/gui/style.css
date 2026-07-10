@@ -92,6 +92,8 @@ main { padding: 16px 20px; }
 .chart-wrap { flex: 1; min-width: 0; }
 .chart-wrap canvas { max-height: 280px; width: 100%; }
 .fees-chart { height: 220px; }
+.clients-chart { height: 320px; }
+.clients-chart canvas { max-height: 320px; }
 
 /* KPI CARDS */
 .kpi-row {

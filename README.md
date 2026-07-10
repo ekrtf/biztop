@@ -21,10 +21,11 @@ The app is a single Go binary (only dependency: yaml). The frontend (`internal/g
 Interface
 ---------
 
-Three tabs, plus an "exercice comptable" selector in the header:
+Five tabs, plus an "exercice comptable" selector in the header (Compta and Management Fees only):
 
 * **Compta / Pilotage**: chiffre d'affaires, charges d'exploitation and résultat d'exploitation for the year, monthly bar chart, and two accordion tables split by plan comptable category (with account numbers). Clicking an amount jumps to Transactions, prefiltered.
 * **Compta / Transactions**: every FEC transaction of the exercice with filters: libellé search, catégorie, mois, débit/crédit, montant min/max.
+* **Clients**: revenue per client over the whole FEC history: a monthly stacked bar chart (top 8 clients, the rest folded into "Autres") and a table with per-exercice totals and each client's share of the CA. The client name is parsed from the revenue entry libellé, after the last " - " ("Facturation 202604-160 - CHAUVIN PARIS").
 * **Objectifs**: the 5-year plan parsed from `docs/DAVAI_2030.md`, reconciled with the FEC actuals per year. The "Actualiser depuis Attio (codex)" button asks the `codex` CLI (Attio plugin) to estimate upcoming revenue across all open deals, classified by the davai types defined in `rules.yml` (one-shot types use the deal value, MRR types use the Attio MRR field). The estimate is cached in `attio_estimate.json` and only refreshed on demand.
 * **Management Fees**: expenses that are legally company charges but really manager compensation. Matching rules live in `rules.yml`: whole accounts with a ratio (e.g. restaurants at 70%, déplacements at 80%), libellé regexes (e.g. airbnb, quote-part at 100%) and exclude patterns that veto a match. Shows the fees per month and the résultat réel ajusté (résultat + fees).
 
