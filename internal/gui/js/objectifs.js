@@ -66,7 +66,7 @@ function progressBar(pct, projPct) {
     </div><span class="progress-pct">${pct.toFixed(0)}%</span>`;
 }
 
-function renderEstimate(estimate) {
+function renderEstimate(estimate, types) {
   const empty = !estimate;
   document.getElementById('obj-empty').hidden = !empty;
   document.getElementById('obj-deals-table').hidden = empty;
@@ -75,10 +75,11 @@ function renderEstimate(estimate) {
     : '';
 
   const byType = estimate?.by_type || {};
-  document.getElementById('obj-type-cards').innerHTML = DAVAI_TYPES.map(t => `
+  document.getElementById('obj-type-cards').innerHTML = types.map(t => `
     <div class="kpi-card blue">
-      <div class="label">${t}</div>
-      <div class="value">${fmtEur(byType[t] || 0)}</div>
+      <div class="label">${escapeHtml(t.name)}</div>
+      <div class="value">${fmtEur(byType[t.name] || 0)}</div>
+      <div class="sub">${t.billing === 'mrr' ? 'MRR mensuel' : 'one-shot'}</div>
     </div>`).join('');
 
   if (empty) return;
