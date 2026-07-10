@@ -20,8 +20,8 @@ import (
 	"time"
 )
 
-//go:embed web
-var webFS embed.FS
+//go:embed gui
+var guiFS embed.FS
 
 const fecsDir = "fecs"
 
@@ -302,7 +302,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	page, err := webFS.ReadFile("web/index.html")
+	page, err := guiFS.ReadFile("gui/index.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
@@ -312,7 +312,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	static, err := fs.Sub(webFS, "web")
+	static, err := fs.Sub(guiFS, "gui")
 	if err != nil {
 		log.Fatal(err)
 	}

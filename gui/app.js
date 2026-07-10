@@ -120,9 +120,14 @@ function renderChart(monthly) {
       responsive: true,
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
+      layout: { padding: 0, autoPadding: false },
       scales: {
         x: { ticks: { color: '#8b949e', font: { size: 10 } }, grid: { color: '#21262d' } },
         y: {
+          // On the right and exactly one column wide (1/13 of the chart),
+          // mirroring the tables: 12 month columns + the Total column.
+          position: 'right',
+          afterFit: scale => { scale.width = scale.chart.width / 13; },
           ticks: {
             color: '#8b949e',
             font: { size: 10 },
@@ -198,6 +203,7 @@ function renderSection(id, title, kind, rows, monthlyTotals, total, year) {
   for (const row of rows) {
     const tr = document.createElement('tr');
     const label = document.createElement('td');
+    label.title = `${row.libelle} (${row.compte})`;
     label.innerHTML = `<span class="cat-label">${row.libelle}</span><span class="cat-compte">${row.compte}</span>`;
     tr.appendChild(label);
     row.months.forEach((v, i) => tr.appendChild(amountCell(v, row.compte, i + 1)));

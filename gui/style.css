@@ -50,13 +50,15 @@ header .subtitle { color: var(--text2); font-size: 11px; }
 main { padding: 16px 20px; }
 
 /* OVERVIEW: KPIs + chart */
+/* Overview shares the accordion tables' geometry (16px side padding,
+   310px left column) so the chart's month slots line up with the
+   tables' month columns below. */
 .overview {
   background: var(--bg2);
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 20px;
+  padding: 12px 16px;
   display: flex;
-  gap: 24px;
   margin-bottom: 16px;
 }
 .kpis {
@@ -64,7 +66,8 @@ main { padding: 16px 20px; }
   flex-direction: column;
   justify-content: space-around;
   gap: 16px;
-  min-width: 220px;
+  width: 310px;
+  min-width: 310px;
 }
 .kpi .dot {
   display: inline-block;
@@ -92,6 +95,12 @@ main { padding: 16px 20px; }
 }
 table { width: 100%; border-collapse: collapse; }
 th, td { padding: 7px 10px; font-size: 12px; white-space: nowrap; }
+
+/* Fixed layout so month columns line up across both accordion tables:
+   same label column width, remaining 13 columns share space equally. */
+.accordion table { table-layout: fixed; min-width: 1250px; }
+.accordion th:first-child, .accordion td:first-child { width: 310px; }
+.accordion td:first-child { overflow: hidden; text-overflow: ellipsis; }
 th { color: var(--text2); text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; text-align: left; }
 tbody td { border-top: 1px solid var(--border-soft); }
 tbody tr:hover td { background: var(--bg3); }

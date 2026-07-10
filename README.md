@@ -16,7 +16,7 @@ go run .
 
 Then open http://localhost:5055.
 
-The app is a single Go binary with no dependencies. The frontend lives in `web/` (html, css, js) and is embedded in the binary at build time.
+The app is a single Go binary with no dependencies. The frontend lives in `gui/` (html, css, js) and is embedded in the binary at build time.
 
 Interface
 ---------
