@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BizTop</title>
+<link rel="stylesheet" href="/static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>&#9654; BizTop</h1>
+  <nav class="tabs" id="main-tabs" aria-label="Sections">
+    <button class="tab-btn" data-tab="compta">Compta</button>
+    <button class="tab-btn" data-tab="objectifs">Objectifs</button>
+    <button class="tab-btn" data-tab="fees">Management Fees</button>
+  </nav>
+  <nav id="year-nav" aria-label="Exercice comptable"></nav>
+</header>
+
+<main>
+
+  <!-- COMPTA -->
+  <div id="tab-compta" hidden>
+    <nav class="subtabs" aria-label="Compta">
+      <button class="subtab-btn" data-sub="pilotage">Pilotage</button>
+      <button class="subtab-btn" data-sub="transactions">Transactions</button>
+    </nav>
+
+    <section id="view-pilotage" hidden>
+      <section class="overview">
+        <aside class="kpis">
+          <div class="kpi">
+            <span class="dot dot-ca"></span>
+            <span class="label">Chiffre d'affaires</span>
+            <strong class="value" id="kpi-ca"></strong>
+          </div>
+          <div class="kpi">
+            <span class="dot dot-charges"></span>
+            <span class="label">Charges d'exploitation</span>
+            <strong class="value" id="kpi-charges"></strong>
+          </div>
+          <div class="kpi">
+            <span class="dot dot-resultat"></span>
+            <span class="label">R&eacute;sultat d'exploitation</span>
+            <strong class="value" id="kpi-resultat"></strong>
+          </div>
+        </aside>
+        <div class="chart-wrap">
+          <canvas id="chart-monthly"></canvas>
+        </div>
+      </section>
+      <section class="accordion" id="section-revenue"></section>
+      <section class="accordion" id="section-charges"></section>
+    </section>
+
+    <section id="view-transactions" hidden>
+      <div class="filter-bar">
+        <input type="search" id="tx-search" placeholder="Rechercher un libell&eacute;...">
+        <select id="tx-compte"></select>
+        <select id="tx-month"></select>
+        <select id="tx-sens">
+          <option value="">D&eacute;bits et cr&eacute;dits</option>
+          <option value="debit">D&eacute;bits</option>
+          <option value="credit">Cr&eacute;dits</option>
+        </select>
+        <input type="number" id="tx-min" placeholder="Montant min">
+        <input type="number" id="tx-max" placeholder="Montant max">
+        <button id="tx-reset">R&eacute;initialiser</button>
+        <span id="tx-count" class="filter-count"></span>
+      </div>
+      <section class="table-box">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Libell&eacute;</th>
+              <th>Cat&eacute;gorie</th>
+              <th class="num">D&eacute;bit</th>
+              <th class="num">Cr&eacute;dit</th>
+            </tr>
+          </thead>
+          <tbody id="tx-tbody"></tbody>
+          <tfoot id="tx-tfoot"></tfoot>
+        </table>
+      </section>
+    </section>
+  </div>
+
+  <!-- OBJECTIFS -->
+  <div id="tab-objectifs" hidden>
+    <section class="table-box">
+      <h2>Plan 2026-2030 (DAVAI_2030.md) vs r&eacute;alis&eacute;</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Ann&eacute;e</th>
+            <th class="num">Objectif CA</th>
+            <th class="num">CA r&eacute;alis&eacute;</th>
+            <th class="progress-col">Atteinte</th>
+            <th class="num">Pipeline Attio</th>
+            <th class="num">Projection</th>
+            <th class="num">Objectif r&eacute;sultat</th>
+            <th class="num">R&eacute;sultat r&eacute;el</th>
+            <th>&Eacute;quipe</th>
+          </tr>
+        </thead>
+        <tbody id="obj-tbody"></tbody>
+      </table>
+    </section>
+
+    <section class="table-box">
+      <h2>
+        Pipeline Attio par type davai
+        <span class="head-actions">
+          <span id="obj-refresh-status" class="filter-count"></span>
+          <button id="obj-refresh">Actualiser depuis Attio (codex)</button>
+        </span>
+      </h2>
+      <div class="kpi-row" id="obj-type-cards"></div>
+      <table id="obj-deals-table">
+        <thead>
+          <tr>
+            <th>Deal</th>
+            <th>Type</th>
+            <th class="num">Montant</th>
+            <th>Mois attendu</th>
+            <th class="num">Probabilit&eacute;</th>
+            <th class="num">Pond&eacute;r&eacute;</th>
+          </tr>
+        </thead>
+        <tbody id="obj-deals-tbody"></tbody>
+        <tfoot id="obj-deals-tfoot"></tfoot>
+      </table>
+      <p class="hint" id="obj-empty" hidden>
+        Aucune estimation en cache. Cliquer sur "Actualiser depuis Attio" pour interroger le CRM via codex.
+      </p>
+    </section>
+  </div>
+
+  <!-- MANAGEMENT FEES -->
+  <div id="tab-fees" hidden>
+    <div class="kpi-row">
+      <div class="kpi-card purple">
+        <div class="label">Management fees</div>
+        <div class="value" id="fees-total"></div>
+        <div class="sub" id="fees-share"></div>
+      </div>
+      <div class="kpi-card blue">
+        <div class="label">R&eacute;sultat comptable</div>
+        <div class="value" id="fees-resultat"></div>
+        <div class="sub">CA - charges</div>
+      </div>
+      <div class="kpi-card green">
+        <div class="label">R&eacute;sultat r&eacute;el ajust&eacute;</div>
+        <div class="value" id="fees-ajuste"></div>
+        <div class="sub">r&eacute;sultat + management fees</div>
+      </div>
+    </div>
+    <section class="table-box">
+      <h2>Fees par mois</h2>
+      <div class="chart-wrap fees-chart">
+        <canvas id="chart-fees"></canvas>
+      </div>
+    </section>
+    <section class="table-box">
+      <h2>Transactions <span class="hint" id="fees-rules"></span></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Libell&eacute;</th>
+            <th>Cat&eacute;gorie</th>
+            <th class="num">Montant</th>
+            <th class="num">Part direction</th>
+            <th class="num">Fee</th>
+          </tr>
+        </thead>
+        <tbody id="fees-tbody"></tbody>
+        <tfoot id="fees-tfoot"></tfoot>
+      </table>
+    </section>
+  </div>
+
+</main>
+
+<script type="module" src="/static/js/app.js"></script>
+</body>
+</html>
