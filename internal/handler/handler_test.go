@@ -34,7 +34,7 @@ func TestRoutes(t *testing.T) {
 		{name: "transactions", method: http.MethodGet, path: "/api/transactions?year=2025&compte=613600&month=1", status: http.StatusOK, body: `"total_debit":100`},
 		{name: "fees", method: http.MethodGet, path: "/api/fees?year=2025", status: http.StatusOK, body: `"resultat_ajuste":870`},
 		{name: "objectives", method: http.MethodGet, path: "/api/objectives", status: http.StatusOK, body: `"actuals"`},
-		{name: "mission", method: http.MethodGet, path: "/api/mission", status: http.StatusOK, body: `"reste"`},
+		{name: "mission", method: http.MethodGet, path: "/api/mission", status: http.StatusOK, body: `"reste_vendre"`},
 		{name: "refresh wrong method", method: http.MethodGet, path: "/api/objectives/refresh", status: http.StatusMethodNotAllowed, body: "POST only"},
 		{name: "refresh", method: http.MethodPost, path: "/api/objectives/refresh", status: http.StatusOK, body: `"estimate"`},
 	}

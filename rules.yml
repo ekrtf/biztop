@@ -26,6 +26,11 @@ management_fees:
   exclude_patterns:           # regexes that veto a match, e.g. [team offsite]
     - deliveroo
 
+# Clients view: invoices billed under the key name are counted under the
+# value name instead (exact match on the name extracted from the libelle).
+client_aliases:
+  Agilane Pajaniradja: FRASS
+
 # Davai revenue types used to classify Attio deals when estimating the
 # pipeline (Objectifs tab). billing drives how codex reads the amount:
 #   one-shot: amount_eur is the deal value still expected to be invoiced

@@ -77,8 +77,9 @@ type Objective struct {
 // Rules is the content of rules.yml, the single source of truth for the
 // business rules.
 type Rules struct {
-	ManagementFees FeesConfig  `yaml:"management_fees" json:"management_fees"`
-	AttioTypes     []AttioType `yaml:"attio_types" json:"attio_types"`
+	ManagementFees FeesConfig        `yaml:"management_fees" json:"management_fees"`
+	ClientAliases  map[string]string `yaml:"client_aliases" json:"client_aliases"` // billed name -> real client name
+	AttioTypes     []AttioType       `yaml:"attio_types" json:"attio_types"`
 }
 
 // FeesConfig describes which expenses count as management fees and for

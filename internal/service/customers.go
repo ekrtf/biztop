@@ -2,7 +2,8 @@ package service
 
 // Customers: revenue per client over the whole FEC history. The client name
 // is the part of the entry libelle after the last " - " separator, e.g.
-// "Facturation 202604-160 - CHAUVIN PARIS".
+// "Facturation 202604-160 - CHAUVIN PARIS", remapped through the
+// client_aliases table in rules.yml.
 
 import (
 	"fmt"
@@ -18,7 +19,8 @@ import (
 const chartSeries = 8
 
 type Customers struct {
-	FecsDir string
+	FecsDir   string
+	RulesPath string
 }
 
 type CustomerRow struct {
@@ -58,6 +60,10 @@ func (c Customers) Compute() (*CustomersResult, error) {
 	if err != nil {
 		return nil, err
 	}
+	rules, err := repository.LoadRules(c.RulesPath)
+	if err != nil {
+		return nil, err
+	}
 
 	type acc struct {
 		byYear   map[int]float64
@@ -73,6 +79,9 @@ func (c Customers) Compute() (*CustomersResult, error) {
 			continue
 		}
 		name := CustomerName(e.Libelle)
+		if alias, ok := rules.ClientAliases[name]; ok {
+			name = alias
+		}
 		a := accs[name]
 		if a == nil {
 			a = &acc{byYear: map[int]float64{}, byMonth: map[int]float64{}, invoices: map[string]bool{}}

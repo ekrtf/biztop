@@ -216,29 +216,41 @@ button.amount:hover { text-decoration: underline; }
 .kpi-card.red .value { color: var(--red); }
 .mission-chart { height: 260px; }
 .mission-chart canvas { max-height: 260px; }
-.recon-bar {
-  display: flex;
+
+/* The funnel: one row per level, aligned on a shared scale. */
+.funnel-row {
+  display: grid;
+  grid-template-columns: 220px 1fr 320px;
+  align-items: center;
+  gap: 14px;
+  padding: 7px 0;
+}
+.funnel-row + .funnel-row { border-top: 1px solid var(--border-soft); }
+.funnel-label { display: block; font-weight: bold; font-size: 13px; }
+.funnel-sub { display: block; color: var(--text2); font-size: 10px; margin-top: 2px; }
+.funnel-track {
+  position: relative;
   height: 26px;
   border-radius: 6px;
-  overflow: hidden;
   background: var(--bg3);
   border: 1px solid var(--border-soft);
+  overflow: hidden;
 }
-.recon-seg.ca { background: var(--green); }
-.recon-seg.pipe { background: rgba(88, 166, 255, 0.55); }
-.recon-legend { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px; font-size: 11px; color: var(--text2); }
-.recon-legend .sw {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 2px;
-  margin-right: 6px;
-  vertical-align: -1px;
+.funnel-fill { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 5px 0 0 5px; }
+.funnel-fill.objectif { background: transparent; border: 1px dashed var(--text2); border-left: none; }
+.funnel-fill.attio { background: rgba(88, 166, 255, 0.45); }
+.funnel-fill.ca { background: rgba(210, 153, 34, 0.65); }
+.funnel-fill.cash { background: var(--green); }
+.funnel-value {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 0 4px var(--bg);
 }
-.sw-ca { background: var(--green); }
-.sw-pipe { background: rgba(88, 166, 255, 0.55); }
-.sw-reste { background: var(--bg3); border: 1px solid var(--border); }
-.recon-target { margin-left: auto; }
+.funnel-note { color: var(--text2); font-size: 11px; text-align: right; }
 
 /* OBJECTIVES */
 .progress-col { min-width: 160px; }

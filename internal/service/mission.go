@@ -1,10 +1,14 @@
 package service
 
-// Mission Control: reconciles the three sources of truth - the 5-year plan
-// (objectifs), the Attio pipeline and the FEC actuals (compta) - into clear
-// "reste a faire" numbers. Pipeline amounts are weighted by probability;
-// MRR deals are projected monthly from their expected month to the end of
-// their year (rules.yml says which types bill as MRR).
+// Mission Control: one funnel from the most abstract to the most real.
+//   objectif  the ambition set in the 5-year plan
+//   attio     the sales pipeline, weighted by probability (nothing real yet)
+//   ca        signed and invoiced (706/707), but no money yet
+//   cash      actually collected on the bank account
+// Each level carries its "reste a faire" toward the one above. Pipeline MRR
+// deals are projected monthly from their expected month to the end of their
+// year (rules.yml says which types bill as MRR); the cash level comes from
+// matching invoices to their settlements (see cash.go).
 
 import (
 	"encoding/json"
@@ -23,28 +27,27 @@ type Mission struct {
 	Now       func() time.Time // nil means time.Now, injected in tests
 }
 
-// MissionRow reconciles one plan year: objectif - CA realise - pipeline.
+// MissionRow reconciles one plan year across the four levels.
 type MissionRow struct {
-	Year          int     `json:"year"`
-	ObjectiveMin  float64 `json:"objective_min"`
-	ObjectiveMax  float64 `json:"objective_max"`
-	CA            float64 `json:"ca"`           // realise (compta)
-	Pipeline      float64 `json:"pipeline"`     // Attio, pondere
-	Projection    float64 `json:"projection"`   // ca + pipeline
-	ResteCompta   float64 `json:"reste_compta"` // objectif bas - ca
-	Reste         float64 `json:"reste"`        // objectif bas - ca - pipeline
-	ProfitMin     float64 `json:"profit_min"`
-	ProfitMax     float64 `json:"profit_max"`
-	Resultat      float64 `json:"resultat"`
-	ResteResultat float64 `json:"reste_resultat"` // objectif resultat bas - resultat
+	Year           int     `json:"year"`
+	ObjectiveMin   float64 `json:"objective_min"`
+	ObjectiveMax   float64 `json:"objective_max"`
+	Pipeline       float64 `json:"pipeline"`        // attio, pondere
+	Projection     float64 `json:"projection"`      // ca + pipeline
+	CA             float64 `json:"ca"`              // facture (compta)
+	Cash           float64 `json:"cash"`            // encaisse, part HT du CA facture
+	ResteVendre    float64 `json:"reste_vendre"`    // objectif bas - ca - pipeline
+	ResteFacturer  float64 `json:"reste_facturer"`  // objectif bas - ca
+	ResteEncaisser float64 `json:"reste_encaisser"` // ca - cash
 }
 
 type MissionResult struct {
 	Year            int          `json:"year"`             // current year
 	Month           int          `json:"month"`            // current month, 1-12
 	MonthsLeft      int          `json:"months_left"`      // remaining months, current one included
-	RunRate         float64      `json:"run_rate"`         // reste / months_left, current year
-	MonthlyCA       [12]float64  `json:"monthly_ca"`       // realise, current year
+	RunRate         float64      `json:"run_rate"`         // reste a vendre / months_left, current year
+	MonthlyCA       [12]float64  `json:"monthly_ca"`       // facture, current year
+	MonthlyCash     [12]float64  `json:"monthly_cash"`     // encaisse, current year, by settlement date
 	MonthlyPipeline [12]float64  `json:"monthly_pipeline"` // pondere, current year
 	Rows            []MissionRow `json:"rows"`             // one per plan year
 	HasEstimate     bool         `json:"has_estimate"`
@@ -80,44 +83,40 @@ func (m Mission) Compute() (*MissionResult, error) {
 	out.MonthsLeft = 12 - out.Month + 1
 
 	caByYear := map[int]float64{}
-	resultatByYear := map[int]float64{}
 	for _, e := range entries {
 		if e.IsIncome() {
 			caByYear[e.Year] += e.IncomeAmount()
-			resultatByYear[e.Year] += e.IncomeAmount()
 			if e.Year == out.Year {
 				out.MonthlyCA[e.Month-1] += e.IncomeAmount()
 			}
-		} else if e.IsExpense() {
-			resultatByYear[e.Year] -= e.ExpenseAmount()
 		}
 	}
 	for i := range out.MonthlyCA {
 		out.MonthlyCA[i] = domain.Round2(out.MonthlyCA[i])
 	}
 
+	cashByYear, monthlyCash := reconcileCash(entries, out.Year)
+	out.MonthlyCash = monthlyCash
 	pipeByYear := m.pipeline(rules.AttioTypes, out)
 
 	for _, o := range ParseObjectives(repository.ReadObjectivesDoc(m.DocPath)) {
 		ca := domain.Round2(caByYear[o.Year])
 		pipe := domain.Round2(pipeByYear[o.Year])
-		resultat := domain.Round2(resultatByYear[o.Year])
+		cash := domain.Round2(cashByYear[o.Year])
 		row := MissionRow{
-			Year:          o.Year,
-			ObjectiveMin:  o.RevenueMin,
-			ObjectiveMax:  o.RevenueMax,
-			CA:            ca,
-			Pipeline:      pipe,
-			Projection:    domain.Round2(ca + pipe),
-			ResteCompta:   domain.Round2(o.RevenueMin - ca),
-			Reste:         domain.Round2(o.RevenueMin - ca - pipe),
-			ProfitMin:     o.ProfitMin,
-			ProfitMax:     o.ProfitMax,
-			Resultat:      resultat,
-			ResteResultat: domain.Round2(o.ProfitMin - resultat),
+			Year:           o.Year,
+			ObjectiveMin:   o.RevenueMin,
+			ObjectiveMax:   o.RevenueMax,
+			Pipeline:       pipe,
+			Projection:     domain.Round2(ca + pipe),
+			CA:             ca,
+			Cash:           cash,
+			ResteVendre:    domain.Round2(o.RevenueMin - ca - pipe),
+			ResteFacturer:  domain.Round2(o.RevenueMin - ca),
+			ResteEncaisser: domain.Round2(ca - cash),
 		}
-		if row.Year == out.Year && row.Reste > 0 {
-			out.RunRate = domain.Round2(row.Reste / float64(out.MonthsLeft))
+		if row.Year == out.Year && row.ResteVendre > 0 {
+			out.RunRate = domain.Round2(row.ResteVendre / float64(out.MonthsLeft))
 		}
 		out.Rows = append(out.Rows, row)
 	}

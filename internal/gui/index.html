@@ -25,22 +25,21 @@
 
   <!-- MISSION CONTROL -->
   <div id="tab-mission" hidden>
-    <div class="kpi-row" id="mission-kpis"></div>
-
     <section class="table-box">
       <h2>
-        R&eacute;conciliation <span id="mission-year"></span> : objectif &rarr; compta &rarr; Attio
+        <span id="mission-year"></span> : de l'ambition au cash
         <span class="head-actions"><span id="mission-status" class="filter-count"></span></span>
       </h2>
-      <div id="mission-bar"></div>
-      <div class="recon-legend" id="mission-legend"></div>
+      <div id="mission-funnel"></div>
       <p class="hint" id="mission-empty" hidden>
         Aucune estimation Attio en cache. Aller dans Objectifs et cliquer sur "Actualiser depuis Attio".
       </p>
     </section>
 
+    <div class="kpi-row" id="mission-kpis"></div>
+
     <section class="table-box">
-      <h2>Trajectoire <span id="mission-year2"></span> : CA cumul&eacute; vs objectif</h2>
+      <h2>Trajectoire <span id="mission-year2"></span> : cumul factur&eacute; et encaiss&eacute; vs objectif</h2>
       <div class="chart-wrap mission-chart">
         <canvas id="chart-mission"></canvas>
       </div>
@@ -53,13 +52,13 @@
           <tr>
             <th>Ann&eacute;e</th>
             <th class="num">Objectif CA</th>
-            <th class="num">CA r&eacute;alis&eacute;</th>
             <th class="num">Pipeline Attio</th>
-            <th class="num">Projection</th>
-            <th class="num">Reste &agrave; faire</th>
-            <th class="num">Reste apr&egrave;s pipeline</th>
+            <th class="num">CA factur&eacute;</th>
+            <th class="num">Encaiss&eacute;</th>
+            <th class="num">Reste &agrave; vendre</th>
+            <th class="num">Reste &agrave; facturer</th>
+            <th class="num">Reste &agrave; encaisser</th>
             <th class="progress-col">Atteinte</th>
-            <th class="num">Reste r&eacute;sultat</th>
           </tr>
         </thead>
         <tbody id="mission-tbody"></tbody>

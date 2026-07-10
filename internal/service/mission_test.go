@@ -9,11 +9,26 @@ import (
 
 func missionFixture(t *testing.T, estimate string) Mission {
 	t.Helper()
+	// ACME is invoiced then paid by reference; BETA is paid by exact amount
+	// through GoCardless (fees netted); GAMMA stays unpaid; KNAVE pays on
+	// the spot with no receivable. OLD is a prior-year invoice.
 	fecsDir := writeFEC(t, "Date;Libelle;Compte;Libelle du compte;Debit;Credit\n"+
-		"15/01/2026;Facturation 1 - ACME;706000;Prestations;0;10000\n"+
-		"15/03/2026;Facturation 2 - ACME;706000;Prestations;0;20000\n"+
+		"15/01/2026;Facturation 202601-1 - ACME;706000;Prestations;0;10000\n"+
+		"15/01/2026;Facturation 202601-1 - ACME;411000;Clients;12000;0\n"+
+		"20/02/2026;2026011 virement - ACME;411000;Clients;0;12000\n"+
+		"20/02/2026;2026011 virement - ACME;512001;Banque 1;12000;0\n"+
+		"15/03/2026;Facturation 202603-2 - BETA;706000;Prestations;0;20000\n"+
+		"15/03/2026;Facturation 202603-2 - BETA;411000;Clients;24000;0\n"+
+		"10/04/2026;DAVAI-XYZ - GOCARDLESS SAS;411000;Clients;0;24000\n"+
+		"10/04/2026;DAVAI-XYZ - GOCARDLESS SAS;512001;Banque 1;23990;0\n"+
+		"10/04/2026;DAVAI-XYZ - GOCARDLESS SAS;627000;Services bancaires;10;0\n"+
+		"10/05/2026;Facturation 202605-3 - GAMMA;706000;Prestations;0;5000\n"+
+		"10/05/2026;Facturation 202605-3 - GAMMA;411000;Clients;6000;0\n"+
+		"05/06/2026;Abo direct - KNAVE;706000;Prestations;0;500\n"+
+		"05/06/2026;Abo direct - KNAVE;512001;Banque 1;500;0\n"+
 		"20/03/2026;Loyer;613200;Loyers;5000;0\n"+
-		"15/06/2025;Facturation 3 - ACME;706000;Prestations;0;40000\n")
+		"15/06/2025;Facturation 202506-9 - OLD;706000;Prestations;0;40000\n"+
+		"15/06/2025;Facturation 202506-9 - OLD;411000;Clients;48000;0\n")
 	rulesPath := writeRules(t, `management_fees: {}
 attio_types:
   - name: Projects
@@ -69,27 +84,34 @@ func TestMissionCompute(t *testing.T) {
 		t.Fatalf("len(Rows) = %d, want 2: %+v", len(out.Rows), out.Rows)
 	}
 
+	// 2026 funnel: objectif 650k, pipeline 5000+600, CA 35500, cash
+	// 10000 (ref match) + 20000 (amount match) + 500 (paid on the spot).
 	r := out.Rows[0]
-	if r.Year != 2026 || r.ObjectiveMin != 650000 || r.CA != 30000 || r.Resultat != 25000 {
-		t.Fatalf("unexpected 2026 actuals: %+v", r)
+	if r.Year != 2026 || r.ObjectiveMin != 650000 || r.CA != 35500 || r.Cash != 30500 {
+		t.Fatalf("unexpected 2026 levels: %+v", r)
 	}
-	if r.Pipeline != 5600 || r.Projection != 35600 {
-		t.Fatalf("2026 pipeline = %v, projection = %v, want 5600 and 35600", r.Pipeline, r.Projection)
+	if r.Pipeline != 5600 || r.Projection != 41100 {
+		t.Fatalf("2026 pipeline = %v, projection = %v, want 5600 and 41100", r.Pipeline, r.Projection)
 	}
-	if r.ResteCompta != 620000 || r.Reste != 614400 || r.ResteResultat != 135000 {
+	if r.ResteVendre != 608900 || r.ResteFacturer != 614500 || r.ResteEncaisser != 5000 {
 		t.Fatalf("unexpected 2026 restes: %+v", r)
 	}
-	if out.RunRate != 102400 { // 614400 / 6 months
-		t.Fatalf("RunRate = %v, want 102400", out.RunRate)
+	if out.RunRate != 101483.33 { // 608900 / 6 months
+		t.Fatalf("RunRate = %v, want 101483.33", out.RunRate)
 	}
 
 	next := out.Rows[1]
-	if next.Year != 2027 || next.Pipeline != 2000 || next.CA != 0 || next.Reste != 1198000 {
+	if next.Year != 2027 || next.Pipeline != 2000 || next.CA != 0 || next.Cash != 0 || next.ResteVendre != 1198000 {
 		t.Fatalf("unexpected 2027 row: %+v", next)
 	}
 
-	if out.MonthlyCA[0] != 10000 || out.MonthlyCA[2] != 20000 || out.MonthlyCA[5] != 0 {
+	if out.MonthlyCA[0] != 10000 || out.MonthlyCA[2] != 20000 || out.MonthlyCA[4] != 5000 || out.MonthlyCA[5] != 500 {
 		t.Fatalf("unexpected MonthlyCA: %v", out.MonthlyCA)
+	}
+	// Cash lands on the settlement month: ACME in February, BETA in April,
+	// KNAVE on the spot in June.
+	if out.MonthlyCash[1] != 10000 || out.MonthlyCash[3] != 20000 || out.MonthlyCash[5] != 500 || out.MonthlyCash[0] != 0 {
+		t.Fatalf("unexpected MonthlyCash: %v", out.MonthlyCash)
 	}
 	// July: 100 MRR; August: 100 MRR + 5000 one-shot; December: 100 MRR.
 	if out.MonthlyPipeline[6] != 100 || out.MonthlyPipeline[7] != 5100 || out.MonthlyPipeline[11] != 100 {
@@ -106,11 +128,11 @@ func TestMissionComputeWithoutEstimate(t *testing.T) {
 		t.Fatalf("expected no estimate: %+v", out)
 	}
 	r := out.Rows[0]
-	if r.Pipeline != 0 || r.Reste != r.ResteCompta || r.Reste != 620000 {
+	if r.Pipeline != 0 || r.ResteVendre != r.ResteFacturer || r.ResteVendre != 614500 {
 		t.Fatalf("unexpected row without estimate: %+v", r)
 	}
-	if out.RunRate != 103333.33 { // 620000 / 6 months
-		t.Fatalf("RunRate = %v, want 103333.33", out.RunRate)
+	if out.RunRate != 102416.67 { // 614500 / 6 months
+		t.Fatalf("RunRate = %v, want 102416.67", out.RunRate)
 	}
 }
 
