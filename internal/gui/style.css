@@ -268,3 +268,89 @@ button.amount:hover { text-decoration: underline; }
 .progress-fill, .progress-proj { position: absolute; top: 0; bottom: 0; left: 0; }
 .progress-proj { background: rgba(88, 166, 255, 0.35); }
 .progress-pct { margin-left: 8px; color: var(--text2); font-size: 11px; }
+
+/* RESPONSIVE
+   The base styles above target laptop screens. Large desktops center the
+   content, tablets stack the wide two-column blocks, mobiles go single
+   column with swipeable tabs; wide tables keep scrolling horizontally
+   inside their box at every size. */
+
+/* Large desktop */
+@media (min-width: 1440px) {
+  main { max-width: 1720px; margin: 0 auto; }
+  header {
+    padding-left: max(20px, calc((100% - 1720px) / 2 + 20px));
+    padding-right: max(20px, calc((100% - 1720px) / 2 + 20px));
+  }
+}
+
+/* Tablet and below */
+@media (max-width: 1023px) {
+  header { flex-wrap: wrap; }
+  #year-nav { flex-wrap: wrap; justify-content: flex-end; }
+
+  /* Overview: chart below the KPIs, which spread on one wrapping row.
+     The chart no longer lines up with the accordion month columns here. */
+  .overview { flex-direction: column; gap: 16px; }
+  .kpis {
+    width: auto;
+    min-width: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px 28px;
+  }
+  .overview .chart-wrap { height: 260px; }
+
+  /* Funnel: note moves next to the label, track takes the full width. */
+  .funnel-row {
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "head note" "track track";
+    gap: 6px 14px;
+  }
+  .funnel-head { grid-area: head; }
+  .funnel-track { grid-area: track; }
+  .funnel-note { grid-area: note; }
+}
+
+/* Mobile */
+@media (max-width: 639px) {
+  header { padding: 10px 12px; gap: 8px 12px; }
+  .tabs { order: 1; flex-basis: 100%; overflow-x: auto; }
+  .tab-btn { flex: 0 0 auto; }
+  main { padding: 12px; }
+
+  .accordion, .table-box { padding: 10px 12px; }
+  .table-box h2, .head-actions { flex-wrap: wrap; }
+
+  /* Narrower label column so the first month columns show before scrolling.
+     The overview no longer aligns with these tables once stacked anyway. */
+  .accordion table { min-width: 1140px; }
+  .accordion th:first-child, .accordion td:first-child { width: 200px; }
+
+  .kpi .value { font-size: 20px; }
+  .kpi-card .value { font-size: 19px; }
+
+  .chart-wrap canvas { max-height: 240px; }
+  .overview .chart-wrap { height: 220px; }
+  .mission-chart { height: 220px; }
+  .mission-chart canvas { max-height: 220px; }
+  .clients-chart { height: 260px; }
+  .clients-chart canvas { max-height: 260px; }
+
+  .funnel-row { grid-template-columns: 1fr; grid-template-areas: "head" "track" "note"; }
+  .funnel-note { text-align: left; }
+
+  /* 16px inputs so iOS does not zoom in on focus. */
+  .filter-bar input, .filter-bar select { font-size: 16px; }
+  #tx-search { width: 100%; }
+  .filter-bar select, #tx-min, #tx-max { flex: 1 1 40%; width: auto; min-width: 0; }
+  .filter-count { flex-basis: 100%; margin-left: 0; }
+}
+
+/* Touch screens: larger tap targets. */
+@media (pointer: coarse) {
+  .tab-btn, .subtab-btn, .year-btn, button { padding: 9px 14px; }
+  button.amount { padding: 0; }
+  .filter-bar input, .filter-bar select { padding: 9px 10px; }
+}
