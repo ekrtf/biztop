@@ -21,7 +21,7 @@ The app is a single Go binary (only dependency: yaml). The frontend (`internal/g
 Interface
 ---------
 
-Six tabs, plus an "exercice comptable" selector in the header (Compta and Management Fees only):
+Six tabs, plus an "exercice comptable" selector in the header (Compta and Management Fees only). The layout is responsive with four tiers: mobile (under 640px, single column, swipeable tabs), tablet (under 1024px, stacked overview and funnel), laptop (the base layout) and large desktop (1440px and up, content centered at a max width). Wide tables scroll horizontally inside their box on small screens.
 
 * **Mission Control**: the landing view, one funnel from the most abstract to the most real: objectif (the ambition in DAVAI_2030.md) > Attio (weighted pipeline, nothing real yet) > CA facturé (signed and invoiced, no money yet) > encaissé (actually on the bank account). Each level shows its "reste à faire" toward the one above (reste à vendre, à facturer, à encaisser), plus a cumulative trajectory chart and a per-year table over the 5-year plan. Pipeline MRR deals are projected monthly until the end of their year; the encaissé level matches invoices (411 débit) to their settlements (411 crédit + 512 banque) by invoice reference then exact amount, since the simplified FEC has no lettrage.
 * **Compta / Pilotage**: chiffre d'affaires, charges d'exploitation and résultat d'exploitation for the year, monthly bar chart, and two accordion tables split by plan comptable category (with account numbers). Clicking an amount jumps to Transactions, prefiltered.
