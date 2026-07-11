@@ -36,31 +36,30 @@ function render(data) {
     const a = actuals[year];
     const pipe = pipeline[year] || 0;
     const projection = a || pipe ? (a?.ca || 0) + pipe : null;
-    const pct = o && a ? a.ca / o.revenue_min * 100 : null;
-    const projPct = o && projection !== null ? projection / o.revenue_min * 100 : null;
+    const pct = o && a ? a.ca / o.revenue * 100 : null;
+    const projPct = o && projection !== null ? projection / o.revenue * 100 : null;
     return `<tr>
       <td><strong>${year}</strong></td>
-      <td class="num">${o ? `${fmtEur(o.revenue_min)} - ${fmtEur(o.revenue_max)}` : '<span class="zero">-</span>'}</td>
+      <td class="num">${o ? fmtEur(o.revenue) : '<span class="zero">-</span>'}</td>
       <td class="num">${a ? fmtEur(a.ca) : '<span class="zero">-</span>'}</td>
       <td class="progress-col">${pct !== null ? progressBar(pct, projPct) : ''}</td>
       <td class="num">${pipe ? fmtEur(pipe) : '<span class="zero">-</span>'}</td>
       <td class="num">${projection !== null && pipe ? fmtEur(projection) : '<span class="zero">-</span>'}</td>
-      <td class="num">${o ? `${fmtEur(o.profit_min)} - ${fmtEur(o.profit_max)} (${o.margin_min}-${o.margin_max}%)` : '<span class="zero">-</span>'}</td>
+      <td class="num">${o ? `${fmtEur(o.revenue * o.margin / 100)} (${o.margin}%)` : '<span class="zero">-</span>'}</td>
       <td class="num ${a && a.resultat < 0 ? 'debit' : ''}">${a ? fmtEur(a.resultat) : '<span class="zero">-</span>'}</td>
-      <td>${o ? escapeHtml(o.team) : ''}</td>
     </tr>`;
   }).join('');
 
   renderEstimate(data.estimate, data.types || []);
 }
 
-// Bar toward the low end of the objective; the hatched extension is the
-// projection including the weighted Attio pipeline.
+// Bar toward the objective; the hatched extension is the projection
+// including the weighted Attio pipeline.
 function progressBar(pct, projPct) {
   const real = Math.min(pct, 100);
   const proj = projPct === null ? real : Math.min(projPct, 100);
   const color = pct >= 100 ? 'var(--green)' : pct >= 60 ? 'var(--yellow)' : 'var(--red)';
-  return `<div class="progress" title="${pct.toFixed(0)}% de l'objectif bas">
+  return `<div class="progress" title="${pct.toFixed(0)}% de l'objectif">
       <div class="progress-proj" style="width:${proj.toFixed(1)}%"></div>
       <div class="progress-fill" style="width:${real.toFixed(1)}%;background:${color}"></div>
     </div><span class="progress-pct">${pct.toFixed(0)}%</span>`;

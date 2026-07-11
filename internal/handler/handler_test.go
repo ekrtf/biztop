@@ -120,6 +120,10 @@ func newTestServer(t *testing.T) Server {
   comptes:
     - compte: "625700"
       ratio: 0.7
+objectives:
+  - year: 2026
+    revenue: 650000
+    margin: 25
 attio_types:
   - name: Projects
     billing: one-shot
@@ -127,15 +131,11 @@ attio_types:
 `), 0o644); err != nil {
 		t.Fatal(err)
 	}
-	docPath := filepath.Join(dir, "objectives.md")
-	if err := os.WriteFile(docPath, []byte("YearRevenue TargetNet Profit MarginApprox. Net ProfitTeam Size2026650 – 800k€25–30%160 – 240k€6–7"), 0o644); err != nil {
-		t.Fatal(err)
-	}
 	return Server{
 		Compta:     service.Compta{FecsDir: fecsDir},
 		Fees:       service.Fees{FecsDir: fecsDir, RulesPath: rulesPath},
-		Objectives: service.Objectives{FecsDir: fecsDir, DocPath: docPath, CachePath: filepath.Join(dir, "estimate.json"), RulesPath: rulesPath},
-		Mission:    service.Mission{FecsDir: fecsDir, DocPath: docPath, CachePath: filepath.Join(dir, "estimate.json"), RulesPath: rulesPath},
+		Objectives: service.Objectives{FecsDir: fecsDir, CachePath: filepath.Join(dir, "estimate.json"), RulesPath: rulesPath},
+		Mission:    service.Mission{FecsDir: fecsDir, CachePath: filepath.Join(dir, "estimate.json"), RulesPath: rulesPath},
 	}
 }
 

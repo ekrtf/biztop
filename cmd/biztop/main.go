@@ -30,7 +30,6 @@ const (
 	addr          = ":5055"
 	fecsDir       = "fecs"
 	rulesFile     = "rules.yml"
-	objectivesDoc = "docs/DAVAI_2030.md"
 	estimateCache = "attio_estimate.json"
 )
 
@@ -38,8 +37,8 @@ func newMux() (*http.ServeMux, error) {
 	return handler.New(handler.Server{
 		Compta:     service.Compta{FecsDir: fecsDir},
 		Fees:       service.Fees{FecsDir: fecsDir, RulesPath: rulesFile},
-		Objectives: service.Objectives{FecsDir: fecsDir, DocPath: objectivesDoc, CachePath: estimateCache, RulesPath: rulesFile},
+		Objectives: service.Objectives{FecsDir: fecsDir, CachePath: estimateCache, RulesPath: rulesFile},
 		Customers:  service.Customers{FecsDir: fecsDir, RulesPath: rulesFile},
-		Mission:    service.Mission{FecsDir: fecsDir, DocPath: objectivesDoc, CachePath: estimateCache, RulesPath: rulesFile},
+		Mission:    service.Mission{FecsDir: fecsDir, CachePath: estimateCache, RulesPath: rulesFile},
 	})
 }

@@ -28,15 +28,6 @@ func LoadRules(path string) (domain.Rules, error) {
 	return rules, nil
 }
 
-// ReadObjectivesDoc returns the raw markdown brief, "" when absent.
-func ReadObjectivesDoc(path string) string {
-	data, err := os.ReadFile(path)
-	if err != nil {
-		return ""
-	}
-	return string(data)
-}
-
 // LoadEstimate returns the cached Attio estimate, nil when absent.
 func LoadEstimate(path string) json.RawMessage {
 	data, err := os.ReadFile(path)

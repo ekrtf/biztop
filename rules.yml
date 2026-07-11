@@ -31,6 +31,26 @@ management_fees:
 client_aliases:
   Agilane Pajaniradja: FRASS
 
+# 5-year plan objectives (lower bounds of the DAVAI_2030.md brief).
+# revenue is the CA target in euros, margin the net profit margin in %;
+# everything else (profit target, restes) is derived dynamically.
+objectives:
+  - year: 2026
+    revenue: 650000
+    margin: 25
+  - year: 2027
+    revenue: 1200000
+    margin: 28
+  - year: 2028
+    revenue: 2000000
+    margin: 30
+  - year: 2029
+    revenue: 3000000
+    margin: 30
+  - year: 2030
+    revenue: 4500000
+    margin: 32
+
 # Davai revenue types used to classify Attio deals when estimating the
 # pipeline (Objectifs tab). billing drives how codex reads the amount:
 #   one-shot: amount_eur is the deal value still expected to be invoiced

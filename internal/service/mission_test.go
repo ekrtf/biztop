@@ -30,6 +30,13 @@ func missionFixture(t *testing.T, estimate string) Mission {
 		"15/06/2025;Facturation 202506-9 - OLD;706000;Prestations;0;40000\n"+
 		"15/06/2025;Facturation 202506-9 - OLD;411000;Clients;48000;0\n")
 	rulesPath := writeRules(t, `management_fees: {}
+objectives:
+  - year: 2026
+    revenue: 650000
+    margin: 25
+  - year: 2027
+    revenue: 1200000
+    margin: 28
 attio_types:
   - name: Projects
     billing: one-shot
@@ -38,12 +45,6 @@ attio_types:
     billing: mrr
     description: recurring contracts
 `)
-	docPath := filepath.Join(t.TempDir(), "objectives.md")
-	if err := os.WriteFile(docPath, []byte("YearRevenue TargetNet Profit MarginApprox. Net ProfitTeam Size"+
-		"2026650 – 800k€25–30%160 – 240k€6–7"+
-		"20271.2 – 1.5M€28–33%340 – 500k€7–8"), 0o644); err != nil {
-		t.Fatal(err)
-	}
 	cachePath := filepath.Join(t.TempDir(), "estimate.json")
 	if estimate != "" {
 		if err := os.WriteFile(cachePath, []byte(estimate), 0o644); err != nil {
@@ -52,7 +53,6 @@ attio_types:
 	}
 	return Mission{
 		FecsDir:   fecsDir,
-		DocPath:   docPath,
 		CachePath: cachePath,
 		RulesPath: rulesPath,
 		Now:       func() time.Time { return time.Date(2026, 7, 10, 0, 0, 0, 0, time.UTC) },
@@ -87,7 +87,7 @@ func TestMissionCompute(t *testing.T) {
 	// 2026 funnel: objectif 650k, pipeline 5000+600, CA 35500, cash
 	// 10000 (ref match) + 20000 (amount match) + 500 (paid on the spot).
 	r := out.Rows[0]
-	if r.Year != 2026 || r.ObjectiveMin != 650000 || r.CA != 35500 || r.Cash != 30500 {
+	if r.Year != 2026 || r.Objective != 650000 || r.Margin != 25 || r.CA != 35500 || r.Cash != 30500 {
 		t.Fatalf("unexpected 2026 levels: %+v", r)
 	}
 	if r.Pipeline != 5600 || r.Projection != 41100 {

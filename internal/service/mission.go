@@ -1,10 +1,10 @@
 package service
 
 // Mission Control: one funnel from the most abstract to the most real.
-//   objectif  the ambition set in the 5-year plan
-//   attio     the sales pipeline, weighted by probability (nothing real yet)
-//   ca        signed and invoiced (706/707), but no money yet
-//   cash      actually collected on the bank account
+//   objectif    the ambition set in rules.yml (5-year plan, lower bounds)
+//   projection  attio pipeline weighted by probability, on top of the CA
+//   ca          signed and invoiced (706/707), but no money yet
+//   cash        actually collected on the bank account
 // Each level carries its "reste a faire" toward the one above. Pipeline MRR
 // deals are projected monthly from their expected month to the end of their
 // year (rules.yml says which types bill as MRR); the cash level comes from
@@ -21,7 +21,6 @@ import (
 
 type Mission struct {
 	FecsDir   string
-	DocPath   string
 	CachePath string
 	RulesPath string
 	Now       func() time.Time // nil means time.Now, injected in tests
@@ -30,14 +29,14 @@ type Mission struct {
 // MissionRow reconciles one plan year across the four levels.
 type MissionRow struct {
 	Year           int     `json:"year"`
-	ObjectiveMin   float64 `json:"objective_min"`
-	ObjectiveMax   float64 `json:"objective_max"`
+	Objective      float64 `json:"objective"`       // CA cible (rules.yml)
+	Margin         float64 `json:"margin"`          // marge nette cible, %
 	Pipeline       float64 `json:"pipeline"`        // attio, pondere
 	Projection     float64 `json:"projection"`      // ca + pipeline
 	CA             float64 `json:"ca"`              // facture (compta)
 	Cash           float64 `json:"cash"`            // encaisse, part HT du CA facture
-	ResteVendre    float64 `json:"reste_vendre"`    // objectif bas - ca - pipeline
-	ResteFacturer  float64 `json:"reste_facturer"`  // objectif bas - ca
+	ResteVendre    float64 `json:"reste_vendre"`    // objectif - ca - pipeline
+	ResteFacturer  float64 `json:"reste_facturer"`  // objectif - ca
 	ResteEncaisser float64 `json:"reste_encaisser"` // ca - cash
 }
 
@@ -99,20 +98,20 @@ func (m Mission) Compute() (*MissionResult, error) {
 	out.MonthlyCash = monthlyCash
 	pipeByYear := m.pipeline(rules.AttioTypes, out)
 
-	for _, o := range ParseObjectives(repository.ReadObjectivesDoc(m.DocPath)) {
+	for _, o := range rules.Objectives {
 		ca := domain.Round2(caByYear[o.Year])
 		pipe := domain.Round2(pipeByYear[o.Year])
 		cash := domain.Round2(cashByYear[o.Year])
 		row := MissionRow{
 			Year:           o.Year,
-			ObjectiveMin:   o.RevenueMin,
-			ObjectiveMax:   o.RevenueMax,
+			Objective:      o.Revenue,
+			Margin:         o.Margin,
 			Pipeline:       pipe,
 			Projection:     domain.Round2(ca + pipe),
 			CA:             ca,
 			Cash:           cash,
-			ResteVendre:    domain.Round2(o.RevenueMin - ca - pipe),
-			ResteFacturer:  domain.Round2(o.RevenueMin - ca),
+			ResteVendre:    domain.Round2(o.Revenue - ca - pipe),
+			ResteFacturer:  domain.Round2(o.Revenue - ca),
 			ResteEncaisser: domain.Round2(ca - cash),
 		}
 		if row.Year == out.Year && row.ResteVendre > 0 {

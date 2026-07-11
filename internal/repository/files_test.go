@@ -12,7 +12,7 @@ func TestLoadRules(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if len(rules.ManagementFees.Comptes) == 0 || len(rules.AttioTypes) == 0 {
+	if len(rules.ManagementFees.Comptes) == 0 || len(rules.AttioTypes) == 0 || len(rules.Objectives) == 0 {
 		t.Fatalf("rules.yml incomplete: %+v", rules)
 	}
 }
@@ -41,19 +41,6 @@ func TestLoadRulesRejectsInvalidYAML(t *testing.T) {
 func TestLoadRulesReturnsReadErrors(t *testing.T) {
 	if _, err := LoadRules(filepath.Join(t.TempDir(), "missing.yml")); err == nil {
 		t.Fatal("LoadRules() error = nil, want missing file error")
-	}
-}
-
-func TestReadObjectivesDoc(t *testing.T) {
-	path := filepath.Join(t.TempDir(), "doc.md")
-	if got := ReadObjectivesDoc(path); got != "" {
-		t.Fatalf("ReadObjectivesDoc(missing) = %q, want empty string", got)
-	}
-	if err := os.WriteFile(path, []byte("hello"), 0o644); err != nil {
-		t.Fatal(err)
-	}
-	if got := ReadObjectivesDoc(path); got != "hello" {
-		t.Fatalf("ReadObjectivesDoc() = %q, want hello", got)
 	}
 }
 

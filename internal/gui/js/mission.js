@@ -29,19 +29,19 @@ function renderFunnel(data, r) {
   const pct = (a, b) => b ? `${(a / b * 100).toFixed(0)}%` : '-';
   const levels = [
     {
-      cls: 'objectif', label: 'Objectif', value: r.objective_min,
-      sub: 'l\'ambition',
-      note: `jusqu'à ${fmtEur(r.objective_max)}`,
+      cls: 'objectif', label: 'Objectif', value: r.objective,
+      sub: 'l\'ambition (rules.yml)',
+      note: `marge cible ${r.margin}% · résultat visé ${fmtEur(r.objective * r.margin / 100)}`,
     },
     {
-      cls: 'attio', label: 'Attio', value: r.projection,
+      cls: 'attio', label: 'Projection Attio', value: r.projection,
       sub: 'facturé + pipeline pondéré',
       note: `pipeline ${fmtEur(r.pipeline)} · reste à vendre ${gap(r.reste_vendre)}`,
     },
     {
       cls: 'ca', label: 'CA facturé', value: r.ca,
       sub: 'signé et facturé, pas encore payé',
-      note: `${pct(r.ca, r.objective_min)} de l'objectif · reste à facturer ${gap(r.reste_facturer)}`,
+      note: `${pct(r.ca, r.objective)} de l'objectif · reste à facturer ${gap(r.reste_facturer)}`,
     },
     {
       cls: 'cash', label: 'Encaissé', value: r.cash,
@@ -49,7 +49,7 @@ function renderFunnel(data, r) {
       note: `${pct(r.cash, r.ca)} du facturé · reste à encaisser ${gap(r.reste_encaisser)}`,
     },
   ];
-  const scale = Math.max(r.objective_min, r.projection);
+  const scale = Math.max(r.objective, r.projection);
   funnel.innerHTML = levels.map(l => `
     <div class="funnel-row">
       <div class="funnel-head">
@@ -139,8 +139,8 @@ function renderChart(data, r) {
   ];
   if (r) {
     datasets.push({
-      label: 'Rythme objectif bas',
-      data: MONTHS.map((_, i) => r.objective_min / 12 * (i + 1)),
+      label: 'Rythme objectif',
+      data: MONTHS.map((_, i) => r.objective / 12 * (i + 1)),
       borderColor: '#8b949e',
       borderDash: [2, 4],
       pointRadius: 0,
@@ -163,12 +163,12 @@ function renderChart(data, r) {
 
 function renderTable(data) {
   document.getElementById('mission-tbody').innerHTML = (data.rows || []).map(r => {
-    const pct = r.ca / r.objective_min * 100;
-    const projPct = Math.min(r.projection / r.objective_min * 100, 100);
+    const pct = r.ca / r.objective * 100;
+    const projPct = Math.min(r.projection / r.objective * 100, 100);
     const color = pct >= 100 ? 'var(--green)' : pct >= 60 ? 'var(--yellow)' : 'var(--red)';
     return `<tr>
       <td><strong>${r.year}</strong></td>
-      <td class="num">${fmtEur(r.objective_min)} - ${fmtEur(r.objective_max)}</td>
+      <td class="num">${fmtEur(r.objective)}</td>
       <td class="num">${r.pipeline ? fmtEur(r.pipeline) : '<span class="zero">-</span>'}</td>
       <td class="num">${r.ca ? fmtEur(r.ca) : '<span class="zero">-</span>'}</td>
       <td class="num">${r.cash ? fmtEur(r.cash) : '<span class="zero">-</span>'}</td>
@@ -176,7 +176,7 @@ function renderTable(data) {
       <td class="num">${gap(r.reste_facturer)}</td>
       <td class="num">${r.ca ? gap(r.reste_encaisser) : '<span class="zero">-</span>'}</td>
       <td class="progress-col">
-        <div class="progress" title="${pct.toFixed(0)}% facturé, ${(r.projection / r.objective_min * 100).toFixed(0)}% projeté">
+        <div class="progress" title="${pct.toFixed(0)}% facturé, ${(r.projection / r.objective * 100).toFixed(0)}% projeté">
           <div class="progress-proj" style="width:${projPct.toFixed(1)}%"></div>
           <div class="progress-fill" style="width:${Math.min(pct, 100).toFixed(1)}%;background:${color}"></div>
         </div><span class="progress-pct">${pct.toFixed(0)}%</span>

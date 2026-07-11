@@ -62,16 +62,13 @@ type FeeTx struct {
 	Fee    float64 `json:"fee"`
 }
 
-// Objective is one row of the 5-year plan.
+// Objective is one year of the 5-year plan, lower bounds only. Revenue is
+// the CA target in euros, Margin the net profit margin in %; everything
+// else (profit target, restes) is derived dynamically.
 type Objective struct {
-	Year       int     `json:"year"`
-	RevenueMin float64 `json:"revenue_min"`
-	RevenueMax float64 `json:"revenue_max"`
-	MarginMin  float64 `json:"margin_min"`
-	MarginMax  float64 `json:"margin_max"`
-	ProfitMin  float64 `json:"profit_min"`
-	ProfitMax  float64 `json:"profit_max"`
-	Team       string  `json:"team"`
+	Year    int     `yaml:"year" json:"year"`
+	Revenue float64 `yaml:"revenue" json:"revenue"`
+	Margin  float64 `yaml:"margin" json:"margin"`
 }
 
 // Rules is the content of rules.yml, the single source of truth for the
@@ -79,6 +76,7 @@ type Objective struct {
 type Rules struct {
 	ManagementFees FeesConfig        `yaml:"management_fees" json:"management_fees"`
 	ClientAliases  map[string]string `yaml:"client_aliases" json:"client_aliases"` // billed name -> real client name
+	Objectives     []Objective       `yaml:"objectives" json:"objectives"`
 	AttioTypes     []AttioType       `yaml:"attio_types" json:"attio_types"`
 }
 
