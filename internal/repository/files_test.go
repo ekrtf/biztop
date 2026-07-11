@@ -15,6 +15,9 @@ func TestLoadRules(t *testing.T) {
 	if len(rules.ManagementFees.Comptes) == 0 || len(rules.AttioTypes) == 0 || len(rules.Objectives) == 0 {
 		t.Fatalf("rules.yml incomplete: %+v", rules)
 	}
+	if rules.CorporateTax.StandardRate == 0 || rules.CorporateTax.ReducedCap == 0 || rules.DividendPayout == 0 {
+		t.Fatalf("rules.yml tax/dividend config incomplete: %+v", rules)
+	}
 }
 
 func TestLoadRulesRejectsUnknownKeys(t *testing.T) {

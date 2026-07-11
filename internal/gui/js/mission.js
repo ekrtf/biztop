@@ -8,6 +8,7 @@ export async function showMission() {
 
   renderFunnel(data, current);
   renderKpis(data, current);
+  renderProfit(data, current);
   renderChart(data, current);
   renderTable(data);
 }
@@ -94,6 +95,48 @@ function renderKpis(data, r) {
       <div class="label">Rythme nécessaire</div>
       <div class="value">${r.reste_vendre > 0 ? `${fmtEur(data.run_rate)}/mois` : '-'}</div>
       <div class="sub">de ventes sur les ${data.months_left} mois restants</div>
+    </div>`;
+}
+
+// From the CA to the shareholder's pocket: target vs actual net margin,
+// gross profit, estimated IS (scale in rules.yml, docs/IS_CHEAT_SHEET.md),
+// net profit (with the management fees added back as the true profit), and
+// the dividend (payout x net) vs its objective.
+function renderProfit(data, r) {
+  document.getElementById('mission-year3').textContent = data.year;
+  const el = document.getElementById('mission-profit');
+  if (!r) {
+    el.innerHTML = '';
+    return;
+  }
+  const profitTarget = r.objective * r.margin / 100;
+  const marginOk = r.net_margin >= r.margin;
+  const divPct = r.dividend_target ? (r.dividend / r.dividend_target * 100).toFixed(0) : '-';
+  el.innerHTML = `
+    <div class="kpi-card ${marginOk ? 'green' : 'red'}">
+      <div class="label">Marge nette</div>
+      <div class="value">${r.net_margin.toFixed(1)}%</div>
+      <div class="sub">cible ${r.margin}% (résultat visé ${fmtEur(profitTarget)})</div>
+    </div>
+    <div class="kpi-card blue">
+      <div class="label">Résultat brut</div>
+      <div class="value">${fmtEur(r.gross_profit)}</div>
+      <div class="sub">CA facturé moins charges, avant IS</div>
+    </div>
+    <div class="kpi-card purple">
+      <div class="label">IS estimé</div>
+      <div class="value">${fmtEur(r.is)}</div>
+      <div class="sub">barème rules.yml · docs/IS_CHEAT_SHEET.md</div>
+    </div>
+    <div class="kpi-card ${r.net_profit >= 0 ? 'green' : 'red'}">
+      <div class="label">Résultat net</div>
+      <div class="value">${fmtEur(r.net_profit)}</div>
+      <div class="sub">management fees réintégrés : ${fmtEur(r.net_profit_fees)}</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Dividendes</div>
+      <div class="value">${fmtEur(r.dividend)}</div>
+      <div class="sub">objectif ${fmtEur(r.dividend_target)} · ${divPct}% atteint</div>
     </div>`;
 }
 

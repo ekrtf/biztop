@@ -29,7 +29,10 @@ func missionFixture(t *testing.T, estimate string) Mission {
 		"20/03/2026;Loyer;613200;Loyers;5000;0\n"+
 		"15/06/2025;Facturation 202506-9 - OLD;706000;Prestations;0;40000\n"+
 		"15/06/2025;Facturation 202506-9 - OLD;411000;Clients;48000;0\n")
-	rulesPath := writeRules(t, `management_fees: {}
+	rulesPath := writeRules(t, `management_fees:
+  comptes:
+    - compte: "613200"
+      ratio: 0.5
 objectives:
   - year: 2026
     revenue: 650000
@@ -37,6 +40,12 @@ objectives:
   - year: 2027
     revenue: 1200000
     margin: 28
+corporate_tax:
+  reduced_rate: 0.15
+  reduced_cap: 42500
+  standard_rate: 0.25
+  revenue_cap: 10000000
+dividend_payout: 0.9
 attio_types:
   - name: Projects
     billing: one-shot
@@ -96,6 +105,18 @@ func TestMissionCompute(t *testing.T) {
 	if r.ResteVendre != 608900 || r.ResteFacturer != 614500 || r.ResteEncaisser != 5000 {
 		t.Fatalf("unexpected 2026 restes: %+v", r)
 	}
+	// Profitability: charges 5010 -> brut 30490, IS 15% (under the reduced
+	// cap) 4573.5, net 25916.5 (73% margin), half the 5000 rent counted as
+	// management fees, dividend = 90% of the net.
+	if r.GrossProfit != 30490 || r.IS != 4573.5 || r.NetProfit != 25916.5 || r.NetMargin != 73 {
+		t.Fatalf("unexpected 2026 profit: %+v", r)
+	}
+	if r.Fees != 2500 || r.NetProfitFees != 28416.5 {
+		t.Fatalf("unexpected 2026 fees reintegration: %+v", r)
+	}
+	if r.Dividend != 23324.85 || r.DividendTarget != 146250 {
+		t.Fatalf("unexpected 2026 dividends: %+v", r)
+	}
 	if out.RunRate != 101483.33 { // 608900 / 6 months
 		t.Fatalf("RunRate = %v, want 101483.33", out.RunRate)
 	}
@@ -103,6 +124,9 @@ func TestMissionCompute(t *testing.T) {
 	next := out.Rows[1]
 	if next.Year != 2027 || next.Pipeline != 2000 || next.CA != 0 || next.Cash != 0 || next.ResteVendre != 1198000 {
 		t.Fatalf("unexpected 2027 row: %+v", next)
+	}
+	if next.GrossProfit != 0 || next.NetProfit != 0 || next.Dividend != 0 || next.DividendTarget != 302400 {
+		t.Fatalf("unexpected 2027 profit: %+v", next)
 	}
 
 	if out.MonthlyCA[0] != 10000 || out.MonthlyCA[2] != 20000 || out.MonthlyCA[4] != 5000 || out.MonthlyCA[5] != 500 {

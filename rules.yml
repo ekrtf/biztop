@@ -1,6 +1,38 @@
 # BizTop rules - single source of truth for business rules.
 # Edited by hand, read by the app on every request (no restart needed).
 
+# 5-year plan objectives (lower bounds of the DAVAI_2030.md brief).
+# revenue is the CA target in euros, margin the net profit margin in %;
+# everything else (profit target, restes) is derived dynamically.
+objectives:
+  - year: 2026
+    revenue: 650000
+    margin: 25
+  - year: 2027
+    revenue: 1200000
+    margin: 28
+  - year: 2028
+    revenue: 2000000
+    margin: 30
+  - year: 2029
+    revenue: 3000000
+    margin: 30
+  - year: 2030
+    revenue: 4500000
+    margin: 32
+
+# French corporate tax (IS) scale, see docs/IS_CHEAT_SHEET.md.
+# The reduced rate applies to profits up to reduced_cap as long as the CA
+# stays under revenue_cap; the standard rate applies beyond.
+corporate_tax:
+  reduced_rate: 0.15
+  reduced_cap: 42500
+  standard_rate: 0.25
+  revenue_cap: 10000000
+
+# Portion of the net profit distributed to the shareholder as dividends.
+dividend_payout: 0.9
+
 # Expenses that are legally company charges but really manager compensation.
 # comptes: ratio = portion of the expense counted as management fees (0..1).
 # libelle_patterns: case-insensitive regexes on the libelle, counted in full.
@@ -30,26 +62,6 @@ management_fees:
 # value name instead (exact match on the name extracted from the libelle).
 client_aliases:
   Agilane Pajaniradja: FRASS
-
-# 5-year plan objectives (lower bounds of the DAVAI_2030.md brief).
-# revenue is the CA target in euros, margin the net profit margin in %;
-# everything else (profit target, restes) is derived dynamically.
-objectives:
-  - year: 2026
-    revenue: 650000
-    margin: 25
-  - year: 2027
-    revenue: 1200000
-    margin: 28
-  - year: 2028
-    revenue: 2000000
-    margin: 30
-  - year: 2029
-    revenue: 3000000
-    margin: 30
-  - year: 2030
-    revenue: 4500000
-    margin: 32
 
 # Davai revenue types used to classify Attio deals when estimating the
 # pipeline (Objectifs tab). billing drives how codex reads the amount:

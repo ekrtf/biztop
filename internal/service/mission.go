@@ -26,7 +26,11 @@ type Mission struct {
 	Now       func() time.Time // nil means time.Now, injected in tests
 }
 
-// MissionRow reconciles one plan year across the four levels.
+// MissionRow reconciles one plan year across the four levels, plus the
+// profitability derived from the compta: gross profit (CA - charges), the
+// estimated IS (docs/IS_CHEAT_SHEET.md), the net profit and margin, and
+// the net profit with the management fees added back (rules.yml patterns),
+// since those charges are really manager compensation.
 type MissionRow struct {
 	Year           int     `json:"year"`
 	Objective      float64 `json:"objective"`       // CA cible (rules.yml)
@@ -38,6 +42,14 @@ type MissionRow struct {
 	ResteVendre    float64 `json:"reste_vendre"`    // objectif - ca - pipeline
 	ResteFacturer  float64 `json:"reste_facturer"`  // objectif - ca
 	ResteEncaisser float64 `json:"reste_encaisser"` // ca - cash
+	GrossProfit    float64 `json:"gross_profit"`    // ca - charges, avant IS
+	IS             float64 `json:"is"`              // IS estime sur le brut (bareme rules.yml)
+	NetProfit      float64 `json:"net_profit"`      // brut - IS
+	NetMargin      float64 `json:"net_margin"`      // net / ca, %
+	Fees           float64 `json:"fees"`            // management fees de l'annee
+	NetProfitFees  float64 `json:"net_profit_fees"` // net + fees reintegres
+	Dividend       float64 `json:"dividend"`        // payout x net
+	DividendTarget float64 `json:"dividend_target"` // payout x resultat cible
 }
 
 type MissionResult struct {
@@ -81,13 +93,22 @@ func (m Mission) Compute() (*MissionResult, error) {
 	out := &MissionResult{Year: now().Year(), Month: int(now().Month())}
 	out.MonthsLeft = 12 - out.Month + 1
 
+	feeRatio, err := feeRatioFor(rules.ManagementFees, m.RulesPath)
+	if err != nil {
+		return nil, err
+	}
 	caByYear := map[int]float64{}
+	chargesByYear := map[int]float64{}
+	feesByYear := map[int]float64{}
 	for _, e := range entries {
 		if e.IsIncome() {
 			caByYear[e.Year] += e.IncomeAmount()
 			if e.Year == out.Year {
 				out.MonthlyCA[e.Month-1] += e.IncomeAmount()
 			}
+		} else if e.IsExpense() {
+			chargesByYear[e.Year] += e.ExpenseAmount()
+			feesByYear[e.Year] += e.ExpenseAmount() * feeRatio(e)
 		}
 	}
 	for i := range out.MonthlyCA {
@@ -102,6 +123,14 @@ func (m Mission) Compute() (*MissionResult, error) {
 		ca := domain.Round2(caByYear[o.Year])
 		pipe := domain.Round2(pipeByYear[o.Year])
 		cash := domain.Round2(cashByYear[o.Year])
+		gross := domain.Round2(ca - chargesByYear[o.Year])
+		is := rules.CorporateTax.Tax(gross, ca)
+		net := domain.Round2(gross - is)
+		fees := domain.Round2(feesByYear[o.Year])
+		dividend := 0.0
+		if net > 0 {
+			dividend = domain.Round2(net * rules.DividendPayout)
+		}
 		row := MissionRow{
 			Year:           o.Year,
 			Objective:      o.Revenue,
@@ -113,6 +142,16 @@ func (m Mission) Compute() (*MissionResult, error) {
 			ResteVendre:    domain.Round2(o.Revenue - ca - pipe),
 			ResteFacturer:  domain.Round2(o.Revenue - ca),
 			ResteEncaisser: domain.Round2(ca - cash),
+			GrossProfit:    gross,
+			IS:             is,
+			NetProfit:      net,
+			Fees:           fees,
+			NetProfitFees:  domain.Round2(net + fees),
+			Dividend:       dividend,
+			DividendTarget: domain.Round2(o.Revenue * o.Margin / 100 * rules.DividendPayout),
+		}
+		if ca > 0 {
+			row.NetMargin = domain.Round2(net / ca * 100)
 		}
 		if row.Year == out.Year && row.ResteVendre > 0 {
 			out.RunRate = domain.Round2(row.ResteVendre / float64(out.MonthsLeft))

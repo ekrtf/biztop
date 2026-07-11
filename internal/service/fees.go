@@ -40,40 +40,9 @@ func (f Fees) Compute(year int) (*FeesResult, error) {
 		return nil, err
 	}
 	cfg := rules.ManagementFees
-	var patterns []*regexp.Regexp
-	for _, p := range cfg.LibellePatterns {
-		re, err := regexp.Compile("(?i)" + p)
-		if err != nil {
-			return nil, fmt.Errorf("invalid pattern %q in %s: %w", p, f.RulesPath, err)
-		}
-		patterns = append(patterns, re)
-	}
-	var excludes []*regexp.Regexp
-	for _, p := range cfg.ExcludePatterns {
-		re, err := regexp.Compile("(?i)" + p)
-		if err != nil {
-			return nil, fmt.Errorf("invalid exclude pattern %q in %s: %w", p, f.RulesPath, err)
-		}
-		excludes = append(excludes, re)
-	}
-	compteRatio := map[string]float64{}
-	for _, c := range cfg.Comptes {
-		compteRatio[c.Compte] = c.Ratio
-	}
-	// Excludes veto everything; a libelle pattern counts the expense in full,
-	// otherwise the compte ratio applies.
-	ratioFor := func(e domain.Entry) float64 {
-		for _, re := range excludes {
-			if re.MatchString(e.Libelle) {
-				return 0
-			}
-		}
-		for _, re := range patterns {
-			if re.MatchString(e.Libelle) {
-				return 1
-			}
-		}
-		return compteRatio[e.Compte]
+	ratioFor, err := feeRatioFor(cfg, f.RulesPath)
+	if err != nil {
+		return nil, err
 	}
 
 	ys := Years(entries)
@@ -121,4 +90,44 @@ func (f Fees) Compute(year int) (*FeesResult, error) {
 	out.Resultat = domain.Round2(totalCA - totalCharges)
 	out.ResultatAjuste = domain.Round2(out.Resultat + out.Total)
 	return out, nil
+}
+
+// feeRatioFor compiles the management-fees rules into a matcher returning
+// the portion of an expense counted as fees (0..1). Excludes veto
+// everything; a libelle pattern counts the expense in full, otherwise the
+// compte ratio applies.
+func feeRatioFor(cfg domain.FeesConfig, rulesPath string) (func(domain.Entry) float64, error) {
+	var patterns []*regexp.Regexp
+	for _, p := range cfg.LibellePatterns {
+		re, err := regexp.Compile("(?i)" + p)
+		if err != nil {
+			return nil, fmt.Errorf("invalid pattern %q in %s: %w", p, rulesPath, err)
+		}
+		patterns = append(patterns, re)
+	}
+	var excludes []*regexp.Regexp
+	for _, p := range cfg.ExcludePatterns {
+		re, err := regexp.Compile("(?i)" + p)
+		if err != nil {
+			return nil, fmt.Errorf("invalid exclude pattern %q in %s: %w", p, rulesPath, err)
+		}
+		excludes = append(excludes, re)
+	}
+	compteRatio := map[string]float64{}
+	for _, c := range cfg.Comptes {
+		compteRatio[c.Compte] = c.Ratio
+	}
+	return func(e domain.Entry) float64 {
+		for _, re := range excludes {
+			if re.MatchString(e.Libelle) {
+				return 0
+			}
+		}
+		for _, re := range patterns {
+			if re.MatchString(e.Libelle) {
+				return 1
+			}
+		}
+		return compteRatio[e.Compte]
+	}, nil
 }

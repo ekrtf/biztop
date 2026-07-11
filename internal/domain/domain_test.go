@@ -68,6 +68,26 @@ func TestEntryAccountingClassificationAndAmounts(t *testing.T) {
 	}
 }
 
+func TestTaxConfigTax(t *testing.T) {
+	// The scale from docs/IS_CHEAT_SHEET.md: 15% up to 42 500, then 25%,
+	// reduced rate reserved to companies with a CA under 10M.
+	scale := TaxConfig{ReducedRate: 0.15, ReducedCap: 42500, StandardRate: 0.25, RevenueCap: 10000000}
+	tests := []struct {
+		profit, ca, want float64
+	}{
+		{profit: 100000, ca: 650000, want: 20750},   // 42500*15% + 57500*25%
+		{profit: 30000, ca: 650000, want: 4500},     // all under the cap
+		{profit: 100000, ca: 12000000, want: 25000}, // CA too high, no reduced rate
+		{profit: -5000, ca: 650000, want: 0},        // a loss owes nothing
+		{profit: 0, ca: 650000, want: 0},
+	}
+	for _, tt := range tests {
+		if got := scale.Tax(tt.profit, tt.ca); got != tt.want {
+			t.Fatalf("Tax(%v, %v) = %v, want %v", tt.profit, tt.ca, got, tt.want)
+		}
+	}
+}
+
 func TestRound2(t *testing.T) {
 	if got := Round2(12.345); got != 12.35 {
 		t.Fatalf("Round2(12.345) = %v, want 12.35", got)

@@ -77,6 +77,8 @@ type Rules struct {
 	ManagementFees FeesConfig        `yaml:"management_fees" json:"management_fees"`
 	ClientAliases  map[string]string `yaml:"client_aliases" json:"client_aliases"` // billed name -> real client name
 	Objectives     []Objective       `yaml:"objectives" json:"objectives"`
+	CorporateTax   TaxConfig         `yaml:"corporate_tax" json:"corporate_tax"`
+	DividendPayout float64           `yaml:"dividend_payout" json:"dividend_payout"` // portion of the net profit distributed (0..1)
 	AttioTypes     []AttioType       `yaml:"attio_types" json:"attio_types"`
 }
 
@@ -101,6 +103,28 @@ type AttioType struct {
 	Name        string `yaml:"name" json:"name"`
 	Billing     string `yaml:"billing" json:"billing"`
 	Description string `yaml:"description" json:"description"`
+}
+
+// TaxConfig is the French IS scale from rules.yml (docs/IS_CHEAT_SHEET.md):
+// the reduced rate applies to profits up to ReducedCap while the CA stays
+// under RevenueCap, the standard rate beyond.
+type TaxConfig struct {
+	ReducedRate  float64 `yaml:"reduced_rate" json:"reduced_rate"`
+	ReducedCap   float64 `yaml:"reduced_cap" json:"reduced_cap"`
+	StandardRate float64 `yaml:"standard_rate" json:"standard_rate"`
+	RevenueCap   float64 `yaml:"revenue_cap" json:"revenue_cap"`
+}
+
+// Tax estimates the IS owed on a fiscal-year profit. A loss owes nothing.
+func (t TaxConfig) Tax(profit, ca float64) float64 {
+	if profit <= 0 {
+		return 0
+	}
+	reduced := 0.0
+	if ca <= t.RevenueCap {
+		reduced = math.Min(profit, t.ReducedCap)
+	}
+	return Round2(reduced*t.ReducedRate + (profit-reduced)*t.StandardRate)
 }
 
 func Round2(v float64) float64 {
